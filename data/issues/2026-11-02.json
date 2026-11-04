@@ -37,6 +37,38 @@
       "feature": true
     },
     {
+      "id": "10-1038-s41467-026-78730-3-c4738c",
+      "date": "2026-10-16",
+      "title": "Temporal focusing enables distortion-resistant high-intensity spatiotemporal optical vortices",
+      "authors": "Jielei Ni, Yao Zhang, Qianyi Wei, Zhangyu Zhou, Shuoshuo Zhang, Yuquan Zhang, Qi Jin, Jiahui Pan, Zhiyong Tan, Ya Cheng, Qiwen Zhan, Xiaocong Yuan, Changjun Min",
+      "institutions": [
+        "Shenzhen University",
+        "Northwestern Polytechnical University",
+        "East China Normal University",
+        "Westlake University"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78730-3",
+      "url": "https://doi.org/10.1038/s41467-026-78730-3",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Spatiotemporal Optical Vortices",
+        "Spatiotemporal Focusing (SSTF)",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "stov",
+      "summary": "A spatiotemporal optical vortex (STOV) carries orbital angular momentum transverse to its motion, but when it is focused hard to reach high intensity its spatial and temporal parts diffract over different lengths and the space-time donut breaks up near focus. The authors form the STOV by temporal focusing: angular dispersion plus a controlled spectral phase let them match the spatial and temporal Rayleigh ranges, so the vortex keeps its shape through the focal region. They obtain high-intensity STOVs that stay undistorted under high-NA focusing and check the focal structure by femtosecond laser ablation.",
+      "why": "STOVs had been hard to use at the intensities needed for nonlinear optics and laser processing; this removes the main obstacle.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable",
+      "st_feature": true
+    },
+    {
       "id": "10-1186-s43593-026-00145-w-b85759",
       "date": "2026-10-30",
       "title": "Spatiotemporal topological combs for robust high-dimensional information transmission",
@@ -194,38 +226,6 @@
       "pick": true,
       "pick_date": "2026-11-04",
       "tier": "notable"
-    },
-    {
-      "id": "10-1038-s41467-026-78730-3-c4738c",
-      "date": "2026-10-16",
-      "title": "Temporal focusing enables distortion-resistant high-intensity spatiotemporal optical vortices",
-      "authors": "Jielei Ni, Yao Zhang, Qianyi Wei, Zhangyu Zhou, Shuoshuo Zhang, Yuquan Zhang, Qi Jin, Jiahui Pan, Zhiyong Tan, Ya Cheng, Qiwen Zhan, Xiaocong Yuan, Changjun Min",
-      "institutions": [
-        "Shenzhen University",
-        "Northwestern Polytechnical University",
-        "East China Normal University",
-        "Westlake University"
-      ],
-      "journal": "Nature Communications",
-      "doi": "10.1038/s41467-026-78730-3",
-      "url": "https://doi.org/10.1038/s41467-026-78730-3",
-      "oa": true,
-      "license": "CC BY",
-      "categories": [
-        "Spatiotemporal Optical Vortices",
-        "Spatiotemporal Focusing (SSTF)",
-        "Laser Processing & Fabrication"
-      ],
-      "glyph": "stov",
-      "summary": "A spatiotemporal optical vortex (STOV) carries orbital angular momentum transverse to its motion, but when it is focused hard to reach high intensity its spatial and temporal parts diffract over different lengths and the space-time donut breaks up near focus. The authors form the STOV by temporal focusing: angular dispersion plus a controlled spectral phase let them match the spatial and temporal Rayleigh ranges, so the vortex keeps its shape through the focal region. They obtain high-intensity STOVs that stay undistorted under high-NA focusing and check the focal structure by femtosecond laser ablation.",
-      "why": "STOVs had been hard to use at the intensities needed for nonlinear optics and laser processing; this removes the main obstacle.",
-      "fig": null,
-      "source": "editor",
-      "reviewed": true,
-      "pick": true,
-      "pick_date": "2026-11-04",
-      "tier": "notable",
-      "st_feature": true
     },
     {
       "id": "10-1002-lpor-72000-6bf93f",
@@ -467,29 +467,6 @@
       "source": "crossref"
     },
     {
-      "id": "10-1002-flm2-70166-1eb18c",
-      "date": "2026-11-03",
-      "title": "Spatiotemporal engineering of dynamic color in alternating‐current‐driven light‐emitting devices",
-      "authors": "Yuyue Yang, Chenhao Li, Jinyang Li, Fanglong Yuan",
-      "institutions": [],
-      "journal": "FlexMat",
-      "doi": "10.1002/flm2.70166",
-      "url": "https://doi.org/10.1002/flm2.70166",
-      "oa": true,
-      "license": "CC BY 4.0",
-      "categories": [
-        "Microscopy & Imaging"
-      ],
-      "glyph": "beam",
-      "summary": "Electrically driven light‐emitting devices underpin modern lighting, displays, and intelligent interfaces. While conventional systems rely on direct current, AC‐driven devices employ periodically varying electrical excitation, offering potential opportunities for simplified power interfacing in appropriately matched systems and providing additional temporal degrees of freedom for dynamic color modulation. However, precise spectral control remains challenging because emission arises from the coupled spatiotemporal evolution of alternating electric fields and heterogeneous emissive centers rather than static material properties. …",
-      "why": "",
-      "tier": "notable",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "crossref"
-    },
-    {
       "id": "10-1364-ao-621776-e20fde",
       "date": "2026-11-03",
       "title": "Resonance-Engineered Triple-Band Terahertz Metasurface Absorber for Polarization-Independent Biomedical Sensing",
@@ -596,33 +573,6 @@
       "source": "crossref"
     },
     {
-      "id": "10-1021-acsanm-6c03999-c541a8",
-      "date": "2026-11-03",
-      "title": "Energy-Transducing Scintillating Nanoparticles for Combined Proton Beam Therapy and Photodynamic Therapy",
-      "authors": "Jizhong Wu, Chaw Yee Beh, Bowen Sun, Celestia Pei Xuan Yeo, Evelyn Mui Cheng Tan, Dewi Susanti, Hong Qi Tan, Melvin Lee Kiang Chua, Yong Zhang",
-      "institutions": [
-        "City University of Hong Kong",
-        "National University of Singapore",
-        "National Cancer Centre Singapore"
-      ],
-      "journal": "ACS Applied Nano Materials",
-      "doi": "10.1021/acsanm.6c03999",
-      "url": "https://doi.org/10.1021/acsanm.6c03999",
-      "oa": true,
-      "license": "CC BY 4.0",
-      "categories": [
-        "Flying Focus & Programmable Pulses",
-        "Optical Computing"
-      ],
-      "glyph": "flying",
-      "summary": "Deep-seated tumors in complex anatomical regions pose significant challenges for conventional photodynamic therapy (PDT) due to limited light penetration. While proton beam therapy (PBT) offers superior spatial precision via the Bragg peak, its biological effectiveness is comparable to X-ray therapy, necessitating potent radiosensitizers to overcome radioresistant tumors. Herein, we report the design of NaLuF4:Ce,Tb@NaYF4 scintillating nanoparticles (ScNPs) as a robust platform for an integrated PBT-PDT. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "crossref"
-    },
-    {
       "id": "10-1364-josab-619341-cab32b",
       "date": "2026-11-03",
       "title": "Oscillatory and Localized Phase Control: A Comparative Study of Sine and Gaussian-Chirped Laguerre-Gaussian Beams for Electron Acceleration",
@@ -640,58 +590,6 @@
       "glyph": "vortex",
       "summary": "",
       "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "crossref"
-    },
-    {
-      "id": "10-1021-jacs-6c16623-a6097b",
-      "date": "2026-11-03",
-      "title": "Synergistic Dual-Fuel-Driven Dissipative (Opto-)Electronic Crystals: Unraveling Spatiotemporal Multifunctionality Beyond Equilibrium",
-      "authors": "Ruchi Shukla, Rajarshi Chakraborty, Anitha Selvaraj, Vijay Kumar Patel, Bhola Nath Pal, Divya B. Korlepara, Pandeeswar Makam",
-      "institutions": [
-        "Indian Institute of Technology (BHU)",
-        "Vellore Institute of Technology"
-      ],
-      "journal": "Journal of the American\nChemical Society",
-      "doi": "10.1021/jacs.6c16623",
-      "url": "https://doi.org/10.1021/jacs.6c16623",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Theory & Simulation",
-        "Optical Computing"
-      ],
-      "glyph": "theory",
-      "summary": "Living systems sustain complex far-from-equilibrium structures through the continuous consumption of high-energy chemical fuels, a phenomenon known as dissipative self-assembly (DSA). While DSA has enabled the design of adaptive amorphous materials driven by a single fuel source, the construction of dissipative (opto-)electronic crystals utilizing different fuel inputs acting simultaneously remains a significant challenge. Here, we report a strategy for constructing out-of-equilibrium (opto-)electronic crystals driven by synergetic dual-fuel inputs (chemical and light). …",
-      "why": "",
-      "tier": "notable",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "crossref"
-    },
-    {
-      "id": "10-1371-journal-pone-0361762-d1c400",
-      "date": "2026-11-03",
-      "title": "Route optimization for urban hazardous materials transportation under time-varying road networks",
-      "authors": "Hechen Li",
-      "institutions": [
-        "School of Mechanical Engineering"
-      ],
-      "journal": "PLOS One",
-      "doi": "10.1371/journal.pone.0361762",
-      "url": "https://doi.org/10.1371/journal.pone.0361762",
-      "oa": true,
-      "license": "CC BY 4.0",
-      "categories": [
-        "Other Light-Field Topics"
-      ],
-      "glyph": "beam",
-      "summary": "This paper investigates a time-dependent urban hazardous materials (hazmat) transportation routing optimization problem, where vehicles depart from a distribution center to serve a set of customers. The decision variables include both the travel path and the departure time at each node, with the option for vehicles to wait if necessary. The objective is to minimize both the total transportation risk and cost, which consists of travel costs and overtime penalty costs. To address this, we propose PPO-MOEA/D, a reinforcement-learning-based approximation algorithm that enhances the performance of the conventional MOEA/D. …",
-      "why": "",
-      "tier": "notable",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -831,106 +729,6 @@
       "source": "openalex"
     },
     {
-      "id": "10-1038-s42005-026-02943-7-57346f",
-      "date": "2026-11-02",
-      "title": "Photoluminescence from Cr3+ excited orbital states in magnetically ordered CrCl3",
-      "authors": "Lanqing Zhou, Marjana Ležaić, Yuriy Mokrousov, Minh N. Bui, Renu Rani, Govind Ummethala, Amir H. Tavabi, Tatiana E. Gorelik, Rafal E. Dunin-Borkowski, Detlev Grützmacher, Beata E. Kardynał",
-      "institutions": [],
-      "journal": "Communications Physics",
-      "doi": "10.1038/s42005-026-02943-7",
-      "url": "https://doi.org/10.1038/s42005-026-02943-7",
-      "oa": true,
-      "license": "CC BY 4.0",
-      "categories": [
-        "Vector & Polarization Fields",
-        "Optical Trapping & Manipulation",
-        "Theory & Simulation"
-      ],
-      "glyph": "vector",
-      "summary": "Control of magnetic order through optical manipulation of orbital states can be realized in a wide range of materials, including insulators. In the latter case, electrons are excited into different electronic states, whose character may be a complex result of spin-orbit-lattice coupling. Here, we use a combination of polarization-resolved photoluminescence spectroscopy and density functional theory calculations to study excited Cr 3+ ions in bulk, insulating, antiferromagnetic CrCl 3 . Our results demonstrate a temperature-dependent preferential polarization direction below ~17 K, which reorients in the presence of an applied in-plane magnetic field. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "crossref"
-    },
-    {
-      "id": "10-3390-antib15060102-8934d6",
-      "date": "2026-11-02",
-      "title": "Functional Human Humoral Immunity in Humanized Mice: A Spatiotemporal Framework",
-      "authors": "Yoshie Kametani, Yusuke Ohno, Ryoji Ito, Sunao Shoji, Takashi Shiina",
-      "institutions": [
-        "Tokai University",
-        "Institute of Advanced Biosciences",
-        "Central Institute for Experimental Medicine and Life Science"
-      ],
-      "journal": "Antibodies",
-      "doi": "10.3390/antib15060102",
-      "url": "https://doi.org/10.3390/antib15060102",
-      "oa": true,
-      "license": "CC BY 4.0",
-      "categories": [
-        "Other Light-Field Topics"
-      ],
-      "glyph": "beam",
-      "summary": "Functional human humoral immunity remains one of the greatest challenges in humanized mouse research. Although numerous humanized mouse models have been developed, reproducing efficient antigen-specific antibody responses remains difficult. This review proposes a conceptual framework for evaluating humanized mouse models based on the reconstruction of functional humoral immune modules rather than the presence of individual immune cell populations. Functional humoral immunity depends on the coordinated reconstruction of functional modules established through productive cognate interactions between immune cells within spatially organized lymphoid microenvironments. …",
-      "why": "",
-      "tier": "notable",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "crossref"
-    },
-    {
-      "id": "10-3389-fsufs-2026-1968707-d66153",
-      "date": "2026-11-02",
-      "title": "Analysis of the spatiotemporal evolution of agricultural production efficiency and its determinants in China",
-      "authors": "Chuanci Feng, Xinrui Zhan, Dinghui Liu",
-      "institutions": [
-        "College of Urban and Environmental Sciences",
-        "Research Center for Transformation and Development of Resource-Depleted Cities",
-        "Huangshi Key Laboratory of Soil Pollution and Control"
-      ],
-      "journal": "Frontiers in Sustainable Food Systems",
-      "doi": "10.3389/fsufs.2026.1968707",
-      "url": "https://doi.org/10.3389/fsufs.2026.1968707",
-      "oa": true,
-      "license": "CC BY 4.0",
-      "categories": [
-        "Characterization & Metrology"
-      ],
-      "glyph": "beam",
-      "summary": "China faces regional disparities in agricultural development. Understanding the spatiotemporal evolution of agricultural production efficiency and its driving factors is essential for advancing sustainable agricultural development. Using panel data from China’s 31 provinces from 2013 to 2023, we constructed an input–output indicator system and applied the super-efficiency slacks-based measure (SBM) model to evaluate agricultural production efficiency. The results indicate that the evolution of agricultural production efficiency went through three stages. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "crossref"
-    },
-    {
-      "id": "10-1038-s41467-026-78908-9-d5a910",
-      "date": "2026-11-02",
-      "title": "Reconstructing the single-cell spatiotemporal dynamics of glioblastoma invasion",
-      "authors": "Hitesh Bhagavanbhai Mangukiya, Madeleine Skeppås, André Lasses Armatowski, Irem Uppman, Linnea Hallin, Filippa Kruse, Clara Nordquist, Soumi Kundu, Maria Berglund, Adam A. Malik, Cecilia Krona, Rebecka Jörnsten, Sven Nelander",
-      "institutions": [],
-      "journal": "Nature Communications",
-      "doi": "10.1038/s41467-026-78908-9",
-      "url": "https://doi.org/10.1038/s41467-026-78908-9",
-      "oa": true,
-      "license": "CC BY 4.0",
-      "categories": [
-        "Inverse Design & AI",
-        "Microscopy & Imaging"
-      ],
-      "glyph": "ai",
-      "summary": "Glioblastoma invasion into healthy brain tissue remains a major barrier to effective treatment, but the dynamic single-cell behaviors underlying this process remain difficult to measure across patient models. Here, we introduce GlioTrace, an ex vivo imaging and computational framework for real-time tracking of glioblastoma invasion in patient-derived xenograft brain slices. Combining whole-specimen confocal microscopy with machine learning-based morphology classification and probabilistic modeling of state transitions, GlioTrace reconstructs how tumor cells switch between invasion phenotypes and how these dynamics are shaped by local tissue context and therapy. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "crossref"
-    },
-    {
       "id": "10-48550-arxiv-2611-03459-3e5a8a",
       "date": "2026-11-02",
       "title": "Aberration stabilized light bullets in normal dispersion injected Kerr resonators",
@@ -1005,79 +803,6 @@
       "feature": false,
       "fig": null,
       "source": "arxiv"
-    },
-    {
-      "id": "10-1016-j-scs-2026-108070-61e0ea",
-      "date": "2026-11-01",
-      "title": "Urban digital twins as spatiotemporal synchronization systems: a four-layer framework for sustainable and resilient cities",
-      "authors": "Yuejin Li, Shiyaxuan Ye, Shijie Zhang, Huayi Wu, Xitong Li",
-      "institutions": [],
-      "journal": "Sustainable Cities and Society",
-      "doi": "10.1016/j.scs.2026.108070",
-      "url": "https://doi.org/10.1016/j.scs.2026.108070",
-      "oa": true,
-      "license": "CC BY 4.0",
-      "categories": [
-        "Multimode & ST Mode-Locking"
-      ],
-      "glyph": "multimode",
-      "summary": "",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "crossref"
-    },
-    {
-      "id": "10-1038-s41467-026-79326-7-3ba5e5",
-      "date": "2026-11-01",
-      "title": "Spatiotemporal modulation of microalgae to boost biofuel generation from CO2 by the stick-to-culture strategy",
-      "authors": "Minwen Jiang, Chang Liu, Zhongyang Du, Weiwei Tan, Sihan Zheng, Hai Liu, Pingying Liu, Hejin Jiang, Zhixing Lin, Changhong Yao, Fengzhong Wang, Peipei Sun, Jiajing Zhou",
-      "institutions": [],
-      "journal": "Nature Communications",
-      "doi": "10.1038/s41467-026-79326-7",
-      "url": "https://doi.org/10.1038/s41467-026-79326-7",
-      "oa": true,
-      "license": "CC BY-NC-ND 4.0",
-      "categories": [
-        "Time-Varying Media & Temporal Interfaces"
-      ],
-      "glyph": "timevary",
-      "summary": "",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "crossref"
-    },
-    {
-      "id": "10-1111-jmi-70194-cfbd4e",
-      "date": "2026-11-01",
-      "title": "An evaluation framework for sparse 4D (3D + time) imaging reconstruction via bootstrapped cross‐validation",
-      "authors": "Yuhe Zhang, Zisheng Yao, Zhe Hu, Tobias Ritschel, Pablo Villanueva‐Perez",
-      "institutions": [
-        "Division of Synchrotron Radiation Research and NanoLund Lund University Lund Sweden",
-        "Department of Medical Radiation Physics Lund University Lund Sweden",
-        "Department of Computer Science University College London London UK"
-      ],
-      "journal": "Journal of Microscopy",
-      "doi": "10.1111/jmi.70194",
-      "url": "https://doi.org/10.1111/jmi.70194",
-      "oa": true,
-      "license": "CC BY 4.0",
-      "categories": [
-        "Spatiotemporal Measurement",
-        "Inverse Design & AI",
-        "Microscopy & Imaging"
-      ],
-      "glyph": "stmeas",
-      "summary": "Four‐dimensional (4D; 3D + time) microscopic imaging has emerged as a powerful technique for investigating dynamic phenomena in complex systems, enabling direct visualisation of structural evolution in space and time. However, when pushing the limits of spatiotemporal resolution, most time‐resolved imaging techniques yield inherently sparse 4D datasets. While deep learning‐based reconstruction methods have shown promise in reconstructing 4D from sparse spatiotemporal measurements, a practical approach for evaluating their performance in the absence of a 4D reference has, to the best of our knowledge, been lacking. …",
-      "why": "",
-      "tier": "notable",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "crossref"
     },
     {
       "id": "10-48550-arxiv-2611-01883-58e845",
@@ -1337,59 +1062,6 @@
       "source": "openalex"
     },
     {
-      "id": "10-1002-glr2-70082-34cf19",
-      "date": "2026-10-30",
-      "title": "Integrating belowground bud bank dynamics into grassland monitoring and management",
-      "authors": "Zhiming Zhang, Zhigang Zhao, Kun Liu",
-      "institutions": [
-        "State Key Laboratory of Herbage Improvement and Grassland Agro-ecosystems",
-        "Lanzhou University"
-      ],
-      "journal": "Grassland Research",
-      "doi": "10.1002/glr2.70082",
-      "url": "https://doi.org/10.1002/glr2.70082",
-      "oa": true,
-      "license": "CC BY",
-      "categories": [
-        "Inverse Design & AI",
-        "Optical Computing"
-      ],
-      "glyph": "ai",
-      "summary": "Belowground bud banks are the core regenerative organs of perennial herbaceous plants, playing an irreplaceable role in population persistence, community assembly, and ecosystem restoration. However, current grassland monitoring and management have rarely integrated this belowground system, leading to biased assessments of grassland stability (including resistance and resilience) and degradation risk, as well as critical gaps in conservation and restoration. …",
-      "why": "",
-      "tier": "notable",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
-      "id": "10-1177-1088467x261500951-e63ff3",
-      "date": "2026-10-30",
-      "title": "GH-DSTPP: Global Context Awareness and Hawkes-Guided Attention for Spatio-temporal Diffusion Point Processes",
-      "authors": "Zhou Wen, Wanyi Sheng, Yanshu Chen, Zhiwei Ye, Qiyi He, Fan Yang",
-      "institutions": [
-        "Hubei University of Technology",
-        "Wuhan Railway Vocational College of Technology"
-      ],
-      "journal": "Intelligent Data Analysis",
-      "doi": "10.1177/1088467x261500951",
-      "url": "https://doi.org/10.1177/1088467x261500951",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Other Light-Field Topics"
-      ],
-      "glyph": "beam",
-      "summary": "The Spatio-temporal Diffusion Point Processes (DSTPP) model uses diffusion modeling to learn joint spatio-temporal event distributions. It overcomes the long-standing limitation of spatio-temporal independence assumptions in traditional point process models. However, its capacity to model dependencies governed by global temporal trends and underlying domain priors remains limited. Therefore, we propose a Global Context Awareness and Hawkes-Guided Attention framework for Spatio-temporal Diffusion Point Processes (GH-DSTPP). …",
-      "why": "",
-      "tier": "notable",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
       "id": "10-1142-s0217979227500159-5b7baa",
       "date": "2026-10-30",
       "title": "Electron Acceleration in Ion Channels Induced by Linearly Chirped Gaussian and Laguerre-Gaussian Laser Pulses: A Theoretical Comparison",
@@ -1599,59 +1271,6 @@
       "source": "openalex"
     },
     {
-      "id": "10-1109-esm-2026-3719570-9037f6",
-      "date": "2026-10-29",
-      "title": "Sustainable Data Center Planning and Operation as an Electricity–Heat–Water–Computation Coupling System: Short-Term Dispatching and Long-Term Infrastructure Planning",
-      "authors": "Lingfang Yang, Ziquan Zhang, Chongyu Wang, Qiang Yang",
-      "institutions": [
-        "Zhejiang University",
-        "Illinois Institute of Technology"
-      ],
-      "journal": "IEEE Energy Sustainability Magazine",
-      "doi": "10.1109/esm.2026.3719570",
-      "url": "https://doi.org/10.1109/esm.2026.3719570",
-      "oa": true,
-      "license": "CC BY",
-      "categories": [
-        "Other Light-Field Topics"
-      ],
-      "glyph": "beam",
-      "summary": "With the rapid development of artificial intelligence (AI) technology, data centers, as the core infrastructure supporting AI computing, are facing increasingly prominent challenges, including low resource utilization rate, high energy consumption, high power usage effectiveness (PUE), and high water consumption. To address these issues, exploiting the inherent correlation between data centers and water–energy nexus systems is regarded as a promising method. To this end, this work proposes an electricity–heat–water–computation coupling system (EHWC-CS) framework for the sustainability of data centers. …",
-      "why": "",
-      "tier": "notable",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
-      "id": "10-48550-arxiv-2610-39304-868bc6",
-      "date": "2026-10-29",
-      "title": "Stability and bifurcations of the synchronized layered steady states in membrane-coupled delayed RD systems: The SLEP approach",
-      "authors": "Qidong Wu, 衣丰琪",
-      "institutions": [
-        "Dalian University of Technology"
-      ],
-      "journal": "arXiv (Cornell University)",
-      "doi": "10.48550/arxiv.2610.39304",
-      "url": "https://doi.org/10.48550/arxiv.2610.39304",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Topological Light (Skyrmions & Knots)",
-        "Wavefront Shaping & Scattering",
-        "Optical Computing"
-      ],
-      "glyph": "skyrmion",
-      "summary": "Inter-layer exchange in biological and chemical systems may involve transport delays and memory effects. In this paper, we mainly study the stability and bifurcations of the synchronized layered steady states in singularly perturbed membrane-coupled reaction-diffusion (RD) systems, where discrete or exponentially distributed delays are introduced into the activator coupling, while the inhibitor coupling remains instantaneous, leading to six representative configurations. …",
-      "why": "",
-      "tier": "notable",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
       "id": "10-1117-1-oe-65-10-104109-8cdc6d",
       "date": "2026-10-28",
       "title": "Adaptive nonlocal means filtering for structured light depth maps via plane transformation",
@@ -1779,31 +1398,6 @@
       ],
       "glyph": "vortex",
       "summary": "Optical skyrmions have been widely explored in recent years. Among them, Stokes skyrmions require sophisticated wave engineering or photonic devices for their generation. We show that Stokes skyrmions can emerge spontaneously in second-order harmonic generation in underdense plasmas driven by optical vortices. The nonlinear response produces a structured frequency-doubled field whose polarization texture maps the Poincaré sphere. When plasma inhomogeneities are taken into account, the electron density gradient deforms the skyrmionic texture, enabling topological diagnosis of plasma density.",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
-      "id": "10-1021-acsbiomedchemau-6c00147-cd7b63",
-      "date": "2026-10-28",
-      "title": "Small-Molecule Phototheranostics: A Decade of Molecular Design, Advances, and Future Perspectives",
-      "authors": "Ananya Sharma, Anirban Das, Sanhita Sinharay",
-      "institutions": [
-        "Indian Institute of Science Bangalore"
-      ],
-      "journal": "ACS Bio & Med Chem Au",
-      "doi": "10.1021/acsbiomedchemau.6c00147",
-      "url": "https://doi.org/10.1021/acsbiomedchemau.6c00147",
-      "oa": true,
-      "license": "CC BY-NC-ND",
-      "categories": [
-        "Microscopy & Imaging",
-        "Reviews"
-      ],
-      "glyph": "beam",
-      "summary": "Phototheranostics is a rapidly advancing field that integrates light-based diagnostic and therapeutic interventions to provide spatiotemporally controlled outcomes. Consequently, it has emerged as a significant area of precision oncology over the past decade. Small-molecules offer distinct advantages, including high purity with reproducibility, well-defined chemical structures, and predictable pharmacokinetics, making them attractive candidates for clinical translation. In this review, we focus on the advancements in structurally defined, nonencapsulated small-molecules where the same molecular platform provides both diagnostic and therapeutic functionality. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -1959,29 +1553,6 @@
       "source": "openalex"
     },
     {
-      "id": "10-1142-s0219455428500691-ba94f9",
-      "date": "2026-10-27",
-      "title": "Stability and responses of parametrically excited systems using higher-order piecewise polynomial approximations",
-      "authors": "Abdullah Abdullah, Jian Hui Deng, Deli Li",
-      "institutions": [],
-      "journal": "International Journal of Structural Stability and Dynamics",
-      "doi": "10.1142/s0219455428500691",
-      "url": "https://doi.org/10.1142/s0219455428500691",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Non-Diffracting & Accelerating Beams",
-        "Theory & Simulation"
-      ],
-      "glyph": "bessel",
-      "summary": "The stability and responses of dynamic systems subjected to parametric excitation are frequently encountered in many fields of engineering and applied science, such as pile foundations under axial loadings. This paper presents a new numerical simulation method for constructing stability diagrams and predicting the responses of such dynamic systems governed by Mathieu-Hill equations. In the proposed method, the excitation period is divided into time intervals, and the excitation function within each interval is approximated using constant, linear, or quadratic piecewise polynomial representations. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
       "id": "10-1002-lpor-72146-03a2d8",
       "date": "2026-10-27",
       "title": "Complex‐Field Diffractive Processor‐Enabled Optical Encryption",
@@ -2080,35 +1651,6 @@
       ],
       "glyph": "bessel",
       "summary": "",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
-      "id": "10-1021-acsnano-6c10644-1989f6",
-      "date": "2026-10-26",
-      "title": "Emergent Higher-Order Optical Nonlinearity in Self-Assembled Polar Supertextures",
-      "authors": "Daniel Alejandro Bustamante Lopez, Deepankar Sri Gyan, Xiaojiang Li, Vladimir Alexandru Stoica, Sujit Das, Peter Benjamin Meisenheimer, Akash Surampalli, Mohit Tanwani, Xianghan Xu, Aiden Ross, Long‐Qing Chen, Sang‐Wook Cheong, Lane W. Martin, Ramamoorthy Ramesh, Venkatraman Gopalan, W. Z. Hu",
-      "institutions": [
-        "Boston University",
-        "Pennsylvania State University",
-        "Indian Institute of Science Bangalore"
-      ],
-      "journal": "ACS Nano",
-      "doi": "10.1021/acsnano.6c10644",
-      "url": "https://doi.org/10.1021/acsnano.6c10644",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Topological Light (Skyrmions & Knots)",
-        "Nonlinear & Quantum Structured Light",
-        "Theory & Simulation",
-        "Optical Communication"
-      ],
-      "glyph": "skyrmion",
-      "summary": "Giant optical nonlinearities enable advanced materials control and bridge exotic light-matter phenomena to next-generation photonics. However, materials exhibiting strong higher-order optical nonlinearity beyond the second order are typically rare. Here, we report the discovery of a giant and ultrafast second-harmonic generation (SHG) in self-assembled polar skyrmions under mid-infrared excitations. The transient SHG intensity exhibits a distinctive power dependence originating from higher-order nonlinearity. More generally, we show that large higher-order nonlinearity emerges across diverse domain structures in polar superlattices. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -2348,55 +1890,6 @@
       ],
       "glyph": "theory",
       "summary": "Spatially structured light carries independent phase and envelope variations in addition to its polarization and frequency. We develop a first-principles theory of second-order dc photocurrents (especially shift and injection) that resolves how these optical degrees of freedom drive distinct dc responses in crystals. The second-order dc response couples two optical field components at the same frequency but with generally different wave vectors. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
-      "id": "10-48550-arxiv-2610-33158-131b77",
-      "date": "2026-10-23",
-      "title": "Gaussian Episodic Memory for Long-Term Spatiotemporal Reasoning",
-      "authors": "Ling-Chia Chen, Abdelrhman Werby, Kaan Aytekin, Kai O. Arras",
-      "institutions": [],
-      "journal": "arXiv (Cornell University)",
-      "doi": "10.48550/arxiv.2610.33158",
-      "url": "https://doi.org/10.48550/arxiv.2610.33158",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Other Light-Field Topics"
-      ],
-      "glyph": "beam",
-      "summary": "Real-world environments undergo continual semi-static changes, requiring a memory representation that captures both the spatial and temporal evolution of a scene. Existing spatio-temporal memories for robots typically rely either on structured representations, which are limited to the entities and attributes captured during construction, or on image-based memories, which are constrained to previously observed viewpoints. We introduce GEMS, a framework that combines a persistent spatio-temporal 3D Gaussian Splatting (3DGS) map with an agentic reasoning pipeline. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
-      "id": "10-1021-photonsci-6c00043-2496f2",
-      "date": "2026-10-23",
-      "title": "The Structural Dynamics Beamline at High Energy Photon Source: Probing the Dynamics of Laser Additive Manufacturing in High-Density Alloys",
-      "authors": "Yi Zhang, Yuxiao Li, 孙大睿, Chunxia Yao, ZHANG Dongsheng, 师彩娟, Xue Wang, Wei Liu, Jinghua Zheng, Ye Tao, Bingbing Zhang",
-      "institutions": [
-        "Chinese Academy of Sciences",
-        "Institute of High Energy Physics",
-        "Nanjing University of Aeronautics and Astronautics"
-      ],
-      "journal": "Photon Science",
-      "doi": "10.1021/photonsci.6c00043",
-      "url": "https://doi.org/10.1021/photonsci.6c00043",
-      "oa": true,
-      "license": "CC BY-NC-ND",
-      "categories": [
-        "Characterization & Metrology",
-        "Microscopy & Imaging"
-      ],
-      "glyph": "beam",
-      "summary": "The formation and evolution of defects and microstructures during the additive manufacturing of metallic materials are closely related to melt pool dynamics under rapid, non-equilibrium conditions. Synchrotron radiation provides a unique tool for the in-situ characterization of metallic additive manufacturing (AM), enabling the visualization of the “black box” phenomena hidden inside the process. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -2762,55 +2255,6 @@
       "glyph": "bessel",
       "summary": "Bessel beams offer superior depth of field and self‐healing properties compared to conventional Gaussian beams in light sheet fluorescence microscopy (LSFM), enabling enhanced axial resolution and optical sectioning. However, their side lobes generate significant out‐of‐focus fluorescence, which degrades image contrast and signal‐to‐noise ratio (SNR). In this context, we demonstrate the use of a physics‐guided, unsupervised deep learning model‐based image restoration pipeline for Bessel beam LSFM images to suppress the side‐lobe‐induced artifacts that does not require ground‐truth data. …",
       "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
-      "id": "10-48550-arxiv-2610-29158-3f9100",
-      "date": "2026-10-21",
-      "title": "SICAF: Time-Varying Focus Bottleneck for Self-Supervised Event-Based Optical Flow with Spiking Neural Network",
-      "authors": "Shuangming Yang, Qing He, Shangqi Guo, Chen Badong",
-      "institutions": [],
-      "journal": "arXiv (Cornell University)",
-      "doi": "10.48550/arxiv.2610.29158",
-      "url": "https://doi.org/10.48550/arxiv.2610.29158",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Inverse Design & AI"
-      ],
-      "glyph": "ai",
-      "summary": "Event-based optical flow estimation achieves high temporal resolution and dynamic range by exploiting asynchronous events, while self-supervised learning provides an effective solution to the absence of ground-truth labels. Spiking neural networks (SNNs), as brain-inspired models, process information through asynchronous spikes, naturally aligning with optical flow events. However, the temporal irregularity across event streams hinders the compact extraction of spatiotemporal features, while the absence of explicit labels leads to spurious correlations, thereby increasing redundancy within latent representations. …",
-      "why": "",
-      "tier": "notable",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
-      "id": "10-1016-j-apgeog-2026-104215-907275",
-      "date": "2026-10-21",
-      "title": "Exploring periodic and temporal association in crime incidents using time-constrained geographically weighted colocation quotient analysis",
-      "authors": "Ling Li, Jianquan Cheng, Xiongfa Mai, Lian Duan, Jon Bannister",
-      "institutions": [
-        "Nanning Normal University",
-        "Manchester Metropolitan University"
-      ],
-      "journal": "Applied Geography",
-      "doi": "10.1016/j.apgeog.2026.104215",
-      "url": "https://doi.org/10.1016/j.apgeog.2026.104215",
-      "oa": true,
-      "license": "CC BY",
-      "categories": [
-        "Optical Computing"
-      ],
-      "glyph": "beam",
-      "summary": "Understanding temporal patterns is essential for exploring dynamic processes and predicting trends in criminological research. However, a major challenge lies in identifying the coexistence of multiple temporal patterns within criminal processes, which are often influenced by temporal scale and the Modifiable Temporal Duration Problem (MTDP). Existing studies primarily focus on a single temporal pattern, often failing to identify and compare multiple temporal patterns in crime activity. This study proposes a novel data model that converts time into a categorical variable to mitigate the influence of temporal scale. …",
-      "why": "",
-      "tier": "notable",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -3377,31 +2821,6 @@
       "source": "openalex"
     },
     {
-      "id": "10-1364-oe-612439-123aa7",
-      "date": "2026-10-19",
-      "title": "Measurement-adaptive light-cone transform for robust non-line-of-sight imaging",
-      "authors": "Lianfang Wang, Xueying Liu, Junnan Dong, 张清华, Jun Liu, Yong Wang, Yuping Duan",
-      "institutions": [
-        "Nankai University"
-      ],
-      "journal": "Optics Express",
-      "doi": "10.1364/oe.612439",
-      "url": "https://doi.org/10.1364/oe.612439",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Theory & Simulation",
-        "Microscopy & Imaging"
-      ],
-      "glyph": "theory",
-      "summary": "Practical non-line-of-sight (NLOS) measurements are affected by noise and deviations from idealized light transport, which can degrade reconstruction with conventional light-cone transform (LCT) methods. We propose the measurement-adaptive light-cone transform (MALCT), a physics-guided framework that retains the efficient Fourier-domain inversion structure of LCT. Within a unified variational formulation, MALCT combines the analytical response with a shared learned response through measurement-conditioned weighting and predicts a measurement-conditioned, frequency-dependent regularization map. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
       "id": "10-1016-j-array-2026-101343-f1f867",
       "date": "2026-10-19",
       "title": "Optical PUF-based random number generation using optical speckle patterns",
@@ -3760,58 +3179,6 @@
       "source": "openalex"
     },
     {
-      "id": "10-1021-acschembio-6c00522-48d850",
-      "date": "2026-10-17",
-      "title": "Chemical and Genetically Encoded Strategies for Spatiotemporal Control of Lipid Generation in Living Cells",
-      "authors": "Stormi R. Chadwick, Neal K. Devaraj",
-      "institutions": [
-        "University of California San Diego"
-      ],
-      "journal": "ACS Chemical Biology",
-      "doi": "10.1021/acschembio.6c00522",
-      "url": "https://doi.org/10.1021/acschembio.6c00522",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Flying Focus & Programmable Pulses",
-        "Optical Computing",
-        "Reviews"
-      ],
-      "glyph": "flying",
-      "summary": "Mammalian cells synthesize thousands of distinct lipids, and lipid metabolism fundamentally influences signaling in both homeostatic and disease states. Despite considerable interest in the biological functions of diverse lipid species, direct study of their effects in biological systems has historically been limited by a lack of methods to modulate discrete lipid species with precise spatiotemporal control. Several efforts in lipid chemical biology focus on the development of technologies to generate individual lipid species with spatial and temporal control in living cells. Emerging strategies are enabling the on-demand generation of lipids in response to various stimuli. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
-      "id": "10-1016-j-rsase-2026-102315-9a2e37",
-      "date": "2026-10-17",
-      "title": "Spatiotemporal coupling coordination of the “thermal environment–green space–Socioeconomic” system in the Beijing–Tianjin–Hebei urban agglomeration",
-      "authors": "Rui Fang, Jianjun Wu, Liang Gao, Wenhui Zhao",
-      "institutions": [
-        "Tianjin Normal University",
-        "Beijing Normal University",
-        "State Key Laboratory of Remote Sensing Science"
-      ],
-      "journal": "Remote Sensing Applications Society and Environment",
-      "doi": "10.1016/j.rsase.2026.102315",
-      "url": "https://doi.org/10.1016/j.rsase.2026.102315",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Other Light-Field Topics"
-      ],
-      "glyph": "beam",
-      "summary": "",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
       "id": "10-3390-photonics13100973-2fb830",
       "date": "2026-10-17",
       "title": "Scattering Length-Dependent Optimization of Transmission and Reflection in Opaque Media",
@@ -3938,59 +3305,6 @@
       "source": "openalex"
     },
     {
-      "id": "10-1186-s12951-026-05137-z-c170e7",
-      "date": "2026-10-16",
-      "title": "Spatiotemporally programmed probiotic vaccines potentiate the efficacy of single-epitope neoantigen immunotherapy for solid tumors",
-      "authors": "Qinghua Zheng, Liwei Zhang, Yijian Zhang, Yingxin Wang, Yan Zhao, Jingjing Chen, Junru Zhang, Chenyue Xu, Mengna Sun, Fangjun Chen, Junlan Qiu, Qin Liu, Fanyan Meng",
-      "institutions": [
-        "Nanjing Normal University",
-        "Nanjing Drum Tower Hospital",
-        "Nanjing University"
-      ],
-      "journal": "Journal of Nanobiotechnology",
-      "doi": "10.1186/s12951-026-05137-z",
-      "url": "https://doi.org/10.1186/s12951-026-05137-z",
-      "oa": true,
-      "license": "CC BY-NC-ND",
-      "categories": [
-        "Other Light-Field Topics"
-      ],
-      "glyph": "beam",
-      "summary": "Neoantigen vaccines represent a highly promising strategy for precision cancer immunotherapy due to their tumor specificity and personalized nature. However, single neoantigens peptide often suffer from limited immunogenicity, which restricts their ability to induce robust and durable T cell responses and thus hampers clinical application. Here, we developed a multilayered synergistic platform focusing on single neoantigens peptides by integrating nano‐delivery, in situ immune modulation, and controlled release. …",
-      "why": "",
-      "tier": "notable",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
-      "id": "10-48550-arxiv-2610-23756-321589",
-      "date": "2026-10-16",
-      "title": "Analysis of Transient Microscopy Data in Reciprocal Space",
-      "authors": "Thomas John Sheehan, William A. Tisdale",
-      "institutions": [
-        "Massachusetts Institute of Technology"
-      ],
-      "journal": "arXiv (Cornell University)",
-      "doi": "10.48550/arxiv.2610.23756",
-      "url": "https://doi.org/10.48550/arxiv.2610.23756",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Theory & Simulation",
-        "Microscopy & Imaging"
-      ],
-      "glyph": "theory",
-      "summary": "Transient microscopy has evolved to include a family of well-established techniques for studying the spatiotemporal dynamics of excited states in a variety of materials systems. In these methods, a laser pulse is focused to locally excite a material, and the subsequent evolution of the excited species is visualized to extract transport parameters such as diffusivities. Typically, transport coefficients are extracted from experimental datasets using curve-fitting methods to analyze the change in the mean squared displacement (MSD) of the spatial profiles over time. …",
-      "why": "",
-      "tier": "notable",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
       "id": "10-1103-gwny-d6fw-8b7c0e",
       "date": "2026-10-16",
       "title": "Edge-enhanced diffractive neural networks based on spin-multiplexed nonlocal metasurfaces",
@@ -4009,29 +3323,6 @@
       ],
       "glyph": "vector",
       "summary": "Single-layer diffractive neural networks often face classification accuracy bottlenecks due to limited wavefront modulation capabilities. Edge detection, as an optical image processing technique, extracts image contours and offers a promising way to simplify classification tasks. However, integrating edge detection and DNN-based classification on a single chip remains a challenge. Here, we propose an integrated nonlocal meta-platform that sequentially achieves all-optical edge detection and classification via spin-multiplexing. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
-      "id": "10-1142-s0217751x26501885-a99533",
-      "date": "2026-10-15",
-      "title": "Small- b expansion of the DOZZ formula for light operators",
-      "authors": "Franco Ferrari, Marcin Radosław Piątek, Artur R. Pietrykowski",
-      "institutions": [],
-      "journal": "International Journal of Modern Physics A",
-      "doi": "10.1142/s0217751x26501885",
-      "url": "https://doi.org/10.1142/s0217751x26501885",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "SLM, DMD & Holography",
-        "Theory & Simulation"
-      ],
-      "glyph": "slm",
-      "summary": "We present a systematic asymptotic small-[Formula: see text] expansion of the Liouville DOZZ three-point structure constant in the light-operator regime [Formula: see text] in the limit [Formula: see text]. In this limit the DOZZ structure constant admits the asymptotic representation [Formula: see text] where [Formula: see text] is an explicitly determined prefactor. Using Thorn’s asymptotic expansion of the [Formula: see text]-function, we derive explicit closed-form expressions for the first coefficients [Formula: see text] and show that they form a symmetric polynomial structure in the variables [Formula: see text]. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -4853,31 +4144,6 @@
       "source": "openalex"
     },
     {
-      "id": "10-1038-s41598-026-73227-x-d9dc77",
-      "date": "2026-10-09",
-      "title": "KT-CBHNET: a spatio-temporal deep learning framework for interpretable ECG signal classification for cardiovascular disease prediction",
-      "authors": "Krantee Singh, Vasudev Dehalwar",
-      "institutions": [
-        "Maulana Azad National Institute of Technology"
-      ],
-      "journal": "Scientific Reports",
-      "doi": "10.1038/s41598-026-73227-x",
-      "url": "https://doi.org/10.1038/s41598-026-73227-x",
-      "oa": true,
-      "license": "CC BY-NC-ND",
-      "categories": [
-        "Inverse Design & AI",
-        "Optical Computing"
-      ],
-      "glyph": "ai",
-      "summary": "Electrocardiogram (ECG) signals are non-stationary and exhibit complex temporal dependencies, making automated analysis challenging. Current deep learning methods tend to either extract spatial or temporal features separately, which do not provide a complete signal representation. In this paper, we propose KT-CBHNET, an interpretable spatio-temporal deep learning framework that combines staged reuse of learned ECG representations with CNN-based morphological feature extraction and BiLSTM-based temporal modeling for cardiovascular disease classification. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
       "id": "10-1364-ol-612269-03afbb",
       "date": "2026-10-08",
       "title": "Structured-light manipulation via the nonlinear Berry phase",
@@ -5421,83 +4687,6 @@
       "source": "openalex"
     },
     {
-      "id": "10-1145-3850156-9bd3d1",
-      "date": "2026-10-08",
-      "title": "Touching Civilization: Enhancing Museum Experience for Visually Impaired Individuals through Spatiotemporal Guidance",
-      "authors": "Haibo Xu, Xiaoyue Zhang, 谭子扬, Wenming Xu, Qiaolian Zhu, Dan Wu, Feng Tian, Yuzhi Li",
-      "institutions": [
-        "Shanghai University",
-        "Shanghai Jinyuan Senior High School"
-      ],
-      "journal": "Journal on Computing and Cultural Heritage",
-      "doi": "10.1145/3850156",
-      "url": "https://doi.org/10.1145/3850156",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Laser Processing & Fabrication"
-      ],
-      "glyph": "beam",
-      "summary": "Museum experiences remain largely inaccessible for blind and low-vision (BLV) individuals due to the visual-centric nature of traditional exhibitions. To address this gap, we present a VR-haptic museum system that combines digital 3D printing and virtual reality (VR) to deliver passive haptic experiences for BLV visitors. The system features a novel Spatiotemporal Guidance (StG) interaction mode designed to enhance accessibility and engagement. We evaluated our approach with 62 BLV participants and 19 sighted individuals under blindfolded conditions in a community setting, collecting data through questionnaires, semi-structured interviews, behavioral metrics, and vision tests. …",
-      "why": "",
-      "tier": "notable",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
-      "id": "10-1016-j-jtrangeo-2026-104856-1b6ceb",
-      "date": "2026-10-08",
-      "title": "Introducing spatiotemporal order crowdedness into the on-demand delivery management data pipeline: A dynamic inverted two-step floating catchment area (Di2SFCA) method",
-      "authors": "Chengbo Zhang, Qinyu Cui, Xinyue Ma, Yiyang Li, Zuopeng Xiao, Jiangbo Yu",
-      "institutions": [
-        "McGill University",
-        "Ghent University",
-        "South China University of Technology"
-      ],
-      "journal": "Journal of Transport Geography",
-      "doi": "10.1016/j.jtrangeo.2026.104856",
-      "url": "https://doi.org/10.1016/j.jtrangeo.2026.104856",
-      "oa": true,
-      "license": "CC BY",
-      "categories": [
-        "Other Light-Field Topics"
-      ],
-      "glyph": "beam",
-      "summary": "Matching fluctuating delivery demand with local service availability across space and time is a key challenge in urban logistics. In Online-to-Offline (O2O) on-demand delivery service, concentrated order demand can place pressure on retailers and courier operations, with implications for the use of urban space. These spatial conflicts between high-frequency digital demand and limited physical infrastructure require dynamic assessment tools. However, traditional spatial-interaction models remain constrained by static measurements and a predominant focus on consumer access rather than supply-side order pressure. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
-      "id": "10-1117-1-jmi-13-5-054002-d917ff",
-      "date": "2026-10-08",
-      "title": "Clinical knowledge-guided attention for gait-based adult spinal deformity assessment from monocular video",
-      "authors": "Kaixu Chen, Kousei Miura, Hideki Kadone, Naoya Kikuchi, Yasuhiro Homma, Masashi Yamazaki, Itaru Kitahara",
-      "institutions": [
-        "University of Tsukuba",
-        "Center for Computational Sciences, University of Tsukuba"
-      ],
-      "journal": "Journal of medical imaging",
-      "doi": "10.1117/1.jmi.13.5.054002",
-      "url": "https://doi.org/10.1117/1.jmi.13.5.054002",
-      "oa": true,
-      "license": "CC BY",
-      "categories": [
-        "Characterization & Metrology"
-      ],
-      "glyph": "beam",
-      "summary": "Purpose: Adult spinal deformity (ASD) is associated with characteristic gait abnormalities, yet routine diagnosis relies mainly on radiographic assessment and physical examination, which can be time-consuming and may not reflect functional impairment during walking. Existing video-based gait models are often purely data-driven and difficult to interpret clinically. This study aims to develop an explainable, noninvasive ASD screening framework that integrates orthopedic clinical knowledge to guide model attention toward diagnostically meaningful gait cues. Approach: This paper proposes an anatomy-guided attention framework for ASD diagnosis from monocular gait videos. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
       "id": "10-48550-arxiv-2610-11940-adfb48",
       "date": "2026-10-08",
       "title": "Temporal chirality in Floquet photonic media",
@@ -5904,52 +5093,6 @@
       "source": "openalex"
     },
     {
-      "id": "10-7922-g26q1vnn-51ec59",
-      "date": "2026-10-06",
-      "title": "StreetTransformer: A Computer Vision-based Tool for Analyzing and Retrieving Longitudinal Changes in Urban Streetscapes",
-      "authors": "Jon Atkins",
-      "institutions": [],
-      "journal": "eScholarship (California Digital Library)",
-      "doi": "10.7922/g26q1vnn",
-      "url": "https://doi.org/10.7922/g26q1vnn",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Theory & Simulation"
-      ],
-      "glyph": "theory",
-      "summary": "Urban street design plays a critical role in safety, mobility, community and public welfare. Yet, systematic, large analysis of streetscape change remains challenging due to the scale, heterogeneity and unstructured nature of publicly available data. We here introduce StreetTransformer, a unified, open-source, multi-modal visual analytics system and framework for gathering, comparing, retrieving and analyzing urban streetscape state and change over time.We construct a novel spatiotemporally grounded corpus for New York City’s more than 47,000 intersections by integrating longitudinal aerial imagery, segmentation masks, civic design documents and capital reconstruction project data spanning …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
-      "id": "10-25258-ijddt-16-85s-197-fc2720",
-      "date": "2026-10-06",
-      "title": "Spatio-Temporal Dynamics of Aedes Mosquito Populations under Climatic Variability in Bhagalpur, Bihar: A Hierarchical Statistical Modelling Approach",
-      "authors": "",
-      "institutions": [],
-      "journal": "International Journal of Drug Delivery Technology",
-      "doi": "10.25258/ijddt.16.85s.197",
-      "url": "https://doi.org/10.25258/ijddt.16.85s.197",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Theory & Simulation",
-        "Optical Computing"
-      ],
-      "glyph": "theory",
-      "summary": "Populations of Aedes aegypti and Aedes albopictus are shaped by far more than weather alone.Their abundance reflects the combined influence of mosquito development and survival, availability of breeding habitats, characteristics of the built environment, human-modified surroundings, and climatic conditions.These factors operate at different spatial and temporal scales and often interact with one another.As a result, analyses based only on seasonal averages, simple pairwise correlations, or independent Poisson regression may provide an incomplete or overly precise picture of climate-mosquito relationships, particularly when mosquito counts are over dispersed and the same surveillance …",
-      "why": "",
-      "tier": "notable",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
       "id": "10-1016-j-optlastec-2026-116608-84df5f",
       "date": "2026-10-06",
       "title": "A DMD-enabled multimode fiber wavefront shaping interface for spatially addressable optogenetic stimulation",
@@ -6108,34 +5251,45 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
-    },
-    {
-      "id": "10-64026-jssf-2026018-d8e409",
-      "date": "2026-09-22",
-      "title": "Spatiotemporal Modelling of Agricultural Greenhouse Gas Emissions for Sustainable Farm Management",
-      "authors": "Ketema Niguse Baye, Tommy Dalgaard",
-      "institutions": [
-        "School of Agriculture and Natural Resource Management",
-        "Agrarian and Technological Institute"
-      ],
-      "journal": "Journal of Smart and Sustainable Farming",
-      "doi": "10.64026/jssf/2026018",
-      "url": "https://doi.org/10.64026/jssf/2026018",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Theory & Simulation"
-      ],
-      "glyph": "theory",
-      "summary": "Greenhouse-gas (GHG) emissions from farms are highly variable in space and time: nitrous oxide (N2O) is released in short bursts after fertilisation and rain on wet soil, methane (CH4) is emitted from flooded rice, and both differ between parcels. Annual emission factors and a few chamber measurements cannot resolve this variability, which limits farm-level inventories and mitigation planning. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "crossref"
     }
   ],
-  "removed": [],
+  "removed": [
+    "10-1002-flm2-70166-1eb18c",
+    "10-1002-glr2-70082-34cf19",
+    "10-1016-j-apgeog-2026-104215-907275",
+    "10-1016-j-jtrangeo-2026-104856-1b6ceb",
+    "10-1016-j-rsase-2026-102315-9a2e37",
+    "10-1016-j-scs-2026-108070-61e0ea",
+    "10-1021-acsanm-6c03999-c541a8",
+    "10-1021-acsbiomedchemau-6c00147-cd7b63",
+    "10-1021-acschembio-6c00522-48d850",
+    "10-1021-acsnano-6c10644-1989f6",
+    "10-1021-jacs-6c16623-a6097b",
+    "10-1021-photonsci-6c00043-2496f2",
+    "10-1038-s41467-026-78908-9-d5a910",
+    "10-1038-s41467-026-79326-7-3ba5e5",
+    "10-1038-s41598-026-73227-x-d9dc77",
+    "10-1038-s42005-026-02943-7-57346f",
+    "10-1109-esm-2026-3719570-9037f6",
+    "10-1111-jmi-70194-cfbd4e",
+    "10-1117-1-jmi-13-5-054002-d917ff",
+    "10-1142-s0217751x26501885-a99533",
+    "10-1142-s0219455428500691-ba94f9",
+    "10-1145-3850156-9bd3d1",
+    "10-1177-1088467x261500951-e63ff3",
+    "10-1186-s12951-026-05137-z-c170e7",
+    "10-1364-oe-612439-123aa7",
+    "10-1371-journal-pone-0361762-d1c400",
+    "10-25258-ijddt-16-85s-197-fc2720",
+    "10-3389-fsufs-2026-1968707-d66153",
+    "10-3390-antib15060102-8934d6",
+    "10-48550-arxiv-2610-23756-321589",
+    "10-48550-arxiv-2610-29158-3f9100",
+    "10-48550-arxiv-2610-33158-131b77",
+    "10-48550-arxiv-2610-39304-868bc6",
+    "10-64026-jssf-2026018-d8e409",
+    "10-7922-g26q1vnn-51ec59"
+  ],
   "curated": "2026-11-04",
   "updated": "2026-11-04"
 }

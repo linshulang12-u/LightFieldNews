@@ -86,6 +86,7 @@ def load_config(path: Path) -> dict:
     tq = cfg.get("technique") or {}
     cfg["_tech_terms"], cfg["_tech_cues"] = comp(tq.get("terms")), comp(tq.get("cues"))
     cfg["_tech_strong"] = comp(tq.get("strong_cues"))
+    cfg["_require"] = comp(cfg.get("require_any"))
     cfg["_tech_journals"] = comp(tq.get("journals"))
     ra = cfg.get("routine_application") or {}
     cfg["_routine_domain"], cfg["_routine_method"] = comp(ra.get("domain")), comp(ra.get("method"))
@@ -250,16 +251,23 @@ def is_relevant(rec: dict, cfg: dict) -> bool:
     text = f"{title} {abstract}"
     if any(p.search(text) for p in cfg["_exclude"]):
         return False
+    if cfg.get("_require") and not any(p.search(text) for p in cfg["_require"]):
+        return False                           # optional gate: the paper must use at least one field word
+    if any(p.search(title) for p in cfg.get("_exclude_title", [])):
+        return False
     technique = is_technique(rec, cfg)
     if technique:                              # method papers: one mention of any technique term is enough
         return True
-    if any(p.search(title) for p in cfg.get("_exclude_title", [])):
-        return False
     # off-topic uses (e.g. ultrafast spectroscopy, laser physics without processing) unless the title names a fabrication term
     if any(p.search(text) for p in cfg.get("_soft", [])) and not any(p.search(title) for p in cfg.get("_soft_unless", [])):
         return False
     if any(p.search(title) for p in cfg["_include"]):
         return True
+    in_field_journal = any(p.search(rec.get("journal") or "") for p in cfg.get("_tech_journals", []))
+    if cfg.get("abstract_needs_field_journal") and not in_field_journal:
+        # optional: outside the field's own journals, a paper that only MENTIONS the field in its abstract
+        # (e.g. a biology study that used a microscope) is not kept; method papers were kept above
+        return any(topic_match(rec, t) for t in cfg.get("_topics", []))
     body = cfg["_charlist"].sub(" ", abstract) if cfg.get("_charlist") else abstract
     for p in cfg.get("_title_only", []):
         body = p.sub(" ", body)
@@ -268,7 +276,7 @@ def is_relevant(rec: dict, cfg: dict) -> bool:
     hits = sum(len(p.findall(body)) for p in cfg["_include"])
     if hits >= 2:
         return True
-    if hits >= 1 and any(p.search(rec.get("journal") or "") for p in cfg.get("_tech_journals", [])):
+    if hits >= 1 and in_field_journal:
         return True                            # optics / instrumentation journals: one mention is enough
     return any(topic_match(rec, t) for t in cfg.get("_topics", []))
 

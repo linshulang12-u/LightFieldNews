@@ -205,7 +205,8 @@ def test_institutions_strip_departments_and_emails():
 def test_relevance_filters(case):
     assert vs.is_relevant(vs.parse_europepmc(EPMC_RESULT), CFG)
     assert not vs.is_relevant(vs.parse_europepmc(EPMC_NOISE), CFG)
-    assert vs.is_relevant({"title": case["title"], "abstract": case.get("abstract", "")}, CFG) is case["keep"]
+    rec = {"title": case["title"], "abstract": case.get("abstract", ""), "journal": case.get("journal", "")}
+    assert vs.is_relevant(rec, CFG) is case["keep"]
 
 
 def test_correction_notices_are_skipped():

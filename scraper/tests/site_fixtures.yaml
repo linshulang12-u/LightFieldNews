@@ -102,7 +102,7 @@ directions:
   - null
 once:
 - - High-dimensional encoding
-  - Data are carried by Laguerre-Gaussian modes.
+  - Data are carried by Laguerre-Gaussian modes of a laser beam.
   - true
 - - Tropical cyclones
   - A vortex intensifies; spatiotemporal patterns of rainfall are analysed.

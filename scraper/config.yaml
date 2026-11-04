@@ -24,7 +24,7 @@ sources:
 
 # A paper is kept if its TITLE matches any include pattern, or its ABSTRACT matches one at least twice.
 include:
-  - 'structured (light|beams?|optical fields?|light fields?|wave ?packets?|pulses?)'
+  - 'structured[- ](light|beams?|optical fields?|light fields?|wave ?packets?|pulses?)'
   - 'optical vorti|vortex (beams?|light|pulses?|lasers?|modes?|bullets?|lens(es)?|cavit(y|ies)|arrays? of light)|vortices of light|perfect (optical )?vortex'
   - 'orbital angular momentum (of light|beams?|modes?|multiplex|states|transfer from light|light)|\bOAM\b (beams?|modes?|light|multiplex|states|channels?|communication|sorting|generation)'
   - 'spin[- ]orbit (interaction|coupling|conversion|engineering)s? (of|in) (light|optical|photon)|photonic spin hall|optical spin'
@@ -37,12 +37,12 @@ include:
   - 'metasurfaces?\W+(\w+\W+){0,6}(beams?|vorti|vortex|polari[sz]ation|wavefront|hologra|light[- ]fields?|focusing|structured)'
   - '(beam|wavefront|light[- ]field|optical field|pulse) (shaping|engineering|sculpting|tailoring)|light[- ]field (manipulation|control|modulation|regulation)|optical field (manipulation|control|regulation)'
   - 'tight(ly)? focus(ed|ing) (beams?|vector|vortex|light|fields?|structured)|focal fields? (engineering|shaping|structure)|longitudinal (electric )?field component'
-  - 'optical (spanners?|conveyors?|tractor beams?)|optical (trapping|tweezers|manipulation|forces?|torques?)\W+(\w+\W+){0,5}(structured|vortex|vector|Bessel|Airy|orbital|spin|skyrmion|hologra|Laguerre)'
+  - 'optical (spanners?|conveyors?|tractor beams?)|optical (trapping|tweezers|manipulation|forces?|torques?)\W+(\w+\W+){0,5}(structured|vortex|vector|Bessel|Airy|orbital angular|spin angular|skyrmion|hologra|Laguerre)'
   - 'spatio-?temporal (optical )?vorti|\bSTOVs?\b|space-?time (wave ?packets?|light sheets?|structured|vorti|beams?)|transverse orbital angular momentum'
-  - 'spatio-?temporal(ly)? (structured|shaped|sculpt\w*|light|optical fields?|wave ?packets?|pulses?|beams?|focusing|mode-?lock\w*|solitons?|coupl\w*|metasurfaces?|photonic|Laguerre|Hermite|Bessel|Airy|spherical|Gaussian|skyrmions?|topolog\w*|vector|Stokes|modulation|combs?|metalattices?|shaping|synchroni\w*)'
+  - 'spatio-?temporal(ly)? (structured (light|pulses?|beams?|fields?)|shaped (pulses?|light|beams?)|sculpt\w* (of )?light|light|optical|wave ?packets?|pulses?|beams?|focusing|mode-?lock\w*|solitons?|metasurfaces?|photonic|Laguerre|Hermite|Bessel|Airy|spherical Gaussian|skyrmions?|topological (light|pulses?|combs?|wave)|vector (pulses?|beams?|fields?)|Stokes|metalattices?|pulse shaping|shaping of (light|pulses?))|spatio-?temporal(ly)? (coupled|coupling|synchroni\w*) (pulses?|modes?|solitons?|light)'
   - 'toroidal (light |electromagnetic )?pulses?|flying (doughnuts?|donuts?|focus)|supertoroidal|light bullets?|optical bullets?|vortex bullets?|X-?waves?|focus wave modes?|localized waves?'
   - 'tunable group velocit|arbitrary group velocit|superluminal (pulses?|wave)|subluminal (pulses?|wave)|pulse[- ]front tilt|temporal focusing'
-  - 'time-?varying (media|medium|metamaterials?|photonic|metasurfaces?|systems?)|temporal (interfaces?|boundar(y|ies)|reflection|refraction|slits?)|photonic time crystals?|time refraction|time reflection|temporal chirality'
+  - 'time-?varying (media|medium|metamaterials?|photonic|metasurfaces?|optical systems?|flat optics)|spatio-?temporal(ly)? modulat\w* (of )?(the )?(refractive|permittivity|metasurfaces?|surfaces?|interfaces?|media|medium|waveguides?)|moving (interfaces?|mirrors?) (for|of|in) (light|optics|waves)|synthetic (motion|velocit\w*)|temporal (interfaces?|boundar(y|ies)|reflection|refraction|slits?)|photonic time crystals?|time refraction|time reflection|temporal chirality'
   - 'mode (decomposition|sorting|multiplexing|demultiplexing)|multi-?plane light conversion|\bMPLC\b|photonic lanterns?|OAM (multiplex|demultiplex|sorting|detection|recognition)'
   - 'partially coherent (beams?|vortex|vortices|structured|vector|light)|coherence (engineering|structured|singularit\w*|vortex|vortices)|twisted (partially coherent|Gaussian Schell)|Gaussian Schell'
   - 'diffractive (deep )?neural networks?|\bD2NN\b|optical diffractive (network|processor)'
@@ -101,11 +101,12 @@ exclude:
   - '(fluid|flow|fluids|hydrodynamic|aerodynamic|wake|shedding|cyclone|typhoon|tornado|horseshoe|scour) (vortex|vortices)|vortex (shedding|induced vibration|generators?|ring dynamics in fluid)|bluff body|cavitating'
   - 'wireless|antennas?|transmitarray|reflectarray|microwave|millimeter-?wave|radio[- ]frequency|\bMIMO\b|\b6G\b|radar'
   - 'gravitational|black holes?|astrophys|galax(y|ies)|tokamak|magnetohydrodynamic'
-  - 'precipitation|traffic|epidemi|spatio-?temporal (analysis|patterns?|distribution|data|forecast|graph|attention|transformer|network|heterogeneity|variation)'
+  - 'precipitation|traffic|epidemi|spatio-?temporal (analysis|patterns?|distribution|data|forecast|graph|attention|transformer|network|heterogeneity|variation|dynamics of (cell|tumou?r|populations?)|evolution of (the )?(agricultur|urban|economic|land))'
+  - 'phototheranost|photodynamic therap|photothermal therap|proton (beam )?therapy|radiotherapy|beamlines?|synchrotron|X-ray free-electron|optical flow\b|conformal field theory|light operators|gait\b|crime|mosquito|greenhouse gas|supply chain|logistics|delivery management|data cent(er|re)s?|digital twins?'
 
 technique:
   terms:
-    - 'structured light|optical vorti|vortex beam|orbital angular momentum|vector (vortex )?beam|cylindrical vector|Bessel|Airy|skyrmion|hopfion|spatio-?temporal|space-?time wave|toroidal pulse|light bullet|wave-?front shaping|spatial light modulator|metasurface|hologra|Laguerre|Poincar|topological charge|temporal focusing|time-varying'
+    - 'structured light|optical vorti|vortex beam|orbital angular momentum|vector (vortex )?beam|cylindrical vector|Bessel(-Gauss(ian)?)? beam|Airy (beam|pulse|wave)|optical skyrmion|skyrmion(ic)? (beam|light|field)|hopfion|spatio-?temporal (optical|light|wave ?packet|pulse|vorti|focusing|mode-?lock)|space-?time wave|toroidal pulse|light bullet|wave-?front shaping|spatial light modulator|metasurface|hologra|Laguerre|Poincar[eé] (beam|sphere)|topological charge|temporal focusing|time-varying (media|medium|metamaterial|metasurface|photonic)'
   cues:
     - '\b(we|here,? we|this work|this paper)\s+(\w+\s+){0,3}(develop|demonstrat|present|introduc|report|propos|realiz|build|construct|design|invent|achiev|generat|observ)\w*\s+(\S+\s+){0,8}?(generation|generator|method|platform|scheme|device|metasurface|technique|approach|strategy|framework|system|encoder|detector|laser|source|modulator|architecture|processor)'
   strong_cues:
@@ -116,6 +117,11 @@ technique:
 routine_application:
   domain: []
   method: []
+
+# Every kept paper must say something optical (after the include rules have matched). Stops generic
+# "spatiotemporal" / "time-varying" papers from other fields. Core journals and inbox DOIs skip this.
+require_any:
+  - '\b(light|optical|optics|photonic\w*|lasers?|beams?|wave-?fronts?|polari[sz]\w+|metasurfaces?|wavelengths?|fib(er|re)s?|hologra\w*|lens(es)?|pulses?|vorti\w*|vortex|interferen\w*|diffract\w*|SLM|terahertz|photons?|plasmon\w*|spectral|electromagnetic|waves?|permittivity|refractive)\b'
 
 exclude_title:
   - '^comment on\b|^reply to\b|^erratum|^correction|call for papers|editorial board|issue information'
