@@ -126,6 +126,7 @@ require_any:
 exclude_title:
   - '^comment on\b|^reply to\b|^erratum|^correction|call for papers|editorial board|issue information'
   - 'light[- ]field (cameras?|displays?|imaging|microscop\w*|rendering|video|compression|depth|images?|reconstruction|3D|super-resolution)|plenoptic'
+  - 'structured[- ]light (3D|three-dimensional|sensors?|scann\w*|profil\w*|measur\w*|projection|projector|systems?|cameras?|reconstruction|depth|vision|illumination)|fringe projection|phase unwrapping|phase[- ]shifting profilometry|profilometry|3D (shape |surface )?(measurement|reconstruction|scanning)'
 
 soft_exclude:
   patterns:

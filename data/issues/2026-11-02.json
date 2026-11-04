@@ -37,6 +37,38 @@
       "feature": true
     },
     {
+      "id": "10-1038-s41467-026-78730-3-c4738c",
+      "date": "2026-10-16",
+      "title": "Temporal focusing enables distortion-resistant high-intensity spatiotemporal optical vortices",
+      "authors": "Jielei Ni, Yao Zhang, Qianyi Wei, Zhangyu Zhou, Shuoshuo Zhang, Yuquan Zhang, Qi Jin, Jiahui Pan, Zhiyong Tan, Ya Cheng, Qiwen Zhan, Xiaocong Yuan, Changjun Min",
+      "institutions": [
+        "Shenzhen University",
+        "Northwestern Polytechnical University",
+        "East China Normal University",
+        "Westlake University"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78730-3",
+      "url": "https://doi.org/10.1038/s41467-026-78730-3",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Spatiotemporal Optical Vortices",
+        "Spatiotemporal Focusing (SSTF)",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "stov",
+      "summary": "A spatiotemporal optical vortex (STOV) carries orbital angular momentum transverse to its motion, but when it is focused hard to reach high intensity its spatial and temporal parts diffract over different lengths and the space-time donut breaks up near focus. The authors form the STOV by temporal focusing: angular dispersion plus a controlled spectral phase let them match the spatial and temporal Rayleigh ranges, so the vortex keeps its shape through the focal region. They obtain high-intensity STOVs that stay undistorted under high-NA focusing and check the focal structure by femtosecond laser ablation.",
+      "why": "STOVs had been hard to use at the intensities needed for nonlinear optics and laser processing; this removes the main obstacle.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable",
+      "st_feature": true
+    },
+    {
       "id": "10-1186-s43593-026-00145-w-b85759",
       "date": "2026-10-30",
       "title": "Spatiotemporal topological combs for robust high-dimensional information transmission",
@@ -194,38 +226,6 @@
       "pick": true,
       "pick_date": "2026-11-04",
       "tier": "notable"
-    },
-    {
-      "id": "10-1038-s41467-026-78730-3-c4738c",
-      "date": "2026-10-16",
-      "title": "Temporal focusing enables distortion-resistant high-intensity spatiotemporal optical vortices",
-      "authors": "Jielei Ni, Yao Zhang, Qianyi Wei, Zhangyu Zhou, Shuoshuo Zhang, Yuquan Zhang, Qi Jin, Jiahui Pan, Zhiyong Tan, Ya Cheng, Qiwen Zhan, Xiaocong Yuan, Changjun Min",
-      "institutions": [
-        "Shenzhen University",
-        "Northwestern Polytechnical University",
-        "East China Normal University",
-        "Westlake University"
-      ],
-      "journal": "Nature Communications",
-      "doi": "10.1038/s41467-026-78730-3",
-      "url": "https://doi.org/10.1038/s41467-026-78730-3",
-      "oa": true,
-      "license": "CC BY",
-      "categories": [
-        "Spatiotemporal Optical Vortices",
-        "Spatiotemporal Focusing (SSTF)",
-        "Laser Processing & Fabrication"
-      ],
-      "glyph": "stov",
-      "summary": "A spatiotemporal optical vortex (STOV) carries orbital angular momentum transverse to its motion, but when it is focused hard to reach high intensity its spatial and temporal parts diffract over different lengths and the space-time donut breaks up near focus. The authors form the STOV by temporal focusing: angular dispersion plus a controlled spectral phase let them match the spatial and temporal Rayleigh ranges, so the vortex keeps its shape through the focal region. They obtain high-intensity STOVs that stay undistorted under high-NA focusing and check the focal structure by femtosecond laser ablation.",
-      "why": "STOVs had been hard to use at the intensities needed for nonlinear optics and laser processing; this removes the main obstacle.",
-      "fig": null,
-      "source": "editor",
-      "reviewed": true,
-      "pick": true,
-      "pick_date": "2026-11-04",
-      "tier": "notable",
-      "st_feature": true
     },
     {
       "id": "10-1002-lpor-72000-6bf93f",
@@ -2053,30 +2053,6 @@
       "source": "openalex"
     },
     {
-      "id": "10-1016-j-measurement-2026-123638-ca2fbb",
-      "date": "2026-10-23",
-      "title": "Catadioptric-enabled single-camera dual-view structured-light sensor for opposing surfaces measurement",
-      "authors": "Zhipeng Song, Guo Zhanshe, Peiran Zhang, Wentao Guo, Donghang Xie, Fuqiang Zhou",
-      "institutions": [
-        "Beihang University"
-      ],
-      "journal": "Measurement",
-      "doi": "10.1016/j.measurement.2026.123638",
-      "url": "https://doi.org/10.1016/j.measurement.2026.123638",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Sensing & Metrology"
-      ],
-      "glyph": "beam",
-      "summary": "",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
       "id": "10-1364-oe-617880-488778",
       "date": "2026-10-22",
       "title": "High-quality multi-focus laser stealth dicing of silicon wafer via precise control of spatial focus and laser energy",
@@ -2800,30 +2776,6 @@
       "source": "openalex"
     },
     {
-      "id": "10-1364-oe-610114-17fc46",
-      "date": "2026-10-20",
-      "title": "NNPSQE: framework for enhancing quality-based phase unwrapping via neural-network phase separation",
-      "authors": "Li H, Liu M, Zhang P, Yang P, Zhu X",
-      "institutions": [
-        "Mechanical and Electrical Engineering College"
-      ],
-      "journal": "Optics express",
-      "doi": "10.1364/oe.610114",
-      "url": "https://doi.org/10.1364/oe.610114",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Inverse Design & AI"
-      ],
-      "glyph": "ai",
-      "summary": "Quality-based phase-unwrapping methods depend critically on the reliability of quality maps. However, quality metrics computed directly from the original wrapped phase often respond similarly to valid rapid phase variations and genuine unreliable factors. To reduce this ambiguity, we propose NNPSQE (neural-network phase-separation quality enhancement), a framework for enhancing quality-based phase unwrapping via neural-network phase separation. NNPSQE does not use the neural network either as a conventional phase-fitting module or as a direct phase-unwrapping network. Instead, the network estimates a constrained continuous trend phase as an intermediate variable for quality-map enhancement. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "europepmc"
-    },
-    {
       "id": "10-1364-oe-612606-fd22f7",
       "date": "2026-10-19",
       "title": "Propagation characteristics of Bessel-Gaussian vortex beams in unstable stratified oceanic turbulence",
@@ -3357,30 +3309,6 @@
       "source": "openalex"
     },
     {
-      "id": "10-3390-photonics13100977-9eb1fc",
-      "date": "2026-10-18",
-      "title": "A Structured-Light Dual-Frequency Heterodyne Phase Unwrapping Method Based on Region-of-Interest Constraint and Dual-Frequency Consistency Optimization",
-      "authors": "Yuyang Yu, Pengfei Feng, Jinlin Gu, Zongsheng Lu, Yueqi Si",
-      "institutions": [
-        "Anhui Sanlian University"
-      ],
-      "journal": "Photonics",
-      "doi": "10.3390/photonics13100977",
-      "url": "https://doi.org/10.3390/photonics13100977",
-      "oa": true,
-      "license": "CC BY",
-      "categories": [
-        "Other Light-Field Topics"
-      ],
-      "glyph": "beam",
-      "summary": "In dual-frequency heterodyne structured-light 3D measurement, fringe-order misjudgment often occurs near object edges, hole boundaries, and local low-reliability regions, which may further lead to absolute phase jumps and abnormal 3D reconstruction results. To address this problem, this paper proposes a phase-unwrapping method based on region-of-interest (ROI) constraint, coarse estimation using the synthetic wrapped phase, dual-frequency consistency residual optimization, and local spatial regularization. The method first automatically extracts the target ROI using a binary mask, thereby excluding invalid background regions and reducing unnecessary computation. …",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
       "id": "10-48550-arxiv-2610-24713-0dc52d",
       "date": "2026-10-17",
       "title": "Charge-Selective Displacement of Spatiotemporal Optical Vortices at a Spatially Uniform Time Boundary",
@@ -3802,30 +3730,6 @@
       "feature": false,
       "fig": null,
       "source": "inbox"
-    },
-    {
-      "id": "10-1016-j-optlastec-2026-116716-03b32e",
-      "date": "2026-10-15",
-      "title": "Geometry-preserving adaptive multi-exposure fusion for robust structured-light rail profile measurement under extreme illumination",
-      "authors": "Peng Wang, B Han, Beiying Liu, Wenming Yang",
-      "institutions": [
-        "University of Science and Technology Beijing"
-      ],
-      "journal": "Optics & Laser Technology",
-      "doi": "10.1016/j.optlastec.2026.116716",
-      "url": "https://doi.org/10.1016/j.optlastec.2026.116716",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Other Light-Field Topics"
-      ],
-      "glyph": "beam",
-      "summary": "",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
     },
     {
       "id": "10-1117-1-jnp-20-042402-6c2558",
@@ -5700,28 +5604,6 @@
       "source": "inbox"
     },
     {
-      "id": "10-1364-ao-613445-7191b1",
-      "date": "2026-10-05",
-      "title": "Lissajous MEMS Laser Scanning with Visual-Feedback Calibration for Miniaturized Structured-Light 3D Imaging",
-      "authors": "Bin Xu, hao Xu, Bo Zhang, Jinhua Li, Yutian Huang",
-      "institutions": [],
-      "journal": "Applied Optics",
-      "doi": "10.1364/ao.613445",
-      "url": "https://doi.org/10.1364/ao.613445",
-      "oa": false,
-      "license": "",
-      "categories": [
-        "Microscopy & Imaging"
-      ],
-      "glyph": "beam",
-      "summary": "",
-      "why": "",
-      "pick": false,
-      "feature": false,
-      "fig": null,
-      "source": "openalex"
-    },
-    {
       "id": "10-48550-arxiv-2610-03521-bb2974",
       "date": "2026-10-02",
       "title": "Quantitative spin-orbit engineering enables subwavelength-scale programmable polarization states for versatile photonic functionalities",
@@ -5777,6 +5659,8 @@
     "10-1002-glr2-70082-34cf19",
     "10-1016-j-apgeog-2026-104215-907275",
     "10-1016-j-jtrangeo-2026-104856-1b6ceb",
+    "10-1016-j-measurement-2026-123638-ca2fbb",
+    "10-1016-j-optlastec-2026-116716-03b32e",
     "10-1016-j-rsase-2026-102315-9a2e37",
     "10-1016-j-scs-2026-108070-61e0ea",
     "10-1021-acsanm-6c03999-c541a8",
@@ -5797,11 +5681,14 @@
     "10-1145-3850156-9bd3d1",
     "10-1177-1088467x261500951-e63ff3",
     "10-1186-s12951-026-05137-z-c170e7",
+    "10-1364-ao-613445-7191b1",
+    "10-1364-oe-610114-17fc46",
     "10-1364-oe-612439-123aa7",
     "10-1371-journal-pone-0361762-d1c400",
     "10-25258-ijddt-16-85s-197-fc2720",
     "10-3389-fsufs-2026-1968707-d66153",
     "10-3390-antib15060102-8934d6",
+    "10-3390-photonics13100977-9eb1fc",
     "10-48550-arxiv-2610-23756-321589",
     "10-48550-arxiv-2610-29158-3f9100",
     "10-48550-arxiv-2610-33158-131b77",

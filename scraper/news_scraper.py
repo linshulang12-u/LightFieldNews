@@ -87,6 +87,7 @@ def load_config(path: Path) -> dict:
     cfg["_tech_terms"], cfg["_tech_cues"] = comp(tq.get("terms")), comp(tq.get("cues"))
     cfg["_tech_strong"] = comp(tq.get("strong_cues"))
     cfg["_require"] = comp(cfg.get("require_any"))
+    cfg["_title_include"] = comp(cfg.get("title_include"))     # count in the title only, never in the abstract
     cfg["_tech_journals"] = comp(tq.get("journals"))
     ra = cfg.get("routine_application") or {}
     cfg["_routine_domain"], cfg["_routine_method"] = comp(ra.get("domain")), comp(ra.get("method"))
@@ -261,7 +262,7 @@ def is_relevant(rec: dict, cfg: dict) -> bool:
     # off-topic uses (e.g. ultrafast spectroscopy, laser physics without processing) unless the title names a fabrication term
     if any(p.search(text) for p in cfg.get("_soft", [])) and not any(p.search(title) for p in cfg.get("_soft_unless", [])):
         return False
-    if any(p.search(title) for p in cfg["_include"]):
+    if any(p.search(title) for p in cfg["_include"] + cfg.get("_title_include", [])):
         return True
     in_field_journal = any(p.search(rec.get("journal") or "") for p in cfg.get("_tech_journals", []))
     if cfg.get("abstract_needs_field_journal") and not in_field_journal:
