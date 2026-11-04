@@ -1,0 +1,32 @@
+{
+  "welding in the world": {
+    "src": "covers/welding-in-the-world.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Welding in the World"
+  },
+  "photonic network communications": {
+    "src": "covers/photonic-network-communications.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Photonic Network Communications"
+  },
+  "journal of physics d applied physics": {
+    "src": "covers/journal-of-physics-d-applied-physics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Physics D Applied Physics"
+  },
+  "frontiers of physics": {
+    "src": "covers/frontiers-of-physics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Frontiers of Physics"
+  },
+  "international journal of computer science and information technology": {
+    "src": "covers/international-journal-of-computer-science-and-information-te.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · International Journal of Computer Science and Information Technology"
+  },
+  "journal of optics": {
+    "src": "covers/journal-of-optics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Optics"
+  }
+}
