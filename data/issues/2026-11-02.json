@@ -37,38 +37,6 @@
       "feature": true
     },
     {
-      "id": "10-1038-s41467-026-78730-3-c4738c",
-      "date": "2026-10-16",
-      "title": "Temporal focusing enables distortion-resistant high-intensity spatiotemporal optical vortices",
-      "authors": "Jielei Ni, Yao Zhang, Qianyi Wei, Zhangyu Zhou, Shuoshuo Zhang, Yuquan Zhang, Qi Jin, Jiahui Pan, Zhiyong Tan, Ya Cheng, Qiwen Zhan, Xiaocong Yuan, Changjun Min",
-      "institutions": [
-        "Shenzhen University",
-        "Northwestern Polytechnical University",
-        "East China Normal University",
-        "Westlake University"
-      ],
-      "journal": "Nature Communications",
-      "doi": "10.1038/s41467-026-78730-3",
-      "url": "https://doi.org/10.1038/s41467-026-78730-3",
-      "oa": true,
-      "license": "CC BY",
-      "categories": [
-        "Spatiotemporal Optical Vortices",
-        "Spatiotemporal Focusing (SSTF)",
-        "Laser Processing & Fabrication"
-      ],
-      "glyph": "stov",
-      "summary": "A spatiotemporal optical vortex (STOV) carries orbital angular momentum transverse to its motion, but when it is focused hard to reach high intensity its spatial and temporal parts diffract over different lengths and the space-time donut breaks up near focus. The authors form the STOV by temporal focusing: angular dispersion plus a controlled spectral phase let them match the spatial and temporal Rayleigh ranges, so the vortex keeps its shape through the focal region. They obtain high-intensity STOVs that stay undistorted under high-NA focusing and check the focal structure by femtosecond laser ablation.",
-      "why": "STOVs had been hard to use at the intensities needed for nonlinear optics and laser processing; this removes the main obstacle.",
-      "fig": null,
-      "source": "editor",
-      "reviewed": true,
-      "pick": true,
-      "pick_date": "2026-11-04",
-      "tier": "notable",
-      "st_feature": true
-    },
-    {
       "id": "10-1186-s43593-026-00145-w-b85759",
       "date": "2026-10-30",
       "title": "Spatiotemporal topological combs for robust high-dimensional information transmission",
@@ -226,6 +194,38 @@
       "pick": true,
       "pick_date": "2026-11-04",
       "tier": "notable"
+    },
+    {
+      "id": "10-1038-s41467-026-78730-3-c4738c",
+      "date": "2026-10-16",
+      "title": "Temporal focusing enables distortion-resistant high-intensity spatiotemporal optical vortices",
+      "authors": "Jielei Ni, Yao Zhang, Qianyi Wei, Zhangyu Zhou, Shuoshuo Zhang, Yuquan Zhang, Qi Jin, Jiahui Pan, Zhiyong Tan, Ya Cheng, Qiwen Zhan, Xiaocong Yuan, Changjun Min",
+      "institutions": [
+        "Shenzhen University",
+        "Northwestern Polytechnical University",
+        "East China Normal University",
+        "Westlake University"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78730-3",
+      "url": "https://doi.org/10.1038/s41467-026-78730-3",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Spatiotemporal Optical Vortices",
+        "Spatiotemporal Focusing (SSTF)",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "stov",
+      "summary": "A spatiotemporal optical vortex (STOV) carries orbital angular momentum transverse to its motion, but when it is focused hard to reach high intensity its spatial and temporal parts diffract over different lengths and the space-time donut breaks up near focus. The authors form the STOV by temporal focusing: angular dispersion plus a controlled spectral phase let them match the spatial and temporal Rayleigh ranges, so the vortex keeps its shape through the focal region. They obtain high-intensity STOVs that stay undistorted under high-NA focusing and check the focal structure by femtosecond laser ablation.",
+      "why": "STOVs had been hard to use at the intensities needed for nonlinear optics and laser processing; this removes the main obstacle.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable",
+      "st_feature": true
     },
     {
       "id": "10-1002-lpor-72000-6bf93f",
@@ -855,6 +855,36 @@
       "source": "openalex"
     },
     {
+      "id": "10-1002-nap2-70351-b0ad4c",
+      "date": "2026-10-31",
+      "title": "Full-Space Terahertz Airy Beam Shaping via Composite Bilayer Metasurface With Switchable Amplitude-Phase Encoding Channels",
+      "authors": "Bai Y, Li S, Wang Y, Shi Q, Nie F, Jue X, Liu Y, Wang H, Su R, Chen J",
+      "institutions": [
+        "North China Electric Power University",
+        "Nanjing University",
+        "Nanjing University of Aeronautics and Astronautics"
+      ],
+      "journal": "Nanophotonics (Berlin, Germany)",
+      "doi": "10.1002/nap2.70351",
+      "url": "https://doi.org/10.1002/nap2.70351",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Terahertz (THz) Airy beams hold significant promise for directional wireless links in future 6G communications. Unlike conventional phased arrays with high power consumption and complexity, metasurfaces offer a platform for flexibly tailoring the Airy beam. However, existing THz metasurface-based Airy beam generators remain confined to one dimension, and experimental verification of their quasi-nondiffracting and self-healing characteristics is scarce. Here, we propose a composite bilayer metasurface for full-space THz Airy beam manipulation and experimentally demonstrate its transmission channel capabilities. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "inbox"
+    },
+    {
       "id": "10-1364-oe-615199-1589d1",
       "date": "2026-10-30",
       "title": "Liquid Crystal Moiré Metasurface for polarization-independent all-solid-state light field modulation",
@@ -1086,6 +1116,30 @@
       "source": "openalex"
     },
     {
+      "id": "10-48550-arxiv-2610-41259-56ba28",
+      "date": "2026-10-30",
+      "title": "Intensity-Domain Demultiplexing of Orbital Angular Momentum Channels for Optical Communication",
+      "authors": "Junsu Kim, Jiwon Jung, Hyunchae Chun, Seung Ryong Park",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2610.41259",
+      "url": "https://arxiv.org/abs/2610.41259",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Orbital angular momentum (OAM) multiplexing has been limited in practice by the complexity and optical loss of the elements that separate the channels at the receiver side. Here we adopt the azimuthal harmonics of OAM petal patterns as the demultiplexing basis, which makes the receiver the optical counterpart of the circular antenna arrays used in radio OAM links: the petal pattern of topological charge \\ell carries a single azimuthal harmonic of order 2\\ell, so one Fourier transform of the azimuthal intensity profile returns every channel, without gratings or mode sorters. The petals are formed by projecting a vector vortex beam from a single q-plate onto a linear polarization. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "inbox"
+    },
+    {
       "id": "10-48550-arxiv-2610-40979-f647dc",
       "date": "2026-10-29",
       "title": "Microscopic Theory of Spin-Orbit Interactions of Light",
@@ -1269,6 +1323,31 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-48550-arxiv-2610-39340-ab832d",
+      "date": "2026-10-29",
+      "title": "Focal-Plane Extreme Adaptive Optics for Deep Super Resolution Imaging and Nanolithography",
+      "authors": "Jinxin Liu, Jiahao Niu, Runxin Zeng, Kaining Yang, Ziyu Li, Xiaodong Guan, Jing Ren, Kebin Shi, Yue Wang, Shan Zhao, Yujie Sun, He Sun",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2610.39340",
+      "url": "https://arxiv.org/abs/2610.39340",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Adaptive Optics & Aberrations",
+        "Tight Focusing & Focal Fields",
+        "Theory & Simulation",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "ao",
+      "summary": "Super resolution optical imaging and nanolithography enable nanoscale observation and fabrication, but high order, spatially varying phase and amplitude aberrations in optically heterogeneous media severely limit their performance at depth. Here we introduce focal-plane extreme adaptive optics (FP-ExAO), which moves beyond conventional phase conjugate correction by directly sensing and controlling the focal-plane complex field. This terminal field captures aberrations accumulated throughout the optical system. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "inbox"
     },
     {
       "id": "10-1117-1-oe-65-10-104109-8cdc6d",
@@ -1606,6 +1685,56 @@
       "source": "openalex"
     },
     {
+      "id": "10-48550-arxiv-2610-37615-08445d",
+      "date": "2026-10-27",
+      "title": "Catastrophes in Reconnections of Optical Vortex Rings",
+      "authors": "Zhamila Kulchukova, Albert Ferrando, Anton S. Desyatnikov",
+      "institutions": [
+        "Universitat de València",
+        "Nazarbayev University"
+      ],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2610.37615",
+      "url": "https://arxiv.org/abs/2610.37615",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "theory",
+      "summary": "A small change in parameters leads to a small change in the outcomes, in most cases. For instance, an optical vortex ring, created in the superposition of two laser beams, can slightly shrink if the phase changes minutely. However, dynamical systems can also experience significant changes due to small perturbations in parameters; the vortex rings can reconnect, nucleate or collapse into a point. Parameters that cause such striking outcomes are at the focal point of catastrophe theory - a branch of bifurcation theory that studies degenerate critical points of a potential function. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "inbox"
+    },
+    {
+      "id": "10-1002-lpor-72143-c33934",
+      "date": "2026-10-27",
+      "title": "Direct Generation of Tunable Femtosecond Vortex Arrays in a Yb:CALGO Laser",
+      "authors": "Jiandong Liu, Tianjun Yao, Zhengru Guo, Mengyun Hu, Heping Zeng",
+      "institutions": [],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72143",
+      "url": "https://doi.org/10.1002/lpor.72143",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Structured Lasers & Sources",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "A novel method for directly generating ultrafast vortex arrays within the cavity of a femtosecond Yb:CALGO laser oscillator, based on transverse mode locking, is proposed and experimentally demonstrated. This approach achieves dual‐degree‐of‐freedom active control over the topological structure of vortex arrays within a single laser cavity, including the continuous tuning of the number of phase singularities and the dynamic switching of spatial topological configurations under a fixed number of singularities. To this end, the spatial gain distribution introduced by off‐axis pumping is exploited to selectively enhance the oscillation gain of higher‐order transverse modes. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "inbox"
+    },
+    {
       "id": "10-48550-arxiv-2610-35116-eac6da",
       "date": "2026-10-26",
       "title": "Analysis of C-point and V-point Inhomogeneous Vector Beams Stability under Anisotropic Turbulence in Ground-to-Air Transmission",
@@ -1656,6 +1785,33 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-1117-1-apn-5-6-066017-fdc624",
+      "date": "2026-10-26",
+      "title": "Probing dynamics of time-varying media beyond abrupt temporal interfaces",
+      "authors": "Ayan Nussupbekov, Yuriy Akimov, Francisco J. Garcia-Vidal",
+      "institutions": [
+        "Agency for Science, Technology and Research",
+        "Institute of Advanced Intelligence and Computing",
+        "Singapore University of Technology and Design"
+      ],
+      "journal": "Advanced Photonics Nexus",
+      "doi": "10.1117/1.apn.5.6.066017",
+      "url": "https://doi.org/10.1117/1.apn.5.6.066017",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Time-Varying Media & Temporal Interfaces",
+        "Theory & Simulation"
+      ],
+      "glyph": "timevary",
+      "summary": "Time-varying photonic media enable nonreciprocal wave control, ultrafast switching, and frequency conversion, yet most theoretical studies assume idealized abrupt temporal interfaces. Here, we investigate electromagnetic wave propagation in media undergoing finite-time permittivity switching, addressing both plane-wave excitation and free-electron–induced evanescent waves. A switching parameter, τ, is introduced to describe temporal transitions from femtoseconds to nanoseconds. For free-electron excitation, temporal transition radiation is predominantly emitted in the forward direction, and its intensity saturates at Imax when τ≤τ0, with both Imax and τ0 depending on the electron velocity. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "inbox"
     },
     {
       "id": "10-1002-adom-71962-322442",
@@ -1890,6 +2046,30 @@
       ],
       "glyph": "theory",
       "summary": "Spatially structured light carries independent phase and envelope variations in addition to its polarization and frequency. We develop a first-principles theory of second-order dc photocurrents (especially shift and injection) that resolves how these optical degrees of freedom drive distinct dc responses in crystals. The second-order dc response couples two optical field components at the same frequency but with generally different wave vectors. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-measurement-2026-123638-ca2fbb",
+      "date": "2026-10-23",
+      "title": "Catadioptric-enabled single-camera dual-view structured-light sensor for opposing surfaces measurement",
+      "authors": "Zhipeng Song, Guo Zhanshe, Peiran Zhang, Wentao Guo, Donghang Xie, Fuqiang Zhou",
+      "institutions": [
+        "Beihang University"
+      ],
+      "journal": "Measurement",
+      "doi": "10.1016/j.measurement.2026.123638",
+      "url": "https://doi.org/10.1016/j.measurement.2026.123638",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Sensing & Metrology"
+      ],
+      "glyph": "beam",
+      "summary": "",
       "why": "",
       "pick": false,
       "feature": false,
@@ -2620,6 +2800,30 @@
       "source": "openalex"
     },
     {
+      "id": "10-1364-oe-610114-17fc46",
+      "date": "2026-10-20",
+      "title": "NNPSQE: framework for enhancing quality-based phase unwrapping via neural-network phase separation",
+      "authors": "Li H, Liu M, Zhang P, Yang P, Zhu X",
+      "institutions": [
+        "Mechanical and Electrical Engineering College"
+      ],
+      "journal": "Optics express",
+      "doi": "10.1364/oe.610114",
+      "url": "https://doi.org/10.1364/oe.610114",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Inverse Design & AI"
+      ],
+      "glyph": "ai",
+      "summary": "Quality-based phase-unwrapping methods depend critically on the reliability of quality maps. However, quality metrics computed directly from the original wrapped phase often respond similarly to valid rapid phase variations and genuine unreliable factors. To reduce this ambiguity, we propose NNPSQE (neural-network phase-separation quality enhancement), a framework for enhancing quality-based phase unwrapping via neural-network phase separation. NNPSQE does not use the neural network either as a conventional phase-fitting module or as a direct phase-unwrapping network. Instead, the network estimates a constrained continuous trend phase as an intermediate variable for quality-map enhancement. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
       "id": "10-1364-oe-612606-fd22f7",
       "date": "2026-10-19",
       "title": "Propagation characteristics of Bessel-Gaussian vortex beams in unstable stratified oceanic turbulence",
@@ -3014,6 +3218,35 @@
       "source": "openalex"
     },
     {
+      "id": "10-48550-arxiv-2610-26289-abcdae",
+      "date": "2026-10-19",
+      "title": "Optical vortex bullets with large angular momenta",
+      "authors": "José R. Salgueiro, Carlos F. Sánchez, Boris A. Malomed, Ángel Paredes, Humberto Michinel",
+      "institutions": [
+        "Universidade de Vigo",
+        "Politecnica Salesiana University"
+      ],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2610.26289",
+      "url": "https://arxiv.org/abs/2610.26289",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Light Bullets & X-Waves",
+        "Vortex & OAM Beams",
+        "Nonlinear & Quantum Structured Light",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "bullet",
+      "summary": "We investigate three-dimensional spatiotemporal optical vortex solitons (light bullets with a toroidal shape) carrying higher-order orbital angular momentum in Kerr media with anomalous group-velocity dispersion and a transversely localized Gaussian profile of the linear refractive index. Stationary vortex bullets with topological charges (winding numbers) 1\\leq \\ell \\leq 4 are obtained as numerical solutions of the three-dimensional nonlinear Schrödinger equation, and their existence, structure and stability are systematically analyzed. In terms of atomic Bose-Einstein condensates, these solutions represent matter-wave solitons with embedded vorticity. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "inbox"
+    },
+    {
       "id": "10-48550-arxiv-2610-26956-ec8790",
       "date": "2026-10-18",
       "title": "Gerchberg-Saxton Optimized Silicon Metasurface for Sinusoidal Structured-Light Three-Dimensional Imaging",
@@ -3117,6 +3350,30 @@
       ],
       "glyph": "vortex",
       "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-3390-photonics13100977-9eb1fc",
+      "date": "2026-10-18",
+      "title": "A Structured-Light Dual-Frequency Heterodyne Phase Unwrapping Method Based on Region-of-Interest Constraint and Dual-Frequency Consistency Optimization",
+      "authors": "Yuyang Yu, Pengfei Feng, Jinlin Gu, Zongsheng Lu, Yueqi Si",
+      "institutions": [
+        "Anhui Sanlian University"
+      ],
+      "journal": "Photonics",
+      "doi": "10.3390/photonics13100977",
+      "url": "https://doi.org/10.3390/photonics13100977",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "In dual-frequency heterodyne structured-light 3D measurement, fringe-order misjudgment often occurs near object edges, hole boundaries, and local low-reliability regions, which may further lead to absolute phase jumps and abnormal 3D reconstruction results. To address this problem, this paper proposes a phase-unwrapping method based on region-of-interest (ROI) constraint, coarse estimation using the synthetic wrapped phase, dual-frequency consistency residual optimization, and local spatial regularization. The method first automatically extracts the target ROI using a binary mask, thereby excluding invalid background regions and reducing unnecessary computation. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -3229,6 +3486,34 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-1021-acsphotonics-6c01729-582cd7",
+      "date": "2026-10-17",
+      "title": "Analysis of the Topology of a Plasmonic Target-Skyrmion Texture",
+      "authors": "Alexander Neuhaus, Pascal Dreher, Philipp Gessler, Bettina Frank, Timothy J. Davis, Harald Giessen, Karin Everschor-Sitte, Frank-J. Meyer zu Heringdorf",
+      "institutions": [
+        "University of Duisburg-Essen",
+        "University of Stuttgart",
+        "The University of Melbourne"
+      ],
+      "journal": "ACS Photonics",
+      "doi": "10.1021/acsphotonics.6c01729",
+      "url": "https://doi.org/10.1021/acsphotonics.6c01729",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "Theory & Simulation",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Topological concepts are frequently used to describe structured optical fields, including plasmonic near fields. Topological descriptions in terms of skyrmion numbers implicitly assume the compactness of the underlying manifold. While this concept works for constrained fields due to inherent integration boundaries, compactness is usually not fulfilled in extended optical fields. Here, we use time-resolved polarimetric photoemission microscopy to determine the electric field vectors of a surface plasmon polariton nanofocus on Au(111) with deep sub-wavelength spatial and sub-fs temporal resolution. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "inbox"
     },
     {
       "id": "10-1364-opticaopen-34556406-5ff34d",
@@ -3457,6 +3742,85 @@
       ],
       "glyph": "slm",
       "summary": "The rapid growth of visual data in imaging and sensing motivates compression before full electronic processing. This work investigates a hybrid D2NN–ENN autoencoder for grayscale image compression, in which a passive diffractive optical encoder forms a compact latent intensity representation and an electronic neural-network decoder reconstructs the image. We evaluate optical precompression under different illumination modes, latent-region sizes, diffractive depths, mask parameterizations, and quantization levels. Increasing the latent region improves reconstruction quality only up to an intermediate range, after which the gain saturates. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-2515-7647-aeaf2f-c8da70",
+      "date": "2026-10-15",
+      "title": "Time-refraction of waves with orbital angular momentum",
+      "authors": "José Tito Mendonça, José Luis Figueiredo, Hugo Terças",
+      "institutions": [
+        "Instituto Superior Técnico",
+        "Politechnic University of Lisbon"
+      ],
+      "journal": "Journal of Physics: Photonics",
+      "doi": "10.1088/2515-7647/aeaf2f",
+      "url": "https://doi.org/10.1088/2515-7647/aeaf2f",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Nonlinear & Quantum Structured Light",
+        "Characterization & Metrology"
+      ],
+      "glyph": "vortex",
+      "summary": "Temporal optical processes associated with structured light (e.g. laser pulses) carrying a finite amount of angular momentum are considered. The paradigmatic case of a sharp time-boundary is examined in detail, but finite temporal effects are also discussed. Two particular cases of practical interest are analyzed. First, the case of single Laguerre–Gauss (LG) modes, characterized by a well-defined state of orbital angular momentum. Second, the so-called light-springs that result from the superposition of LG modes with different frequencies and vorticity. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "figs/10-1088-2515-7647-aeaf2f-c8da70.jpg",
+        "kind": "figure",
+        "credit": "CC BY 4.0 · via iopscience.iop.org"
+      },
+      "source": "inbox"
+    },
+    {
+      "id": "10-1103-n5ty-nyzc-cad218",
+      "date": "2026-10-15",
+      "title": "Flat optics for analog computing: From fundamental mechanisms to advanced meta-processors",
+      "authors": "Tingting Liu, Jumin Qiu, Xintong Shi, Qiegen Liu, Shuyuan Xiao",
+      "institutions": [],
+      "journal": "Physical Review Applied",
+      "doi": "10.1103/n5ty-nyzc",
+      "url": "https://doi.org/10.1103/n5ty-nyzc",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Optical Computing",
+        "Reviews"
+      ],
+      "glyph": "meta",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "inbox"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-116716-03b32e",
+      "date": "2026-10-15",
+      "title": "Geometry-preserving adaptive multi-exposure fusion for robust structured-light rail profile measurement under extreme illumination",
+      "authors": "Peng Wang, B Han, Beiying Liu, Wenming Yang",
+      "institutions": [
+        "University of Science and Technology Beijing"
+      ],
+      "journal": "Optics & Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116716",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116716",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "",
       "why": "",
       "pick": false,
       "feature": false,
@@ -3951,6 +4315,34 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-1002-nap2-70316-61ed28",
+      "date": "2026-10-11",
+      "title": "Scalable Multi-Target Illusion via a Segmented Spatiotemporal Metasurface",
+      "authors": "Hong Y, Liu D, Qian Y, Ren G, Li W, Huang H, Chen S, Huang C, Mu H, Guan C, Cai T",
+      "institutions": [
+        "Air and Missile Defense College Air Force Engineering University Xi'an China",
+        "Fundamentals Department Air Force Engineering University Xi'an China"
+      ],
+      "journal": "Nanophotonics (Berlin, Germany)",
+      "doi": "10.1002/nap2.70316",
+      "url": "https://doi.org/10.1002/nap2.70316",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Time-Varying Media & Temporal Interfaces",
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "timevary",
+      "summary": "A kaleidoscope converts a few physical fragments into numerous images through repeated mirror reflections, yielding visual scene richer than the objects themselves. This optical phenomenon shows that a perceived scene can be reconstructed by beam redirection and spatial reorganization. Inspired by this principle, we propose a scalable multi-target illusion based on a segmented spatiotemporal metasurface . It acts as an electromagnetic kaleidoscope and operates through the proposed parallel-sequence spectral translation mechanism (PSTM): one physical aperture is partitioned into independently driven segments, each loaded with a distinct time-varying bias sequence. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "inbox"
     },
     {
       "id": "10-48550-arxiv-2610-14640-26f0cf",
@@ -5251,6 +5643,133 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-1002-adom-71904-e94268",
+      "date": "2026-10-05",
+      "title": "Seeing Ultrafast Modal Dynamics of Non‐Separable Mixed States via Nonlinear Spatiotemporal Stokes Tomography",
+      "authors": "Jia‐Qi Jiang, Wen‐Xiao Zhao, Peng‐Xue Jia, Carmelo Rosales‐Guzmán, Hai‐Bin Wu, Hong‐Fu Wang, Zhi‐Han Zhu",
+      "institutions": [],
+      "journal": "Advanced Optical Materials",
+      "doi": "10.1002/adom.71904",
+      "url": "https://doi.org/10.1002/adom.71904",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Spatiotemporal Measurement",
+        "Vector & Polarization Fields",
+        "Nonlinear & Quantum Structured Light",
+        "Characterization & Metrology",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "stmeas",
+      "summary": "Characterization of photonic states is critical in modern optics for generating and using light fields with specific frequency, spatial, and polarization modes. Traditional state tomography cannot resolve ultrafast modal evolution due to the relatively slow response of photoelectric detection, leading to information loss and the observation of mixed states. This study presents a novel nonlinear spatiotemporal Stokes tomography based on pump‐probe upconversion imaging polarimetry, which enables capture of instantaneous pure states of time‐varying structured light on a femtosecond timescale. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "inbox"
+    },
+    {
+      "id": "10-1063-5-0354563-581217",
+      "date": "2026-10-05",
+      "title": "Ultra-broadband 2000-nm acousto-optic first-order azimuthal mode conversion for dynamic fiber-optic vortex generation",
+      "authors": "Chengliang Zhu, Jinming Chang, Kailing Liu, Guangwei Zhu, Mengshuo Shi, Dongyang Wen, Sheng Hu, Yong Zhao, Zhi Liu, Nao-Aki Noda",
+      "institutions": [
+        "College of Information Science and Engineering",
+        "Hebei Key Laboratory of Micro-Nano Precision Optical Sensing and Measurement Technology",
+        "Northeastern University 3"
+      ],
+      "journal": "APL Photonics",
+      "doi": "10.1063/5.0354563",
+      "url": "https://doi.org/10.1063/5.0354563",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Mode Multiplexing & Fibers",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "The practical adoption of orbital angular momentum (OAM) in technologies ranging from high-capacity communications to quantum information science has been severely hindered by the lack of integrated devices capable of dynamic OAM manipulation across broad bandwidths. Existing solutions, particularly in optical fiber, are fundamentally constrained to narrowband operation by wavelength-specific phase-matching conditions. Here, we break this long-standing paradigm by demonstrating a fiber-optic vortex converter that achieves an ultra-broad bandwidth exceeding 2000 nm, spanning from the deep ultraviolet to the short-wave infrared. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "inbox"
+    },
+    {
+      "id": "10-1364-ao-613445-7191b1",
+      "date": "2026-10-05",
+      "title": "Lissajous MEMS Laser Scanning with Visual-Feedback Calibration for Miniaturized Structured-Light 3D Imaging",
+      "authors": "Bin Xu, hao Xu, Bo Zhang, Jinhua Li, Yutian Huang",
+      "institutions": [],
+      "journal": "Applied Optics",
+      "doi": "10.1364/ao.613445",
+      "url": "https://doi.org/10.1364/ao.613445",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Microscopy & Imaging"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-48550-arxiv-2610-03521-bb2974",
+      "date": "2026-10-02",
+      "title": "Quantitative spin-orbit engineering enables subwavelength-scale programmable polarization states for versatile photonic functionalities",
+      "authors": "Shuaijie Yuan, Xuefeng Zhang, Jin Yang, Min Cheng, Xinyu Ma, Jinhai Zou, Jinyong Leng, Zhongquan Nie, Bing Lei, Pu Zhou",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2610.03521",
+      "url": "https://arxiv.org/abs/2610.03521",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Characterization & Metrology",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Precise and programmable control of optical polarization provides a versatile vectorial degree of freedom for light-matter interaction and optical information encoding. Existing polarization state generators (PSGs), however, suffer from poor switchability and modest fidelity at the micrometer scale, which severely constrains their practical applicability. To overcome these limitations, here we present a quantitative spin-orbit engineering that enables the dynamic synthesis of arbitrary polarization states at subwavelength dimensions. The core concept is to tailor conjugate optical vortices that independently address the orthogonal spin components of a vectorially polarized light. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "inbox"
+    },
+    {
+      "id": "10-1002-lpor-72003-07b01f",
+      "date": "2026-10-02",
+      "title": "Coherence‐Engineered Optical Knot and Link Arrays",
+      "authors": "Yaning Zhou, Ao Zhou, Dong Xu, Hongyu Sun, Xin Liu, Yangjian Cai, Chunhao Liang, Pujuan Ma",
+      "institutions": [],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72003",
+      "url": "https://doi.org/10.1002/lpor.72003",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "SLM, DMD & Holography",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Optical knots and links provide intrinsically 3D topological degrees of freedom for structured light, offering opportunities for topological holography, optical storage, and multidimensional information encoding. However, extending isolated optical knots and links to singularity‐based arrays remains challenging because closely spaced singularity trajectories can suffer from spatial crowding, coherent overlap, topological reconnection, and reconstruction ambiguity. Here we demonstrate that source coherence can serve as an active physical mechanism for the incoherent replication of optical topology. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "inbox"
     }
   ],
   "removed": [
