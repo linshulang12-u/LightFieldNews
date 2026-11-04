@@ -28,7 +28,7 @@
 | 应用 Applications | 光通信 · 显微与成像 · 激光加工 · 光计算 · 量子信息 · 传感与计量 · 强场与超快 · 湍流与自由空间链路 · 显示、加密与 AR |
 | 其他 | 新闻与亮点 · 综述 · 招聘与招生 · 学位论文 |
 
-每篇论文最多 7 个标签（时空 2、方向 2、方法 1、应用 1、其他 1，见 `category_limits`）。没有可用配图时，网站按第一个命中的分类画一个光场示意小图（涡旋相位环、矢量偏振、Bessel 环、STOV 时空涡旋、环形脉冲……，见 `glyphs`）。
+每篇论文最多 5 个标签（按 时空 2、方向 2、方法 1、应用 1、其他 1 的上限依次取，见 `category_limits`）。没有可用配图时，网站按第一个命中的分类画一个光场示意小图（涡旋相位环、矢量偏振、Bessel 环、STOV 时空涡旋、环形脉冲……，见 `glyphs`）。
 
 ## 网址与运行方式
 
@@ -51,7 +51,7 @@
 全部在 `scraper/config.yaml`：
 
 - **收录**（`include` / `strong_include`）：结构光、涡旋 / OAM、矢量光、Bessel / Airy、光学斯格明子 / hopfion、波前整形、SLM 全息、超表面光场调控、STOV、时空波包、环形脉冲、光弹、时空聚焦、时变介质、模式复用、部分相干光、衍射神经网络等。专门术语在摘要里出现一次即收录。
-- **排除**（`exclude` / `exclude_title`）：声学涡旋、磁斯格明子、电子 / 中子 / 物质波涡旋、流体涡、无线 / 天线 / 毫米波、天体物理、泛泛的 “spatiotemporal analysis / forecasting”，以及光场相机（plenoptic light-field imaging，和光场调控不是一回事）。
+- **排除**（`exclude` / `exclude_title`）：声学涡旋、磁斯格明子、电子 / 中子 / 物质波涡旋、流体涡、无线 / 天线 / 毫米波、天体物理、泛泛的 “spatiotemporal analysis / forecasting”，以及光场相机（plenoptic light-field imaging）和条纹投影 / “structured-light” 三维测量，这两类和光场调控不是一回事。论文还必须用到至少一个光学词（`require_any`），挡掉其他领域泛泛的 “spatiotemporal / time-varying” 论文。
 - **期刊质量**（`venues`）：主流出版社和 arXiv 直接收；Research Square、CyberLeninka 等排除；其他期刊 OpenAlex h-index ≥ 40 才收。
 
 ## 本地运行
