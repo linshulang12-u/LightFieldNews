@@ -1,0 +1,3 @@
+# Submissions: one DOI per line (a comment after # is fine). The next crawl adds each paper to the
+# current issue regardless of the keyword filter, then removes the line. Saving this file on GitHub
+# starts a crawl straight away.

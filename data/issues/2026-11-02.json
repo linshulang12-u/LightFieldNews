@@ -1,0 +1,391 @@
+{
+  "id": "2026-11-02",
+  "number": 1,
+  "date": "2026-11-02",
+  "window": [
+    "2026-10-19",
+    "2026-11-04"
+  ],
+  "articles": [
+    {
+      "id": "10-1038-s41467-026-78249-7-722b7c",
+      "date": "2026-10-08",
+      "title": "Topologically robust programmable processing arrays using light and matter skyrmions",
+      "authors": "Ruofu Liu, Yunqi Zhang, Yuxi Cai, Yihan Liu, Zhenglin Li, Tianxin Wang, Yifei Ma, Zimo Zhao, Runchen Zhang, Zhi-Kai Pong, Stephen Morris, Chao He",
+      "institutions": [
+        "University of Oxford",
+        "Tsinghua University"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78249-7",
+      "url": "https://doi.org/10.1038/s41467-026-78249-7",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "Optical Computing"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Skyrmions keep their topological number under smooth deformation, which makes them attractive information carriers, yet they have mostly been studied one at a time. The authors combine skyrmions of light with skyrmionic textures in matter to build programmable arrays, and use them as generators, converters, registers and adders for topological numbers.",
+      "why": "A move from single optical skyrmions to arrays that store and process topological information.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable",
+      "feature": true
+    },
+    {
+      "id": "10-1038-s41467-026-78730-3-c4738c",
+      "date": "2026-10-16",
+      "title": "Temporal focusing enables distortion-resistant high-intensity spatiotemporal optical vortices",
+      "authors": "Jielei Ni, Yao Zhang, Qianyi Wei, Zhangyu Zhou, Shuoshuo Zhang, Yuquan Zhang, Qi Jin, Jiahui Pan, Zhiyong Tan, Ya Cheng, Qiwen Zhan, Xiaocong Yuan, Changjun Min",
+      "institutions": [
+        "Shenzhen University",
+        "Northwestern Polytechnical University",
+        "East China Normal University",
+        "Westlake University"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78730-3",
+      "url": "https://doi.org/10.1038/s41467-026-78730-3",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Spatiotemporal Optical Vortices",
+        "Spatiotemporal Focusing (SSTF)",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "stov",
+      "summary": "A spatiotemporal optical vortex (STOV) carries orbital angular momentum transverse to its motion, but when it is focused hard to reach high intensity its spatial and temporal parts diffract over different lengths and the space-time donut breaks up near focus. The authors form the STOV by temporal focusing: angular dispersion plus a controlled spectral phase let them match the spatial and temporal Rayleigh ranges, so the vortex keeps its shape through the focal region. They obtain high-intensity STOVs that stay undistorted under high-NA focusing and check the focal structure by femtosecond laser ablation.",
+      "why": "STOVs had been hard to use at the intensities needed for nonlinear optics and laser processing; this removes the main obstacle.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable",
+      "st_feature": true
+    },
+    {
+      "id": "10-1186-s43593-026-00145-w-b85759",
+      "date": "2026-10-30",
+      "title": "Spatiotemporal topological combs for robust high-dimensional information transmission",
+      "authors": "Dawei Liu, Xingyuan Zhang, Daijun Luo, Huiming Wang, Zhirong Tao, Dana JiaShaner, Zhigang Peng, Zhensheng Tao, Qian Cao, Xiaoshi Zhang, Qiwen Zhan, Guangyu Fan",
+      "institutions": [
+        "University of Shanghai for Science and Technology",
+        "Yunnan University",
+        "Westlake University",
+        "TU Wien",
+        "Shanghai Jiao Tong University"
+      ],
+      "journal": "eLight",
+      "doi": "10.1186/s43593-026-00145-w",
+      "url": "https://doi.org/10.1186/s43593-026-00145-w",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Spatiotemporal Optical Vortices",
+        "Optical Communication"
+      ],
+      "glyph": "stov",
+      "summary": "Instead of putting data on a single vortex beam, the authors encode it in a spatiotemporal topological comb (ST-Comb), a state space that combines time slots, phase winding, radial topology and coherent superpositions of these. A 'Hyper-DoF' modulator sets all of these variables together, and a self-referenced 'Guide-Star' pulse travels with the data so the receiver decodes against a reference carried by the light itself. The proof of concept maps 154 bits onto each wave packet and recovers them with 100% recognition accuracy in the lab, under emulated turbulence and over a 100 m outdoor link.",
+      "why": "Structured space-time pulses carrying a large, turbulence-tolerant alphabet outside the lab, not only on an optical table.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1002-nap2-70347-f759bd",
+      "date": "2026-10-30",
+      "title": "Nanofabrication of Topological Surface Relief Structures in Azopolymers With Tightly Focused Optical Skyrmions",
+      "authors": "Takashige Omatsu, Soki Hirayama, Andra Naresh Kumar Reddy, Masahito Okida, Atsushi Taguchi",
+      "institutions": [
+        "Chiba University",
+        "Osaka Metropolitan University",
+        "Hokkaido University",
+        "National Yang Ming Chiao Tung University",
+        "Tianjin University"
+      ],
+      "journal": "Nanophotonics",
+      "doi": "10.1002/nap2.70347",
+      "url": "https://doi.org/10.1002/nap2.70347",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "Tight Focusing & Focal Fields",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Azopolymer films move under light, so a structured beam can print its own pattern into the surface as a relief. Tightly focused optical skyrmions write topological relief structures this way, and the process scales to a 9×9 array.",
+      "why": "Topological light used as a fabrication tool, transferring the topology of the field into matter.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1038-s41377-026-02452-w-0aa910",
+      "date": "2026-10-29",
+      "title": "Spatio-temporal photonic metalattice",
+      "authors": "Sven Stengel, Wallace Jaffray, Farhan Houssein Ali, Mustafa Goksu Ozlu, Colton Fruhling, Maria Antonietta Vincenti, Domenico de Ceglia, Michael Scalora, Alexandra E. Boltasseva, Vladimir M. Shalaev, Andrea Di Falco, Marcello Ferrera",
+      "institutions": [
+        "Heriot-Watt University",
+        "University of St Andrews",
+        "Purdue University",
+        "National Research Council (Italy)",
+        "University of Brescia"
+      ],
+      "journal": "Light: Science & Applications",
+      "doi": "10.1038/s41377-026-02452-w",
+      "url": "https://doi.org/10.1038/s41377-026-02452-w",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Time-Varying Media & Temporal Interfaces",
+        "Metasurfaces & Flat Optics"
+      ],
+      "glyph": "timevary",
+      "summary": "Overlapping ultrafast pump pulses inside a strongly nonlinear transparent conducting film write a two-dimensional refractive-index lattice that exists only while the pulses overlap, so the structure is patterned in space and modulated in time. Because it is set by timing, the lattice is reconfigured on the fly through the pump delay, incidence angle and wavelength, which changes the diffraction pattern it produces. The same platform modulates wavefronts and shifts both the momentum and the frequency of the light passing through.",
+      "why": "A photonic lattice written by light rather than fabricated, a step toward reconfigurable space-time optics.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1021-acsphotonics-6c02123-bc5476",
+      "date": "2026-10-27",
+      "title": "Full-Field Wavefront Shaping for Arbitrary Optical Vortex Generation with Phase-Only Holograms",
+      "authors": "Qingsong Yao, Zhiwei Huang, Haonan Zhang, Guoxing Zheng, Shaohua Yu, Zile Li",
+      "institutions": [
+        "Wuhan University",
+        "Peng Cheng Laboratory"
+      ],
+      "journal": "ACS Photonics",
+      "doi": "10.1021/acsphotonics.6c02123",
+      "url": "https://doi.org/10.1021/acsphotonics.6c02123",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "SLM, DMD & Holography"
+      ],
+      "glyph": "vortex",
+      "summary": "Phase-only holograms make vortex beams easily but control amplitude poorly, so the generated field drifts from the intended one. The authors shape the full field with phase-only holograms and generate arbitrary optical vortices with both amplitude and phase under control.",
+      "why": "Accurate arbitrary vortices from standard phase-only hardware, useful for OAM communication, trapping and metrology.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1038-s41467-026-78518-5-707243",
+      "date": "2026-10-26",
+      "title": "Plasmonic vortex cavities toward the ultra-compact limit",
+      "authors": "Da-Jie Yang, Jingyi Wang, Mengling Yuan",
+      "institutions": [
+        "North China Electric Power University",
+        "University of Electronic Science and Technology of China",
+        "Lanzhou University"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78518-5",
+      "url": "https://doi.org/10.1038/s41467-026-78518-5",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Integrated & On-Chip"
+      ],
+      "glyph": "vortex",
+      "summary": "Plasmonic vortex cavities confine surface plasmons that carry orbital angular momentum. This work shrinks them toward the compact limit, with a footprint below λ/10 and ring features below λ/60, while keeping the vortex modes.",
+      "why": "Deep-subwavelength OAM sources are what dense nanophotonic chips need.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1002-lpor-72000-6bf93f",
+      "date": "2026-10-14",
+      "title": "High‐Speed Electrically Driven Liquid‐Crystal Compact Optical Skyrmion Encoder",
+      "authors": "Yu-Ping Tang, Zhenyu Guo, Ze-Yu Wang, Le Yu, Long-Yang Wang, Nilo Mata-Cervera, Yu Wang, Ning Wang, Yijie Shen, L R Ma, Yan-Qing Lu",
+      "institutions": [
+        "Nanjing University",
+        "Nanyang Technological University"
+      ],
+      "journal": "Laser & Photonics Reviews",
+      "doi": "10.1002/lpor.72000",
+      "url": "https://doi.org/10.1002/lpor.72000",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "A compact liquid-crystal device switches optical skyrmions electrically on millisecond timescales, encoding information in the skyrmion topology of the output beam.",
+      "why": "Fast, electrically driven skyrmion encoding is a practical building block for topological optical links.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-48550-arxiv-2610-18203-41e9bf",
+      "date": "2026-10-13",
+      "title": "Optical parametric amplification of spatiotemporal optical vortices",
+      "authors": "Houan Teng, Chenhao Wan, Qiwen Zhan",
+      "institutions": [],
+      "journal": "arXiv",
+      "doi": "10.48550/arxiv.2610.18203",
+      "url": "https://doi.org/10.48550/arxiv.2610.18203",
+      "oa": true,
+      "license": "preprint",
+      "categories": [
+        "Spatiotemporal Optical Vortices",
+        "Nonlinear & Quantum Structured Light"
+      ],
+      "glyph": "stov",
+      "summary": "Optical parametric amplification of a spatiotemporal optical vortex is shown to keep its space-time phase singularity while boosting the pulse about 60-fold. The idler generated in the process emerges as the phase conjugate of the signal, carrying a STOV of opposite topological charge.",
+      "why": "A way to scale STOVs to high energy and to make charge-flipped copies at a new wavelength.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1038-s41467-026-77376-5-83fb8f",
+      "date": "2026-10-07",
+      "title": "Deep diffractive optical neural networks for detecting skyrmionic topologies of light and their live training",
+      "authors": "Hadrian Bezuidenhout, Cade Peters, Ram Nandan Kumar, Andrew Forbes, Isaac M. Nape",
+      "institutions": [
+        "University of the Witwatersrand"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-77376-5",
+      "url": "https://doi.org/10.1038/s41467-026-77376-5",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "Inverse Design & AI"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Reading the skyrmion number of a light field normally takes full polarization tomography followed by computation. Here a deep diffractive optical neural network classifies the field directly in the optical domain, distinguishing 81 skyrmionic topologies, and it can be trained live on the experiment. The network needs roughly 1000 times fewer parameters, and the authors use it to read a 15-level topological alphabet.",
+      "why": "All-optical, trainable read-out is what topological light needs to become a practical information carrier.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1038-s41467-026-78194-5-0b041b",
+      "date": "2026-10-03",
+      "title": "Spatiotemporally synchronized pure high-even-order dispersion solitons in multimode fiber lasers",
+      "authors": "Wenqi Ma, Xiuquan Li, Canyi Deng, Caishan Pang, Rui Nie, Frank W. Wise, Guijun Hu",
+      "institutions": [
+        "Jilin University",
+        "Cornell University"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78194-5",
+      "url": "https://doi.org/10.1038/s41467-026-78194-5",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Multimode & ST Mode-Locking",
+        "Structured Lasers & Sources"
+      ],
+      "glyph": "multimode",
+      "summary": "Pure high-even-order dispersion (PHEOD) solitons balance nonlinearity against quartic or higher even-order dispersion instead of ordinary group-velocity dispersion, which lets them carry more energy. This work produces them in spatiotemporally mode-locked multimode fiber lasers, with four transverse modes locked together in time, and shows soliton families governed by 4th-, 6th- and 8th-order dispersion.",
+      "why": "High-order-dispersion soliton physics moves into multimode cavities, a new handle on energetic spatiotemporal mode-locked sources.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1063-5-0353169-b68a09",
+      "date": "2026-10-01",
+      "title": "Selective avoidance of multiple line-of-sight obstacles at 130 m using locally bending space–time wave packets",
+      "authors": "Layton A. Hall, Murat Yessenov, Isabelle Lebron, Ayman F. Abouraddy",
+      "institutions": [
+        "University of Central Florida",
+        "Los Alamos National Laboratory",
+        "Harvard University"
+      ],
+      "journal": "APL Photonics",
+      "doi": "10.1063/5.0353169",
+      "url": "https://doi.org/10.1063/5.0353169",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Space-Time Wave Packets",
+        "Turbulence & Free-Space Links"
+      ],
+      "glyph": "stwp",
+      "summary": "Space-time wave packets tie each spatial frequency to a specific wavelength, which gives them unusual, programmable propagation over long distances. Here that spectral-spatial coupling is engineered so the packet bends locally along its path, letting it avoid several obstacles placed on the direct line of sight. The demonstration runs over 130 m.",
+      "why": "Programmable path shaping at range, for free-space links whose direct path is partly blocked.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1063-5-0354474-e0ab43",
+      "date": "2026-10-01",
+      "title": "Optical hopfions from a single metasurface",
+      "authors": "Andrea Vogliardi, Daniele Bonaldo, Vittorio Apolloni, Simone Dal Zilio, Filippo Romanato, Gianluca Ruffato",
+      "institutions": [
+        "University of Padua",
+        "CNR-IOM"
+      ],
+      "journal": "APL Photonics",
+      "doi": "10.1063/5.0354474",
+      "url": "https://doi.org/10.1063/5.0354474",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "Metasurfaces & Flat Optics"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Optical hopfions are three-dimensional polarization textures whose topology is fixed by linked loops of constant polarization. The authors generate them with one metasurface instead of interferometric or multi-element set-ups, and measure Skyrme numbers of 0.99 and −1.99, close to the target values of 1 and −2.",
+      "why": "One flat element makes 3D topological light compact and stable enough to use.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    }
+  ],
+  "removed": [],
+  "curated": "2026-11-04",
+  "updated": "2026-11-04"
+}

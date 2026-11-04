@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LightField News</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Weekly digest of light-field control research: vortex and vector beams, Bessel and Airy beams, optical skyrmions, metasurfaces, wavefront shaping, with a dedicated column on spatiotemporal light fields.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Layout: community paper portal (logo band, menu bar, one article column with sketches, widget rail), after VibraNews.
+   Identity: aubergine-black band, a phase-wheel rule (the colour map of a vortex's helical phase), donut-vortex banner.
+   The Spatiotemporal column (#spacetime) has its own picks and topics, in burnt orange. */
+:root{
+  --bg:#fcfbfe; --card:#ffffff; --ink:#18142a; --body:#2e2a44; --muted:#5e5a78; --rule:#e2dfee; --tint:#f2f0f9;
+  --band:#17122b; --band-ink:#ece9f8; --band-sub:#aaa3d4; --band-hover:rgba(255,255,255,.1);
+  --title:#3b2fa0; --inst:#9a4a1f; --accent:#6d28d9; --hot:#d9480f; --oa:#0f766e;
+  --st:#c2410c; --dir:#6d28d9; --meth:#0f766e; --app:#9d174d; --misc:#5b5a72;
+  --st-tint:#fdf1ea;
+  --rule-grad:linear-gradient(90deg,#e04848,#e8a33b 18%,#5cb85c 36%,#2aa4c4 54%,#4f5fd6 72%,#b04cc8 88%,#e04848);
+  --fig-bg:#f6f5fb; --fig-line:#d9d5ea; --grid:#e7e4f2;
+  --font-display:"Syne","Arial Black",Arial,sans-serif;
+  --font-body:"Source Sans 3","Helvetica Neue",Arial,sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#100d1c; --card:#161226; --ink:#ebe8f6; --body:#cdc8e2; --muted:#9e98bd; --rule:#2c2646; --tint:#1a1530;
+  --band:#09070f; --band-ink:#ece9f8; --band-sub:#9b94c8; --band-hover:rgba(255,255,255,.08);
+  --title:#b3a8ff; --inst:#eba274; --accent:#b391ff; --hot:#ff7a45; --oa:#3fc7b3;
+  --st:#ff8a50; --dir:#b391ff; --meth:#45c9b5; --app:#f472b6; --misc:#a8a5c2;
+  --st-tint:#2a1a14;
+  --fig-bg:#161229; --fig-line:#2d2750; --grid:#241f40; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#100d1c; --card:#161226; --ink:#ebe8f6; --body:#cdc8e2; --muted:#9e98bd; --rule:#2c2646; --tint:#1a1530;
+  --band:#09070f; --band-ink:#ece9f8; --band-sub:#9b94c8; --band-hover:rgba(255,255,255,.08);
+  --title:#b3a8ff; --inst:#eba274; --accent:#b391ff; --hot:#ff7a45; --oa:#3fc7b3;
+  --st:#ff8a50; --dir:#b391ff; --meth:#45c9b5; --app:#f472b6; --misc:#a8a5c2;
+  --st-tint:#2a1a14;
+  --fig-bg:#161229; --fig-line:#2d2750; --grid:#241f40; color-scheme:dark;
+}
+/* spatiotemporal column */
+.st-hero{background:var(--st-tint);border-bottom:1px solid var(--rule)}
+.st-hero .wrap{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:24px;align-items:center;padding-block:22px}
+.st-hero .kicker{font:600 12px var(--font-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--st)}
+.st-hero h1{font:700 34px/1.05 var(--font-display);margin:6px 0 8px;color:var(--ink);text-wrap:balance}
+.st-hero h1 span{font:500 20px var(--font-body);color:var(--st);margin-left:8px}
+.st-hero p{margin:0;max-width:62ch;color:var(--body)}
+.st-hero canvas{width:100%;height:120px;display:block;border-radius:6px;background:var(--band)}
+.st-hero .back{font-size:14px;margin-top:10px;display:inline-block;color:var(--title)}
+@media (max-width:720px){.st-hero .wrap{grid-template-columns:minmax(0,1fr)}.st-hero h1{font-size:28px}}
+.st-teaser{border:1px solid var(--rule);border-left:4px solid var(--st);background:var(--st-tint);border-radius:6px;padding:14px 16px;margin:0 0 30px}
+.st-teaser .kicker{font:600 11.5px var(--font-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--st)}
+.st-teaser h2{font:700 21px/1.2 var(--font-display);margin:4px 0 6px;color:var(--ink)}
+.st-teaser h2 span{font:500 15px var(--font-body);color:var(--st);margin-left:6px}
+.st-teaser p{margin:0 0 8px;color:var(--body);font-size:14.5px}
+.st-teaser ol{margin:0 0 10px;padding-left:20px;font-size:14.5px}
+.st-teaser ol a{color:var(--title)}
+.st-teaser .open{font:600 14px var(--font-body);color:var(--st)}
+.st-mark{display:inline-block;font:600 10px/1 var(--font-mono);letter-spacing:.06em;color:var(--st);border:1px solid var(--st);border-radius:3px;padding:2px 4px;margin-left:6px;vertical-align:3px}
+.menu a.st-link{color:#ffb38a}
+.menu a.st-link[aria-current="page"],.menu a[aria-current="page"]{background:var(--band-hover)}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--font-body)}
+a{color:inherit;text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1160px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.mono{font-family:var(--font-mono)}
+
+/* Header */
+.head .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px 28px;padding-block:18px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:14px;color:inherit;min-width:0}
+.logo:hover{text-decoration:none}
+.logo svg{width:68px;height:68px;flex:none}
+.logo .name{display:block;font:800 46px/.95 var(--font-display);letter-spacing:-.01em;color:var(--ink)}
+.logo .name b{font-weight:inherit;color:var(--accent)}
+.logo .sub{display:block;font:500 12.5px/1.2 var(--font-mono);color:var(--muted);margin-top:7px;letter-spacing:.12em;text-transform:uppercase}
+.banner{width:420px;max-width:100%;height:80px;border-radius:6px;background:var(--band);position:relative;overflow:hidden}
+.banner canvas{position:absolute;inset:0;width:100%;height:100%}
+.banner .bt{position:absolute;right:12px;top:9px;max-width:52%;text-align:right;line-height:1.3;font:500 13px var(--font-body);color:var(--band-ink)}
+.banner .bs{position:absolute;right:12px;bottom:8px;max-width:50%;text-align:right;font:400 10.5px/1.3 var(--font-mono);color:var(--band-sub)}
+@media (max-width:620px){.logo svg{width:50px;height:50px}.logo .name{font-size:32px}.logo .sub{font-size:10.5px}.banner{height:66px}.banner .bt{font-size:11.5px}}
+
+/* Menu */
+.menu{background:var(--band);border-bottom:3px solid transparent;border-image:var(--rule-grad) 1}
+.menu .wrap{display:flex;align-items:center;justify-content:center;min-height:46px}
+.menu ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;justify-content:center}
+.menu a{display:block;padding:12px 13px;font-weight:500;color:var(--band-ink)}
+.menu a:hover{background:var(--band-hover);text-decoration:none}
+.burger{display:none;background:var(--band-hover);border:0;border-radius:4px;width:40px;height:34px;cursor:pointer}
+.burger span{display:block;width:18px;height:2px;background:var(--band-ink);margin:3px auto}
+@media (max-width:780px){
+  .burger{display:block;margin:6px 0}
+  .menu .wrap{flex-direction:column}
+  .menu ul{display:none;flex-direction:column;width:100%;text-align:center;padding-bottom:6px}
+  .menu.open ul{display:flex}
+}
+
+/* Layout */
+.body{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:40px;padding-block:32px 48px}
+.body > *{min-width:0}
+@media (max-width:920px){.body{grid-template-columns:minmax(0,1fr)}}
+.sec-h{font:600 24px/1.2 var(--font-body);margin:0 0 14px;padding-bottom:7px;position:relative;text-wrap:balance}
+.sec-h::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:3px;background:linear-gradient(90deg,var(--accent) 0,var(--accent) 70px,var(--rule) 70px)}
+.pager{font-size:14px;color:var(--muted);margin:-4px 0 16px}
+.pager a{color:var(--title)}
+
+/* Articles */
+.art{margin:0 0 30px}
+.art h3{font:500 19px/1.25 var(--font-body);margin:0 0 5px;color:var(--title);text-wrap:balance}
+.oa{display:inline-block;font:600 10.5px/1 var(--font-mono);letter-spacing:.04em;color:var(--bg);background:var(--oa);border-radius:3px;padding:3px 5px;margin-left:6px;vertical-align:3px}
+.meta{font-size:14px;line-height:1.5}
+.meta time{font-family:var(--font-mono);font-size:13px;color:var(--muted)}
+.c-st{color:var(--st)} .c-dir{color:var(--dir)} .c-meth{color:var(--meth)} .c-app{color:var(--app)} .c-misc{color:var(--misc)}
+.meta button{font:inherit;background:none;border:0;padding:0;cursor:pointer}
+.meta button:hover{text-decoration:underline}
+.inst{color:var(--inst)}
+.authors{font-size:14px;color:var(--muted);line-height:1.45}
+.abs{margin-top:10px;font-size:14.5px;line-height:1.62;color:var(--body)}
+.abs::after{content:"";display:block;clear:both}
+figure.fig{float:left;width:132px;margin:4px 16px 6px 0}
+figure.fig .frame{width:132px;height:92px;border:1px solid var(--fig-line);border-radius:4px;background:var(--fig-bg);overflow:hidden;display:flex;align-items:center;justify-content:center}
+figure.fig img{max-width:100%;max-height:100%;display:block}
+figure.fig canvas{width:132px;height:92px;display:block}
+figure.fig figcaption{font-size:11px;line-height:1.3;color:var(--muted);margin-top:3px}
+@media (max-width:420px){figure.fig{width:104px;margin-right:12px}figure.fig .frame,figure.fig canvas{width:104px;height:72px}}
+.src{font-size:13px;color:var(--muted);margin-top:5px}
+.src a{color:var(--title);font-family:var(--font-mono);font-size:12.5px;word-break:break-all}
+.why{font-size:14px;color:var(--body);margin-top:8px;background:var(--tint);border-left:3px solid var(--accent);padding:7px 11px}
+.empty{color:var(--muted);padding:10px 0 30px}
+.more{display:block;margin:6px auto 30px}
+.art.fotw{border-left:4px solid var(--hot);padding-left:13px}
+.fotw-tag{display:inline-block;font:600 11.5px var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--hot);border-radius:3px;padding:2px 7px;margin-bottom:6px}
+
+/* Sidebar */
+aside{font-size:14px}
+.search{display:flex;margin-bottom:24px;border:1px solid var(--rule);border-radius:5px;overflow:hidden;background:var(--card)}
+.search input{flex:1;min-width:0;border:0;background:transparent;padding:8px 10px;font:inherit;color:var(--ink)}
+.search button{border:0;background:var(--band);color:var(--band-ink);font:500 14px var(--font-body);padding:0 14px;cursor:pointer}
+.w-h{font:600 16.5px/1.2 var(--font-body);margin:0 0 10px;padding-bottom:6px;border-bottom:2px solid var(--rule);display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.lang{font:500 12px var(--font-mono);background:none;border:1px solid var(--rule);border-radius:3px;color:var(--muted);padding:1px 7px;cursor:pointer}
+.lang:hover{color:var(--ink)}
+.cats p{margin:0 0 7px;line-height:1.6}
+.cats b{font-weight:600}
+.cats button{font:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left}
+.cats button:hover,.cats button[aria-pressed="true"]{text-decoration:underline}
+.cats button[aria-pressed="true"]{font-weight:600}
+.cats button.none{opacity:.55}
+.subscribe{margin:28px 0 26px;background:var(--tint);border-radius:6px;padding:12px 14px}
+.subscribe .row{display:grid;grid-template-columns:48px 1fr;gap:10px;align-items:center;padding:8px 0}
+.subscribe .row + .row{border-top:1px solid var(--rule)}
+.subscribe .row b{display:block;color:var(--ink);font-weight:600}
+.subscribe .row span{color:var(--muted);font-size:13px}
+.subscribe svg{color:var(--ink)}
+.ad{border:1px dashed var(--fig-line);border-radius:5px;color:var(--muted);font-size:12.5px;text-align:center;padding:16px 8px;margin:0 0 28px}
+ol.list{margin:0 0 28px;padding-left:22px}
+ol.list li{margin-bottom:5px;color:var(--muted)}
+ol.list a{color:var(--title)}
+ul.orgs{list-style:none;margin:0 0 28px;padding:0}
+ul.orgs li{margin-bottom:3px;color:var(--muted)}
+ul.orgs button{font:inherit;color:var(--inst);background:none;border:0;padding:0;cursor:pointer;text-align:left}
+ul.orgs button:hover{text-decoration:underline}
+.confs{list-style:none;margin:0 0 28px;padding:0}
+.confs li{margin-bottom:8px}
+.confs a{color:var(--title);font-weight:500}
+.confs span{color:var(--muted);font-size:13px}
+.confs a[aria-current]{font-weight:600}
+.box{background:var(--tint);border-radius:6px;padding:12px 14px;margin-bottom:28px}
+.box p{margin:0 0 8px}
+.btn{font:500 14px var(--font-body);background:var(--band);color:var(--band-ink);border:0;border-radius:4px;padding:7px 12px;cursor:pointer}
+.ok{font-size:12.5px;color:var(--oa);margin-left:6px}
+footer{border-top:1px solid var(--rule);color:var(--muted);font-size:13px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:14px 28px}
+@media (prefers-reduced-motion: reduce){*{scroll-behavior:auto!important}}
+html{scroll-behavior:smooth}
+</style>
+</head>
+<body>
+<header class="head">
+  <div class="wrap">
+    <a class="logo" href="#top" id="top" aria-label="LightField News home" data-view="main">
+      <svg viewBox="0 0 100 100" aria-hidden="true">
+        <defs><linearGradient id="lgb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b2150"/><stop offset="1" stop-color="#120d24"/></linearGradient></defs>
+        <rect x="3" y="3" width="94" height="94" rx="22" fill="url(#lgb)"/>
+        <g fill="none" stroke-width="11">
+          <path d="M50 22 A28 28 0 0 1 74.2 36" stroke="#e04848"/><path d="M74.2 36 A28 28 0 0 1 74.2 64" stroke="#e8a33b"/>
+          <path d="M74.2 64 A28 28 0 0 1 50 78" stroke="#5cb85c"/><path d="M50 78 A28 28 0 0 1 25.8 64" stroke="#2aa4c4"/>
+          <path d="M25.8 64 A28 28 0 0 1 25.8 36" stroke="#4f5fd6"/><path d="M25.8 36 A28 28 0 0 1 50 22" stroke="#b04cc8"/>
+        </g>
+        <circle cx="50" cy="50" r="9" fill="#120d24"/><circle cx="50" cy="50" r="2.6" fill="#ece9f8"/>
+      </svg>
+      <span><span class="name">LightField<b>News</b></span><span class="sub">Structured &amp; Spatiotemporal Light</span></span>
+    </a>
+    <div class="banner" aria-hidden="true"><canvas id="pulse"></canvas><span class="bt">OAM · vector · Bessel · skyrmion</span><span class="bs">STOV · ST wave packets · toroidal</span></div>
+  </div>
+</header>
+
+<nav class="menu" id="menu" aria-label="Main">
+  <div class="wrap">
+    <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu-list"><span></span><span></span><span></span></button>
+    <ul id="menu-list">
+      <li><a href="#top" data-reset data-view="main">Home</a></li>
+      <li><a href="#featured">Feature Articles</a></li>
+      <li><a href="#recent">Latest Papers</a></li>
+      <li><a href="#spacetime" class="st-link" data-view="st">Spatiotemporal 时空光场</a></li>
+      <li><a href="#topics">Topics</a></li>
+      <li><a href="#conferences">Meetings</a></li>
+      <li><a href="#archive-h">Archive</a></li>
+      <li><a href="#submit">Submit a Paper</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="st-hero" id="stHero" hidden>
+  <div class="wrap">
+    <div>
+      <div class="kicker">Column · 子栏目</div>
+      <h1>Spatiotemporal Light Fields<span lang="zh">时空光场</span></h1>
+      <p>Light structured jointly in space and time: spatiotemporal optical vortices, space-time wave packets with tunable group velocity, toroidal pulses and light bullets, temporal focusing, spatiotemporal mode-locking, and time-varying media.</p>
+      <a class="back" href="#top" data-view="main">← Back to all light-field papers</a>
+    </div>
+    <canvas id="stCanvas" aria-hidden="true"></canvas>
+  </div>
+</section>
+<main class="wrap body">
+  <div>
+    <section id="featured">
+      <h2 class="sec-h" id="featTitle">Feature Articles</h2>
+      <p class="pager" id="featNote">Advances in structured light chosen by the editor this week. Spatiotemporal picks have their own column.</p>
+      <div id="featList"></div>
+    </section>
+    <section id="stTeaser" class="st-teaser" aria-labelledby="stTeaserH"></section>
+    <section id="recent">
+      <h2 class="sec-h" id="recTitle">Latest Papers</h2>
+      <div class="pager" id="pager"></div>
+      <div id="recList"></div>
+    </section>
+  </div>
+
+  <aside>
+    <form class="search" id="searchForm" role="search">
+      <label for="q" style="position:absolute;left:-9999px">Search papers</label>
+      <input id="q" type="search" placeholder="Title, author, beam type, journal">
+      <button type="submit">Search</button>
+    </form>
+
+    <h3 class="w-h" id="topics"><span>Topics</span><button class="lang" id="langBtn" type="button" aria-label="Show topic names in Chinese">中文</button></h3>
+    <div class="cats" id="cats"></div>
+
+    <div class="subscribe">
+      <a class="row" href="#subscribe-note" id="subscribe-note">
+        <svg width="48" height="48" viewBox="0 0 52 52" aria-hidden="true"><rect x="4" y="12" width="44" height="30" rx="5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M6 15 L26 30 L46 15" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M10 38 h8 q4 -12 8 0 h16" fill="none" stroke="#d9480f" stroke-width="2"/></svg>
+        <span><b>Monday Digest</b><span>The week's papers by email. Sign-up opens at public launch.</span></span>
+      </a>
+      <a class="row" href="#submit">
+        <svg width="48" height="48" viewBox="0 0 52 52" aria-hidden="true"><rect x="10" y="6" width="28" height="36" rx="3" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16 16 h16 M16 22 h16 M16 28 h10" stroke="currentColor" stroke-opacity=".45" stroke-width="2"/><circle cx="38" cy="38" r="10" fill="#d9480f"/><path d="M38 33 v10 M33 38 h10" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg>
+        <span><b>Share Your Paper</b><span>Send new articles, theses and positions to the editor.</span></span>
+      </a>
+    </div>
+
+    <div class="ad">Sponsor space</div>
+
+    <h3 class="w-h"><span>This Week's Features</span></h3>
+    <ol class="list" id="weekList"></ol>
+
+    <h3 class="w-h"><span>Labs &amp; Institutions</span></h3>
+    <ul class="orgs" id="orgs"></ul>
+
+    <h3 class="w-h" id="conferences"><span>Meetings</span></h3>
+    <ul class="confs" id="confs"></ul>
+
+    <h3 class="w-h" id="jobs"><span>Positions</span></h3>
+    <div class="box"><p>No open listings this week. Postdoc, PhD and industry positions are posted free; use Submit a Paper below.</p></div>
+
+    <h3 class="w-h" id="archive-h"><span>Archive</span></h3>
+    <ul class="confs" id="archive"></ul>
+
+    <h3 class="w-h" id="submit"><span>Submit a Paper</span></h3>
+    <div class="box">
+      <p>Send journal articles (including in-press), preprints, theses, positions and Feature of the Week proposals. Please include Fig. 1 or a representative figure and its licence, plus the field type and wavelength.</p>
+      <button class="btn" id="copyTpl" type="button">Copy submission template</button><span class="ok" id="copied" hidden>Copied</span>
+      <p style="margin:8px 0 0;color:var(--muted);font-size:12.5px">Editor address will be listed at launch.</p>
+    </div>
+  </aside>
+</main>
+
+<footer><div class="wrap"><span>LightField News · updated daily, new issue every Monday · Spatiotemporal column at <a href="#spacetime" data-view="st" style="text-decoration:underline">#spacetime</a> · thumbnails are each article's own preview image or the journal cover, with credit, otherwise a field sketch · titles link to the original articles · layout after <a href="https://forestbin-raman.github.io/VibraNews/" style="text-decoration:underline">VibraNews</a></span><a href="#top">Back to top</a></div></footer>
+
+<!--FEMTO_DATA-->
+<script>
+const GROUPS = [
+  {name:"Spatiotemporal Light Fields", zh:"时空光场", cls:"c-st", cats:["Space-Time Wave Packets", "Spatiotemporal Optical Vortices", "Toroidal & Topological Pulses", "Light Bullets & X-Waves", "Spatiotemporal Focusing (SSTF)", "Flying Focus & Programmable Pulses", "Multimode & ST Mode-Locking", "Time-Varying Media & Temporal Interfaces", "Spatiotemporal Measurement"]},
+  {name:"Directions", zh:"光场调控方向", cls:"c-dir", cats:["Vortex & OAM Beams", "Vector & Polarization Fields", "Non-Diffracting & Accelerating Beams", "Topological Light (Skyrmions & Knots)", "Metasurfaces & Flat Optics", "SLM, DMD & Holography", "Wavefront Shaping & Scattering", "Adaptive Optics & Aberrations", "Optical Trapping & Manipulation", "Tight Focusing & Focal Fields", "Coherence & Partially Coherent Fields", "Mode Multiplexing & Fibers", "Nonlinear & Quantum Structured Light", "Structured Lasers & Sources", "Other Light-Field Topics"]},
+  {name:"Methods", zh:"方法", cls:"c-meth", cats:["Inverse Design & AI", "Theory & Simulation", "Characterization & Metrology", "Integrated & On-Chip"]},
+  {name:"Applications", zh:"应用", cls:"c-app", cats:["Optical Communication", "Microscopy & Imaging", "Laser Processing & Fabrication", "Optical Computing", "Quantum Information", "Sensing & Metrology", "Strong-Field & Ultrafast", "Turbulence & Free-Space Links", "Displays, Security & AR"]},
+  {name:"Miscellaneous", zh:"其他", cls:"c-misc", cats:["News & Highlights", "Reviews", "Jobs & Studentships", "Student Theses"]}
+];
+const ZH = {"Space-Time Wave Packets": "时空波包", "Spatiotemporal Optical Vortices": "时空光学涡旋 (STOV)", "Toroidal & Topological Pulses": "环形与拓扑脉冲", "Light Bullets & X-Waves": "光弹与 X 波", "Spatiotemporal Focusing (SSTF)": "时空聚焦 (SSTF)", "Flying Focus & Programmable Pulses": "飞行焦点与可编程脉冲", "Multimode & ST Mode-Locking": "多模与时空锁模", "Time-Varying Media & Temporal Interfaces": "时变介质与时间界面", "Spatiotemporal Measurement": "时空场测量", "Vortex & OAM Beams": "涡旋光与轨道角动量", "Vector & Polarization Fields": "矢量光与偏振调控", "Non-Diffracting & Accelerating Beams": "无衍射与自加速光束", "Topological Light (Skyrmions & Knots)": "拓扑光场（斯格明子、光结）", "Metasurfaces & Flat Optics": "超表面与平面光学", "SLM, DMD & Holography": "SLM、DMD 与全息", "Wavefront Shaping & Scattering": "波前整形与散射介质", "Adaptive Optics & Aberrations": "自适应光学与像差", "Optical Trapping & Manipulation": "光镊与光学操控", "Tight Focusing & Focal Fields": "紧聚焦与焦场", "Coherence & Partially Coherent Fields": "相干性与部分相干光场", "Mode Multiplexing & Fibers": "模式复用与光纤", "Nonlinear & Quantum Structured Light": "非线性与量子结构光", "Structured Lasers & Sources": "结构光激光器与光源", "Other Light-Field Topics": "其他光场主题", "Inverse Design & AI": "逆向设计与 AI", "Theory & Simulation": "理论与仿真", "Characterization & Metrology": "表征与测量", "Integrated & On-Chip": "集成与片上", "Optical Communication": "光通信", "Microscopy & Imaging": "显微与成像", "Laser Processing & Fabrication": "激光加工", "Optical Computing": "光计算", "Quantum Information": "量子信息", "Sensing & Metrology": "传感与计量", "Strong-Field & Ultrafast": "强场与超快", "Turbulence & Free-Space Links": "湍流与自由空间链路", "Displays, Security & AR": "显示、加密与 AR", "News & Highlights": "新闻与亮点", "Reviews": "综述", "Jobs & Studentships": "招聘与招生", "Student Theses": "学位论文"};
+const CLS = {}; GROUPS.forEach(g=>g.cats.forEach(c=>CLS[c]=g.cls));
+let LANG = "en";
+try{ if(localStorage.getItem("lightfield-lang")==="zh") LANG="zh"; }catch(e){}
+const L = c => LANG==="zh" ? (ZH[c]||c) : c;
+
+let ARTS = [], CONFS = [], ISSUES = [], ISSUE = null;
+const ST_GROUP = "Spatiotemporal Light Fields";
+const ST_CATS = new Set((GROUPS.find(g=>g.name===ST_GROUP)||{cats:[]}).cats);
+const isST = a => a.cats.some(c=>ST_CATS.has(c));
+let VIEW = location.hash==="#spacetime" ? "st" : "main";
+const topOf = a => VIEW==="st" ? a.stFeature : a.feature;
+
+function fromIssue(x, issue){
+  const {y,m,d} = P(issue.date);
+  const prefix = x.feature ? `Feature of the Week ${m}/${d}/${String(y).slice(2)}: ` : "";
+  return {id:x.id, d:x.date, t:prefix + x.title, cats:x.categories||[], inst:x.institutions||[], au:x.authors||"",
+    j:x.journal||"", doi:x.doi||"", link:x.url || (x.doi ? "https://doi.org/"+x.doi : "#"), oa:!!x.oa, license:x.license||"",
+    abs:x.summary||"", why:x.why||"", glyph:x.glyph||"beam", featured:!!(x.feature||x.pick||x.st_feature), feature:!!x.feature, stFeature:!!x.st_feature, notable:x.tier==="notable", fig:x.fig||null};
+}
+
+const PAGE=40;
+const MONTHS=["January","February","March","April","May","June","July","August","September","October","November","December"];
+const esc = s => String(s).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const P = iso => { const [y,m,d]=iso.split("-").map(Number); return {y,m,d}; };
+const longDate = iso => { const {y,m,d}=P(iso); return `${MONTHS[m-1]} ${d}, ${y}`; };
+
+let filter=null, query="", shown=PAGE, showAll=false;
+const visible = a => (!filter || (filter.type==="cat" ? a.cats.includes(filter.value) : a.inst.includes(filter.value))) &&
+  (!query || (a.t+" "+a.au+" "+a.j+" "+a.abs+" "+a.inst.join(" ")+" "+a.cats.join(" ")+" "+a.cats.map(c=>ZH[c]||"").join(" ")).toLowerCase().includes(query));
+
+function figHTML(a){
+  if(a.fig && a.fig.src){
+    const cap = a.fig.kind==="cover" ? "Journal cover" : `Fig. · ${a.fig.credit||""}`;
+    const src = /^https?:/.test(a.fig.src) ? a.fig.src : (window.FEMTO_ASSET_BASE||"") + a.fig.src;
+    return `<figure class="fig"><a class="frame" href="${esc(a.link)}"><img src="${esc(src)}" alt="${esc(a.fig.kind==="cover"?("Cover of "+a.j):("Representative figure from "+a.t))}" loading="lazy"></a><figcaption>${esc(cap)}</figcaption></figure>`;
+  }
+  return `<figure class="fig"><div class="frame"><canvas class="thumb" data-glyph="${esc(a.glyph)}" aria-hidden="true"></canvas></div></figure>`;
+}
+function artHTML(a){
+  const top = topOf(a);
+  const tag = top ? `<div class="fotw-tag">${VIEW==="st"?"Spatiotemporal Pick of the Week":"Feature of the Week"}</div>` : "";
+  return `<article class="art${top?" fotw":""}" id="${esc(a.id)}">${tag}
+    <h3><a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.t.replace(/^Feature of the Week [^:]+:\s*/,""))}</a>${a.oa?'<span class="oa" title="Open access">OA</span>':""}${VIEW==="main"&&isST(a)?'<span class="st-mark" title="Spatiotemporal light fields">ST</span>':""}</h3>
+    <div class="meta"><time datetime="${a.d}">${longDate(a.d)}</time> | ${a.cats.map(c=>`<button type="button" class="${CLS[c]||"c-misc"}" data-cat="${esc(c)}" title="${esc(LANG==="zh"?c:(ZH[c]||""))}">${esc(L(c))}</button>`).join(", ")}${a.inst.length?" | "+a.inst.map(i=>`<button type="button" class="inst" data-inst="${esc(i)}">${esc(i)}</button>`).join(", "):""}</div>
+    ${a.au?`<div class="authors">${esc(a.au)}</div>`:""}
+    <div class="abs">${figHTML(a)}${esc(a.abs)}
+      ${a.why?`<div class="why"><b>Why it matters:</b> ${esc(a.why)}</div>`:""}
+      <div class="src">${esc(a.j)}${a.doi?` · <a href="${esc(a.link)}" target="_blank" rel="noopener">doi:${esc(a.doi)}</a>`:` · <a href="${esc(a.link)}" target="_blank" rel="noopener">journal page</a>`}</div>
+    </div>
+  </article>`;
+}
+
+function render(){
+  const st = VIEW==="st";
+  const pool = st ? ARTS.filter(isST) : ARTS;
+  const inFeat = a => a.featured && (st ? true : (!isST(a) || a.feature));
+  const feat = pool.filter(a=>inFeat(a) && visible(a)).sort((x,y)=>(topOf(y)?1:0)-(topOf(x)?1:0)||y.d.localeCompare(x.d));
+  const filtering = filter || query;
+  const tiered = !st && pool.some(a=>a.notable);
+  const selectedOnly = tiered && !showAll && !filtering;
+  const rec = pool.filter(a=>!inFeat(a) && visible(a) && (!selectedOnly || a.notable)).sort((x,y)=>y.d.localeCompare(x.d));
+  document.getElementById("featured").hidden = !feat.length;
+  document.getElementById("featTitle").textContent = st ? "Spatiotemporal Features" : "Feature Articles";
+  document.getElementById("featNote").textContent = st ? "The editor's picks on light structured in space and time." : "Advances in structured light chosen by the editor this week. Spatiotemporal picks have their own column.";
+  document.getElementById("featList").innerHTML = feat.map(artHTML).join("");
+  document.getElementById("recTitle").textContent = filter ? `${filter.type==="cat"?"Topic":"Institution"}: ${filter.type==="cat"?L(filter.value):filter.value}` : (query ? "Search Results" : (st ? "Latest Spatiotemporal Papers" : (selectedOnly ? "Selected Papers" : "All Papers")));
+  const total = pool.filter(a=>!inFeat(a)).length;
+  const toggle = tiered && !filtering ? (selectedOnly
+      ? ` // ${rec.length} selected by the editor · <a href="#recent" id="allT">show all ${total} papers</a>`
+      : ` // <a href="#recent" id="allT">show selected papers only</a>`) : "";
+  document.getElementById("pager").innerHTML = filtering
+    ? `${rec.length+feat.length} matching paper${rec.length+feat.length===1?"":"s"} // <a href="#top" id="clearF">Show all papers</a>`
+    : (st ? `Spatiotemporal column · Issue No. ${ISSUE.number} · ${pool.length} papers this issue · <a href="#top" data-view="main">all light-field papers</a>`
+          : `Issue No. ${ISSUE.number} · week of ${longDate(ISSUE.date)} · updated daily, last ${longDate(ISSUE.updated||ISSUE.date)} · ${pool.length} papers`) + toggle;
+  const at=document.getElementById("allT"); if(at) at.onclick=e=>{ e.preventDefault(); showAll=!showAll; shown=PAGE; render(); document.getElementById("recent").scrollIntoView(); };
+  const cf=document.getElementById("clearF"); if(cf) cf.onclick=e=>{ e.preventDefault(); filter=null; query=""; document.getElementById("q").value=""; render(); };
+  document.getElementById("recList").innerHTML = rec.length
+    ? rec.slice(0,shown).map(artHTML).join("") + (rec.length>shown ? `<button class="btn more" id="more" type="button">Show more papers (${rec.length-shown} more)</button>` : "")
+    : (feat.length?"":`<p class="empty">No papers match. Try another topic or search term.</p>`);
+  const mb=document.getElementById("more"); if(mb) mb.onclick=()=>{ shown+=PAGE; render(); };
+  renderTeaser(); renderCats(); drawThumbs();
+}
+
+function renderTeaser(){
+  const box=document.getElementById("stTeaser");
+  const stArts=ARTS.filter(isST);
+  box.hidden = VIEW==="st" || !stArts.length || !!(filter||query);
+  if(box.hidden) return;
+  const picks=stArts.filter(a=>a.featured).sort((x,y)=>(y.stFeature?1:0)-(x.stFeature?1:0)||y.d.localeCompare(x.d)).slice(0,4);
+  const kinds=[...new Set(stArts.flatMap(a=>a.cats.filter(c=>ST_CATS.has(c))))].slice(0,5).map(L).join(", ");
+  box.innerHTML = `<div class="kicker">Column</div>
+    <h2 id="stTeaserH">Spatiotemporal Light Fields<span lang="zh">时空光场</span></h2>
+    <p>${stArts.length} papers this issue${kinds?`, on ${esc(kinds)}`:""}.</p>
+    ${picks.length?`<ol>${picks.map(a=>`<li><a href="#spacetime" data-view="st" data-scroll="${esc(a.id)}">${esc(a.t.replace(/^Feature of the Week [^:]+:\s*/,""))}</a></li>`).join("")}</ol>`:""}
+    <a class="open" href="#spacetime" data-view="st">Open the spatiotemporal column →</a>`;
+}
+
+function setView(v, scrollTo){
+  VIEW=v; filter=null; query=""; shown=PAGE; showAll=false; document.getElementById("q").value="";
+  document.getElementById("stHero").hidden = v!=="st";
+  document.querySelectorAll(".menu a[data-view]").forEach(a=>a.toggleAttribute("aria-current", a.dataset.view===v && (v==="st") === a.classList.contains("st-link")));
+  if(ISSUE){ render(); renderRail(); }
+  if(v==="st") drawSTHero();
+  if(scrollTo){ const el=document.getElementById(scrollTo); if(el) el.scrollIntoView(); }
+  else if(scrollTo===null) window.scrollTo(0,0);
+}
+
+function renderCats(){
+  const n = {}; ARTS.forEach(a=>a.cats.forEach(c=>n[c]=(n[c]||0)+1));
+  const groups = VIEW==="st" ? GROUPS.filter(g=>g.name===ST_GROUP) : GROUPS;
+  document.getElementById("cats").innerHTML = groups.map(g=>`<p><b>${LANG==="zh"?g.zh:g.name}${g.name===ST_GROUP&&VIEW==="main"?' <a href="#spacetime" data-view="st" class="c-st" style="font-weight:500">(column →)</a>':""}:</b> ${g.cats.map((c,k)=>
+    `<span style="white-space:nowrap"><button type="button" class="${g.cls}${n[c]?"":" none"}" data-cat="${esc(c)}" aria-pressed="${!!(filter&&filter.type==="cat"&&filter.value===c)}" title="${esc((LANG==="zh"?c:(ZH[c]||c)) + (n[c]?` · ${n[c]} this issue`:" · no papers this issue"))}">${esc(L(c))}</button>${k<g.cats.length-1?",":""}</span>`).join(" ")}</p>`).join("")
+    + (VIEW==="st" ? `<p><a href="#top" data-view="main" class="c-dir">← all topics</a></p>` : "");
+  const lb=document.getElementById("langBtn"); lb.textContent = LANG==="zh" ? "EN" : "中文";
+  lb.setAttribute("aria-label", LANG==="zh" ? "Show topic names in English" : "Show topic names in Chinese");
+}
+
+function renderRail(){
+  const st = VIEW==="st", pool = st ? ARTS.filter(isST) : ARTS;
+  const fl = pool.filter(a=>a.featured && (st || !isST(a) || a.feature)).sort((x,y)=>(topOf(y)?1:0)-(topOf(x)?1:0)||y.d.localeCompare(x.d));
+  document.getElementById("weekList").innerHTML = (fl.length?fl:[...pool].sort((x,y)=>y.d.localeCompare(x.d)).slice(0,15))
+    .map(a=>`<li><a href="#${esc(a.id)}">${esc(a.t.replace(/^Feature of the Week [^:]+:\s*/,""))}</a></li>`).join("");
+  const m={}; ARTS.forEach(a=>a.inst.forEach(i=>m[i]=(m[i]||0)+1));
+  document.getElementById("orgs").innerHTML = Object.entries(m).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,25)
+    .map(([i,n])=>`<li><button type="button" data-inst="${esc(i)}">${esc(i)}</button> · ${n} paper${n>1?"s":""}</li>`).join("");
+  const today=new Date(); today.setHours(0,0,0,0);
+  document.getElementById("confs").innerHTML = CONFS.map(c=>{
+    const a=P(c.s), b=P(c.e); const M=x=>MONTHS[x-1].slice(0,3);
+    const range = a.m===b.m ? `${M(a.m)} ${a.d}–${b.d}, ${a.y}` : `${M(a.m)} ${a.d} – ${M(b.m)} ${b.d}, ${b.y}`;
+    const days=Math.round((new Date(a.y,a.m-1,a.d)-today)/86400000);
+    const soon = days>=0&&days<=14?` · in ${days} day${days===1?"":"s"}`:"";
+    return `<li><a href="${esc(c.u)}" target="_blank" rel="noopener">${esc(c.t)}</a><br><span>${range} · ${esc(c.w)}${soon}</span></li>`;
+  }).join("");
+}
+
+/* ---------- sketches used when no licensed figure is available ---------- */
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+function rnd(seed){ let x = Math.sin(seed*999.13)*43758.5453; return x - Math.floor(x); }
+function glyphKit(g, col){
+  const soft = css("--fig-line"), grid = css("--grid"), ink = css("--muted");
+  const line=(pts,c=col,w=1.6)=>{ g.beginPath(); pts.forEach(([x,y],i)=>i?g.lineTo(x,y):g.moveTo(x,y)); g.strokeStyle=c; g.lineWidth=w; g.stroke(); };
+  const dot=(x,y,r,c=col,a=1)=>{ g.globalAlpha=a; g.beginPath(); g.arc(x,y,r,0,7); g.fillStyle=c; g.fill(); g.globalAlpha=1; };
+  const ring=(x,y,r,c=col,w=1.4,a=1)=>{ g.globalAlpha=a; g.beginPath(); g.arc(x,y,r,0,7); g.strokeStyle=c; g.lineWidth=w; g.stroke(); g.globalAlpha=1; };
+  const slab=(x,y,w,h)=>{ g.fillStyle=grid; g.fillRect(x,y,w,h); g.strokeStyle=soft; g.lineWidth=1; g.strokeRect(x+.5,y+.5,w-1,h-1); };
+  const cone=(cx,y0,y1,half,a=.22)=>{ g.beginPath(); g.moveTo(cx-half,y0); g.lineTo(cx+half,y0); g.lineTo(cx,y1); g.closePath(); g.fillStyle=col; g.globalAlpha=a; g.fill(); g.globalAlpha=1; };
+  const arrow=(x0,y0,x1,y1,c=col)=>{ line([[x0,y0],[x1,y1]],c,1.4); const a=Math.atan2(y1-y0,x1-x0); line([[x1-6*Math.cos(a-.5),y1-6*Math.sin(a-.5)],[x1,y1],[x1-6*Math.cos(a+.5),y1-6*Math.sin(a+.5)]],c,1.4); };
+  const phaseRing=(x,y,r,w,charge=1,rx=1,ry=1)=>{ for(let k=0;k<72;k++){ const a0=k/72*2*Math.PI, a1=(k+1.2)/72*2*Math.PI; g.beginPath(); g.ellipse(x,y,r*rx,r*ry,0,a0,a1); g.strokeStyle=`hsl(${(k/72*360*charge)%360} 70% 52%)`; g.lineWidth=w; g.stroke(); } };
+  return {soft, grid, ink, line, dot, ring, slab, cone, arrow, phaseRing};
+}
+const GLYPH = {
+  beam:["Beam","--dir"], vortex:["Vortex · OAM","--dir"], vector:["Vector beam","--dir"], bessel:["Bessel / Airy","--dir"], skyrmion:["Skyrmion","--dir"],
+  meta:["Metasurface","--meth"], slm:["SLM / hologram","--dir"], speckle:["Scattering","--dir"], ao:["Adaptive optics","--meth"], trap:["Trapping","--app"],
+  focus:["Tight focus","--dir"], coherence:["Coherence","--dir"], modes:["Modes","--meth"], nonlinear:["Nonlinear","--app"], laser:["Laser","--app"],
+  ai:["Inverse design","--meth"], theory:["Theory","--meth"],
+  stov:["STOV","--st"], toroid:["Toroidal pulse","--st"], stwp:["ST wave packet","--st"], bullet:["Light bullet","--st"], sstf:["Temporal focusing","--st"],
+  flying:["Flying focus","--st"], multimode:["ST mode-locking","--st"], timevary:["Time-varying","--st"], stmeas:["ST measurement","--st"]
+};
+function drawGlyph(g, kind, W, H){
+  const [label, tok] = GLYPH[kind] || GLYPH.beam;
+  const col = css(tok); const K = glyphKit(g, col); const {line, dot, ring, slab, cone, arrow, phaseRing, ink, soft, grid} = K;
+  g.fillStyle=css("--fig-bg"); g.fillRect(0,0,W,H); g.lineCap="round"; g.lineJoin="round";
+  const cx=66, cy=52;
+  switch(kind){
+    case "vortex": phaseRing(cx,cy,20,9,1); dot(cx,cy,3,ink); break;
+    case "vector": ring(cx,cy,20,soft,8); for(let k=0;k<12;k++){ const a=k/12*2*Math.PI; arrow(cx+13*Math.cos(a),cy+13*Math.sin(a),cx+27*Math.cos(a),cy+27*Math.sin(a)); } break;
+    case "bessel": for(let r=4;r<=34;r+=6) ring(cx,cy,r,col,1.6,1-(r/40)); dot(cx,cy,3); break;
+    case "skyrmion": for(let r=0;r<4;r++) for(let k=0;k<(r?6*r:1);k++){ const a=k/(6*r||1)*2*Math.PI, x=cx+r*9*Math.cos(a), y=cy+r*9*Math.sin(a); const c=`hsl(${260-r*60} 65% 55%)`; if(r) arrow(x,y,x+5*Math.cos(a+Math.PI/2),y+5*Math.sin(a+Math.PI/2),c); else dot(x,y,3,c); } break;
+    case "meta": for(let i=0;i<7;i++) for(let j=0;j<4;j++){ const x=24+i*13, y=28+j*13, a=(i*0.45+j*0.2); g.save(); g.translate(x,y); g.rotate(a); g.fillStyle=col; g.globalAlpha=.75; g.fillRect(-4,-1.6,8,3.2); g.restore(); g.globalAlpha=1; } break;
+    case "slm": for(let i=0;i<10;i++) for(let j=0;j<6;j++){ const v=(Math.atan2(j-2.5,i-4.5)/Math.PI+1)/2; g.fillStyle=`hsl(${v*360} 0% ${25+v*60}%)`; g.fillRect(16+i*10,22+j*10,9,9); } break;
+    case "speckle": for(let k=0;k<70;k++) dot(14+rnd(k)*104, 22+rnd(k+77)*62, 0.8+rnd(k+3)*2.2, col, .55); dot(98,52,6,css("--hot")); ring(98,52,10,css("--hot"),1.2,.6); break;
+    case "ao": line(Array.from({length:30},(_,i)=>[18+i*1.6, 52+12*Math.sin(i/3)]),col,1.6); slab(66,26,6,52); line([[78,26],[78,78]],col,1.6); line([[90,26],[90,78]],col,1.6); arrow(100,52,118,52); break;
+    case "trap": cone(cx,14,58,26,.22); g.globalAlpha=.22; g.beginPath(); g.moveTo(cx,58); g.lineTo(cx-26,92); g.lineTo(cx+26,92); g.closePath(); g.fillStyle=col; g.fill(); g.globalAlpha=1; dot(cx,58,7,ink); ring(cx,58,11,col,1.2); break;
+    case "focus": cone(cx,14,52,30,.22); g.beginPath(); g.ellipse(cx,52,4,10,0,0,7); g.fillStyle=col; g.fill(); arrow(cx+18,62,cx+18,40); break;
+    case "coherence": for(let k=0;k<6;k++) ring(cx,cy,20+k*1.6,col,3,.18); phaseRing(cx,cy,20,3,1); break;
+    case "modes": ring(cx,cy,28,soft,2); g.beginPath(); g.ellipse(cx-11,cy,8,12,0,0,7); g.fillStyle=col; g.globalAlpha=.7; g.fill(); g.beginPath(); g.ellipse(cx+11,cy,8,12,0,0,7); g.fillStyle=css("--hot"); g.fill(); g.globalAlpha=1; break;
+    case "nonlinear": line(Array.from({length:40},(_,i)=>[10+i,52+10*Math.sin(i/3)]),css("--hot"),1.6); slab(54,32,24,40); line(Array.from({length:44},(_,i)=>[82+i*.9,52+10*Math.sin(i/1.5)]),col,1.6); break;
+    case "laser": slab(14,30,6,44); slab(66,30,6,44); line([[20,52],[66,52]],soft,1); phaseRing(98,52,12,6,1); break;
+    case "ai": { const L1=[30,52,74], L2=[24,42,60,78], L3=[40,64]; L1.forEach(a=>L2.forEach(b=>line([[30,a],[66,b]],soft,1))); L2.forEach(a=>L3.forEach(b=>line([[66,a],[102,b]],soft,1))); L1.forEach(y=>dot(30,y,4,ink)); L2.forEach(y=>dot(66,y,4,col)); L3.forEach(y=>dot(102,y,4,ink)); break; }
+    case "theory": line(Array.from({length:60},(_,i)=>[12+i*1.8, 70-40*Math.exp(-(((i-30)/10)**2))]),col,1.8); line(Array.from({length:60},(_,i)=>[12+i*1.8, 70-40*Math.exp(-(((i-30)/10)**2))*Math.cos(i/2)**2]),css("--title"),1); break;
+    case "stov": line([[16,86],[120,86]],soft,1); line([[16,86],[16,20]],soft,1); g.font="500 9px "+css("--font-mono"); g.fillStyle=ink; g.fillText("t",116,82); g.fillText("x",20,26); phaseRing(cx,54,22,8,1,1.25,.75); break;
+    case "toroid": g.lineWidth=7; for(let k=0;k<2;k++){ g.beginPath(); g.ellipse(cx,cy,30,11,0,k?Math.PI:0,k?2*Math.PI:Math.PI); g.strokeStyle=col; g.globalAlpha=k?.35:.85; g.stroke(); } g.globalAlpha=1; arrow(cx-8,cy-22,cx+10,cy-22,css("--title")); break;
+    case "stwp": line([[24,22],[108,82]],soft,1); line([[24,82],[108,22]],soft,1); g.save(); g.translate(cx,cy); g.rotate(-.5); g.beginPath(); g.ellipse(0,0,28,7,0,0,7); g.fillStyle=col; g.globalAlpha=.6; g.fill(); g.restore(); g.globalAlpha=1; arrow(84,70,112,70); break;
+    case "bullet": for(let k=0;k<5;k++) dot(30+k*10,52,2+k*.3,col,.12+k*.08); dot(88,52,8,col); ring(88,52,13,col,1.2,.4); arrow(100,52,120,52); break;
+    case "sstf": ["#e04848","#e8a33b","#5cb85c","#2aa4c4","#4f5fd6"].forEach((c,k)=>{ line([[18,24+k*12],[96,52]],c,1.4); }); dot(98,52,4,css("--hot")); break;
+    case "flying": line([[12,52],[120,52]],soft,1); for(let k=0;k<6;k++) dot(30+k*14,52,2.5+k*.5,col,.25+k*.13); arrow(30,68,104,68); break;
+    case "multimode": slab(10,36,112,32); for(let k=0;k<5;k++){ const x=24+k*22; g.beginPath(); g.ellipse(x,52,5,9,k*.6,0,7); g.fillStyle=`hsl(${20+k*50} 70% 55%)`; g.globalAlpha=.7; g.fill(); } g.globalAlpha=1; break;
+    case "timevary": line([[12,80],[60,80],[60,30],[120,30]],soft,1.4); line(Array.from({length:48},(_,i)=>[12+i,58+8*Math.sin(i/1.6)]),col,1.4); line(Array.from({length:60},(_,i)=>[60+i,58+8*Math.sin(i/3.6)]),css("--hot"),1.4); break;
+    case "stmeas": for(let i=0;i<8;i++) line([[18+i*13,20],[18+i*13,84]],grid,1); for(let j=0;j<6;j++) line([[18,20+j*13],[110,20+j*13]],grid,1); phaseRing(64,52,16,6,1,1.3,.8); break;
+    default: line(Array.from({length:100},(_,i)=>{const x=10+i*1.12, w=8+18*Math.sqrt(1+((i-50)/22)**2); return [x,52-w];}),col,1.4);
+      line(Array.from({length:100},(_,i)=>{const x=10+i*1.12, w=8+18*Math.sqrt(1+((i-50)/22)**2); return [x,52+w];}),col,1.4);
+  }
+  g.font="600 10.5px "+css("--font-mono"); g.fillStyle=col; g.textAlign="left"; g.fillText(label,7,14);
+}
+function drawThumbs(){
+  document.querySelectorAll("canvas.thumb").forEach(cv=>{
+    const r=cv.getBoundingClientRect(), W=Math.round(r.width)||132, H=Math.round(r.height)||92, dpr=window.devicePixelRatio||1;
+    cv.width=W*dpr; cv.height=H*dpr;
+    const g=cv.getContext("2d"); g.setTransform(dpr*W/132,0,0,dpr*H/92,0,0);
+    drawGlyph(g, cv.dataset.glyph, 132, 92);
+  });
+}
+
+/* ---------- banner: a donut vortex coloured by its helical phase, beside a pulse whose phase front winds in space-time ---------- */
+function drawBanner(){
+  const cv=document.getElementById("pulse"), r=cv.getBoundingClientRect(); if(!r.width) return;
+  const dpr=window.devicePixelRatio||1; cv.width=r.width*dpr; cv.height=r.height*dpr;
+  const g=cv.getContext("2d"); g.setTransform(dpr,0,0,dpr,0,0);
+  const W=r.width, H=r.height, cx=H*0.58, cy=H/2, R=H*0.3;
+  for(let k=0;k<90;k++){ const a0=k/90*2*Math.PI, a1=(k+1.3)/90*2*Math.PI; g.beginPath(); g.arc(cx,cy,R,a0,a1); g.strokeStyle=`hsl(${k*4} 72% 58%)`; g.lineWidth=H*0.16; g.stroke(); }
+  g.beginPath(); g.arc(cx,cy,2,0,7); g.fillStyle=css("--band-ink"); g.fill();
+  const x0=cx+R+H*0.32, x1=W*(W<460?0.5:0.56), mid=cy;
+  for(let i=0;i<=320;i++){ const f=i/320, x=x0+f*(x1-x0), env=Math.exp(-(((f-.5)/.2)**2)), y=mid-H*0.3*env*Math.cos(f*2*Math.PI*14);
+    g.fillStyle=`hsl(${(f*360*2)%360} 70% 60%)`; g.fillRect(x,y,1.4,1.4); }
+}
+function drawSTHero(){
+  const cv=document.getElementById("stCanvas"); if(!cv) return; const r=cv.getBoundingClientRect(); if(!r.width) return;
+  const dpr=window.devicePixelRatio||1; cv.width=r.width*dpr; cv.height=r.height*dpr;
+  const g=cv.getContext("2d"); g.setTransform(dpr,0,0,dpr,0,0);
+  const W=r.width, H=r.height, cx=W/2, cy=H/2+4;
+  g.strokeStyle=css("--band-sub"); g.globalAlpha=.6; g.lineWidth=1; g.beginPath(); g.moveTo(18,H-14); g.lineTo(W-12,H-14); g.moveTo(18,H-14); g.lineTo(18,10); g.stroke(); g.globalAlpha=1;
+  g.font="500 10px "+css("--font-mono"); g.fillStyle=css("--band-sub"); g.fillText("t",W-20,H-18); g.fillText("x",24,18);
+  for(let k=0;k<90;k++){ const a0=k/90*2*Math.PI, a1=(k+1.3)/90*2*Math.PI; g.beginPath(); g.ellipse(cx,cy,W*0.24,H*0.26,0,a0,a1); g.strokeStyle=`hsl(${k*4} 72% 58%)`; g.lineWidth=H*0.14; g.stroke(); }
+  g.fillStyle=css("--band-ink"); g.textAlign="center"; g.fillText("STOV · transverse OAM", cx, 14);
+}
+document.addEventListener("click", e=>{
+  const v=e.target.closest("[data-view]");
+  if(v){ const to=v.dataset.view; if(to==="st" && location.hash!=="#spacetime"){ /* hashchange will switch */ pendingScroll=v.dataset.scroll||null; return; }
+         if(to!==VIEW){ e.preventDefault(); history.pushState(null,"",to==="st"?"#spacetime":location.pathname+location.search); setView(to, v.dataset.scroll||null); closeMenu(); return; } }
+  const c=e.target.closest("[data-cat]"), i=e.target.closest("[data-inst]"), r=e.target.closest("[data-reset]");
+  if(c){ const v=c.dataset.cat; filter=(filter&&filter.type==="cat"&&filter.value===v)?null:{type:"cat",value:v}; shown=PAGE; render(); document.getElementById("recent").scrollIntoView(); }
+  else if(i){ const v=i.dataset.inst; filter=(filter&&filter.type==="inst"&&filter.value===v)?null:{type:"inst",value:v}; shown=PAGE; render(); document.getElementById("recent").scrollIntoView(); }
+  else if(r){ filter=null; query=""; shown=PAGE; document.getElementById("q").value=""; render(); }
+  if(e.target.closest(".menu ul a")) closeMenu();
+});
+document.getElementById("searchForm").addEventListener("submit", e=>{ e.preventDefault(); query=document.getElementById("q").value.trim().toLowerCase(); filter=null; shown=PAGE; render(); document.getElementById("recent").scrollIntoView(); });
+document.getElementById("q").addEventListener("input", e=>{ if(!e.target.value){ query=""; render(); } });
+document.getElementById("langBtn").addEventListener("click", ()=>{ LANG = LANG==="zh"?"en":"zh"; try{ localStorage.setItem("lightfield-lang", LANG); }catch(e){} render(); });
+const menu=document.getElementById("menu"), burger=document.getElementById("burger");
+function closeMenu(){ menu.classList.remove("open"); burger.setAttribute("aria-expanded","false"); }
+burger.addEventListener("click", ()=>{ const o=menu.classList.toggle("open"); burger.setAttribute("aria-expanded", String(o)); });
+document.getElementById("copyTpl").addEventListener("click", async ()=>{
+  const tpl="LightField News — Submit a Paper\nType (journal article / in-press / preprint / thesis / job / Feature of the Week):\nTitle:\nAuthors:\nInstitutions:\nJournal & DOI:\nAbstract or summary:\nField type (e.g. vortex / vector / Bessel / STOV / space-time wave packet / toroidal pulse):\nFig. 1 / representative figure (attach) and its licence (e.g. CC BY 4.0):\nTopics (e.g. Spatiotemporal Optical Vortices, Metasurfaces & Flat Optics):\nContact:\n";
+  const ok=document.getElementById("copied");
+  try{ await navigator.clipboard.writeText(tpl); ok.textContent="Copied"; }catch(err){ ok.textContent="Copy was blocked by the browser"; }
+  ok.hidden=false; setTimeout(()=>ok.hidden=true,2000);
+});
+
+function renderArchive(){
+  document.getElementById("archive").innerHTML = ISSUES.map(i=>
+    `<li><a href="#issue-${i.id}"${ISSUE&&i.id===ISSUE.id?' aria-current="page"':''}>No. ${i.number} · ${longDate(i.date)}</a> <span>· ${i.count} papers</span></li>`).join("");
+}
+async function loadIssue(id){
+  const meta = ISSUES.find(i=>i.id===id) || ISSUES[0];
+  if(!meta) throw new Error("no issues");
+  const EMB = window.FEMTO_DATA;
+  if(EMB && EMB.issues && EMB.issues[meta.id]) ISSUE = EMB.issues[meta.id];
+  else {
+    const r = await fetch(`data/issues/${meta.id}.json`, {cache:"no-cache"});
+    if(!r.ok) throw new Error(`issue ${meta.id}: HTTP ${r.status}`);
+    ISSUE = await r.json();
+  }
+  ARTS = ISSUE.articles.map(x=>fromIssue(x, ISSUE));
+  filter=null; query=""; document.getElementById("q").value="";
+  render(); renderRail(); renderArchive();
+  if(VIEW==="st") setView("st");
+}
+async function init(){
+  drawBanner();
+  try{
+    const EMB = window.FEMTO_DATA;   /* set in LightFieldNews.html, the double-click version built by scraper/build_standalone.py */
+    let idx, meet;
+    if(EMB){ idx = EMB.index; meet = EMB.meetings; }
+    else {
+      const [ri, rm] = await Promise.all([fetch("data/issues/index.json",{cache:"no-cache"}), fetch("data/meetings.json",{cache:"no-cache"})]);
+      idx = await ri.json(); meet = rm.ok ? await rm.json() : {};
+    }
+    ISSUES = (idx && idx.issues) || [];
+    CONFS = ((meet && meet.meetings)||[]).map(m=>({s:m.start,e:m.end,t:m.title,w:m.where,u:m.url}));
+    const want = (location.hash.match(/^#issue-(\d{4}-\d{2}-\d{2})$/)||[])[1];
+    await loadIssue(want);
+  }catch(err){
+    document.getElementById("recList").innerHTML = `<p class="empty">Could not load the issue data (${esc(err.message)}). If you opened index.html directly, open LightFieldNews.html instead, or serve the folder over HTTP, for example with <code>python -m http.server</code>.</p>`;
+  }
+}
+let pendingScroll=null;
+addEventListener("hashchange", ()=>{
+  const m=location.hash.match(/^#issue-(\d{4}-\d{2}-\d{2})$/); if(m && (!ISSUE || m[1]!==ISSUE.id)) { loadIssue(m[1]); return; }
+  if(location.hash==="#spacetime" && VIEW!=="st"){ const sc=pendingScroll; pendingScroll=null; setView("st", sc); }
+  else if((location.hash===""||location.hash==="#top") && VIEW==="st") setView("main", null);
+});
+addEventListener("popstate", ()=>{ const want = location.hash==="#spacetime" ? "st" : (location.hash===""||location.hash==="#top" ? "main" : VIEW);
+  if(want!==VIEW){ const sc = want==="st" ? pendingScroll : null; pendingScroll=null; setView(want, sc); } });
+init();
+addEventListener("resize", ()=>{ drawBanner(); drawSTHero(); });
+const redraw = ()=>{ drawBanner(); drawSTHero(); if(ARTS.length) drawThumbs(); };
+document.fonts && document.fonts.ready.then(redraw);
+try{ matchMedia("(prefers-color-scheme: dark)").addEventListener("change", redraw); }catch(e){}
+new MutationObserver(redraw).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
+</script>
+</body>
+</html>

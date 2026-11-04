@@ -1,0 +1,95 @@
+name: Manual run (draft PR)
+
+# Manual tool: backfill a date range, or refresh thumbnails of an existing issue, as a PR to review.
+# The routine daily crawl is in daily-update.yml.
+on:
+  workflow_dispatch:
+    inputs:
+      issue_date:
+        description: "Issue date YYYY-MM-DD (blank = this week's Monday)"
+        required: false
+      since:
+        description: "Window start YYYY-MM-DD (blank = issue date minus 7 days)"
+        required: false
+      until:
+        description: "Window end YYYY-MM-DD (blank = day before issue date)"
+        required: false
+      refresh_figures:
+        description: "Only fetch thumbnails for an existing issue (no new papers)"
+        type: boolean
+        default: false
+      force:
+        description: "With refresh: redo thumbnails that already exist"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: weekly-issue
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Install
+        run: pip install -r scraper/requirements.txt pytest
+
+      - name: Self-test (offline)
+        run: python -m pytest -q scraper/tests
+
+      - name: Crawl this week's papers
+        id: scrape
+        env:
+          ISSUE_DATE: ${{ inputs.issue_date }}
+          SINCE: ${{ inputs.since }}
+          UNTIL: ${{ inputs.until }}
+          REFRESH: ${{ inputs.refresh_figures }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          args=()
+          [ "$REFRESH" = "true" ] && args+=(--refresh-figures)
+          [ "$FORCE" = "true" ] && args+=(--force)
+          [ -n "$ISSUE_DATE" ] && args+=(--issue-date "$ISSUE_DATE")
+          [ -n "$SINCE" ] && args+=(--since "$SINCE")
+          [ -n "$UNTIL" ] && args+=(--until "$UNTIL")
+          python scraper/news_scraper.py "${args[@]}" | tee scrape-output.txt
+          grep -E '^(ISSUE_ID|ISSUE_NUMBER|ADDED)=' scrape-output.txt >> "$GITHUB_OUTPUT"
+
+      - name: Open pull request with the draft issue
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: issue/${{ steps.scrape.outputs.ISSUE_ID }}${{ inputs.refresh_figures && '-figures' || '' }}
+          delete-branch: true
+          add-paths: |
+            data/**
+            figs/**
+            covers/**
+          commit-message: "Draft issue No. ${{ steps.scrape.outputs.ISSUE_NUMBER }} (${{ steps.scrape.outputs.ISSUE_ID }})"
+          title: "LightFieldNews No. ${{ steps.scrape.outputs.ISSUE_NUMBER }} · ${{ steps.scrape.outputs.ISSUE_ID }} — ${{ inputs.refresh_figures && 'thumbnails' || 'draft for review' }}"
+          labels: draft-issue
+          body: |
+            Issue **${{ steps.scrape.outputs.ISSUE_ID }}** · new papers: **${{ steps.scrape.outputs.ADDED }}**.
+            Thumbnails: open-access papers show their own Fig. 1 / graphical abstract; paywalled papers show the journal cover.
+
+            Before merging, edit `data/issues/${{ steps.scrape.outputs.ISSUE_ID }}.json` (the pencil icon on the file in this PR works on a phone):
+
+            - [ ] Remove papers that don't belong: delete the article and add its `id` to `"removed"` so the crawler never re-adds it
+            - [ ] Pick one Feature of the Week: `"feature": true`, and write a line in `"why"`
+            - [ ] Mark Editor's Picks: `"pick": true`
+            - [ ] Check categories, institutions and the trimmed abstracts (`"summary"`)
+            - [ ] Glance at thumbnails in `figs/` and `covers/`
+
+            Merging publishes the issue to GitHub Pages automatically.

@@ -1,0 +1,101 @@
+name: Daily update
+
+on:
+  schedule:
+    - cron: "33 22 * * *"     # 22:33 UTC = 06:33 Singapore time, every day
+  workflow_dispatch:
+  push:                       # adding DOIs to data/inbox.txt runs a crawl straight away
+    branches: [main]
+    paths: ["data/inbox.txt"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Install
+        run: pip install -r scraper/requirements.txt pytest
+
+      - name: Self-test (offline)
+        run: python -m pytest -q scraper/tests
+
+      - name: Crawl the last few days into this week's issue
+        id: scrape
+        run: |
+          python scraper/news_scraper.py --daily | tee scrape-output.txt
+          grep -E '^(ISSUE_ID|ISSUE_NUMBER|ADDED)=' scrape-output.txt >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" = "push" ]; then
+            # started by an inbox edit: also fill in thumbnails the editor's hand-added papers are missing
+            python scraper/news_scraper.py --refresh-figures --issue-date "$(sed -n 's/^ISSUE_ID=//p' scrape-output.txt)" > /dev/null || true
+          fi
+          python scraper/build_standalone.py --asset-base "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+
+      - name: Commit to main
+        id: commit
+        env:
+          ADDED: ${{ steps.scrape.outputs.ADDED }}
+          ISSUE_ID: ${{ steps.scrape.outputs.ISSUE_ID }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data figs covers LightFieldNews.html
+          if git diff --cached --quiet; then
+            echo "Nothing new today."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "Daily update $(TZ=Asia/Singapore date +%F): +${ADDED} papers in issue ${ISSUE_ID}"
+          git pull --rebase --autostash origin main || true
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/configure-pages@v5
+
+      - name: Assemble site
+        run: |
+          python3 scraper/build_standalone.py --asset-base "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+          mkdir _site
+          cp -r index.html LightFieldNews.html data figs covers _site/
+          rm -f _site/data/inbox.txt
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

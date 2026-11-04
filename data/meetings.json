@@ -1,0 +1,25 @@
+{
+  "meetings": [
+    {
+      "start": "2027-01-30",
+      "end": "2027-02-04",
+      "title": "SPIE Photonics West 2027 (OPTO, LASE)",
+      "where": "San Francisco",
+      "url": "https://moscone.com/events/spie-photonics-west-2027"
+    },
+    {
+      "start": "2027-05-02",
+      "end": "2027-05-07",
+      "title": "CLEO 2027",
+      "where": "Long Beach, CA",
+      "url": "https://www.optica.org/events/global_calendar/events/2027/conference_on_lasers_and_electro-optics_(1)"
+    },
+    {
+      "start": "2027-06-20",
+      "end": "2027-06-25",
+      "title": "World of Photonics Congress 2027 (CLEO/Europe-EQEC)",
+      "where": "Munich",
+      "url": "https://www.gophotonics.com/events/details/1109-world-of-photonics-congress-2027"
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+# LightField News — scraper configuration (light-field control / structured light, with a spatio-?temporal column)
+# Same pipeline as FemtoNews (adapted from VibraNews by ForestBin-Raman). Edit this file to change what the crawl looks for.
+
+site:
+  name: LightField News
+  url: https://linshulang12-u.github.io/LightFieldNews/   # used in the bot User-Agent
+
+http:
+  user_agent: "LightFieldNewsBot/1.0 (+{site_url}; weekly literature digest)"
+  timeout_s: 20
+  delay_s: 1.0
+  api_delay_s: 0.2
+  respect_robots_txt: true
+
+sources:
+  europepmc: true
+  openalex: true
+  crossref: true
+  arxiv: true
+  max_results_per_query: 400
+  max_europepmc: 6000
+  max_crossref_rows: 1000
+  max_openalex_per_term: 6000
+
+# A paper is kept if its TITLE matches any include pattern, or its ABSTRACT matches one at least twice.
+include:
+  - 'structured (light|beams?|optical fields?|light fields?|wave ?packets?|pulses?)'
+  - 'optical vorti|vortex (beams?|light|pulses?|lasers?|modes?|bullets?|lens(es)?|cavit(y|ies)|arrays? of light)|vortices of light|perfect (optical )?vortex'
+  - 'orbital angular momentum (of light|beams?|modes?|multiplex|states|transfer from light|light)|\bOAM\b (beams?|modes?|light|multiplex|states|channels?|communication|sorting|generation)'
+  - 'spin[- ]orbit (interaction|coupling|conversion|engineering)s? (of|in) (light|optical|photon)|photonic spin hall|optical spin'
+  - 'vector (beams?|vortex|vortices|optical fields?|light fields?|light)|cylindrical vector|radially polari[sz]ed|azimuthally polari[sz]ed|Poincar[eé] (beams?|sphere beams?)|polari[sz]ation singularit|C-points?|V-points?'
+  - 'Bessel(-Gauss(ian)?)?(-X)? beams?|Airy (beams?|pulses?|wave ?packets?)|non-?diffracting|frozen waves?|self-?accelerating|self-?healing (beams?|light)|autofocusing beams?|Mathieu (beams?|wave)|Pearcey|optical needle|bottle beams?'
+  - 'optical skyrmion|skyrmion(ic)? (beams?|light|textures? of light|topolog(y|ies) of light)|optical hopfion|hopfions? of light|optical (knots?|links?|merons?|braids?)|topological (light|structured light|quasiparticles? of light|light fields?)'
+  - 'Laguerre[- ]Gauss|Hermite[- ]Gauss|Ince[- ]Gauss|higher-order (optical )?modes? of light'
+  - 'wave-?front shaping|transmission matrix|optical phase conjugation|focusing (light )?through scattering|light (transport|control) (in|through) (scattering|disordered|opaque)'
+  - 'spatial light modulator|digital micromirror|computer-generated hologra|phase-only hologra|holographic (beam|field|light[- ]field|optical tweezers)|meta-?hologra'
+  - 'metasurfaces?\W+(\w+\W+){0,6}(beams?|vorti|vortex|polari[sz]ation|wavefront|hologra|light[- ]fields?|focusing|structured)'
+  - '(beam|wavefront|light[- ]field|optical field|pulse) (shaping|engineering|sculpting|tailoring)|light[- ]field (manipulation|control|modulation|regulation)|optical field (manipulation|control|regulation)'
+  - 'tight(ly)? focus(ed|ing) (beams?|vector|vortex|light|fields?|structured)|focal fields? (engineering|shaping|structure)|longitudinal (electric )?field component'
+  - 'optical (spanners?|conveyors?|tractor beams?)|optical (trapping|tweezers|manipulation|forces?|torques?)\W+(\w+\W+){0,5}(structured|vortex|vector|Bessel|Airy|orbital|spin|skyrmion|hologra|Laguerre)'
+  - 'spatio-?temporal (optical )?vorti|\bSTOVs?\b|space-?time (wave ?packets?|light sheets?|structured|vorti|beams?)|transverse orbital angular momentum'
+  - 'spatio-?temporal(ly)? (structured|shaped|sculpt\w*|light|optical fields?|wave ?packets?|pulses?|beams?|focusing|mode-?lock\w*|solitons?|coupl\w*|metasurfaces?|photonic|Laguerre|Hermite|Bessel|Airy|spherical|Gaussian|skyrmions?|topolog\w*|vector|Stokes|modulation|combs?|metalattices?|shaping|synchroni\w*)'
+  - 'toroidal (light |electromagnetic )?pulses?|flying (doughnuts?|donuts?|focus)|supertoroidal|light bullets?|optical bullets?|vortex bullets?|X-?waves?|focus wave modes?|localized waves?'
+  - 'tunable group velocit|arbitrary group velocit|superluminal (pulses?|wave)|subluminal (pulses?|wave)|pulse[- ]front tilt|temporal focusing'
+  - 'time-?varying (media|medium|metamaterials?|photonic|metasurfaces?|systems?)|temporal (interfaces?|boundar(y|ies)|reflection|refraction|slits?)|photonic time crystals?|time refraction|time reflection|temporal chirality'
+  - 'mode (decomposition|sorting|multiplexing|demultiplexing)|multi-?plane light conversion|\bMPLC\b|photonic lanterns?|OAM (multiplex|demultiplex|sorting|detection|recognition)'
+  - 'partially coherent (beams?|vortex|vortices|structured|vector|light)|coherence (engineering|structured|singularit\w*|vortex|vortices)|twisted (partially coherent|Gaussian Schell)|Gaussian Schell'
+  - 'diffractive (deep )?neural networks?|\bD2NN\b|optical diffractive (network|processor)'
+  - 'Pancharatnam|geometric[- ]phase (element|optics|metasurface|lens|device)|q-?plates?|spiral phase plate|fork gratings?|axicons?'
+
+# Names specific enough that ONE mention in the abstract is enough
+strong_include:
+  - 'structured light'
+  - 'optical vorti'
+  - 'vortex beams?'
+  - 'orbital angular momentum of light'
+  - 'cylindrical vector beams?'
+  - 'vector (vortex )?beams?'
+  - 'Bessel(-Gauss)? beams?'
+  - 'Airy beams?'
+  - 'optical skyrmion'
+  - 'optical hopfion'
+  - 'spatio-?temporal optical vortex'
+  - 'space-?time wave ?packets?'
+  - 'toroidal (light )?pulses?'
+  - 'light bullets?'
+  - 'wave-?front shaping'
+  - 'spatial light modulator'
+  - 'phase-only hologra'
+  - 'temporal focusing'
+  - 'photonic time crystal'
+  - 'Laguerre[- ]Gaussian (beams?|modes?)'
+
+# Generic terms count only in the TITLE
+title_only: []   # every include pattern is already specific; generic words never count on their own
+
+characterisation_list: '(?:\b(?:XRD|XPS|SEM|TEM|EDS|AFM|Raman|FTIR)\b\s*(?:,|/|;|\band\b)\s*){2,}(?:\band\s+)?\b(?:XRD|XPS|SEM|TEM|EDS|AFM|Raman|FTIR)\b'
+
+exclude_sources: ['zenodo', 'figshare', 'mendeley data', 'dryad', 'harvard dataverse', 'pangaea']
+
+extra_topics:
+  - name: Adaptive optics and beam control
+    title:
+      - 'adaptive optics\W+(\w+\W+){0,6}(beams?|lasers?|focus|wavefront|light)'
+      - 'wavefront (sensing|correction)\W+(\w+\W+){0,4}(beams?|lasers?|structured)'
+    abstract:
+      - 'structured illumination fields?'
+    exclude: ['telescope', 'astronom', 'retina', 'ophthalm']
+
+core_journals:
+  issn: []
+  titles: []
+
+max_age_days: 180
+
+# Drop a paper if its title or abstract matches any of these
+exclude:
+  - '\b(acoustic|acoustics|ultrasound|ultrasonic|seismic|sonic)\b|elastic waves?|water waves?|sound waves?'
+  - 'magnetic skyrmions?|skyrmion (bubbles?|hall)|chiral magnets?|magnons?|spin textures? in (ferro|antiferro|magnet)'
+  - 'electron (vortex|vortices|beams?)|neutron|free-?electron|electron diffraction|matter-?wave|Bose-Einstein|superfluid|quantized vorti|superconduct|Abrikosov'
+  - '(fluid|flow|fluids|hydrodynamic|aerodynamic|wake|shedding|cyclone|typhoon|tornado|horseshoe|scour) (vortex|vortices)|vortex (shedding|induced vibration|generators?|ring dynamics in fluid)|bluff body|cavitating'
+  - 'wireless|antennas?|transmitarray|reflectarray|microwave|millimeter-?wave|radio[- ]frequency|\bMIMO\b|\b6G\b|radar'
+  - 'gravitational|black holes?|astrophys|galax(y|ies)|tokamak|magnetohydrodynamic'
+  - 'precipitation|traffic|epidemi|spatio-?temporal (analysis|patterns?|distribution|data|forecast|graph|attention|transformer|network|heterogeneity|variation)'
+
+technique:
+  terms:
+    - 'structured light|optical vorti|vortex beam|orbital angular momentum|vector (vortex )?beam|cylindrical vector|Bessel|Airy|skyrmion|hopfion|spatio-?temporal|space-?time wave|toroidal pulse|light bullet|wave-?front shaping|spatial light modulator|metasurface|hologra|Laguerre|Poincar|topological charge|temporal focusing|time-varying'
+  cues:
+    - '\b(we|here,? we|this work|this paper)\s+(\w+\s+){0,3}(develop|demonstrat|present|introduc|report|propos|realiz|build|construct|design|invent|achiev|generat|observ)\w*\s+(\S+\s+){0,8}?(generation|generator|method|platform|scheme|device|metasurface|technique|approach|strategy|framework|system|encoder|detector|laser|source|modulator|architecture|processor)'
+  strong_cues:
+    - '\b(we|here,? we|this work)\s+(\w+\s+){0,2}(develop|demonstrat|present|introduc|report|propos|realiz|invent)\w*\s+(a|an|the first)\s+(\S+\s+){0,6}?(method|technique|strategy|approach|platform|system|scheme|device|metasurface|generator|encoder|detector|laser|source|architecture|processor|framework)\b'
+    - '\b(first (experimental )?(demonstration|observation|realization|generation)|experimentally (demonstrat|observ|realiz)\w*|record|orders? of magnitude|unprecedented)\b'
+  journals: ['^optica\b', 'optics express', 'optics letters', 'light: science', 'nature photonics', 'nature communications', 'nature physics', 'science advances', 'physical review letters', 'advanced photonics', 'apl photonics', '^elight', 'photonix', 'laser & photonics', 'nanophotonics', 'acs photonics', 'photonics research', 'opto-electronic advances', 'journal of optics', 'journal of the optical society', 'optics communications', 'optics and lasers in engineering', 'optics & laser technology', 'advanced optical materials', 'physical review a', 'physical review applied', 'chinese optics letters', 'ultrafast science', 'communications physics', 'npj nanophotonics']
+
+routine_application:
+  domain: []
+  method: []
+
+exclude_title:
+  - '^comment on\b|^reply to\b|^erratum|^correction|call for papers|editorial board|issue information'
+  - 'light[- ]field (cameras?|displays?|imaging|microscop\w*|rendering|video|compression|depth|images?|reconstruction|3D|super-resolution)|plenoptic'
+
+soft_exclude:
+  patterns:
+    - 'single-molecule force spectroscopy|force spectroscopy|chromosome|protein folding|DNA (pulling|stretching)|cell mechanics'
+  unless_title: ['vortex', 'Bessel', 'Airy', 'vector beam', 'structured', 'holographic', 'orbital', 'spin', 'skyrmion', 'Laguerre', 'tractor', 'spanner']
+
+# Venue filter (same publisher whitelist as FemtoNews)
+venues:
+  min_h_index: 40
+  trusted_doi_prefixes:
+    - '10.48550'   # arXiv
+    - '10.1101'    # bioRxiv / medRxiv
+    - '10.64898'   # bioRxiv / medRxiv (new prefix)
+    - '10.26434'   # ChemRxiv
+    - '10.1016'    # Elsevier / Cell Press
+    - '10.1021'    # ACS
+    - '10.1039'    # RSC
+    - '10.1002'    # Wiley
+    - '10.1111'    # Wiley
+    - '10.1155'    # Hindawi (Wiley)
+    - '10.1007'    # Springer
+    - '10.1038'    # Nature Portfolio
+    - '10.1186'    # BMC
+    - '10.1140'    # EPJ
+    - '10.1557'    # MRS
+    - '10.1364'    # Optica
+    - '10.1117'    # SPIE
+    - '10.1063'    # AIP
+    - '10.1103'    # APS
+    - '10.1088'    # IOP
+    - '10.1109'    # IEEE
+    - '10.1126'    # Science / AAAS
+    - '10.34133'   # Science Partner Journals
+    - '10.1073'    # PNAS
+    - '10.1093'    # Oxford UP
+    - '10.1017'    # Cambridge UP
+    - '10.1080'    # Taylor & Francis
+    - '10.1177'    # SAGE (Applied Spectroscopy, JNIRS)
+    - '10.3390'    # MDPI
+    - '10.3389'    # Frontiers
+    - '10.1371'    # PLOS
+    - '10.7554'    # eLife
+    - '10.1515'    # De Gruyter
+    - '10.1055'    # Thieme
+    - '10.1142'    # World Scientific
+    - '10.1108'    # Emerald
+    - '10.1149'    # ECS
+    - '10.1146'    # Annual Reviews
+    - '10.1152'    # American Physiological Society
+    - '10.1128'    # ASM
+    - '10.1158'    # AACR
+    - '10.1161'    # AHA
+    - '10.1172'    # SNMMI
+    - '10.3171'    # J Neurosurgery
+    - '10.1001'    # JAMA
+    - '10.1056'    # NEJM
+    - '10.1136'    # BMJ
+    - '10.1029'    # AGU
+    - '10.5194'    # Copernicus
+    - '10.2138'    # Mineralogical Society of America
+    - '10.1130'    # GSA
+    - '10.2113'    # GSA (Lithosphere)
+    - '10.1180'    # Mineralogical Society
+    - '10.1051'    # EDP Sciences (A&A, EPJ)
+    - '10.1360'    # Science China
+    - '10.26599'   # Tsinghua UP (Nano Research)
+    - '10.31635'   # CCS Chemistry
+    - '10.37188'   # Light: Advanced Manufacturing
+    - '10.3762'    # Beilstein
+    - '10.3791'    # JoVE
+    - '10.1246'    # Chemical Society of Japan
+    - '10.7567'    # JJAP
+    - '10.1209'    # JPSJ
+    - '10.1143'    # Japan Society of Applied Physics
+    - '10.21273'   # ASHS (HortScience)
+    - '10.5713'    # Animal Bioscience
+    - '10.3724'    # Acta Biochim Biophys Sin
+    - '10.20517'   # OAE Publishing
+  blocked_doi_prefixes:
+    - '10.21203'   # Research Square
+    - '10.20944'   # Preprints.org
+    - '10.22541'   # Authorea
+    - '10.31219'   # OSF Preprints
+    - '10.17605'   # OSF
+    - '10.31224'   # OSF / EarthArXiv
+    - '10.24412'   # CyberLeninka
+    - '10.5281'    # Zenodo
+    - '10.13140'   # ResearchGate
+    - '10.6084'    # figshare
+    - '10.9734'    # Sciencedomain (Asian Journal of ...)
+    - '10.22271'   # AkiNik (J Pharmacognosy & Phytochemistry)
+  blocked_journals: ['web of conferences', '^DOAJ', 'cyberlenin']
+  # preprint servers recognised by name when a record carries no DOI
+  trusted_journals: ['^arxiv', 'biorxiv', 'medrxiv', 'chemrxiv']
+
+europepmc_terms:
+  - '"structured light"'
+  - '"optical vortex"'
+  - '"vortex beam"'
+  - '"orbital angular momentum"'
+  - '"vector beam"'
+  - '"Bessel beam"'
+  - '"Airy beam"'
+  - '"wavefront shaping"'
+  - '"spatial light modulator"'
+  - '"optical skyrmion"'
+  - '"spatiotemporal optical vortex"'
+  - '"space-time wave packet"'
+  - '"holographic optical tweezers"'
+  - '"temporal focusing"'
+
+openalex_terms:
+  - structured light
+  - optical vortex
+  - vortex beam
+  - orbital angular momentum light
+  - vector beam
+  - cylindrical vector beam
+  - Bessel beam
+  - Airy beam
+  - optical skyrmion
+  - optical hopfion
+  - spatiotemporal optical vortex
+  - space-time wave packet
+  - toroidal light pulse
+  - light bullet
+  - flying focus
+  - spatiotemporal focusing
+  - temporal focusing
+  - spatiotemporal mode-locking
+  - time-varying media photonics
+  - temporal interface light
+  - wavefront shaping scattering media
+  - spatial light modulator hologram
+  - metasurface vortex beam
+  - metasurface polarization structured light
+  - partially coherent vortex beam
+  - orbital angular momentum multiplexing
+  - diffractive neural network optical
+  - Laguerre-Gaussian beam
+openalex_lookback_days: 30
+
+crossref_queries:
+  - structured light
+  - optical vortex beam
+  - orbital angular momentum light
+  - vector beam polarization
+  - Bessel beam
+  - Airy beam
+  - optical skyrmion
+  - spatiotemporal optical vortex
+  - space-time wave packet
+  - toroidal pulse
+  - spatiotemporal focusing
+  - time-varying media optics
+  - wavefront shaping scattering
+  - spatial light modulator holography
+  - metasurface beam shaping
+  - partially coherent beam
+  - optical tweezers structured light
+
+arxiv_terms:
+  - '"structured light"'
+  - '"optical vortex"'
+  - '"vortex beam"'
+  - '"orbital angular momentum"'
+  - '"vector beam"'
+  - '"Bessel beam"'
+  - '"Airy beam"'
+  - skyrmion
+  - hopfion
+  - spatiotemporal
+  - '"space-time wave packet"'
+  - '"toroidal pulse"'
+  - '"light bullet"'
+  - '"wavefront shaping"'
+  - '"spatial light modulator"'
+  - '"time-varying"'
+  - '"temporal interface"'
+  - '"photonic time crystal"'
+
+arxiv_categories: [physics.optics, physics.app-ph, quant-ph]
+
+figures:
+  mode: oa_figure_else_cover
+  max_width: 400
+  max_height: 280
+  min_side_px: 120
+  reject_url_patterns: ['logo', 'favicon', 'default', 'placeholder', 'sprite', 'icon', 'blank']
+
+journal_covers: {}
+
+# Category rules. Group names and their order must match the site's GROUPS (index.html).
+# The "Spatiotemporal Light Fields" group feeds the separate Spatiotemporal column (#spacetime).
+categories:
+  Spatiotemporal Light Fields:
+    Space-Time Wave Packets: ['space-?time (wave ?packets?|light sheets?|beams?|coupl\w*|correlat\w*)', '\bSTWPs?\b', 'group velocit', 'superluminal|subluminal', 'propagation-invariant pulses?', 'locally bending']
+    Spatiotemporal Optical Vortices: ['spatio-?temporal (optical )?vorti', '\bSTOVs?\b', 'transverse orbital angular momentum', 'transverse OAM']
+    Toroidal & Topological Pulses: ['toroidal (light |electromagnetic )?pulses?', 'flying (doughnuts?|donuts?)', 'supertoroidal', 'spatio-?temporal (skyrmions?|hopfions?|topolog\w*|knots?|merons?|combs?)', 'space-?time (skyrmions?|topolog\w*)', 'non-separable (pulses?|space-?time)', 'topological combs?']
+    Light Bullets & X-Waves: ['light bullets?', 'optical bullets?', 'vortex bullets?', 'X-?waves?', 'focus wave modes?', 'localized waves?', 'spatio-?temporal (Laguerre|Hermite|Bessel|Airy|Gaussian|spherical)', '(Airy|Bessel)[- ](pulses?|wave ?packets?)', 'Mathieu space']
+    Spatiotemporal Focusing (SSTF): ['temporal focusing', 'spatio-?temporal focusing', 'simultaneous spatial and temporal focus', '\bSSTF\b', 'angular dispersion', 'pulse[- ]front (tilt|curvature)', 'spatial chirp']
+    Flying Focus & Programmable Pulses: ['flying focus', 'spatio-?temporal (shaping|sculpt\w*|control|programm\w*|synthes\w*)', 'programmable (spatio-?temporal|pulse|wave ?packets?)', 'spatio-?temporal(ly)? (structured|shaped)', 'structured (pulses?|wave ?packets?)']
+    Multimode & ST Mode-Locking: ['spatio-?temporal(ly)? mode-?lock', 'multimode (fib(er|re) )?(lasers?|solitons?|oscillators?|mode-?lock\w*)', 'spatio-?temporal(ly)? (synchroni\w*|solitons?)', 'Mamyshev']
+    Time-Varying Media & Temporal Interfaces: ['time-?varying (media|medium|metamaterials?|photonic|metasurfaces?|systems?)', 'temporal (interfaces?|boundar(y|ies)|reflection|refraction|slits?|gratings?)', 'time (refraction|reflection|boundar(y|ies)|interfaces?)', 'photonic time crystals?', 'Floquet (photonic|media)', 'spatio-?temporal (metasurfaces?|modulation|metalattices?|photonic metalattice|lattices?)', 'space-?time (metasurfaces?|modulat\w*|crystals?)', 'temporal chirality']
+    Spatiotemporal Measurement: ['spatio-?temporal (characteri[sz]\w*|measur\w*|reconstruct\w*|tomograph\w*|Stokes|diagnos\w*)', 'spectral interferometry', '\bFROG\b', 'field reconstruction', 'nonlinear upconversion']
+  Directions:
+    Vortex & OAM Beams: ['optical vorti', 'vortex (beams?|light|lasers?|modes?|arrays?|cavit(y|ies)|lens(es)?)', 'orbital angular momentum', '\bOAM\b', 'helical (phase|wave-?fronts?)', 'spiral phase', 'topological charges?', 'perfect (optical )?vortex', 'Laguerre[- ]Gauss']
+    Vector & Polarization Fields: ['vector (beams?|vortex|vortices|optical fields?|light)', 'cylindrical vector', 'radial(ly)? polari', 'azimuthal(ly)? polari', 'Poincar[eé]', 'polari[sz]ation (singularit\w*|structur\w*|states?|textures?|control|conversion|modulation|encoding)', 'spin[- ]orbit', 'spin angular momentum', 'photonic spin hall', 'C-points?|V-points?', 'Stokes']
+    Non-Diffracting & Accelerating Beams: ['Bessel', 'Airy', 'non-?diffract', 'frozen waves?', 'self-?accelerat', 'self-?healing', 'autofocus', 'Mathieu', 'Pearcey', 'optical needle', 'axicon', 'bottle beams?', 'curved (light|beams?|trajector\w*)', 'line-of-sight obstacles?']
+    Topological Light (Skyrmions & Knots): ['skyrmion', 'hopfion', 'merons?', 'optical knots?', 'knotted', 'optical links?', 'topolog(y|ical) (of light|light|quasiparticles?|textures?|protection|invariants?|robust\w*)', 'braids?', '\bHopf']
+    Metasurfaces & Flat Optics: ['metasurfaces?', 'metalens', 'meta-?optic', 'flat optic', 'meta-?hologra', 'meta-?atoms?', 'Pancharatnam', 'geometric[- ]phase', 'plasmonic (vortex|lens)', 'nanostructured (surface|film) .*(phase|polari)']
+    SLM, DMD & Holography: ['spatial light modulator', '\bSLMs?\b', 'digital micromirror', '\bDMD\b', 'hologra', 'computer-generated', 'phase-only', 'phase retrieval', 'Gerchberg', 'liquid[- ]crystal', 'q-?plates?']
+    Wavefront Shaping & Scattering: ['wave-?front shaping', 'scattering (media|medium|layers?|tissue)', 'transmission matrix', 'phase conjugation', 'speckle', 'memory effect', 'opaque', 'disordered (media|medium)']
+    Adaptive Optics & Aberrations: ['adaptive optics', 'aberration', 'wavefront (sensing|sensors?|correction)', 'Zernike', 'deformable mirror', '\bSPGD\b']
+    Optical Trapping & Manipulation: ['optical (tweezers|traps?|trapping|manipulation|forces?|torques?|spanners?|levitat\w*|conveyors?|tractor)', 'orbital force', 'optically (levitat|driven|trapped)', 'optomechanic']
+    Tight Focusing & Focal Fields: ['tight(ly)? focus', 'focal (fields?|region|spots?|plane)', 'longitudinal (fields?|components?)', 'energy flow', 'Richards[- ]Wolf', 'nonparaxial', 'high-?NA', 'Goos', 'helicity density']
+    Coherence & Partially Coherent Fields: ['partial(ly)? coheren', 'coherence (engineering|structur\w*|singularit\w*|vortex|functions?|-engineered)', 'Schell', 'twisted (Gaussian|partially|coherence)', 'incoherent (topolog\w*|structured)']
+    Mode Multiplexing & Fibers: ['mode (decomposition|sorting|multiplex\w*|demultiplex\w*|division|conversion|converters?|purity)', 'multi-?plane light conversion', '\bMPLC\b', 'photonic lanterns?', 'few-mode fib', 'multimode fib', 'multi-?core fib', 'ring-core fib', 'azimuthal mode', 'fib(er|re)-optic vortex', 'demultiplex']
+    Nonlinear & Quantum Structured Light: ['(second|third|high)[- ]harmonic', '\bSHG\b|\bHHG\b', 'nonlinear (optic\w*|conversion|frequency|propagation|structured|upconversion|media)', 'parametric (amplif\w*|down-?conversion)', '\bSPDC\b', '\bOPA\b', 'entangl', 'quantum (structured|states?|vortex|imaging|key|information|photon)', 'photon pairs?', 'Kerr', 'solitons?', 'four-wave mixing']
+    Structured Lasers & Sources: ['(vortex|vector|structured|Bessel|Airy) (lasers?|lasing|microlasers?|oscillators?|sources?)', 'intracavity', 'transverse mode-?lock', 'digital lasers?', 'laser (cavit(y|ies)|resonators?) .*(vortex|vector|structured|modes?)', 'Yb:CALGO', 'directly generat']
+    Other Light-Field Topics: ['a^']
+  Methods:
+    Inverse Design & AI: ['inverse(ly)? design', 'deep learning', 'neural networks?', 'machine learning', 'diffractive (deep )?neural', '\bD2NN\b', 'genetic algorithm', 'end-to-end', 'physics-informed', 'generative', 'live training', 'optimi[sz]ation algorithm']
+    Theory & Simulation: ['theor(y|etical)', 'analytic(al)?', 'simulat', 'numerical', 'paraxial', 'Maxwell', 'angular spectrum', 'gauge', 'Hamiltonian', 'closed-form', 'variational']
+    Characterization & Metrology: ['characteri[sz]', 'interferomet', 'phase retrieval', 'polarimetr', 'tomograph', 'recogni[sz]', 'detect(ion|ing|or|s)? (of )?(OAM|topolog\w*|vortex|skyrmion)', 'self-interferometric', 'mode decomposition']
+    Integrated & On-Chip: ['on-?chip', 'integrated (photonic|optic\w*)', 'photonic integrated', 'waveguides?', 'silicon photonic', 'plasmonic', 'microrings?', 'ring resonators?', 'compact limit', 'subwavelength']
+  Applications:
+    Optical Communication: ['communicat', 'multiplex', 'free-?space optical', '\bFSO\b', 'information (transmission|encoding|capacity|transfer)', 'data (transmission|rate)', 'interconnects?', 'bits? per', 'alphabet', 'channels?']
+    Microscopy & Imaging: ['microscop', 'imaging', '\bSTED\b', 'light[- ]sheet', 'endoscop', 'super-?resolution', 'image (transmission|encoding|decoding)']
+    Laser Processing & Fabrication: ['fabricat', 'machin', 'ablat', 'lithograph', 'laser writing', 'nanofabricat', 'printing', 'surface reliefs?', 'azopolymer', 'drilling', 'cutting', 'nanolithograph']
+    Optical Computing: ['optical comput', 'photonic comput', 'analog comput', 'logic', 'neuromorphic', 'convolution', 'processors?', 'reservoir', 'arithmetic', 'adders?', 'edge detection', 'differentiat']
+    Quantum Information: ['quantum (information|key|communicat\w*|comput\w*|states?)', 'entangl', 'single-?photon', 'qubits?', 'photon pairs?', 'high-dimensional (quantum|states?)']
+    Sensing & Metrology: ['sens(ors?|ing)', 'metrolog', 'rotation(al)? (velocity|detection)', 'displacement', 'Doppler', 'gyroscop', 'enantio', 'chiral (sens\w*|detect\w*|molecul\w*)']
+    Strong-Field & Ultrafast: ['high[- ]harmonic', 'attosecond', 'strong[- ]field', 'plasma', 'relativistic', 'electron acceleration', '\bXUV\b|\bEUV\b', 'extreme ultraviolet', 'high[- ]intensity', 'ultrahigh intensit', 'femtosecond laser ablation']
+    Turbulence & Free-Space Links: ['turbulen', 'atmospher', 'underwater', 'oceanic|ocean\b', 'sea-?fog', 'obstacles?', 'line-of-sight', 'remote sensing', 'stand-?off', 'outdoor', 'field trial']
+    Displays, Security & AR: ['displays?', 'augmented reality', 'holographic (display|projection)', 'encryption', 'anti-?counterfeit', 'security', 'illusion']
+  Miscellaneous:
+    News & Highlights: ['a^']
+    Reviews: ['^review', '\breview of\b', 'a review', 'mini[- ]review', '\bperspective\b', 'tutorial', 'recent (advances|progress)', ': from (technologies|fundamental)', 'state of the art', 'fundamentals and applications']
+    Jobs & Studentships: ['a^']
+    Student Theses: ['\bthesis\b|dissertation']
+
+category_limits: {Spatiotemporal Light Fields: 2, Directions: 2, Methods: 1, Applications: 1, Miscellaneous: 1}
+default_category: Other Light-Field Topics
+
+glyphs:
+  - [Spatiotemporal Optical Vortices, stov]
+  - [Toroidal & Topological Pulses, toroid]
+  - [Space-Time Wave Packets, stwp]
+  - [Light Bullets & X-Waves, bullet]
+  - [Spatiotemporal Focusing (SSTF), sstf]
+  - [Flying Focus & Programmable Pulses, flying]
+  - [Multimode & ST Mode-Locking, multimode]
+  - [Time-Varying Media & Temporal Interfaces, timevary]
+  - [Spatiotemporal Measurement, stmeas]
+  - [Topological Light (Skyrmions & Knots), skyrmion]
+  - [Vortex & OAM Beams, vortex]
+  - [Vector & Polarization Fields, vector]
+  - [Non-Diffracting & Accelerating Beams, bessel]
+  - [Metasurfaces & Flat Optics, meta]
+  - ["SLM, DMD & Holography", slm]
+  - [Wavefront Shaping & Scattering, speckle]
+  - [Adaptive Optics & Aberrations, ao]
+  - [Optical Trapping & Manipulation, trap]
+  - [Tight Focusing & Focal Fields, focus]
+  - [Coherence & Partially Coherent Fields, coherence]
+  - [Mode Multiplexing & Fibers, modes]
+  - [Nonlinear & Quantum Structured Light, nonlinear]
+  - [Structured Lasers & Sources, laser]
+  - [Inverse Design & AI, ai]
+  - [Theory & Simulation, theory]
+
+default_glyph: beam        # sketch drawn when no glyph rule matches
+
+daily_lookback_days: 3
+summary_max_chars: 700
