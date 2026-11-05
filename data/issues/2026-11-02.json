@@ -4,7 +4,7 @@
   "date": "2026-11-02",
   "window": [
     "2026-10-19",
-    "2026-11-05"
+    "2026-11-06"
   ],
   "articles": [
     {
@@ -439,6 +439,206 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-optlaseng-2026-110231-8e0ae9",
+      "date": "2027-02-01",
+      "title": "Investigation on the recovery of backward distorted vortex beams in double-path atmospheric transmission based on enhanced Pix2pix model",
+      "authors": "Yali Ren, Yufeng Wang, Xiaoya Liu, Zhen Shen, Huige Di, Dengxin Hua",
+      "institutions": [],
+      "journal": "Optics and Lasers in Engineering",
+      "doi": "10.1016/j.optlaseng.2026.110231",
+      "url": "https://doi.org/10.1016/j.optlaseng.2026.110231",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Turbulence & Free-Space Links"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-mtadv-2026-101042-e49f5e",
+      "date": "2026-12-01",
+      "title": "Graphene-integrated Zr-AlN-TiC metasurface polarization-insensitive ultra-broadband solar absorber for renewable mining applications",
+      "authors": "Rajendrasinh Jadeja, Bo Bo Han, Shobhit K. Patel, Taoufik Saidani, Refka Ghodhbani, Aymen Flah",
+      "institutions": [],
+      "journal": "Materials Today Advances",
+      "doi": "10.1016/j.mtadv.2026.101042",
+      "url": "https://doi.org/10.1016/j.mtadv.2026.101042",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Metasurfaces & Flat Optics"
+      ],
+      "glyph": "meta",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-618702-5126e0",
+      "date": "2026-11-05",
+      "title": "A Spatial Light Modulator–Based Polarizing Nulling Interferometer for Quantitative Measurement of Multiple Optical Surface Geometries",
+      "authors": "Dahi Ibrahim, Andrew Lambert, Nicholas Devaney",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.618702",
+      "url": "https://doi.org/10.1364/oe.618702",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Characterization & Metrology"
+      ],
+      "glyph": "slm",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-616034-db810c",
+      "date": "2026-11-05",
+      "title": "Direct generation of a watt-level single-frequency vortex laser beam via annular pumping in a compact standing-wave cavity",
+      "authors": "Zixuan Zhao, Minghao Guo, Xin Yan, Junhe Han, Peng Li, Xiaomin Guo, Yanqiang Guo, ZHANSHENG GAO",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.616034",
+      "url": "https://doi.org/10.1364/oe.616034",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Structured Lasers & Sources"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1088-1572-9494-aebe08-e93e91",
+      "date": "2026-11-05",
+      "title": "Stability and Dynamics of High-Charge Vector Vortex-Antivortex Solitons in the (2+1)D Cubic-Quintic Complex Ginzburg-Landau Equation",
+      "authors": "Alain Djazet, Marius Jeannot Nko'o Nko'o, LUCIEN MANDENG MANDENG, Emmanuel Felenou Tchomgo, Mustafa Inc, Serge Ibraid Fewo, Clement Tchawoua, Timoleon Crépin Kofané",
+      "institutions": [
+        "National Polytechnic University Institute Bamenda",
+        "University of Yaoundé I",
+        "National Advanced School of Engineering"
+      ],
+      "journal": "Communications in Theoretical Physics",
+      "doi": "10.1088/1572-9494/aebe08",
+      "url": "https://doi.org/10.1088/1572-9494/aebe08",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Multimode & ST Mode-Locking",
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "multimode",
+      "summary": "We investigate the existence, stability, and nonlinear dynamics of high-charge vector vortex solitons (VVSs) in a (2+1)D vectorial cubic-quintic complex Ginzburg-Landau model describing multimode laser cavities. The analysis combines a variational approach (VA), radial linear stability theory based on the Routh-Hurwitz criterion, and direct numerical simulations of the full field equations. We demonstrate that vortex-antivortex pairs with opposite topological charges \\((+m,-m)\\) and \\(m \\ge 2\\) can be stabilized within specific dissipative regimes through the combined action of cubic-quintic nonlinearities, gain-loss balance, and vectorial coupling between polarization components. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1063-5-0341224-021b99",
+      "date": "2026-11-05",
+      "title": "Ultrafast and ultra-intense optical vortices: Advances, applications, challenges, and perspectives",
+      "authors": "Zhen Qiao, Guoqiang Xie",
+      "institutions": [
+        "School of Optical-Electrical and Computer Engineering",
+        "School of Physics and Astronomy"
+      ],
+      "journal": "Applied Physics Reviews",
+      "doi": "10.1063/5.0341224",
+      "url": "https://doi.org/10.1063/5.0341224",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Spatiotemporal Measurement",
+        "Vortex & OAM Beams",
+        "Structured Lasers & Sources",
+        "Characterization & Metrology",
+        "Optical Communication"
+      ],
+      "glyph": "stmeas",
+      "summary": "Optical vortex beams carrying orbital angular momentum provide a fundamental degree of freedom for structured light in space. Recent advances in ultrafast laser technology have extended optical vortices into the ultrafast and ultra-intense regime, where ultrashort pulse durations are combined with extremely high peak intensities. Such beams enable access to ultrafast, nonlinear, and strong-field light–matter interaction regimes, thereby unlocking emerging applications including laser-driven particle acceleration, micro- and nanofabrication, molecular detection, high-capacity optical communication and encryption, and advanced imaging. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1117-1-oe-65-11-113102-9dea72",
+      "date": "2026-11-05",
+      "title": "Statistical outlier detection for polarity-invariant accelerated autofocusing in lensless in-line digital holography",
+      "authors": "Jing Ling, Huimin Xia, Junchen Ge, Longfei Ge, Bing Xu",
+      "institutions": [
+        "Anhui Jianzhu University",
+        "Chaohu University"
+      ],
+      "journal": "Optical Engineering",
+      "doi": "10.1117/1.oe.65.11.113102",
+      "url": "https://doi.org/10.1117/1.oe.65.11.113102",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "SLM, DMD & Holography",
+        "Theory & Simulation"
+      ],
+      "glyph": "bessel",
+      "summary": "Automatic focusing in lensless in-line digital holography typically reconstructs candidate axial planes, evaluates a scalar focus metric, and searches for its extremum. This approach faces two limitations: focal response polarity depends on the object type and underlying focus operator, whereas exhaustive fine-grid scanning requires numerous propagations over wide axial ranges. To address these limitations, we propose a polarity-invariant accelerated autofocus framework based on statistical outlier detection of axial metric sequences generated by existing focus operators. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-ao-619136-53728d",
+      "date": "2026-11-05",
+      "title": "Quantitative Pulse Shaping via Super-Gaussian Spectral-Filter Order in Nonlinear-Polarization-Rotation Mode-Locked Fiber Lasers",
+      "authors": "Luming Zhao, Yijie Cai, Shaokun Wu, Zhijun Yan, Ming Tang, Ryszard Buczynski",
+      "institutions": [],
+      "journal": "Applied Optics",
+      "doi": "10.1364/ao.619136",
+      "url": "https://doi.org/10.1364/ao.619136",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1080-09500340-2026-2752993-3a3335",
       "date": "2026-11-04",
       "title": "Beam quality factor of a twisted Gaussian Schell-model elliptical vortex beam carrying the cross-phase propagating through a turbulent atmosphere",
@@ -563,6 +763,139 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1088-1361-6455-aebdee-0ab7a7",
+      "date": "2026-11-04",
+      "title": "Spin-polarization-dependent tunable orbital angular momentum Hall effect in spatially tailored symmetry-broken non-vortex structures",
+      "authors": "Anwesha Panda, Shirsha Mukherjee, Dwijendra Mohan Tribedi, Nirmalya Ghosh",
+      "institutions": [
+        "Indian Institute of Science Education and Research Kolkata",
+        "Indian Institute of Technology Kanpur"
+      ],
+      "journal": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "doi": "10.1088/1361-6455/aebdee",
+      "url": "https://doi.org/10.1088/1361-6455/aebdee",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Characterization & Metrology"
+      ],
+      "glyph": "vortex",
+      "summary": "We demonstrate a spin (circular polarization)-dependent tunable orbital angular momentum (OAM) Hall effect of light in a uniquely engineered symmetry-broken, non-vortex structure realized through pixel modulation of a spatial light modulator. The interplay between dynamical phase and multiple forms of geometric phase within this structure gives rise to the spin-dependent generation of spatially separated vortex beams from an initially non-vortex input. The distinctive features of this spin-dependent tunable OAM Hall effect are characterized by the geometric patterns observed in the measured Stokes vector parameters of the output light. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-physics-b-atomic-molecular-and-optical-physics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Physics B Atomic Molecular and Optical Physics"
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-2752-5724-aebdab-a7687c",
+      "date": "2026-11-04",
+      "title": "Ferroelectric Topological Structures: From Discovery to Functional Manipulation",
+      "authors": "Wan‐Rong Geng, Yin-Lian Zhu, Xiuliang Ma",
+      "institutions": [
+        "Chinese Academy of Sciences"
+      ],
+      "journal": "Materials Futures",
+      "doi": "10.1088/2752-5724/aebdab",
+      "url": "https://doi.org/10.1088/2752-5724/aebdab",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "Characterization & Metrology",
+        "Optical Computing",
+        "Reviews"
+      ],
+      "glyph": "skyrmion",
+      "summary": "The introduction of topology has opened up a whole new way of looking at complex ordered states in condensed matter. Ferroelectrics, with their spontaneous polarization as the order parameter, can, under specific boundary conditions, form nontrivial polar textures, especially the polar topological structures (the electric counterparts of the topological spin structures), including flux-closures, vortices, skyrmions, merons, and even hopfions. These polar topological textures come with intriguing functionalities like negative capacitance and chiral optical responses, making them promising building blocks for next generation high density storage and neuromorphic computing. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-2058-9565-aebdc1-8c6c9e",
+      "date": "2026-11-04",
+      "title": "All-optical saddle trap as a platform for mesoscopic quantum experiments",
+      "authors": "Pedro Ventura Paraguassú, Luca Paiva, Daniel Ribas Tandeitnik, Daniel M. Tibaduiza, Antonio Zelaquett Khoury, Thiago Guerreiro",
+      "institutions": [
+        "Pontifical Catholic University of Rio de Janeiro"
+      ],
+      "journal": "Quantum Science and Technology",
+      "doi": "10.1088/2058-9565/aebdc1",
+      "url": "https://doi.org/10.1088/2058-9565/aebdc1",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Nonlinear & Quantum Structured Light",
+        "Quantum Information"
+      ],
+      "glyph": "vortex",
+      "summary": "We investigate the quantum dynamics of a levitated nanoparticle in a structured light rotating saddle-like optical potential consisting of a superposition of Gaussian and Laguerre-Gauss modes with detuned frequencies. This rotating saddle trap offers unique opportunities for quantum experiments, such as reduced decoherence due to photon recoil and absorption, the possibility of delocalization of the particle's center-of-mass motion, particle recovery protocols, the generation of motional entanglement and the preservation of squeezing. As an application, we show that this saddle-trap architecture enables force sensing with a single-shot quantum bound in the attoNewton regime.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1103-8x3f-7nmd-193a77",
+      "date": "2026-11-04",
+      "title": "Static and breathing dynamics of spatiotemporal solitons in nonlinear graded-index fibers",
+      "authors": "Sonali Maity, Tiyas Das, Anuj P. Lara, Ashis Paul, Samudra Roy",
+      "institutions": [],
+      "journal": "Physical Review A",
+      "doi": "10.1103/8x3f-7nmd",
+      "url": "https://doi.org/10.1103/8x3f-7nmd",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Multimode & ST Mode-Locking",
+        "Nonlinear & Quantum Structured Light"
+      ],
+      "glyph": "multimode",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-06666-2c0a56",
+      "date": "2026-11-04",
+      "title": "Geometric Pumping of Optical Work in Coherent Wave Scattering",
+      "authors": "Zeyu Kuang, Konstantin Y. Bliokh, Stefan Rotter",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.06666",
+      "url": "https://arxiv.org/abs/2611.06666",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Time-Varying Media & Temporal Interfaces",
+        "Wavefront Shaping & Scattering",
+        "Optical Trapping & Manipulation",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "timevary",
+      "summary": "Optical work exchanged between light and time-varying matter underlies a wide range of emerging photonic technologies, yet a general geometric theory describing its generation and control has been lacking. Here we establish such a theory for coherent electromagnetic scattering. We show that the net optical work accumulated during an adiabatic modulation cycle is a geometric quantity determined by the Berry curvature of the outgoing field in parameter space. Nonzero optical work can thus be generated by cyclically modulating two or more independent system parameters. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-1002-lpor-72164-728339",
@@ -955,6 +1288,28 @@
       "source": "arxiv"
     },
     {
+      "id": "10-48550-arxiv-2611-04076-2efdd6",
+      "date": "2026-11-02",
+      "title": "Chirality rules for optical vortices in rhombohedral graphene multilayers",
+      "authors": "Felipe Pérez Riffo, Matias Castro Schnaidt, Juan M. Florez, Eric Suárez Morell",
+      "institutions": [],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2611.04076",
+      "url": "https://doi.org/10.48550/arxiv.2611.04076",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams"
+      ],
+      "glyph": "vortex",
+      "summary": "Optical zeros are momenta where the interband dipole vanishes. The dipole phase winds around each of them by an integer, so they are vortices of the resonant optical response with a conserved charge. We show that in rhombohedral graphene multilayers one integer, the stacking chirality N, fixes their constellation near the K valley: the total charge per linear polarization is N-1 and is conserved under trigonal warping and interlayer bias; for N\\ge3 the K point stays an exact optical zero, the Bernal bilayer being the only exception; warping places the remaining charge on satellites whose radii scale linearly with the warping; and the charge pinned at K is bias independent for N\\ge4. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-48550-arxiv-2611-01883-58e845",
       "date": "2026-11-01",
       "title": "Propagation invariant one-dimensional flat-top vector beam with conserved topology",
@@ -1000,6 +1355,28 @@
       ],
       "glyph": "vortex",
       "summary": "We study the near‐field propagation dynamics of phase singularities (optical vortices) generated by Fresnel diffraction of a light beam from a phase grating containing two spatially separated lines of embedded fork‐shaped dislocations with opposite topological charges. Using a combination of analytical methods based on a hydrodynamic approach and full numerical simulations of the Fresnel diffraction integral, we analyze the evolution of the singularities positions over the propagation. Depending on the relative horizontal shift between the two dislocation lines, the trajectories of positive and negative vortices either intersect and cross each other or annihilate upon meeting. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-physleta-2026-132343-1c50b5",
+      "date": "2026-11-01",
+      "title": "Generation and conversion of vortex light in coherently prepared hydrogen atoms and hydrogen-like ions",
+      "authors": "Fan Meng, Guo‐Feng Zhang",
+      "institutions": [],
+      "journal": "Physics Letters A",
+      "doi": "10.1016/j.physleta.2026.132343",
+      "url": "https://doi.org/10.1016/j.physleta.2026.132343",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams"
+      ],
+      "glyph": "vortex",
+      "summary": "",
       "why": "",
       "pick": false,
       "feature": false,
@@ -3770,6 +4147,36 @@
       "source": "openalex"
     },
     {
+      "id": "10-1364-opticaopen-34556406-v1-0d1a0a",
+      "date": "2026-10-16",
+      "title": "Coherent orbital-angular-momentum-to-time mapping with frequency-diverse structured light",
+      "authors": "Eric Johnson, J. Keith Miller",
+      "institutions": [
+        "University of Central Florida"
+      ],
+      "journal": "",
+      "doi": "10.1364/opticaopen.34556406.v1",
+      "url": "https://doi.org/10.1364/opticaopen.34556406.v1",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "We demonstrate coherent orbital angular momentum (OAM)-to-time mapping, converting multidimensional OAM superpositions into complex temporal waveforms recovered by a single photodetector. A 32-beamlet ring with a 1.5625 MHz frequency spacing maps each OAM order to 20 ns, while four-step phase-shifting interferometry recovers amplitude and phase. Measurements agree with an analytic angular-Fourier model. After a 3 m water path, all 30 mutually unbiased basis states (d = 5) yield mean cross- and within-basis overlaps of 0.199 and 1.09 x 10-4, respectively. A 16-state alphabet transmits a 256 × 256 grayscale image without errors.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · "
+      },
+      "source": "openalex"
+    },
+    {
       "id": "10-1126-science-aeh4015-3cbd8e",
       "date": "2026-10-15",
       "title": "Electrically driven chiral emission from plasmonic tunnel junctions",
@@ -4342,6 +4749,30 @@
         "kind": "cover",
         "credit": "Journal cover · "
       },
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-josaa-610594-540385",
+      "date": "2026-10-13",
+      "title": "Reduced-order statistical model for optical vortex singularity displacement in atmospheric turbulence",
+      "authors": "Mazen Nairat, David Kreamer",
+      "institutions": [],
+      "journal": "Journal of the Optical Society of America A",
+      "doi": "10.1364/josaa.610594",
+      "url": "https://doi.org/10.1364/josaa.610594",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "The propagation of optical vortex beams through atmospheric turbulence leads to stochastic displacement and structural evolution of phase singularities, with important implications for singular optics and free-space optical communication. We present a reduced-order, semi-empirical statistical model for the ensemble-averaged radial displacement of vortex singularities, which decomposes the normalized displacement into two physically distinct contributions: a first-order (tilt-like) term that follows the classical Kolmogorov exponent, and a topology-dependent splitting term that grows with topological charge. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
       "source": "openalex"
     },
     {
@@ -5454,6 +5885,32 @@
       "source": "openalex"
     },
     {
+      "id": "10-1364-ol-614327-4a2d39",
+      "date": "2026-10-08",
+      "title": "Programmable diffractive neural networks enabled by microfluidic refractive-index encoding",
+      "authors": "Shengting Zhu, Yinan Zhang",
+      "institutions": [
+        "University of Shanghai for Science and Technology"
+      ],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.614327",
+      "url": "https://doi.org/10.1364/ol.614327",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "slm",
+      "summary": "Diffractive deep neural networks (D 2 NNs) provide a compact platform for optical computing, but their functions are generally fixed after fabrication. Here, we introduce fluidic refractive-index control as an additional degree of freedom for programmable D 2 NNs. By integrating microfluidic chambers with a proposed monolithic D 2 NN architecture, the optical response can be dynamically tuned without altering the physical structure. We demonstrate refractive-index-controlled holographic multiplexing and reconfigurable D 2 NN functions, including imaging, edge detection, and classification, through numerical simulations. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1088-1402-4896-aeb194-0d5abb",
       "date": "2026-10-07",
       "title": "Chirality-selective spin Hall effect of vortex beams in a twist-stacked Bi 2 Se 3 grating-VO 2 metasurface for multi-channel optical encoding",
@@ -6005,5 +6462,5 @@
     "10-7922-g26q1vnn-51ec59"
   ],
   "curated": "2026-11-04",
-  "updated": "2026-11-05"
+  "updated": "2026-11-06"
 }

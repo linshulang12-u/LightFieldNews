@@ -28,5 +28,10 @@
     "src": "covers/journal-of-optics.jpg",
     "kind": "cover",
     "credit": "Journal cover · Journal of Optics"
+  },
+  "journal of physics b atomic molecular and optical physics": {
+    "src": "covers/journal-of-physics-b-atomic-molecular-and-optical-physics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Physics B Atomic Molecular and Optical Physics"
   }
 }
