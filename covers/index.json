@@ -33,5 +33,10 @@
     "src": "covers/journal-of-physics-b-atomic-molecular-and-optical-physics.jpg",
     "kind": "cover",
     "credit": "Journal cover · Journal of Physics B Atomic Molecular and Optical Physics"
+  },
+  "journal of physics d: applied physics": {
+    "src": "covers/journal-of-physics-d-applied-physics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Physics D: Applied Physics"
   }
 }

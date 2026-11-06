@@ -4,7 +4,7 @@
   "date": "2026-11-02",
   "window": [
     "2026-10-19",
-    "2026-11-06"
+    "2026-11-07"
   ],
   "articles": [
     {
@@ -484,6 +484,88 @@
       "source": "crossref"
     },
     {
+      "id": "10-1038-s41377-026-02533-w-b8aa2e",
+      "date": "2026-11-06",
+      "title": "Freespace “twistronics”: moiré structured light for optical supertopologies",
+      "authors": "Vasu Dev, Yijie Shen",
+      "institutions": [
+        "Nanyang Technological University"
+      ],
+      "journal": "Light Science & Applications",
+      "doi": "10.1038/s41377-026-02533-w",
+      "url": "https://doi.org/10.1038/s41377-026-02533-w",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Topological Light (Skyrmions & Knots)",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Moiré superlattices of twisted bilayer 2D materials creating nontrivial physical effects have recently revolutionized diverse subjects across materials, optoelectronics, nanophotonics, and beyond. Here, we present moiré superlattices in higher-dimensional freespace optics, where the basic twisted lattice is not a layer of 2D material, but a propagating structured light field with periodic topological textures. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "figs/10-1038-s41377-026-02533-w-b8aa2e.jpg",
+        "kind": "figure",
+        "credit": "CC BY · via nature.com"
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-2351-7-0002206-2bbf5b",
+      "date": "2026-11-06",
+      "title": "Effect of static and dynamic laser beam shaping on Fe-Al intermetallic formation in Al-Si coated 22MNB5 steel",
+      "authors": "Mir-Hamza Khan, Tahir Irfan Khan, Sharhid Jabar, Jeff Markus, Travis Stahler, Pasquale Franciosa",
+      "institutions": [
+        "The University of Warwick 1",
+        "School of Engineering",
+        "Multimatic Inc. 3"
+      ],
+      "journal": "Journal of Laser Applications",
+      "doi": "10.2351/7.0002206",
+      "url": "https://doi.org/10.2351/7.0002206",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "Laser beam welding of Al-Si coated 22MnB5 steel is challenging due to Al enrichment from the Al-Si coating, which promotes α-ferrite and Fe(Al,Si) intermetallic (IMC) formation, degrading joint performance. This study examines the effect of static-in-source fiber and dynamic beam shaping using a coherent beam combining (CBC) laser system during overlap welding, comparing static core-only, static core-to-ring, and forward-triangle dynamic beam shaping, and correlating with microstructure, and mechanical performance. The core-only beam produced a highly concentrated heat source with limited melt-pool mixing, leading to Al accumulation (∼2.7 wt. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-mi17111289-2fc681",
+      "date": "2026-11-06",
+      "title": "Spatiotemporal Couplings in Ultrashort Laser Pulses: Fundamentals, High-Field Interactions, and MEMS-Enabled Control for Micromachining",
+      "authors": "Laura Ionel, Iulia Anghel, Cristian Viespe",
+      "institutions": [
+        "National Institute for Laser"
+      ],
+      "journal": "Micromachines",
+      "doi": "10.3390/mi17111289",
+      "url": "https://doi.org/10.3390/mi17111289",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Spatiotemporal Focusing (SSTF)",
+        "Theory & Simulation",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "sstf",
+      "summary": "Spatiotemporal couplings are defined by non-separable spatial and temporal or spectral dependences of the optical field. They must be distinguished from the kinematic conversion between pulse duration and longitudinal spatial extent, s = cτ, which applies to a rigidly translating profile in vacuum under specified observation conditions. This review examines theoretical and experimental frameworks developed to describe such regimes, where diffraction–dispersion analogies coexist with angular dispersion, pulse-front tilt, space-dependent spectra, and structured spatiotemporal wave packets and discusses their influence on peak intensity, nonlinear absorption, energy deposition, ablation, …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1364-oe-618702-5126e0",
       "date": "2026-11-05",
       "title": "A Spatial Light Modulator–Based Polarizing Nulling Interferometer for Quantitative Measurement of Multiple Optical Surface Geometries",
@@ -637,6 +719,304 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1088-1402-4896-aebe81-ae1ed9",
+      "date": "2026-11-05",
+      "title": "Tunable photonic nanojets and optical chirality enabled by perfect vortex beams",
+      "authors": "Hanghang Zhang, Xuan Gao, Xinzhong Li",
+      "institutions": [
+        "Luoyang Institute of Science and Technology",
+        "Xianyang Normal University",
+        "Henan University of Science and Technology"
+      ],
+      "journal": "Physica Scripta",
+      "doi": "10.1088/1402-4896/aebe81",
+      "url": "https://doi.org/10.1088/1402-4896/aebe81",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Characterization & Metrology",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "The photonic nanojet (PNJ) generation schemes based on passive dielectric structures typically lack dynamic tunability, and the application of traditional vortex beams is further restricted by the inherent dependence of the ring radius on topological charge. In this work, the PNJ generated by perfect vortex (PV) beams illuminating dielectric microlenses was systematically investigated, with quantitative characterization of the optical chirality density, spin angular momentum density, and vortex dichroism in the near field. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-1402-4896-aebe7c-10f83d",
+      "date": "2026-11-05",
+      "title": "An all-dielectric metasurface for the conversion of circularly polarized light to quasi-perfect optical vortices and focusing",
+      "authors": "Johnston Kalwe, Xingguang Liu, Junqing Li, Wenbo Jiang, Xindi Wang",
+      "institutions": [
+        "Harbin Institute of Technology"
+      ],
+      "journal": "Physica Scripta",
+      "doi": "10.1088/1402-4896/aebe7c",
+      "url": "https://doi.org/10.1088/1402-4896/aebe7c",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Integrated & On-Chip",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Perfect optical vortices (POVs), whose radii are independent of topological charge, are highly desirable for applications in optical communication and particle manipulation. However, conventional methods to realize them typically rely on bulky optical systems or suffer from low efficiency and a narrow operating bandwidth. Here, we propose an all-dielectric metasurface operating in the visible regime that converts circularly polarized light into quasi-POVs while simultaneously focusing the generated beams. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-2040-8986-aebe44-f33e2d",
+      "date": "2026-11-05",
+      "title": "NIR and visible structured beam generation with a dualforce mechanical long-period fiber grating",
+      "authors": "Wen-Hsuan Kuan, Xin-Yu Hou, Kuei-Huei Lin, Viðar Guðmundsson",
+      "institutions": [
+        "University of Taipei"
+      ],
+      "journal": "Journal of Optics",
+      "doi": "10.1088/2040-8986/aebe44",
+      "url": "https://doi.org/10.1088/2040-8986/aebe44",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Mode Multiplexing & Fibers"
+      ],
+      "glyph": "modes",
+      "summary": "This work presents tunable generation of vortex, vector, and flat-top 1060-nm NIR beams in a few-mode fiber with a dual-force mechanical long-period fiber grating. By varying the applied forces on the fiber grating, the core mode to higher-order mode excitation can be adjusted. Manipulating the beam transformation is achieved by controlling the polarization of the fiber eigenmodes and the mode-coupling efficiency. In addition, our dual-force scheme enables greater flexibility in the mode selection by introducing the force gradient as an additional degree of freedom. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-optics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Optics"
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-1002-lpor-72187-7a50cc",
+      "date": "2026-11-05",
+      "title": "Reconfigurable Optical Image Processor Unit via Phase‐Programmed On‐Chip Metalens",
+      "authors": "Tao Wang, Yiming Zhang, Tonghui Dou, Ke Xu",
+      "institutions": [
+        "Department of Integrated Circuits Harbin Institute of Technology Shenzhen P. R. China"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72187",
+      "url": "https://doi.org/10.1002/lpor.72187",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Wavefront Shaping & Scattering",
+        "Inverse Design & AI",
+        "Optical Computing"
+      ],
+      "glyph": "meta",
+      "summary": "Image processing is vital for information retrieval, pattern recognition, and knowledge extraction. Compared with digital image processing using electronics, optical image processing offers potential advantages in throughput, latency, and energy efficiency by exploiting the intrinsic parallelism of light propagation. Optical neural networks have been widely implemented for feature extraction and image enhancement, while they rely on intensive data‐driven training and parameter optimization in the digital domain. In contrast, spatial differentiation provides a direct and training‐free route for certain image processing tasks simply via optical propagation. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-71976-31d44c",
+      "date": "2026-11-05",
+      "title": "High‐Purity Lasing of Ultrahigh‐Order Optical Vortices Enabled by Cavity Degeneracy Lifting (Laser Photonics Rev. 20(21)/2026)",
+      "authors": "Jingni Geng, Tianchang Liu, Dechen Zhan, Quan Sheng, Chunpeng Shi, Allam Srinivasa Rao, Zhengxiao Cao, Wei Shi, Jianquan Yao, Zhihan Zhu, Takashige Omatsu",
+      "institutions": [],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.71976",
+      "url": "https://doi.org/10.1002/lpor.71976",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-qute-70546-115354",
+      "date": "2026-11-05",
+      "title": "Reconfigurable Entanglement Structure of Quadripartite Continuous‐Variable States With Orbital Angular Momentum Modes",
+      "authors": "Muhua Zhai, Feng Wen, Shaowei Zhang, Dongyu Li, Huapeng Ye, Zhihao Tong, Wei Wang, Yanpeng Zhang, Hongxing Wang",
+      "institutions": [
+        "Machining Division Department Xi'an Microelectronic Technology Institute Xi'an China"
+      ],
+      "journal": "Advanced Quantum Technologies",
+      "doi": "10.1002/qute.70546",
+      "url": "https://doi.org/10.1002/qute.70546",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Nonlinear & Quantum Structured Light",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Multipartite entanglement is a fundamental resource for quantum communication networks, and scaling it up is essential for advancing quantum information processing. However, flexible manipulation and reconfiguration of multipartite entangled states generally require complex optical systems, restricting scalability. Here, we propose a tunable four‐mode continuous‐variable (CV) entanglement scheme via multiple nonlinear processes, including cascaded spontaneous parametric four‐wave mixing (SP‐FWM) and sum‐frequency four‐wave mixing (SF‐FWM). …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-photonics13111049-905596",
+      "date": "2026-11-05",
+      "title": "Target Reconstruction for Longitudinal Laser Tomography Through Multilayer Cloud and Fog Media",
+      "authors": "Wenjun Yi, Siyu Liu, Nan Gu, Meicheng Fu, Ping Wang, Xiujian Li",
+      "institutions": [
+        "College of Science",
+        "College of Electronic Science"
+      ],
+      "journal": "Photonics",
+      "doi": "10.3390/photonics13111049",
+      "url": "https://doi.org/10.3390/photonics13111049",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Wavefront Shaping & Scattering",
+        "Theory & Simulation",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "speckle",
+      "summary": "Range-gated laser imaging and longitudinal laser tomography (LLT) can suppress backscattering noise in turbid environments. However, when a target is obscured by multiple cloud or fog layers, the measured target image suffers from spatially nonuniform degradation, and single-layer restoration methods based on LLT cannot adequately compensate for the cumulative effects of the preceding layers. Here, we propose a layer-wise degradation modeling and compensation method for target reconstruction through multilayer cloud and fog media. In the LLT framework, range gating is used to acquire the backscattering images of individual medium layers and the degraded target image. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1063-5-0340036-f7753f",
+      "date": "2026-11-05",
+      "title": "Femtosecond-laser nanomanufacturing of solid-state surface-enhanced Raman scattering substrates: Electromagnetic enhancement, chemical activation, and interfacial engineering",
+      "authors": "Haoran Sun, Huijuan Zhang, Xuegang Zhang, Yan Zhao, Yinzhou Yan",
+      "institutions": [
+        "School of Physics and Optoelectronic Engineering"
+      ],
+      "journal": "Harmonics and Scattering",
+      "doi": "10.1063/5.0340036",
+      "url": "https://doi.org/10.1063/5.0340036",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Integrated & On-Chip",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "slm",
+      "summary": "Surface-enhanced Raman scattering (SERS) spectroscopy has shown broad potential in chemical, biological, and environmental sensing owing to its ultrasensitive vibrational fingerprint recognition down to the single-molecule level. Compared with colloids, solid-state SERS substrates offer superior structural stability and fabrication reproducibility, facilitating on-chip integration. Unfortunately, the trade-off between fabrication efficiency and cost hampers their scalable production with homogeneous nanostructures. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1088-1361-6463-aebe3a-77d270",
+      "date": "2026-11-05",
+      "title": "Dynamically reconfigurable dual-band circular dichroism in a terahertz hybrid dielectric-graphene metasurface",
+      "authors": "Yawei Dou, Yunping Qi, Jiayong Hu, Xiangxian Wang",
+      "institutions": [
+        "Northwest Normal University",
+        "Lanzhou University of Technology"
+      ],
+      "journal": "Journal of Physics D: Applied Physics",
+      "doi": "10.1088/1361-6463/aebe3a",
+      "url": "https://doi.org/10.1088/1361-6463/aebe3a",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "vector",
+      "summary": "Circular dichroism (CD) is a crucial physical quantity characterizing the differential response of chiral systems to circularly polarized light, holding broad application value in polarization control, chiral recognition, and high-sensitivity sensing. However, existing metasurface devices predominantly operate in single-band or static regimes, failing to meet the demands for multiband coordinated control and dynamic tunability. To overcome these limitations, we numerically investigate a dynamic metasurface based on a polymethylpentene (TPX)–LiTaO3–graphene hybrid platform. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-physics-d-applied-physics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Physics D: Applied Physics"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-08034-f1b41f",
+      "date": "2026-11-05",
+      "title": "Approaching quantum limits in sub-Rayleigh resolution using phase modulation optimization",
+      "authors": "Chao-Ning Hu, Jun Xin, Xiao-Ming Lu",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.08034",
+      "url": "https://arxiv.org/abs/2611.08034",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Mode Multiplexing & Fibers",
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "slm",
+      "summary": "Spatial-mode demultiplexing (SPADE) has made significant progress in incoherent optical imaging and has been implemented through various experimental approaches. Holography-based SPADE is widely used in proof-of-principle experiments because of its low cost, stable optical arrangement, and ease of implementation. However, its low photon utilization severely limits its practical applications. Alternating Fourier transforms and phase modulations can implement unitary optical transformations. Building on this idea, we use backpropagation to optimize the phase profiles of spatial light modulators (SLMs) and thereby design quantum measurements that are efficient in both information and energy. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-07456-faab31",
+      "date": "2026-11-05",
+      "title": "Probing Non-Abelian Topology through Quench Dynamics",
+      "authors": "Zhenming Zhang, Tianyu Li, Wei Yi",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.07456",
+      "url": "https://arxiv.org/abs/2611.07456",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Topological Light (Skyrmions & Knots)",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Quench dynamics offer valuable insights to topological matter, wherein the emergent topological phenomena serve as a dynamic probe to the topology of static Hamiltonians. While such a practice has been widely applied to detect the Abelian band topology or the Euler-class topology of band nodes, little is known regarding the quench dynamics of non-Abelian topological insulators in multiband systems, where the intertwining geometry of all eigenstates necessitates the description of noncommutative topological charges. Here we propose a quench protocol for non-Abelian topological insulators, so that the underlying topology can be systematically probed using dynamic signatures. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-1080-09500340-2026-2752993-3a3335",
@@ -1384,6 +1764,29 @@
       "source": "openalex"
     },
     {
+      "id": "10-1016-j-aca-2026-346510-a08969",
+      "date": "2026-11-01",
+      "title": "Label-Free Quantitative Optical Rotation Sensing of Chiral Drugs and Drug–Protein Binding via Photonic Spin Hall Effect-Assisted Weak Measurement",
+      "authors": "Peng Xia, Jia Qiu, Kai Yao, Hanyu Zhang, Ze Zhang, Kexun Tang, Dongmei Li",
+      "institutions": [],
+      "journal": "Analytica Chimica Acta",
+      "doi": "10.1016/j.aca.2026.346510",
+      "url": "https://doi.org/10.1016/j.aca.2026.346510",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Sensing & Metrology"
+      ],
+      "glyph": "vector",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1016-j-optlastec-2026-116819-4318f3",
       "date": "2026-10-31",
       "title": "Hybrid genetic algorithm and simulated annealing (GA-SA) optimization for adaptive wavefront shaping and light focusing",
@@ -1926,6 +2329,35 @@
       "feature": false,
       "fig": null,
       "source": "inbox"
+    },
+    {
+      "id": "10-1364-opticaopen-34843116-v1-d03d20",
+      "date": "2026-10-29",
+      "title": "Mathieu Space-Time Wave Packets",
+      "authors": "Miguel Bandres, Vinzenz Zimmermann",
+      "institutions": [],
+      "journal": "",
+      "doi": "10.1364/opticaopen.34843116.v1",
+      "url": "https://doi.org/10.1364/opticaopen.34843116.v1",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Space-Time Wave Packets",
+        "Light Bullets & X-Waves",
+        "Non-Diffracting & Accelerating Beams",
+        "Theory & Simulation"
+      ],
+      "glyph": "stwp",
+      "summary": "Nondiffractive space-time wave packets are optical pulses whose engineered spatiotemporal spectra allow them to propagate without diffraction or dispersion. In this work, we introduce Mathieu nondiffractive space-time wave packets, an exact family of smooth, confined pulses free of the singularities and discontinuities that often appear in exact analytic nondiffractive space-time wave-packet solutions. The construction is based on Lorentzian elliptic coordinates in space-time, for which the Lorentzian semifocal scale 𝑓 controls a continuous transition from a light-cone-like hyperbolic geometry to an increasingly Cartesian-like regime. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · "
+      },
+      "source": "openalex"
     },
     {
       "id": "10-1117-1-oe-65-10-104109-8cdc6d",
@@ -6462,5 +6894,5 @@
     "10-7922-g26q1vnn-51ec59"
   ],
   "curated": "2026-11-04",
-  "updated": "2026-11-06"
+  "updated": "2026-11-07"
 }
