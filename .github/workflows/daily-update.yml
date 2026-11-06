@@ -64,8 +64,12 @@ jobs:
             exit 0
           fi
           git commit -m "Daily update $(TZ=Asia/Singapore date +%F): +${ADDED} papers in issue ${ISSUE_ID}"
-          git pull --rebase --autostash origin main || true
-          git push
+          for i in 1 2 3; do                   # GitHub sometimes rejects a push with a transient server error
+            git pull --rebase --autostash origin main || true
+            git push && break
+            [ "$i" = 3 ] && exit 1
+            echo "push failed, retrying in 20 s"; sleep 20
+          done
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
   deploy:
