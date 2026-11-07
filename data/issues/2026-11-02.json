@@ -4,7 +4,7 @@
   "date": "2026-11-02",
   "window": [
     "2026-10-19",
-    "2026-11-07"
+    "2026-11-08"
   ],
   "articles": [
     {
@@ -462,6 +462,28 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-jweia-2026-106662-4d4ccd",
+      "date": "2027-01-01",
+      "title": "Evaluation of the Rankine vortex model for estimating near-surface tornadic wind fields in engineering applications",
+      "authors": "Sung Min Moon, Franklin T. Lombardo, Daniel M. Rhee, David Roueche, Leigh Orf",
+      "institutions": [],
+      "journal": "Journal of Wind Engineering and Industrial Aerodynamics",
+      "doi": "10.1016/j.jweia.2026.106662",
+      "url": "https://doi.org/10.1016/j.jweia.2026.106662",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vortex & OAM Beams"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1016-j-mtadv-2026-101042-e49f5e",
       "date": "2026-12-01",
       "title": "Graphene-integrated Zr-AlN-TiC metasurface polarization-insensitive ultra-broadband solar absorber for renewable mining applications",
@@ -477,6 +499,56 @@
       ],
       "glyph": "meta",
       "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-116877-1333cb",
+      "date": "2026-12-01",
+      "title": "Scintillation reduction via optimal annular beam radius in free-space optical links",
+      "authors": "Jiamin Wang, Nikolai A. Khilo, Fei Chen, Kuo Zhang, Junjie Sun, Yi Chen, Weiwei Li, Jin Yu, Yong Chen, Vladimir N. Belyi, Piotr K. Petrov",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116877",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116877",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acsphotonics-6c01470-aabf5f",
+      "date": "2026-11-07",
+      "title": "Tunable Optical-to-THz Frequency Conversion Driven by Localized Surface Phonon Polaritons in LiNbO3 Metasurfaces",
+      "authors": "C. McDonnell, M. Ferrera, F. Moia, V. Sajeev, M. Finazzi, A. Toma, C. De Angelis, M. Celebrano, T. Ellenbogen, L. Carletti",
+      "institutions": [
+        "Tel-Aviv University",
+        "University of Brescia",
+        "National Institute of Optics − National Research Council (INO−CNR)"
+      ],
+      "journal": "ACS Photonics",
+      "doi": "10.1021/acsphotonics.6c01470",
+      "url": "https://doi.org/10.1021/acsphotonics.6c01470",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation"
+      ],
+      "glyph": "meta",
+      "summary": "We demonstrate tunable THz generation by optical rectification in LiNbO3 rod metasurfaces supporting localized surface phonon polaritons (LSPhPs). By varying the rod length, the LSPhP resonance is tuned across the 4–5 THz range, producing a systematic red-shift of the generated THz spectral peak. THz time-domain spectroscopy and numerical calculations show that the emitted spectrum is governed by the geometry-dependent LSPhP response. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -564,6 +636,135 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1088-1402-4896-aebf03-04bd5b",
+      "date": "2026-11-06",
+      "title": "Flexible focal engineering of energy and transverse energy flow of tightly focused hybridly polarized vector vortex beam",
+      "authors": "Yue Pan, Hong-Teng Xu, Jing-Rui Chen, Shi‐Tong Xu, Hong-Zhong Cao, Mingsheng Niu, Ren-De Ma, Zhong‐Xiao Man, Xu-Zhen Gao",
+      "institutions": [
+        "Qufu Normal University"
+      ],
+      "journal": "Physica Scripta",
+      "doi": "10.1088/1402-4896/aebf03",
+      "url": "https://doi.org/10.1088/1402-4896/aebf03",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "vortex",
+      "summary": "Recently, vector beams with space-variant polarizations have attracted significant attention due to their wide range of applications, among which focal engineering stands out as one of the most representative and important applications. Here, we achieve flexible focal engineering based on the hybridly polarized vector vortex beam. The energy distribution can be manipulated, and the precise control of the tightly focused fields with various shapes at an extremely small scale holds significant application values in various fields such as optical machining, super-resolution imaging, and optical trapping. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-2515-7647-aebf3c-02d8cb",
+      "date": "2026-11-06",
+      "title": "OAM-dependent transmission and photothermal effects with Talbot enhancement in water and biological tissue",
+      "authors": "Pissunee Deechuen, Sitti Buathong, Sorakrai Srisuphaphon, Pimsiri Pimpho, Sirirat Kiatkulanusorn, Nongnuch Luangpon, Kulwara Poolpol, Sarayut Deachapunya",
+      "institutions": [
+        "Burapha University"
+      ],
+      "journal": "Journal of Physics Photonics",
+      "doi": "10.1088/2515-7647/aebf3c",
+      "url": "https://doi.org/10.1088/2515-7647/aebf3c",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Wavefront Shaping & Scattering",
+        "Characterization & Metrology",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "vortex",
+      "summary": "We report an experimental study on the interaction of optical vortex (OV) beams with water and biological tissues, highlighting their potential for photonics--based biomedical applications. By varying the topological charge or orbital angular momentum (OAM) of the OV beam, we observe that higher-order vortex beams exhibit improved transmission through turbid media and induce stronger photothermal responses in pork tissue. The results demonstrate a clear order-dependent relationship between beam structure and light--tissue interaction. Moreover, we investigate the enhancement of heat generation in pork samples using the vortex beam in combination with the Talbot pattern. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-optica-606916-070084",
+      "date": "2026-11-06",
+      "title": "Extreme Energy Concentration of Band-Limited Superoscillatory Vortices for Efficient Optical Micromanipulation",
+      "authors": "Song ChengDa, Jing He, Xi Xie, Qian Wang, Yijie Shen, Fangwen Sun, Guanghui Yuan",
+      "institutions": [],
+      "journal": "Optica",
+      "doi": "10.1364/optica.606916",
+      "url": "https://doi.org/10.1364/optica.606916",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Optical Trapping & Manipulation",
+        "Inverse Design & AI"
+      ],
+      "glyph": "vortex",
+      "summary": "The Abbe diffraction limit, tied to the fundamental spatial bandwidth constraint imposed by any physical aperture, remains the primary barrier to achieving ultimate far-field optical resolution and precise light-matter interactions. However, current efforts to engineer structured light fields beyond this limit often come at the cost of massive sacrifices in energy efficiency. In this work, we mathematically complete the family of non-zero azimuthal-order Circular Prolate Spheroidal Wave Functions (CPSWFs), introducing them as a complete class of band-limited superoscillatory optical vortices carrying helical phase. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-1402-4896-aebf0a-d91c6d",
+      "date": "2026-11-06",
+      "title": "Accurate hybrid asymptotic modeling of higher-order Bessel beams with radial phase-gradient reversal",
+      "authors": "Zihao Zhi, Jie Li, Jiajun Lv, Shiju Fang, Heming Hu, Junfeng Song",
+      "institutions": [
+        "Jilin University"
+      ],
+      "journal": "Physica Scripta",
+      "doi": "10.1088/1402-4896/aebf0a",
+      "url": "https://doi.org/10.1088/1402-4896/aebf0a",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Theory & Simulation"
+      ],
+      "glyph": "bessel",
+      "summary": "Accurate theoretical modeling is essential for advancing applications of Bessel beams, yet describing their fine phase structure and local phase-gradient characteristics remains analytically and computationally challenging. Traditional methods, such as the stationary phase method (SPM), capture the overall intensity distribution but fail to resolve high-frequency phase oscillations at large radial distances. By contrast, the standard Debye asymptotic method improves the outer-field description through a two-saddle-point approximation, but its accuracy deteriorates near the axis, where its asymptotic assumption is invalid. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-1402-4896-aebf0b-ab9229",
+      "date": "2026-11-06",
+      "title": "Structured coupling beam control of six-wave mixing: from Helical Ince-Gaussian to Laguerre-Gaussian modes",
+      "authors": "Naincy Shrivastava, Mobassir Ahmad, Niladri Sarkar, Raghavan K. Easwaran",
+      "institutions": [
+        "Indian Institute of Technology Patna"
+      ],
+      "journal": "Physica Scripta",
+      "doi": "10.1088/1402-4896/aebf0b",
+      "url": "https://doi.org/10.1088/1402-4896/aebf0b",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Light Bullets & X-Waves",
+        "Vortex & OAM Beams",
+        "Theory & Simulation"
+      ],
+      "glyph": "bullet",
+      "summary": "We theoretically investigate six-wave mixing (SWM) in a coherently driven six-level atomic system using a structured coupling field. The probe and generated-field responses are obtained using the density-matrix formalism combined with the Maxwell Bloch equations. A Helical Ince–Gaussian (HIG) beam is introduced as the coupling field, and its ellipticity is varied to study the influence of its transverse structure on the nonlinear mixing process. In the zero ellipticity limit, the HIG modes reduce to the corresponding Laguerre–Gaussian (LG) modes. The effect of the LG modes is further examined for radial indices p = 0,1 and azimuthal indices l = 1,2. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-1364-oe-618702-5126e0",
@@ -1017,6 +1218,56 @@
       "feature": false,
       "fig": null,
       "source": "arxiv"
+    },
+    {
+      "id": "10-1002-lpor-72188-b2e98f",
+      "date": "2026-11-05",
+      "title": "Astigmatic Mode Conversion of Defective Hermite‐Gaussian Modes",
+      "authors": "孔令玉 Kong Lingyu, Amna Ali, 马云飞 Ma Yunfei, 潘项洋 Pan Xiangyang, Changming Zhao, Zilong Zhang",
+      "institutions": [
+        "Beijing Institute of Technology",
+        "Ministry of Education of the People's Republic of China",
+        "Ministry of Industry and Information Technology"
+      ],
+      "journal": "Laser & Photonics Review",
+      "doi": "10.1002/lpor.72188",
+      "url": "https://doi.org/10.1002/lpor.72188",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Mode Multiplexing & Fibers",
+        "Characterization & Metrology"
+      ],
+      "glyph": "modes",
+      "summary": "Hermite–Gaussian (HG) and Laguerre–Gaussian (LG) modes are two fundamental modes in structured light, and astigmatic mode conversion between them has been extensively investigated. Conventional structured light manipulation generally treats complete HG eigenmodes as the fundamental degrees of freedom (DOFs), with beam control achieved through the superposition of multiple eigenmodes. However, HG modes inherently possess internal spatial DOFs, enabling direct manipulation of their constituent lobes without explicitly engineering multiple eigenmodes. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-48550-arxiv-2611-08427-5df181",
+      "date": "2026-11-05",
+      "title": "Quantum enhanced beam displacement estimation: sensitivity limits, optimal probes, and measurement schemes",
+      "authors": "B. Novák, Pau Colomer, Joseph Zhang, Emre Köse, Manuel Gessner",
+      "institutions": [],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2611.08427",
+      "url": "https://doi.org/10.48550/arxiv.2611.08427",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Sensing & Metrology"
+      ],
+      "glyph": "vortex",
+      "summary": "We investigate the ultimate sensitivity limits for measuring small transverse beam displacements and identify optimal strategies that attain them, using the framework of mode parameter estimation. We contrast two families of states with different resource constraints, using Hermite-Gauss and Laguerre-Gauss mode pairs. First, for fixed total photon number states, the optimal state is identified and we show that it asymptotically approaches a rotated NOON state. The sensitivity bound is compared to that of an asymptotically optimal pure Gaussian state with fixed average photon number. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-1080-09500340-2026-2752993-3a3335",
@@ -1779,6 +2030,81 @@
         "Sensing & Metrology"
       ],
       "glyph": "vector",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-qute-70532-fe21d8",
+      "date": "2026-11-01",
+      "title": "Design of Compact Nanophotonic Hyperentanglement‐Assisted Polarization Bell‐State Analyzer",
+      "authors": "Hyeyoung Yoon, Changhyun Kim, Kibaek Kim, Hyang‐Tag Lim, Hojoong Jung, Inki Kim, Hyounghan Kwon",
+      "institutions": [
+        "Korea University",
+        "Korea Institute of Science and Technology",
+        "Sungkyunkwan University"
+      ],
+      "journal": "Advanced Quantum Technologies",
+      "doi": "10.1002/qute.70532",
+      "url": "https://doi.org/10.1002/qute.70532",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "The ability to distinguish the four polarization Bell states is a crucial concept in quantum information science, especially in quantum teleportation. However, it is known that linear optics cannot deterministically differentiate all four polarization Bell states. This limitation can be overcome by exploiting hyperentanglement, although conventional hyperentanglement‐assisted Bell‐state analyzers typically rely on bulky optical setups. In this study, we propose a compact metasurface‐based polarization Bell‐state analyzer that utilizes a fixed ancillary orbital angular momentum (OAM)‐entangled state to discriminate all four polarization Bell states. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-newton-2026-100728-d34527",
+      "date": "2026-11-01",
+      "title": "Classical Petermann factor as a measure of quantum squeezing in photonic time crystals",
+      "authors": "Younsung Kim, Kyungmin Lee, Changhun Oh, Young-Sik Ra, Kun Woo Kim, Bumki Min",
+      "institutions": [],
+      "journal": "Newton",
+      "doi": "10.1016/j.newton.2026.100728",
+      "url": "https://doi.org/10.1016/j.newton.2026.100728",
+      "oa": true,
+      "license": "CC BY-NC 4.0",
+      "categories": [
+        "Time-Varying Media & Temporal Interfaces"
+      ],
+      "glyph": "timevary",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optcom-2026-133973-a5fbbd",
+      "date": "2026-11-01",
+      "title": "Polarization-Multiplexed Differential Diffractive Neural Network for Object Classification",
+      "authors": "Guofeng Zhu, Shengyao Xu, Weijie Chang, Hanbin Ke, Jintong Li, Weicong Liang, Feng Huang",
+      "institutions": [],
+      "journal": "Optics Communications",
+      "doi": "10.1016/j.optcom.2026.133973",
+      "url": "https://doi.org/10.1016/j.optcom.2026.133973",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "ai",
       "summary": "",
       "why": "",
       "pick": false,
@@ -2822,6 +3148,30 @@
       "feature": false,
       "fig": null,
       "source": "inbox"
+    },
+    {
+      "id": "10-1364-ol-618577-175315",
+      "date": "2026-10-26",
+      "title": "Low-loss robust three-dimensional unidirectional magnetoplasmons at terahertz frequencies",
+      "authors": "Hongyan Lou, Qingyu Li, Linfang Shen, Hang Zhang",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.618577",
+      "url": "https://doi.org/10.1364/ol.618577",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "Three-dimensional (3D) unidirectional surface magnetoplasmons (USMPs) based on magnetized plasmonic materials are promising for integrated photonics, but simultaneously achieving strong field confinement and low propagation loss remains challenging. In this work, we propose a 3D USMP waveguide at terahertz frequencies that requires only a single external magnetic field. The proposed structure can support a single unidirectional mode with subwavelength field confinement and low propagation loss. Full-wave simulations further demonstrate that the USMP mode is highly robust against structural defects and a 90 o bend, exhibiting immunity to backscattering and negligible side scattering. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-1002-adom-71962-322442",
@@ -4233,6 +4583,30 @@
       "feature": false,
       "fig": null,
       "source": "inbox"
+    },
+    {
+      "id": "10-1364-josaa-612980-8e2472",
+      "date": "2026-10-19",
+      "title": "Analytical operator framework for non-Cartesian structured-array-beam synthesis using single diffractive optical elements",
+      "authors": "HIEU TRUNG, Young-Sik Ghim, Hyug-Gyo Rhee",
+      "institutions": [],
+      "journal": "Journal of the Optical Society of America A",
+      "doi": "10.1364/josaa.612980",
+      "url": "https://doi.org/10.1364/josaa.612980",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Theory & Simulation",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "bessel",
+      "summary": "Arrays of structured optical beams have attracted growing interest across a wide range of applications, including surface measurements, structured illumination, and optical tweezing/trapping. Diffractive optical elements offer a promising route by which to generate such arrays within a compact, standalone, and low-cost platform. In previous work, we introduced a design framework for a single binary-amplitude diffractive optical element capable of producing adjustable beam arrays encompassing Gaussian, vortex, and circular beams with controllable array sizes and beam spacings. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-48550-arxiv-2610-26956-ec8790",
@@ -6894,5 +7268,5 @@
     "10-7922-g26q1vnn-51ec59"
   ],
   "curated": "2026-11-04",
-  "updated": "2026-11-07"
+  "updated": "2026-11-08"
 }
