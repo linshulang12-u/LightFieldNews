@@ -1,0 +1,35 @@
+{
+  "id": "2026-11-09",
+  "number": 2,
+  "date": "2026-11-09",
+  "window": [
+    "2026-11-09",
+    "2026-11-09"
+  ],
+  "articles": [
+    {
+      "id": "10-1016-j-physleta-2026-132367-4972ca",
+      "date": "2026-11-01",
+      "title": "Magnetically Tunable Three-Dimensional Probe-Absorption-Based Atom Localization in an Atomic Medium Driven by Vortex and Composite Vortex Beams",
+      "authors": "Rashed O. Abu Hammour, Wade Ghribi, Ibrokhim Sapaev, H R Manjunath, D. Kanimozhi, Mohit Sahni, Sanjeev Kumar",
+      "institutions": [],
+      "journal": "Physics Letters A",
+      "doi": "10.1016/j.physleta.2026.132367",
+      "url": "https://doi.org/10.1016/j.physleta.2026.132367",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    }
+  ],
+  "removed": [],
+  "updated": "2026-11-09"
+}
