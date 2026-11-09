@@ -4,9 +4,339 @@
   "date": "2026-11-09",
   "window": [
     "2026-11-09",
-    "2026-11-09"
+    "2026-11-10"
   ],
   "articles": [
+    {
+      "id": "10-3724-lpe-20260015-c5e865",
+      "date": "2026-11-09",
+      "title": "Fast frozen wave beam shaping based on light-thread convolution method",
+      "authors": "Han Churan, Tan Qiaofeng, Liangcai Cao",
+      "institutions": [],
+      "journal": "Light Precision Engineering",
+      "doi": "10.3724/lpe-20260015",
+      "url": "https://doi.org/10.3724/lpe-20260015",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Optical Computing"
+      ],
+      "glyph": "bessel",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41377-026-02432-0-739291",
+      "date": "2026-11-09",
+      "title": "Generation of spatiotemporal optical coil with controllable transverse intensity chirality",
+      "authors": "Dana Jiashaner, Xingyuan Zhang, Huiming Wang, Zhirong Tao, Qian Cao, Dawei Liu, Daijun Luo, Lu Yang, Kaili Geng, Yonghang Tai, Xinhua Xie, Zhensheng Tao, Md Sabbir Ahsan, Guangyu Fan, Qiwen Zhan",
+      "institutions": [],
+      "journal": "Light: Science &amp; Applications",
+      "doi": "10.1038/s41377-026-02432-0",
+      "url": "https://doi.org/10.1038/s41377-026-02432-0",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Spatiotemporal Optical Vortices",
+        "Time-Varying Media & Temporal Interfaces",
+        "Vortex & OAM Beams",
+        "Optical Trapping & Manipulation",
+        "Characterization & Metrology"
+      ],
+      "glyph": "stov",
+      "summary": "Chirality is a fundamental asymmetry in nature. In optics, control of chirality is evolving from spatial properties like polarization to the temporal chirality of local fields. Conventional approaches, however, encode chirality in abstract degrees of freedom such as phase or polarization, limiting direct and efficient coupling with matter on ultrafast timescales. We introduce and experimentally demonstrate a paradigm of intensity-driven optical chirality, where handedness is physically inscribed into the trajectory of spatiotemporal energy flow. Through the engineered non-collinear collision of Spatiotemporal Optical Vortices, the spatiotemporal optical coil is generated. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "figs/10-1038-s41377-026-02432-0-739291.jpg",
+        "kind": "figure",
+        "credit": "CC BY 4.0 · via nature.com"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-ol-612424-957d1e",
+      "date": "2026-11-09",
+      "title": "Compact dual-polarization decoder for hybrid vector light-field communication",
+      "authors": "Zhengxian Liu, Wenquan Xing, Fei Lin, Yu Zhang, Ling Hong, Wenhui Chen, Yongyao Li, Li Zhang",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.612424",
+      "url": "https://doi.org/10.1364/ol.612424",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Optical Communication"
+      ],
+      "glyph": "vector",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-prj-613184-e33452",
+      "date": "2026-11-09",
+      "title": "Programmable optical phased array enabling two-dimensional arbitrary beam shaping",
+      "authors": "Daixin Lian, Shi Zhao, Yongqi Ye, wenke jiao, Jingyu Zhao, Jingye Chen, Daoxin Dai, Yaocheng Shi",
+      "institutions": [],
+      "journal": "Photonics Research",
+      "doi": "10.1364/prj.613184",
+      "url": "https://doi.org/10.1364/prj.613184",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s11082-026-09252-x-3b5139",
+      "date": "2026-11-09",
+      "title": "Fiber bragg grating–assisted optical delay for effective dispersion compensation in long-haul optical links",
+      "authors": "Hadj Abdelkader Benghenia, Hadj Ali Bakir, Saadat Boulanouar, Boumediene Guenad, Djamal Haimoune",
+      "institutions": [],
+      "journal": "Optical and Quantum Electronics",
+      "doi": "10.1007/s11082-026-09252-x",
+      "url": "https://doi.org/10.1007/s11082-026-09252-x",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)"
+      ],
+      "glyph": "skyrmion",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acsnano-6c16070-829ddd",
+      "date": "2026-11-09",
+      "title": "Toward Generalized Dynamic Metasurface Holography with Learned Real-Momentum-Locked Evolution",
+      "authors": "Jiaxin Li, Zhou Zhou, Dizhi Sun, Yu Zhao, Kuixian Chen, Bowen Jia, Miao Zhang, Hui Gao, Liangui Deng, Guoxing Zheng, Jianguo Guan",
+      "institutions": [
+        "Wuhan University of Technology",
+        "China Electric Power Research Institute",
+        "National University of Singapore"
+      ],
+      "journal": "ACS Nano",
+      "doi": "10.1021/acsnano.6c16070",
+      "url": "https://doi.org/10.1021/acsnano.6c16070",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "SLM, DMD & Holography",
+        "Optical Communication"
+      ],
+      "glyph": "meta",
+      "summary": "Dynamic holography is pivotal for next-generation displays with critical applications in augmented reality, virtual reality, and beyond. While metasurfaces have emerged as powerful approaches for dynamic holography, existing works remain largely confined to intensity-only modulation, restricting the available channels for display and information storage. Herein, we realize a generalized platform applicable to major types of dynamic holography (monochromatic, color, 3D, and vectorial) by introducing a learned metasurface and aperture synthesis framework (LMAS). …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1080-02726343-2026-2755601-39d122",
+      "date": "2026-11-08",
+      "title": "Characteristic mode-assisted design of a broadband barbell-shaped reflective metasurface for linear cross-polarization conversion across the K-, Ka-, and V-Bands",
+      "authors": "Harish Raizada, Nitesh Kashyap",
+      "institutions": [
+        "Dr. B.R. Ambedkar National Institute of Technology"
+      ],
+      "journal": "Electromagnetics",
+      "doi": "10.1080/02726343.2026.2755601",
+      "url": "https://doi.org/10.1080/02726343.2026.2755601",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Metasurfaces & Flat Optics",
+        "Characterization & Metrology"
+      ],
+      "glyph": "vector",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72218-2c4a5c",
+      "date": "2026-11-08",
+      "title": "Topological Evolution of Optical Skyrmions via Poincaré Sphere Mapping",
+      "authors": "Jian Shi, Houan Teng, Jinzhan Zhong, Xinrui Lei, Qiwen Zhan",
+      "institutions": [],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72218",
+      "url": "https://doi.org/10.1002/lpor.72218",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "Optical skyrmions are topologically protected spin textures in structured light, whose continuous and versatile control is central to advancing topological photonics and enabling robust optical functionalities. Here, we establish a universal geometric framework for the continuous transformation of stokes skyrmions via the evolution of orthogonal polarization bases on the Poincaré sphere. We show that basis rotations induce deterministic rotations of local spin vectors across the entire field, enabling a unified description of topological evolution. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72206-c92b1e",
+      "date": "2026-11-08",
+      "title": "All‐Optical Meta‐Convolutional Neural Networks for Reconfigurable Image Identification",
+      "authors": "Weiwei Fu, Dong Zhao, Qinghong Rao, Hengyi Wang, Benli Yu, Zhijia Hu, Fang‐Wen Sun, Kun Huang",
+      "institutions": [
+        "School of Optoelectronic Science and Engineering Anhui University Hefei China"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72206",
+      "url": "https://doi.org/10.1002/lpor.72206",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Inverse Design & AI",
+        "Optical Computing"
+      ],
+      "glyph": "meta",
+      "summary": "Convolutional neural networks (CNNs) dominate visual computing, but their electronic implementations face fundamental bottlenecks in speed and energy efficiency. Although photonic alternatives offer a promising route, all‐optical image recognition using CNNs remains challenging in experiments due to the difficulty of implementing effective weak‐light nonlinearities. Here, we demonstrate a streamlined all‐optical CNN architecture with only physically guided, fixed convolutional and trainable fully‐connected layers (FCLs), which circumvents explicit, energy‐intensive nonlinear layers. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72177-614c03",
+      "date": "2026-11-08",
+      "title": "Bilayer Dielectric Metasurfaces for Non‐Multiplexing Full‐Space Terahertz Wavefront Control",
+      "authors": "Lehui Wang, Yi Liao, Xueqian Zhang, Tong Wu, Yao Li, Xiaoyuan Hao, Quan Xu, Liyuan Liu, Jianqiang Gu, Jiaguang Han",
+      "institutions": [
+        "Department of Physics Tianjin University Tianjin China"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72177",
+      "url": "https://doi.org/10.1002/lpor.72177",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "SLM, DMD & Holography",
+        "Theory & Simulation",
+        "Optical Communication",
+        "Reviews"
+      ],
+      "glyph": "meta",
+      "summary": "Metasurfaces, as two‐dimensional ultrathin artificial structures, have significantly facilitated the manipulation of electromagnetic waves. Recent advances show that metasurface functionalities can be further promoted from performing in only the transmission/reflection space to simultaneously and independently in both spaces. However, related studies so far mostly rely on electromagnetic multiplexing strategies where two intrinsically incident waves are required, i.e., the transmission and reflection functionalities are realized at different electromagnetic parameter conditions. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72192-38d756",
+      "date": "2026-11-08",
+      "title": "Misalignment‐Robust Dynamic Cascaded Holography Accelerated by Deep Neural Networks",
+      "authors": "Gyeongsu Jin, Seokmin Kim, Seung‐Yeol Lee",
+      "institutions": [],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72192",
+      "url": "https://doi.org/10.1002/lpor.72192",
+      "oa": true,
+      "license": "CC BY-NC 4.0",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "slm",
+      "summary": "Cascaded holographic architectures offer enhanced functionality for optical information processing, encryption, and multiplexing, but their practical implementation is severely limited by extreme sensitivity to interlayer alignment. Here, we demonstrate a dynamic cascaded holography platform using commercial phase‐only spatial light modulators by introducing a robust optimization framework that explicitly incorporates random misalignment errors into the wave propagation model. By optimizing phase patterns over diverse alignment conditions, the resulting holograms maintain stable reconstruction performance under lateral displacements of up to ∼100 pixels. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72168-0fae55",
+      "date": "2026-11-08",
+      "title": "Tunable Efficient Doubly Degenerate Dark State and Symmetry Breaking in Non‐Hermitian Metasurface",
+      "authors": "Shaowei Zhang, Feng Wen, Muhua Zhai, Qi Li, Ruozheng Wang, Wei Wang, Yuanjie Yang, Yanpeng Zhang, Hongxing Wang",
+      "institutions": [
+        "School of Physics University of Electronic Science and Technology of China Chengdu China"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72168",
+      "url": "https://doi.org/10.1002/lpor.72168",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "meta",
+      "summary": "Both bound states in the continuum (BICs) and electromagnetically induced transparency (EIT) arise from the destructive interference of two radiative modes in the non‐Hermitian system, yet their fundamental mechanism distinction remains unclear. Additionally, the merging BIC formed by multiple BICs also lacks a mechanistic non‐Hermitian interpretation, and its implementations are confined to the momentum space of photonic crystal slabs, hindering dynamic modulation. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41598-026-79776-5-6c24b0",
+      "date": "2026-11-07",
+      "title": "Selectively VO2-loaded terahertz metasurface for dual-state broadband polarization conversion and near-unity absorption",
+      "authors": "Md. Murad Kabir Nipun, Md. Jahedul Islam, Md. Arifuzzaman, Md. Ehtesamul Haque, Ramasamy Naidu, S. M. Rifatur Rana, Habeeb Faruk Khan",
+      "institutions": [],
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-026-79776-5",
+      "url": "https://doi.org/10.1038/s41598-026-79776-5",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Metasurfaces & Flat Optics"
+      ],
+      "glyph": "vector",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
     {
       "id": "10-1016-j-physleta-2026-132367-4972ca",
       "date": "2026-11-01",
@@ -28,8 +358,59 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-optcom-2026-133957-84518c",
+      "date": "2026-11-01",
+      "title": "Flicker-reduced random-phase computer-generated holographic video for near-eye displays",
+      "authors": "Xinyue Zhang, Lianhua Li, Jie Zhou, Shuyang Xie, Jun Wang",
+      "institutions": [],
+      "journal": "Optics Communications",
+      "doi": "10.1016/j.optcom.2026.133957",
+      "url": "https://doi.org/10.1016/j.optcom.2026.133957",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Displays, Security & AR"
+      ],
+      "glyph": "slm",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1103-4smy-6w2n-67e868",
+      "date": "2026-10-01",
+      "title": "Entangling Ions with Engineered Light Gradients",
+      "authors": "Faorlin T, Panzl L, Grosser P, Viñas P, Kahan A, Hörmann WJ, Weiser Y, Cerchiari G, Feldker T, Erhard A, Jacob G, Ulmanis J, Blatt R, Bermudez A, Monz T",
+      "institutions": [
+        "Universität Innsbruck",
+        "Instituto de Física Teórica (UAM-CSIC)",
+        "Universität Siegen"
+      ],
+      "journal": "Physical review letters",
+      "doi": "10.1103/4smy-6w2n",
+      "url": "https://doi.org/10.1103/4smy-6w2n",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Nonlinear & Quantum Structured Light",
+        "Optical Computing"
+      ],
+      "glyph": "meta",
+      "summary": "Spectral crowding of collective motional modes limits the fidelity of entangling interactions in trapped-ion quantum processors by inducing off-resonant coupling to spectator modes. We introduce a geometric-phase entangling interaction driven by a transverse, time-dependent structured-light force. By applying the force in a plane orthogonal to the optical propagation direction, we reduce the effects of spectral crowding while preserving single-ion addressing. The scheme is compatible with arbitrary qubit encodings, provided that the qubit states experience a differential AC Stark shift. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
     }
   ],
   "removed": [],
-  "updated": "2026-11-09"
+  "updated": "2026-11-10"
 }
