@@ -4,9 +4,190 @@
   "date": "2026-11-09",
   "window": [
     "2026-11-09",
-    "2026-11-10"
+    "2026-11-11"
   ],
   "articles": [
+    {
+      "id": "10-1016-j-optlastec-2026-116924-f85fa8",
+      "date": "2026-12-01",
+      "title": "Nd:YLF vortex beams laser and deep learning-based mode recognition",
+      "authors": "Yuqiang Tang, Qiaoshuang Zou, Jie Xing, Qinghu Sun, Shuanghong Ding, Xueyuan Li",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116924",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116924",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Inverse Design & AI"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1515-joc-2026-0485-a982fd",
+      "date": "2026-11-11",
+      "title": "PAPR-aware OFDM signalling for hybrid fibre–free-space-optical links: a comparative simulation study of companding and selected mapping",
+      "authors": "A.B. Gurulakshmi, Muhannad Alshareef, P.M. Siva Raja, Cmak Zeelan Basha, Abdullah Alwabli, Arun Kumar",
+      "institutions": [
+        "New Horizon College of Engineering",
+        "College of Engineering and Computing in Al-Qunfudhah",
+        "Amrita School of Computing"
+      ],
+      "journal": "Journal of Optical Communications",
+      "doi": "10.1515/joc-2026-0485",
+      "url": "https://doi.org/10.1515/joc-2026-0485",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "SLM, DMD & Holography",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Direct-detection optical OFDM (DCO-OFDM) suits hybrid fibre–free-space-optical (FSO) links because simple per-subcarrier equalisation tolerates chromatic dispersion and turbulence, but its peak-to-average power ratio (PAPR) drives the Mach–Zehnder modulator into nonlinearity and degrades bit-error rate (BER). This Monte Carlo study compares clipping and filtering, μ-law companding, selected mapping (SLM) and a hybrid SLM + μ-law scheme for 16-QAM DCO-OFDM over single-mode fibre cascaded with a Gamma–Gamma turbulence channel. SLM + μ-law gives the largest PAPR reduction, from 13.50 dB to 7.83 dB at 10 −3 , yet PAPR alone does not predict link performance. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1063-5-0362488-dd66db",
+      "date": "2026-11-10",
+      "title": "Refractive-index-selective longitudinal trapping and polarization conversion with a radially polarized Schell-model vortex beam",
+      "authors": "Changsheng Wang, Leixin Liu, Lin Liu, Haiyun Wang, Chunhao Liang, Jidong Wu, Qian Chen, Yangjian Cai, Xiaofeng Peng",
+      "institutions": [
+        "School of Physical Science and Technology",
+        "Jiangsu Key Laboratory of Micro and Nano Heat Fluid Flow Technology and Energy Application"
+      ],
+      "journal": "Applied Physics Letters",
+      "doi": "10.1063/5.0362488",
+      "url": "https://doi.org/10.1063/5.0362488",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "Partially coherent beams with tailored correlation structures offer unique opportunities for controlling focusing properties and optical trapping. Here, we propose a radially polarized Schell-model vortex beam and systematically investigate its focusing, optical trapping, polarization, and self-healing characteristics. Owing to the interplay between the radially polarized correlation structure and the vortex phase, the beam exhibits an unusual intensity evolution during propagation, with its focal-field profile tunable by the topological charge. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-optica-615645-586f41",
+      "date": "2026-11-10",
+      "title": "Inverse-designed coherent beam combination arrays for phase-switchable beam shaping",
+      "authors": "Benjamin Mills, Yunhui Xie, Konstantin Bobkov, Fedor Chernikov, William Kerridge-Johns, Yuchen Liu, James Grant-Jacob, Johan Nilsson, Michalis Zervas",
+      "institutions": [],
+      "journal": "Optica",
+      "doi": "10.1364/optica.615645",
+      "url": "https://doi.org/10.1364/optica.615645",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acsphotonics-6c02141-e3fd5b",
+      "date": "2026-11-10",
+      "title": "Optical Janus Skyrmion",
+      "authors": "Zhipeng Yang, Wenyi Ji, Chenjie Zhang, Songze Li, Yuping Zhang, Huiyun Zhang, Jianping Ding, Yijie Shen",
+      "institutions": [
+        "Shandong University of Science and Technology",
+        "Nanjing University",
+        "Collaborative Innovation Center of Advanced Microstructures"
+      ],
+      "journal": "ACS Photonics",
+      "doi": "10.1021/acsphotonics.6c02141",
+      "url": "https://doi.org/10.1021/acsphotonics.6c02141",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Topological Light (Skyrmions & Knots)",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Optical skyrmions provide a vital platform for integrating quasiparticle physics, topological theory, and advanced electromagnetic control. Traditionally, the helicity of their topological textures exhibits central symmetry, restricting them to purely Néel or Bloch types. Here, we propose a novel class─optical Janus skyrmions─featuring spatial symmetry breaking of helicity, where Néel and Bloch types spatially coexist in a double-sided heterogeneous configuration. We experimentally generate Janus skyrmions in structured light beams. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-optica-608634-947f95",
+      "date": "2026-11-10",
+      "title": "Agile spatiospectral and spatiotemporal optical vortices and skyrmions\\\\from liquid crystal textures",
+      "authors": "Sophie Vo, Camila Castillo-Pinto, Etienne Brasselet, Miguel Alonso",
+      "institutions": [],
+      "journal": "Optica",
+      "doi": "10.1364/optica.608634",
+      "url": "https://doi.org/10.1364/optica.608634",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Spatiotemporal Optical Vortices",
+        "Vortex & OAM Beams",
+        "Topological Light (Skyrmions & Knots)"
+      ],
+      "glyph": "stov",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-adfm-79588-fc10b2",
+      "date": "2026-11-10",
+      "title": "Ultrafast All‐Optical Switching with Engineered Wavefronts via Chiral Nonlocal Phase Gradient Metasurfaces",
+      "authors": "Yuefeng Wang, Meng Xia, Yuhua Chen, Yinchang Liao, Hongxin Sun, Zhiwei Yan, Xingwang Zhang",
+      "institutions": [
+        "College of Sciences Shanghai University Shanghai People's Republic of China"
+      ],
+      "journal": "Advanced Functional Materials",
+      "doi": "10.1002/adfm.79588",
+      "url": "https://doi.org/10.1002/adfm.79588",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Wavefront Shaping & Scattering",
+        "Optical Communication"
+      ],
+      "glyph": "meta",
+      "summary": "The rapid‐growing demands in high‐speed telecommunication and optical computing necessitate the advances in all‐optical switching based on high quality (Q) factor photonic nanostructures. However, current all‐optical switching approaches cannot simultaneously shape the output wavefront, because combining pixelated phase control with high‐Q nanostructures remains extremely challenging. Here, we demonstrate picosecond all‐optical switching of the unpolarized incident light with engineered output wavefronts via nonlocal geometric‐phase gradient metasurfaces supporting high‐Q chiral quasi‐bound states in the continuum (quasi‐BICs). …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
     {
       "id": "10-3724-lpe-20260015-c5e865",
       "date": "2026-11-09",
@@ -156,6 +337,129 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1063-5-0362018-aecdcc",
+      "date": "2026-11-09",
+      "title": "Measurement of rotation angle variation using conjugate vortex beams",
+      "authors": "Bohao Chen, Jiadian Yan, Jun Yao, Lu Peng, Zixian Ma, Xuanbin Chen, Zhi‐Han Zhu, Yuanjie Yang",
+      "institutions": [
+        "University of Electronic Science and Technology of China",
+        "Yanbian University"
+      ],
+      "journal": "Applied Physics Letters",
+      "doi": "10.1063/5.0362018",
+      "url": "https://doi.org/10.1063/5.0362018",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "The measurement of rotation angle variations is crucial in advanced manufacturing and precision sciences. However, conventional optical methods are fundamentally restricted by the pixel size of camera arrays used to resolve spatial interference patterns. To address this limitation, we theoretically and experimentally demonstrate a pixel-independent measurement scheme based on matched filtering of conjugate vortex beams. This approach directly transforms rotation angle variations into periodic oscillations of the central intensity. Decoding is achieved simply by counting intensity extrema, eliminating the dependence on camera pixel resolution for angular decoding. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1103-hbxc-jb7y-fc4f88",
+      "date": "2026-11-09",
+      "title": "Geometrical control of topology with orbital angular momentum modes",
+      "authors": "Yunjia Zhai, A. M. Marques, R. G. Dias, V. Ahufinger, David Viedma",
+      "institutions": [],
+      "journal": "Physical review. B./Physical review. B",
+      "doi": "10.1103/hbxc-jb7y",
+      "url": "https://doi.org/10.1103/hbxc-jb7y",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "We study how the topological properties of a one-dimensional staggered lattice, loaded into states with orbital angular momentum l=1, can be controlled simply by tuning the relative angle between sites. The original system under consideration can be depicted as a Creutz ladder model when unwrapping the different state circulations in a synthetic dimension. Depending on the hopping strengths of the chain, different topological regimes may be accessed by changing the ladder angle, as determined by the value of the winding number of the chain. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1063-5-0346796-7b8117",
+      "date": "2026-11-09",
+      "title": "Wavenumber-frequency spectrum diagnostic method for aerodynamic instability precursors in confined compressible jets: From spectral precursors to vortex-wave mechanisms",
+      "authors": "Fu-qiang Chen, Hai-cang Wang, Liang-fu Hong, Jie Yang",
+      "institutions": [],
+      "journal": "Physics of Fluids",
+      "doi": "10.1063/5.0346796",
+      "url": "https://doi.org/10.1063/5.0346796",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Light Bullets & X-Waves",
+        "Theory & Simulation",
+        "Turbulence & Free-Space Links"
+      ],
+      "glyph": "bullet",
+      "summary": "A confined compressible jet can undergo aerodynamic instability through coupled shear-layer amplification, wave forcing, and pressure-wave redistribution. Conventional single-point pressure spectra cannot distinguish spatial organization from propagation, limiting mechanistic diagnosis. This study combines pressure-array wavenumber-frequency (k − f) spectra with large-eddy-simulation diagnostics to examine operating-condition-dependent spectral reorganization in a generic compressible-gas Laval-tube special valve. Each condition uses a 20-cycle pressure record. The typical and 363.15 K low-frequency conditions each include three independent seed-perturbed realizations. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-12238-6c6c34",
+      "date": "2026-11-09",
+      "title": "Off-focus detection for SNR enhancement in coherent single-pixel imaging",
+      "authors": "Wei Zhu, Hui Yuan, Hangbing Guo, Sheng Wang, Da Tian, Benwen Chen, Kebin Fan, Caihong Zhang, Huabing Wang, Biaobing Jin, Jian Chen, Peiheng Wu, Hartmut G. Roskos, Jingbo Wu",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.12238",
+      "url": "https://arxiv.org/abs/2611.12238",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Optical Communication"
+      ],
+      "glyph": "slm",
+      "summary": "Coherent single-pixel imaging (CSPI) enables amplitude- and phase-resolved computational imaging with a single coherent detector, offering particular advantages in spectral regimes where high-performance detector arrays remain unavailable. In conventional Fourier-plane CSPI, the detector is typically placed at the focal point to maximize the collected power. However, this focal position does not necessarily maximize the reconstruction fidelity for image reconstruction in the presence of system nonidealities. Here, we introduce detector position as an additional degree of freedom for CSPI optimization. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-11729-3ff489",
+      "date": "2026-11-09",
+      "title": "Wavelength-resolved polarization characterization of supercontinuum vector beams",
+      "authors": "Shunpei Nara, Hayato Kobayashi, Kousuke Kusano, Yuta Takai, Hiroyuki Kowa, Toshitaka Wakayama, Takeshi Higashiguchi",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.11729",
+      "url": "https://arxiv.org/abs/2611.11729",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Characterization & Metrology",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "vector",
+      "summary": "The polarization state of a supercontinuum (SC) vector beam provides a reference for quantitative polarimetry. We characterize an azimuthally polarized SC vector beam generated with an S-waveplate and azimuthal polarizers by wavelength-resolved Stokes imaging. Representative maps show an approximately tangential azimuthal angle and a small ellipticity parameter over much of the beam, together with the degree of polarization. The ± 90° azimuthal angle boundary shifts by about 21° between 450 and 766 nm. A linear fit gives 21° ± 7°, where the uncertainty is derived from the slope confidence interval and does not include uncharacterized systematic errors. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-1080-02726343-2026-2755601-39d122",
@@ -315,6 +619,85 @@
       "source": "crossref"
     },
     {
+      "id": "10-1002-lpor-72213-8ce63f",
+      "date": "2026-11-08",
+      "title": "Multifunctional Electromagnetic Control in Cascaded Metasurfaces Enabled by Directional‐Rotational Configurations",
+      "authors": "Zhicai Yu, Bowen Zou, Haojun Jiang, Yi Li, Sicheng Yan, Long Chen, Jian Lin Su, Zi Xuan Cai, Zhou He, Xinyu Li, Jian Wei You",
+      "institutions": [
+        "State Key Laboratory of Millimeter Waves",
+        "Southeast University"
+      ],
+      "journal": "Laser & Photonics Review",
+      "doi": "10.1002/lpor.72213",
+      "url": "https://doi.org/10.1002/lpor.72213",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "SLM, DMD & Holography",
+        "Optical Communication"
+      ],
+      "glyph": "meta",
+      "summary": "Metasurfaces offer versatile platforms for multifunctional electromagnetic‐wave manipulation, yet extending the number and diversity of accessible functions remains challenging because conventional multiplexing schemes rely on independently addressable physical degrees of freedom. Here, we demonstrate a directional‐rotational cascaded (DRC) metasurface in which the electromagnetic response is jointly controlled by propagation direction, relative in‐plane rotation, and incident‐field condition. A single fabricated two‐layer device experimentally realizes ten heterogeneous functions spanning electromagnetic computing, holography, focusing, and vortex‐beam generation. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1002-lpor-72201-22692f",
+      "date": "2026-11-08",
+      "title": "Large‐Depth‐of‐Focus and High‐Quality Layer‐Based Holographic 3D Display System Based on Liquid Crystal Axicon",
+      "authors": "Fan‐Chuan Lin, Qian Huang, Yi-Long Li, Rui‐Yi Zhao, Qiong‐Hua Wang, Jianghao Xiong, Di Wang",
+      "institutions": [
+        "Beihang University",
+        "Beijing Institute of Technology"
+      ],
+      "journal": "Laser & Photonics Review",
+      "doi": "10.1002/lpor.72201",
+      "url": "https://doi.org/10.1002/lpor.72201",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "SLM, DMD & Holography",
+        "Displays, Security & AR"
+      ],
+      "glyph": "bessel",
+      "summary": "As a promising 3D display technology, holographic display can reconstruct full light field information of 3D scenes, including depth cues. While depth‐dependent defocus naturally provides these depth cues, the limited depth of focus (DOF) restricts the axial range of image clarity, posing a significant challenge for layer‐based holographic displays. In this work, we innovatively propose a large‐DOF and high‐quality layer‐based holographic 3D display system based on a liquid crystal axicon. The core components of the proposed system include a spatial light modulator (SLM) loaded with high‐quality holograms and a specially designed liquid crystal axicon. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-48550-arxiv-2611-11395-9613b9",
+      "date": "2026-11-08",
+      "title": "High-Dimensional Maximally Entangled OAM States by Joint Pump and Modal-Space Engineering",
+      "authors": "Richard Bernecker, Baghdasar Baghdasaryan, Fabian Steinlechner, Stephan Fritzsche",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.11395",
+      "url": "https://arxiv.org/abs/2611.11395",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Nonlinear & Quantum Structured Light",
+        "Quantum Information"
+      ],
+      "glyph": "vortex",
+      "summary": "Spontaneous parametric down-conversion (SPDC) generates correlated photon pairs that inherently exhibit high-dimensional spatial entanglement in orbital angular momentum (OAM) modes. In practice, the resulting two-photon states are typically not maximally entangled due to a highly non-uniform distribution of generated OAM modes. Although pump-beam engineering has emerged as a tool to prepare high-dimensional entangled states, it has usually been restricted to low-dimensional subspaces, i.e., small sets of selected OAM modes for each photon within the full infinite-dimensional two-photon Hilbert space. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
       "id": "10-1038-s41598-026-79776-5-6c24b0",
       "date": "2026-11-07",
       "title": "Selectively VO2-loaded terahertz metasurface for dual-state broadband polarization conversion and near-unity absorption",
@@ -336,6 +719,29 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-08575-720e92",
+      "date": "2026-11-05",
+      "title": "Tailoring resonator geometry for astigmatism compensation with structured light in birefringent optical cavities",
+      "authors": "Carvalho, J. C. de, Jr., R. F. Barros, Antonio Zelaquett Khoury, C. E. R. Souza, G. B. Alves",
+      "institutions": [],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2611.08575",
+      "url": "https://doi.org/10.48550/arxiv.2611.08575",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Theory & Simulation"
+      ],
+      "glyph": "vortex",
+      "summary": "In this work, we experimentally investigate the astigmatism induced by a birefringent crystal inside an optical cavity and demonstrate a geometric compensation strategy for structured modes carrying orbital angular momentum (OAM). We show that the astigmatism observed in the semimonolithic configuration can be fully compensated by introducing a third mirror to fold the cavity, thereby exploiting the geometric astigmatism arising from oblique incidence on the curved mirror. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-1016-j-physleta-2026-132367-4972ca",
@@ -383,6 +789,78 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-compfluid-2026-107343-e78fcc",
+      "date": "2026-11-01",
+      "title": "Automated vortex detection using limited flow velocity data and a Rankine vortex model",
+      "authors": "Govorukhin V.N.",
+      "institutions": [],
+      "journal": "Computers &amp; Fluids",
+      "doi": "10.1016/j.compfluid.2026.107343",
+      "url": "https://doi.org/10.1016/j.compfluid.2026.107343",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-josab-612750-fe5cb3",
+      "date": "2026-10-19",
+      "title": "Finite-multipole accessibility of optical pulling",
+      "authors": "Shiyi Wu, Andrey Novitsky",
+      "institutions": [],
+      "journal": "Journal of the Optical Society of America B",
+      "doi": "10.1364/josab.612750",
+      "url": "https://doi.org/10.1364/josab.612750",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Optical Trapping & Manipulation",
+        "Theory & Simulation",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "bessel",
+      "summary": "Optical manipulation provides a powerful means of controlling microscopic particles, and optical pulling is particularly attractive because it enables particle transport against the incident momentum. However, predicting whether a finite multipolar response can support optical pulling remains challenging because the outcome depends jointly on the scattering state and the incident beam. Here, we establish a finite-multipole accessibility framework that provides a formal upper-bound criterion for determining whether optical pulling is excluded or kinematically permitted within a truncated multipolar space. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-ol-615998-59e1b9",
+      "date": "2026-10-13",
+      "title": "Flexible polygonal vortex synthesis by geometric pinhole encoding",
+      "authors": "Yaru Gao, Chuanyao Geng, Pujuan Ma, Xin Liu, Chunhao Liang, Yangjian Cai, Qian Chen",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.615998",
+      "url": "https://doi.org/10.1364/ol.615998",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Optical Trapping & Manipulation",
+        "Theory & Simulation",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "vortex",
+      "summary": "Spiral–pinhole arrays offer a simple binary approach to optical vortex generation, especially in spectral regions lacking programmable phase modulators, but conventional designs mainly produce annular beams with limited geometric control. Here, we propose geometric pinhole encoding for flexible synthesis of polygonal vortex beams. A prescribed polygonal contour is mapped onto a nonuniform azimuthal phase with a total circulation of 2 π l , where l is the topological charge, and then encoded into the radial coordinates of discrete pinholes through propagation-induced optical path differences. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1103-4smy-6w2n-67e868",
       "date": "2026-10-01",
       "title": "Entangling Ions with Engineered Light Gradients",
@@ -412,5 +890,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-10"
+  "updated": "2026-11-11"
 }
