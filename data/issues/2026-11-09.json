@@ -4,7 +4,7 @@
   "date": "2026-11-09",
   "window": [
     "2026-11-09",
-    "2026-11-11"
+    "2026-11-12"
   ],
   "articles": [
     {
@@ -53,6 +53,126 @@
       ],
       "glyph": "skyrmion",
       "summary": "Direct-detection optical OFDM (DCO-OFDM) suits hybrid fibre–free-space-optical (FSO) links because simple per-subcarrier equalisation tolerates chromatic dispersion and turbulence, but its peak-to-average power ratio (PAPR) drives the Mach–Zehnder modulator into nonlinearity and degrades bit-error rate (BER). This Monte Carlo study compares clipping and filtering, μ-law companding, selected mapping (SLM) and a hybrid SLM + μ-law scheme for 16-QAM DCO-OFDM over single-mode fibre cascaded with a Gamma–Gamma turbulence channel. SLM + μ-law gives the largest PAPR reduction, from 13.50 dB to 7.83 dB at 10 −3 , yet PAPR alone does not predict link performance. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-opt7060076-d7eea1",
+      "date": "2026-11-11",
+      "title": "Topology-Constrained Stereo Correspondence for Dot-Matrix Structured Light with Calibration-Disparity-Guided Local Search",
+      "authors": "Rongliang Zhu, Qiang Liu, Manlong Chen, Lan Yang, Guorui Zhao, Tianhao Wu, Fengshuo Yang",
+      "institutions": [
+        "School of Mechanical Engineering",
+        "Shaanxi Key Laboratory of Industrial Automation",
+        "Ltd"
+      ],
+      "journal": "Optics",
+      "doi": "10.3390/opt7060076",
+      "url": "https://doi.org/10.3390/opt7060076",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "beam",
+      "summary": "Binocular vision is widely used in structured-light three-dimensional measurement and industrial inspection. However, reliable stereo correspondence for repeated dot-matrix patterns remains challenging because neighboring dots are visually similar. To address this problem, this study proposes a topology-constrained binocular correspondence method integrating ordered grid localization with calibration-disparity-guided local search. An ordered lattice is constructed in the right view to provide refined dot locations and consistent spatial indices. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-2351-7-0002195-2000ca",
+      "date": "2026-11-11",
+      "title": "Influence of beam shaping and linear energy on metal mixing, mechanical strength, and microstructure in Al–Cu weld",
+      "authors": "Zia Uddin, Erica Liverani, Alessandro Ascari, Alessandro Fortunato",
+      "institutions": [
+        "Alma Mater Studiorum Università di Bologna"
+      ],
+      "journal": "Journal of Laser Applications",
+      "doi": "10.2351/7.0002195",
+      "url": "https://doi.org/10.2351/7.0002195",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "beam",
+      "summary": "Advances in laser beam-shaping (LBS) technologies offer significant benefits for dissimilar metal joining by reducing intermetallic compound (IMC) formation, optimizing weld pool geometry, and controlling weld quality. However, the relationship between beam shaping (BS), melt-pool (MP) dimensions, mechanical strength, intermixing, and phase formation requires further investigation. This study examines the effects of different BS and line energy (EL) on MP geometry, lap-shear joint strength, elemental composition, and possible phase formation in dissimilar Al–Cu overlap welds. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41467-026-79532-3-a98ac2",
+      "date": "2026-11-11",
+      "title": "Robust optical skyrmion arising from randomness",
+      "authors": "Zhuoyi Wang, Xingyuan Lu, Peng Shi, Xiaotan Lu, Zhenyang Xia, Qiwen Zhan, Yangjian Cai, Xiaocong Yuan, Chengliang Zhao",
+      "institutions": [],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-79532-3",
+      "url": "https://doi.org/10.1038/s41467-026-79532-3",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)"
+      ],
+      "glyph": "skyrmion",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-619234-eb2709",
+      "date": "2026-11-11",
+      "title": "Scattering Characteristic Modeling of Spatiotemporal Modulated Metasurfaces using a Temporally Segmented TD-SBR Method",
+      "authors": "Yuze Tian, baoping yang, xinyang shi, feng deng, Qijiang Han, Zihao Yu, Li Tengyu, Yanjie Wu, Hai Lin",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.619234",
+      "url": "https://doi.org/10.1364/oe.619234",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Characterization & Metrology"
+      ],
+      "glyph": "meta",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1063-5-0352858-56a15f",
+      "date": "2026-11-11",
+      "title": "Robustness analysis of laser pulse designs in direct-drive fusion",
+      "authors": "A. Maïolo, A. Derriey, D. E. M. Barlow, R. Chavigny, M. Bardon, V. T. Tikhonchuk, D. Raffestin, J.-L. Feugeas",
+      "institutions": [
+        "University of Bordeaux-CNRS-CEA 1",
+        "École Polytechnique"
+      ],
+      "journal": "Physics of Plasmas",
+      "doi": "10.1063/5.0352858",
+      "url": "https://doi.org/10.1063/5.0352858",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Theory & Simulation"
+      ],
+      "glyph": "theory",
+      "summary": "The robustness of laser pulse shaping is a critical issue for direct-drive inertial confinement fusion, as realistic laser systems exhibit temporal fluctuations that can affect implosion performance. In this work, a robustness analysis of target designs is performed with respect to physically realistic perturbations of a reference pulse, including temporal jitter, correlated noise, and power-dependent variations. The method is applied to one-dimensional hydrodynamic simulations to assess the impact of these perturbations on the target performance. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -187,6 +307,173 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1088-1361-6501-aec037-8aaf76",
+      "date": "2026-11-10",
+      "title": "Measurement-constrained feature clustering for automated structured-light viewpoint planning",
+      "authors": "Yaodong Ma, Pan Zhang, Zhong Kai, 徐至展, Zibin Zhong, Li Zhongwei",
+      "institutions": [
+        "State Key Laboratory of Materials Processing and Die & Mould Technology",
+        "Huazhong University of Science and Technology"
+      ],
+      "journal": "Measurement Science and Technology",
+      "doi": "10.1088/1361-6501/aec037",
+      "url": "https://doi.org/10.1088/1361-6501/aec037",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Sensing & Metrology"
+      ],
+      "glyph": "beam",
+      "summary": "Automated structured-light 3D measurement of complex industrial parts requires efficient viewpoint planning for accurate feature acquisition. However, existing methods mainly focus on surface coverage and lack feature-oriented region partitioning, resulting in redundant viewpoints and insufficient observation of geometric features. This paper proposes a measurement-constrained feature clustering-based viewpoint planning framework for automated structured-light measurement. A two-stage clustering strategy is developed to partition feature sampling points into measurement-compatible regions by jointly considering normal consistency and sensor field-of-view constraints. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/measurement-science-and-technology.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Measurement Science and Technology"
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-2631-7990-aec057-ca09c7",
+      "date": "2026-11-10",
+      "title": "High-Damage-Threshold Metasurfaces with Apertures Exceeding 100 mm Fabricated by Spatiotemporally Shaped Femtosecond Laser",
+      "authors": "Yao Fang, Yu Meng, Li Shen, Xiong Li, Qingsong Wang, Qi Wei, Fawang Zhang, Chengjun Zhang, Lianwei Chen, Feifei Wang, Yizhang Ai, Yan Chen, Mingbo Pu, Xiangang Luo",
+      "institutions": [
+        "Chinese Academy of Sciences",
+        "Institute of Optics and Electronics, Chinese Academy of Sciences",
+        "China University of Petroleum, East China"
+      ],
+      "journal": "International Journal of Extreme Manufacturing",
+      "doi": "10.1088/2631-7990/aec057",
+      "url": "https://doi.org/10.1088/2631-7990/aec057",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Flying Focus & Programmable Pulses",
+        "Vector & Polarization Fields",
+        "Non-Diffracting & Accelerating Beams",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "flying",
+      "summary": "Metasurfaces offer powerful capabilities for light field manipulation, yet their practical deployment in high-power laser systems remains limited by low laser-induced damage thresholds (LIDTs), small apertures, and low absolute conversion efficiency (ACE). Here, we demonstrate a circular Airy-like beam generator and a quarter-wave plate with high LIDTs and large apertures, which are realized through spatiotemporal and polarization co-shaping femtosecond-laser processing. By combining a temporally delayed longitudinal multi-foci strategy in the spatiotemporal domain with elliptical polarization modulation, we achieved a 22.5-fold increase in fabrication efficiency. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-1361-6463-aec028-efdea4",
+      "date": "2026-11-10",
+      "title": "Dual-Linearly Polarized Transmission-Reflection-Integrated Metasurface for Full-Space Beam Generation with Independent Power Allocation",
+      "authors": "Yukang Chen, Quanyuan Feng, Qiang Sun, Yankai Ma",
+      "institutions": [
+        "Southwest Jiaotong University School of Information Science and Technology",
+        "Southwest Jiaotong University"
+      ],
+      "journal": "Journal of Physics D: Applied Physics",
+      "doi": "10.1088/1361-6463/aec028",
+      "url": "https://doi.org/10.1088/1361-6463/aec028",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "meta",
+      "summary": "Existing multi-polarized transmission–reflection-integrated metasurfaces (TRIMs) usually suffer from fixed or coupled beam power allocation, making it difficult to independently prescribe the beam power ratios in the transmission and reflection spaces. To address this issue, a dual-linearly polarized TRIM with independently prescribed beam power ratios in the two half-spaces is proposed in this paper. The proposed TRIM is based on a quad-channel metasurface unit-cell, which provides two orthogonal transmission channels and two orthogonal reflection channels. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-physics-d-applied-physics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Physics D: Applied Physics"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1088-2631-8695-aec064-32de90",
+      "date": "2026-11-10",
+      "title": "Wave-optical adaptation of feed-forward 4D Gaussian splatting for real-time dynamic holographic rendering",
+      "authors": "Yun Ming, Kehan Xu, Han Li",
+      "institutions": [
+        "Wuhan International Trade University",
+        "Xidian University",
+        "Ltd"
+      ],
+      "journal": "Engineering Research Express",
+      "doi": "10.1088/2631-8695/aec064",
+      "url": "https://doi.org/10.1088/2631-8695/aec064",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Wavefront Shaping & Scattering"
+      ],
+      "glyph": "slm",
+      "summary": "Dynamic holographic rendering requires a scene representation that preserves motion while supporting coherent wave propagation. Feed-forward 4D Gaussian splatting predicts dynamic radiance primitives without test-sequence optimization, but its camera-space renderer cannot generate phase-only holograms. We present FF4D-HoloGS, a shared wave-optical adapter that maps each predicted primitive to a wavelength-conditioned complex weight. A depth-aware Gaussian wave renderer converts these weights into quantized phase patterns for reconstruction across focal planes and shifted pupils. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-13764-9c0487",
+      "date": "2026-11-10",
+      "title": "Time-Varying Photonics: A Review of Theory, Phenomena, and Experimental Platforms",
+      "authors": "Zhaohui Dong, Xianfeng Chen, Luqi Yuan",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.13764",
+      "url": "https://arxiv.org/abs/2611.13764",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Time-Varying Media & Temporal Interfaces",
+        "Nonlinear & Quantum Structured Light",
+        "Theory & Simulation",
+        "Optical Computing",
+        "Reviews"
+      ],
+      "glyph": "timevary",
+      "summary": "Time-varying photonics opens new avenues for controlling waves through engineering material properties in time. In this review, we introduce the basic concepts and theoretical tools for describing temporal interfaces, time-periodic systems, and space-time media, as well as review representative experimental approaches across different photonic and wave platforms. We further discuss characteristic phenomena enabled by temporal modulation, including coherent wave control, parametric amplification, nonreciprocity, and topological effects. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-13476-cf87fe",
+      "date": "2026-11-10",
+      "title": "Hopfion Superlattices in 3D Twisted Moiré Light Fields",
+      "authors": "Yifan Zhang, Vasu Dev, Yijie Shen",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.13476",
+      "url": "https://arxiv.org/abs/2611.13476",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Topological Light (Skyrmions & Knots)",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Moiré superlattices have recently been extended from electronic materials to photonic systems, enabling complex topological light fields such as skyrmion bags. However, these realizations remain confined to two dimensions. Here, we demonstrate 3D moiré superlattices formed by twisting multi-volume spatiotemporal optical lattices, giving rise to previously undiscovered 3D quasiparticle topologies, including hopfion bags, hopfion quasicrystals, and hopfion-hopfionium nested superlattices. By tailoring the interference polarization textures of the moiré spacetime lattices, we achieve controlled topological transitions among these states, and tailored topological numbers of hopfion bags. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-3724-lpe-20260015-c5e865",
@@ -721,6 +1008,31 @@
       "source": "crossref"
     },
     {
+      "id": "10-48550-arxiv-2611-10302-4a00a5",
+      "date": "2026-11-06",
+      "title": "Intensity limits for phase-only holographic optical-tweezer arrays",
+      "authors": "Anzhou Wen, Hengyu Lian, Kevin Wu, Maxwell F. Parsons, Praneeth Chakravarthula",
+      "institutions": [],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2611.10302",
+      "url": "https://doi.org/10.48550/arxiv.2611.10302",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Optical Trapping & Manipulation",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "slm",
+      "summary": "Optical tweezers use tightly focused laser beams to trap and manipulate individual particles, enabling advances in quantum computing, drug discovery, and biological research. Scaling these technologies to large arrays requires delivering sufficient light to every trapping site while minimizing the total laser power required. Here, we investigate the fundamental limits of how efficiently a phase-only hologram can distribute light across an array of optical traps. We derive upper bounds on the minimum intensity across trapping sites, accounting for illumination, target geometry, and diffraction from spatial light modulator pixels. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-48550-arxiv-2611-08575-720e92",
       "date": "2026-11-05",
       "title": "Tailoring resonator geometry for astigmatism compensation with structured light in birefringent optical cavities",
@@ -737,6 +1049,56 @@
       ],
       "glyph": "vortex",
       "summary": "In this work, we experimentally investigate the astigmatism induced by a birefringent crystal inside an optical cavity and demonstrate a geometric compensation strategy for structured modes carrying orbital angular momentum (OAM). We show that the astigmatism observed in the semimonolithic configuration can be fully compensated by introducing a third mirror to fold the cavity, thereby exploiting the geometric astigmatism arising from oblique incidence on the curved mirror. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-oe-612749-0c18c0",
+      "date": "2026-11-04",
+      "title": "Janus metalens enabling directional control of focal depth and intensity",
+      "authors": "Yinghao Yuan, Zhiyu Tan, XiaoFei Zang, Gaopeng Li, Yiming Zhu, Songlin Zhuang",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.612749",
+      "url": "https://doi.org/10.1364/oe.612749",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "vortex",
+      "summary": "Janus metasurfaces possess an unparalleled capacity to asymmetrically tailor electromagnetic wavefronts for forward and backward propagation paths, opening new avenues for practical implementation in asymmetric information processing. However, existing studies on Janus metasurfaces are limited to phase-only modulation, which restricts their widespread application prospects. Here, we propose a strategy for simultaneous phase and polarization modulation of incident terahertz (THz) waves leveraging a cascaded metasurface architecture (i.e., Janus metalens). …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-ol-614137-d4c1f1",
+      "date": "2026-11-02",
+      "title": "Tunable dipole dynamics mediated by intrinsic vortex–antivortex interaction under paraxial focusing",
+      "authors": "Lijun Wei, Wenjing Zhou, Siqi Zhu, Zhenqiang Chen",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.614137",
+      "url": "https://doi.org/10.1364/ol.614137",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Topological Light (Skyrmions & Knots)",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Optical focusing is a fundamental tool for tailoring structured light, yet efforts to actively control vortex dynamics have largely been concentrated in the tight-focusing regime. Here we demonstrate tunable propagation dynamics of an optical vortex dipole under paraxial focusing, where the thin-lens quadratic phase and the initial intervortex distance act as two control knobs. Their interplay regulates the intrinsic vortex–antivortex interaction, which steers the dipole into an OAM Hall effect in real space. The same critical vortex position also governs the emergence of a spectral vortex dipole in Fourier space. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -890,5 +1252,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
 }
