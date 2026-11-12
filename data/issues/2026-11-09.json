@@ -4,7 +4,7 @@
   "date": "2026-11-09",
   "window": [
     "2026-11-09",
-    "2026-11-12"
+    "2026-11-13"
   ],
   "articles": [
     {
@@ -23,6 +23,148 @@
         "Inverse Design & AI"
       ],
       "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-ol-618193-3d3b39",
+      "date": "2026-11-12",
+      "title": "Matrix Multiplication as an Intrinsic Property of Structured Light Fields",
+      "authors": "Asif Habib, Vijay Kumar",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.618193",
+      "url": "https://doi.org/10.1364/ol.618193",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-613636-101455",
+      "date": "2026-11-12",
+      "title": "Emitter-side preparation tolerance of optical concurrence in vectorial structured light",
+      "authors": "Sitao Qin, Yize Liang, Shuqi Ma, Shuai Cao, xukun yin, Lixin Liu, Huailiang Xu",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.613636",
+      "url": "https://doi.org/10.1364/oe.613636",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-photonics13111070-e014ee",
+      "date": "2026-11-12",
+      "title": "Tight Focusing, Spin Textures, and Optical Forces of Amplitude–Phase-Asymmetric Hyperbolic-Chirped Double-Ring Airy–Gaussian Vortex Beams",
+      "authors": "Tengfei Dai, Qihang Zhou, Ziyu Zhuang, Xinyue Wang, Congliao Yan, Wanyi Li",
+      "institutions": [
+        "School of Electronics and Information Engineering",
+        "School of Physics and Optoelectronic Engineering"
+      ],
+      "journal": "Photonics",
+      "doi": "10.3390/photonics13111070",
+      "url": "https://doi.org/10.3390/photonics13111070",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Non-Diffracting & Accelerating Beams",
+        "Sensing & Metrology"
+      ],
+      "glyph": "vortex",
+      "summary": "We propose an amplitude–phase-asymmetric hyperbolic-chirped double-ring Airy–Gaussian vortex beam (AHC-DRAGVB). Oppositely signed radial chirps are imposed on the inner and outer rings, respectively, while a hyperbolic-cosine amplitude modulation is applied only to the outer ring. A vectorial tight-focusing model based on Richards–Wolf diffraction is used to examine the effects of the scale factor G, vortex displacement, optical distribution factor b, hyperbolic modulation coefficient κ, and radial-chirp coefficients. The scale factor jointly controls the focal position, depth of focus, and longitudinal peak-intensity ratio. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-jot-93-000134-5b4c27",
+      "date": "2026-11-12",
+      "title": "Generation of vector optical vortices in a Mach–Zehnder polarization interferometer",
+      "authors": "Daniil D. Reshetnikov, Mariya E. Pavelina, Anastasiya A. Ryzhaya, Ekaterina V. Malyutina, Aleksandr A. Sevryugin, Evgenii A. Vashukevich, Viktor M. Petrov, Vladimir Yu. Venediktov",
+      "institutions": [
+        "St. Petersburg State University",
+        "St. Petersburg Electrotechnical University"
+      ],
+      "journal": "Journal of Optical Technology",
+      "doi": "10.1364/jot.93.000134",
+      "url": "https://doi.org/10.1364/jot.93.000134",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Subject of study. Generation of vector optical vortices in a Mach–Zehnder polarization interferometer is investigated. Aim of study. The aim of this study is to develop methods for generating vector and scalar optical vortices using a modified Mach–Zehnder polarization interferometer. An experimental study of a polarization interferometer system with cube corner reflectors is performed, and polarization transformations in the system are theoretically described using the Jones matrix formalism. Method. A modified Mach–Zehnder polarization interferometer is used to generate both scalar and vector optical vortices. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3762-bjnano-17-110-395a85",
+      "date": "2026-11-12",
+      "title": "Exploring combinations of spatial laser beam shaping for advancing nanoparticle synthesis by ablation in liquids",
+      "authors": "Rémi Bérard, Abdel Rahman Altakroury, Oleksandr Gatsa, Zongwen Fu, Bilal Gökce, Alexander V Bulgakov",
+      "institutions": [],
+      "journal": "Beilstein Journal of Nanotechnology",
+      "doi": "10.3762/bjnano.17.110",
+      "url": "https://doi.org/10.3762/bjnano.17.110",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "beam",
+      "summary": "Pulsed laser ablation in liquids (PLAL) is a versatile and sustainable technique for the synthesis of ligand-free colloidal nanoparticles, but its wider application is limited by relatively low productivity and insufficient control over particle size distributions. Here, to advance the technique, we investigate the possibility of combining in one synthesis process the advantages of two recently developed cost-effective approaches, multibeam PLAL for productivity increase and donut-shaped laser beams for particle size modification. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-josab-618826-3e707e",
+      "date": "2026-11-12",
+      "title": "Zero bias field selective transition adressing of the NV center via pulse shaping",
+      "authors": "Thomas Richard, Yves Berube-Lauziere",
+      "institutions": [],
+      "journal": "Journal of the Optical Society of America B",
+      "doi": "10.1364/josab.618826",
+      "url": "https://doi.org/10.1364/josab.618826",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
       "summary": "",
       "why": "",
       "pick": false,
@@ -173,6 +315,60 @@
       ],
       "glyph": "theory",
       "summary": "The robustness of laser pulse shaping is a critical issue for direct-drive inertial confinement fusion, as realistic laser systems exhibit temporal fluctuations that can affect implosion performance. In this work, a robustness analysis of target designs is performed with respect to physically realistic perturbations of a reference pulse, including temporal jitter, correlated noise, and power-dependent variations. The method is applied to one-dimensional hydrodynamic simulations to assess the impact of these perturbations on the target performance. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-admt-71450-96c855",
+      "date": "2026-11-11",
+      "title": "Multifunctional Bidirectional Wavefront Manipulation Using Non‐Interleaved Metasurface",
+      "authors": "Faizan Faraz, Wei Du, Taufeeq Ur Rehman Abbasi, Ruikai Hu, Muhammad Adeel Khan, Bin Zheng, Huan Lu",
+      "institutions": [
+        "Zhejiang University",
+        "King Fahd University of Petroleum and Minerals",
+        "Shenzhen University"
+      ],
+      "journal": "Advanced Materials Technologies",
+      "doi": "10.1002/admt.71450",
+      "url": "https://doi.org/10.1002/admt.71450",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields"
+      ],
+      "glyph": "vortex",
+      "summary": "Bidirectional metasurfaces have attracted great attention for their potential to exhibit distinct electromagnetic responses depending on the direction of incident wave propagation. In this work, we present a multifunctional, non‐interleaved metasurface with bidirectional wavefront manipulation. The design operates across three frequency bands, including 11.6, 13.1–15, and 17.5 GHz. At 11.6 and 17.5 GHz, the metasurface exhibits co‐polarized reflection or cross‐polarized transmission response depending on the direction of propagation (± k ) and polarization (left circular polarization (LCP) and right circular polarization (RCP)). …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1002-nap2-70368-702612",
+      "date": "2026-11-11",
+      "title": "Free‐Standing Bilayer Metasurface With Physically Separated Phase Modulations for Low‐Crosstalk Polarization Multiplexing",
+      "authors": "Bowen Niu, Qun Dai, Yu Ao, Xuanwei Xu, Yu Qiao, Yanjun Hu, Guofang Fan",
+      "institutions": [
+        "School of Integrated Circuits Shanghai Polytechnic University Shanghai China"
+      ],
+      "journal": "Nanophotonics",
+      "doi": "10.1002/nap2.70368",
+      "url": "https://doi.org/10.1002/nap2.70368",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Metasurfaces & Flat Optics",
+        "Optical Communication"
+      ],
+      "glyph": "vector",
+      "summary": "Polarization multiplexing metasurfaces are promising for high‐capacity wavefront manipulation but typically suffer from inter‐channel crosstalk that degrades the fidelity of each polarization channel. This paper presents a free‐standing bilayer spin‐decoupled metasurfaces that achieves almost complete decoupling of two circular polarization channels by physically separating the geometric phase and propagation phase modulations into distinct layers. This design overcomes the parametric constraints of single‐layer metasurfaces and maintains high polarization conversion rate. As a demonstration, we implement a dual‐channel beam shaping metasurfaces. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -476,6 +672,59 @@
       "source": "arxiv"
     },
     {
+      "id": "10-48550-arxiv-2611-14291-610d59",
+      "date": "2026-11-10",
+      "title": "Nonreciprocal Josephson Dynamics of a \\mathcalPT-Symmetric Atomtronic SQUID",
+      "authors": "N. Pradhan, Rina Kanamoto, M. Bhattacharya, Pankaj K. Mishra",
+      "institutions": [],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2611.14291",
+      "url": "https://doi.org/10.48550/arxiv.2611.14291",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Optical Trapping & Manipulation",
+        "Characterization & Metrology"
+      ],
+      "glyph": "vortex",
+      "summary": "We investigate non-Hermitian Josephson dynamics in an atomtronic quantum interference device (AQUID), formed by a ring Bose Einstein condensate with balanced atomic gain and loss regions and two moving optical barriers. The balanced gain and loss profile establishes a parity time symmetric potential while breaking spatial inversion symmetry, providing the essential ingredients for nonreciprocal Josephson transport. The dynamics are monitored nondestructively through the phase quadrature spectrum of an optomechanical cavity driven by Laguerre Gaussian beams coupled to the condensate. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1177-13835416261506319-643c7c",
+      "date": "2026-11-10",
+      "title": "VO 2 -tunable terahertz metasurface for broadband linear-to-linear polarization conversion",
+      "authors": "Fengyan Pan, Hong Zhang, Jun Zhang",
+      "institutions": [
+        "Hubei Key Laboratory of Intelligent Vision-Based Monitoring for Hydroelectric Engineering",
+        "China Three Gorges University",
+        "Hubei University of Arts and Science"
+      ],
+      "journal": "International Journal of Applied Electromagnetics and Mechanics",
+      "doi": "10.1177/13835416261506319",
+      "url": "https://doi.org/10.1177/13835416261506319",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "vector",
+      "summary": "This paper presents a tunable terahertz metasurface based on vanadium dioxide (VO 2 ), in which broadband linear-to-linear tunable polarization conversion is achieved by regulating the conductivity of VO 2 . The unit cell consists of five layers arranged sequentially, including a gold backplane, a polyimide dielectric spacer, a thin VO 2 film, a second polyimide layer, and a hybrid metal–VO 2 patterned top layer. When VO 2 is in the insulating state, simulation results demonstrate that the proposed metasurface realize polarization conversion ratio (PCR) exceeds 90% from 3.50 to 8.00 THz under linear-to-linear polarized wave. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-3724-lpe-20260015-c5e865",
       "date": "2026-11-09",
       "title": "Fast frozen wave beam shaping based on light-thread convolution method",
@@ -747,6 +996,35 @@
       "feature": false,
       "fig": null,
       "source": "arxiv"
+    },
+    {
+      "id": "10-1039-d6nr03699f-742a83",
+      "date": "2026-11-09",
+      "title": "Intrinsic meron spin textures generated by an all-silicon terahertz meta-lens",
+      "authors": "Li H, Ma W, Wang H, Xu W, Shao K, Qiu F, Ren Y, Yao J",
+      "institutions": [
+        "School of Physics and Astronomy and Yunnan Key Laboratory for Quantum Information",
+        "School of Precision Instruments and Opto-Electronics Engineering",
+        "National Center for International Research on Photoelectric and Energy Materials"
+      ],
+      "journal": "Nanoscale",
+      "doi": "10.1039/d6nr03699f",
+      "url": "https://doi.org/10.1039/d6nr03699f",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Topological Light (Skyrmions & Knots)",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Optical skyrmions and merons, topologically nontrivial textures of the electromagnetic field, have opened new avenues for structured light, yet their generation has so far relied on bulky focusing optics or specially crafted microstructures. Here we demonstrate that a planar all-silicon meta-lens can directly generate an intrinsic meron spin texture in a tightly focused terahertz beam at 0.9 THz. The meta-lens consists of half-wave-plate meta-atoms that simultaneously reverse the helicity of the incident circularly polarized wave and imprint a hyperbolic focusing phase through the propagation phase, yielding an effective numerical aperture of 0.8. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
     },
     {
       "id": "10-1080-02726343-2026-2755601-39d122",
@@ -1056,6 +1334,141 @@
       "source": "openalex"
     },
     {
+      "id": "10-1051-epjconf-202639307053-pdf-b69768",
+      "date": "2026-11-05",
+      "title": "OAM-Transfer in Sub-µm PPKTP BWOPO",
+      "authors": "Tim Julian Wörmann, Jingxuan Zhang, Andrius Žukauskas, Valdas Pašiškevičius",
+      "institutions": [
+        "Technical University of Denmark",
+        "KTH Royal Institute of Technology"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639307053/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639307053/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams"
+      ],
+      "glyph": "vortex",
+      "summary": "We study OAM transfer in backward wave parametric oscillators pumped by vortex beams. While total OAM is preserved, nonlinear gain favors the strongest spatial overlap, leading to dominant mode selection absent in the low-gain regime.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1051-epjconf-202639307070-pdf-dee08d",
+      "date": "2026-11-05",
+      "title": "Fabrication and Characterization of Volume Bragg Gratings in Silver-Containing Phosphate Glass",
+      "authors": "M. Zielinski, J. Harb, L. Talbot, Y. Petit, M. Bernier, L. Canioni",
+      "institutions": [
+        "Centre National de la Recherche Scientifique",
+        "Université de Bordeaux",
+        "Institut de Chimie de la Matière Condensée de Bordeaux"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639307070/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639307070/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Characterization & Metrology",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "bessel",
+      "summary": "Here, we report on the formation of Type-A Volume Bragg gratings (VBGs) in silver-containing phosphate glasses using the Gaussian-Bessel beam approach. We demonstrate that these structures can operate in reflection at telecom wavelengths, highlighting their potential for photonic and telecom applications.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1051-epjconf-202639303001-pdf-e483d3",
+      "date": "2026-11-05",
+      "title": "Beam self-cleaning and spatiotemporal mode-locking in a multimode GRIN Er/Yb energy-managed fiber laser",
+      "authors": "Mostafa I. Mohamed, Aurélien Coillet, Vincent Couderc, Philippe Grelu",
+      "institutions": [
+        "Centre National de la Recherche Scientifique",
+        "Université de Bourgogne",
+        "Laboratoire Interdisciplinaire Carnot de Bourgogne"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639303001/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639303001/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Multimode & ST Mode-Locking"
+      ],
+      "glyph": "multimode",
+      "summary": "We demonstrate a multimode GRIN Er/Yb fiber laser generating ~2-ps mode-locked pulses with over 20-nJ energy and ~10-kW peak power. Nonlinear intermodal interactions enable spatiotemporal mode-locking, while the GRIN profile produces near-Gaussian output via beam self-cleaning — the first such demonstration in an all-anomalous dispersion regime.",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1051-epjconf-202639307062-pdf-33786a",
+      "date": "2026-11-05",
+      "title": "Configuration-Controlled Optical Encryption in Multimode Fibers with Reconfigurable Diffractive Neural Network-Based Decryption",
+      "authors": "Bharathy Jacob, Nithyanandan Kanagaraj",
+      "institutions": [
+        "Indian Institute of Technology Hyderabad"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639307062/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639307062/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Wavefront Shaping & Scattering",
+        "Mode Multiplexing & Fibers",
+        "Inverse Design & AI",
+        "Displays, Security & AR"
+      ],
+      "glyph": "speckle",
+      "summary": "We propose a configuration-controlled optical encryption framework using multimode fibers (MMF), where distinct fiber configurations encode images into complex speckle patterns. A reconfigurable diffractive neural network (Re-DNN) selectively decrypts multiple datasets through configuration-dependent operations without retraining.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1051-epjconf-202639304014-pdf-48ce51",
+      "date": "2026-11-05",
+      "title": "Energy scaling properties of Laguerre-Gauss modes in gas-filled multipass cells",
+      "authors": "Ania Ierano', Michele Natile, Anne‐Lise Viotti, Florent Guichard, Marc Hanna, Patrick Georges",
+      "institutions": [
+        "Amplitude Systèmes (France)",
+        "Lund University",
+        "Centre National de la Recherche Scientifique"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639304014/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639304014/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Characterization & Metrology",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "We present energy scaling from 50 μJ up to 150 μJ of a gas-filled multipass cell (MPC) nonlinear compression setup with a Gaussian and an LG03 beam, compressed to 60 fs. The spatio-spectral and spectrally-resolved topological charge properties are characterized.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1364-oe-612749-0c18c0",
       "date": "2026-11-04",
       "title": "Janus metalens enabling directional control of focal depth and intensity",
@@ -1173,6 +1586,28 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-wavemoti-2026-103884-3b6e67",
+      "date": "2026-11-01",
+      "title": "Hybrid localized waves of a variable-coefficient reverse-space-time nonlocal Gerdjikov–Ivanov equation via a generalized Darboux transformation",
+      "authors": "Zhou Wang, Zhengyu Bao, Xiangpeng Xin, Shifei Sun, Zhenjie Niu",
+      "institutions": [],
+      "journal": "Wave Motion",
+      "doi": "10.1016/j.wavemoti.2026.103884",
+      "url": "https://doi.org/10.1016/j.wavemoti.2026.103884",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Light Bullets & X-Waves"
+      ],
+      "glyph": "bullet",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1364-josab-612750-fe5cb3",
       "date": "2026-10-19",
       "title": "Finite-multipole accessibility of optical pulling",
@@ -1252,5 +1687,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-12"
+  "updated": "2026-11-13"
 }
