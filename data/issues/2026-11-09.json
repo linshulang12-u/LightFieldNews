@@ -4,7 +4,7 @@
   "date": "2026-11-09",
   "window": [
     "2026-11-09",
-    "2026-11-13"
+    "2026-11-14"
   ],
   "articles": [
     {
@@ -23,6 +23,58 @@
         "Inverse Design & AI"
       ],
       "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-20935-acadnano8637-43c09e",
+      "date": "2026-11-13",
+      "title": "Symmetry-protected quantum computing using twisted light and metamaterial nanofocusing",
+      "authors": "Neil F. Johnson, Ferney J. Rodríguez, Luis Quiroga",
+      "institutions": [
+        "George Washington University",
+        "University of the Andes"
+      ],
+      "journal": "Academia Nano: Science, Materials, Technology",
+      "doi": "10.20935/acadnano8637",
+      "url": "https://doi.org/10.20935/acadnano8637",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Introduction: Practical quantum computing requires three capabilities in combination: a qubit encoding that survives environmental noise, a control channel that addresses that encoding with high fidelity, and a way to deliver the control field to the qubit at the relevant length scale. Materials and methods: We present an architecture that can achieve all three through a unified physical principle, by combining symmetry protection of relative-motion (correlation-sector) qubits via the generalized Kohn theorem, control via the orbital angular momentum (OAM) of twisted light, and metamaterial nanofocusing (e.g., using Weyl-semimetal plasmonics) that selectively delivers the required OAM …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-619959-7e094b",
+      "date": "2026-11-13",
+      "title": "Propagation of partially coherent radially polarized Bessel-Gaussian beams carrying asymmetric power-exponent-phase vortices through atmospheric turbulence",
+      "authors": "bo wen, Jianwei Niu",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.619959",
+      "url": "https://doi.org/10.1364/oe.619959",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Non-Diffracting & Accelerating Beams",
+        "Turbulence & Free-Space Links"
+      ],
+      "glyph": "vector",
       "summary": "",
       "why": "",
       "pick": false,
@@ -171,6 +223,31 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-17043-3091f4",
+      "date": "2026-11-12",
+      "title": "Pseudovortex-assisted generation of first-order vector modes",
+      "authors": "L. Marques Fagundes, P. Schneider Lacerda, T. A. Petry Kock, N. Rubiano da Silva, P. H. Souto Ribeiro, R. Medeiros de Araújo",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.17043",
+      "url": "https://arxiv.org/abs/2611.17043",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "A practical method of generating first-order vector modes like radially and azimuthally polarized modes is using the so-called vortex waveplates. Shining these plates with Gaussian beams produces parasitic higher-order modes besides the target vector beam. The reason is that there is a mismatch between the incident Gaussian mode and the doughnut-shaped profile required for the vector beam. This imposes a limit on the fidelity of the generated mode with respect to the target vector beam. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-1515-joc-2026-0485-a982fd",
@@ -374,6 +451,33 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-16094-8a9f16",
+      "date": "2026-11-11",
+      "title": "Optical symmetry breaking for single-image field reconstruction",
+      "authors": "Egor Manuylovich",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.16094",
+      "url": "https://arxiv.org/abs/2611.16094",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Spatiotemporal Measurement",
+        "SLM, DMD & Holography",
+        "Adaptive Optics & Aberrations",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "stmeas",
+      "summary": "Light carries information in both amplitude and phase, although cameras record only intensity. Reconstructing the optical field is at the heart of wavefront sensing, microscopy and coherent communications. Existing methods often rely on multiple measurements or iterative phase retrieval. In fields described by known spatial modes, intensity is determined by pairwise products of their complex coefficients. Yet optical symmetries can make these products indistinguishable, leaving different fields with nearly identical images. Here, we show that engineering the optical measurement to break these symmetries enables direct reconstruction of the complex field from a single intensity image. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-1063-5-0362488-dd66db",
@@ -1608,6 +1712,51 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-dental-2026-11-002-112a41",
+      "date": "2026-11-01",
+      "title": "Spatio-temporal optical and thermal monitoring reveals light-source- and photoinitiator-dependent cure heterogeneity in experimental resin-based composites",
+      "authors": "Mohammed A. Hadis, Adrian C. Shortall, William M. Palin",
+      "institutions": [],
+      "journal": "Dental Materials",
+      "doi": "10.1016/j.dental.2026.11.002",
+      "url": "https://doi.org/10.1016/j.dental.2026.11.002",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-ijleo-2026-172977-a1d6ba",
+      "date": "2026-11-01",
+      "title": "Mode demultiplexing using diffractive optical mode converters and 3dB couplers",
+      "authors": "Seyyed Hossein Kazemi",
+      "institutions": [],
+      "journal": "Optik",
+      "doi": "10.1016/j.ijleo.2026.172977",
+      "url": "https://doi.org/10.1016/j.ijleo.2026.172977",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Mode Multiplexing & Fibers",
+        "Optical Communication"
+      ],
+      "glyph": "modes",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1364-josab-612750-fe5cb3",
       "date": "2026-10-19",
       "title": "Finite-multipole accessibility of optical pulling",
@@ -1687,5 +1836,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-13"
+  "updated": "2026-11-14"
 }
