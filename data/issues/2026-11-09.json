@@ -4,7 +4,7 @@
   "date": "2026-11-09",
   "window": [
     "2026-11-09",
-    "2026-11-14"
+    "2026-11-15"
   ],
   "articles": [
     {
@@ -23,6 +23,56 @@
         "Inverse Design & AI"
       ],
       "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-nap2-70364-ea1932",
+      "date": "2026-11-14",
+      "title": "Transverse‐Longitudinal Manipulation of High‐Order Bessel Vector Vortex Beams via Spin‐Multiplexed Metasurfaces",
+      "authors": "Lingling Xu, XueYing Wu, Mingli Sun, Xiaogang Wang, Xinning Yu, Tingting Sun, Bijun Xu",
+      "institutions": [
+        "Department of Physics Zhejiang University of Science and Technology Hangzhou China"
+      ],
+      "journal": "Nanophotonics",
+      "doi": "10.1002/nap2.70364",
+      "url": "https://doi.org/10.1002/nap2.70364",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Vector beams, structured optical fields with spatially variant polarization distributions, play vital roles in optical manipulation, super‐resolution imaging, optical communication, and beyond. Conventional generation of longitudinally evolving vector beams relies on bulky optical components with poor system integration and limited modulation freedom. This work presents a spin‐multiplexed metasurface approach to generate high‐order Bessel vector vortex beams, enabling simultaneous transverse and longitudinal polarization control. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41524-026-02394-2-88e6a9",
+      "date": "2026-11-14",
+      "title": "Tuning molten pool dynamics and keyhole formation during laser powder bed fusion through laser beam shaping",
+      "authors": "Xu Tang, Xiaowu Jiang, Yuexin Zhou, Zhifu Yao, Shuai Wang, Jun Wei, Xingjun Liu, Rongpei Shi",
+      "institutions": [],
+      "journal": "npj Computational Materials",
+      "doi": "10.1038/s41524-026-02394-2",
+      "url": "https://doi.org/10.1038/s41524-026-02394-2",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
       "summary": "",
       "why": "",
       "pick": false,
@@ -76,6 +126,143 @@
       ],
       "glyph": "vector",
       "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1117-1-apn-6-1-016008-c7b650",
+      "date": "2026-11-13",
+      "title": "Ultra-broadband dispersion-compensating fiber for cylindrical vector mode",
+      "authors": "Wenpu Geng, Yiwen Zhang, Weiwei Liu, Zhongqi Pan, Yue Yang",
+      "institutions": [
+        "Nankai University",
+        "CNPC Chuanqing Drilling Engineering Company Limited (China)",
+        "University of Louisiana at Lafayette"
+      ],
+      "journal": "Advanced Photonics Nexus",
+      "doi": "10.1117/1.apn.6.1.016008",
+      "url": "https://doi.org/10.1117/1.apn.6.1.016008",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Characterization & Metrology",
+        "Optical Communication"
+      ],
+      "glyph": "vector",
+      "summary": "With the emergence of various new technologies, the demand for optical communication systems with greater transmission capacity and higher efficiency continues to grow. Among advanced multiplexing techniques, cylindrical vector beam multiplexing stands out for its ability to integrate with traditional methods and enhance transmission capacity. However, the long-distance propagation of beams in fibers suffers from the pulse shape variation caused by the accumulated dispersion. In this paper, a tapered fiber design is introduced and optimized to serve as an ultra-broadband dispersion compensation component for cylindrical vector mode applications. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-1402-4896-aec209-347d9e",
+      "date": "2026-11-13",
+      "title": "Unified geometrical and paraxial approach toHermite-Gaussian and Laguerre-Gaussian beams inquadratic and free-space media via Niederer’s pointtransformation",
+      "authors": "Gilberto Silva-Ortigoza, R Silva-Ortigoza, Julio Cesar Flores Molina, Angel Antonio Antonio Galván Santibañez, Citlalli Teresa Sosa-Sánchez",
+      "institutions": [
+        "Benemérita Universidad Autónoma de Puebla",
+        "Instituto Politécnico Nacional"
+      ],
+      "journal": "Physica Scripta",
+      "doi": "10.1088/1402-4896/aec209",
+      "url": "https://doi.org/10.1088/1402-4896/aec209",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Theory & Simulation",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "vortex",
+      "summary": "We present an elementary derivation of Niederer’s coordinate point transformation within the framework of geometrical optics, establishing a direct connection between scalar paraxial optics and the Bohmian hydrodynamic formulation for free space and quadratic optical media. Unlike conventional approaches that rely on the sophisticated mathematical machinery of Lie groups and Lie algebras, our derivation stems naturally from fundamental physical and geometrical principles of light rays. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1002-lpor-72165-f903dc",
+      "date": "2026-11-13",
+      "title": "On‐Chip Measurement of the Modal Stokes–Gell–Mann Parameters for Partially Coherent Three‐Mode Light",
+      "authors": "Amin Hashemi, Abbas Shiri, Bahaa E. A. Saleh, Andrea Blanco‐Redondo, Ayman F. Abouraddy",
+      "institutions": [
+        "The College of Optics &amp"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72165",
+      "url": "https://doi.org/10.1002/lpor.72165",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Coherence & Partially Coherent Fields",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "vector",
+      "summary": "The Stokes parameters are three real parameters that completely characterize partially coherent light spanned by two modes – whether a pair of polarization or spatial modes – whose use is ubiquitous in optics. Whereas the Stokes parameters are defined through an expansion of the coherence matrix in terms of Pauli matrices, it has been theorized that the Gell–Mann matrices – developed in high‐energy particle physics – can serve as a basis for coherence matrices for three‐mode light. This entails eight Stokes–Gell–Mann (SGM) parameters required for the polarization of non‐paraxial fields (spanned by three polarization modes), and fields comprising three spatial or temporal modes. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72185-6b72ac",
+      "date": "2026-11-13",
+      "title": "Optical Möbius Snails",
+      "authors": "Qiang Wang, Pedro A. Quinto‐Su, Xi Xie, Xiangsheng Xie, Chenghou Tu, Yijie Shen",
+      "institutions": [
+        "College of Science Shantou University Shantou China",
+        "Instituto de Ciencias Nucleares Universidad Nacional Autónoma de México Cd. Mx. México",
+        "Centre for Disruptive Photonic Technologies"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72185",
+      "url": "https://doi.org/10.1002/lpor.72185",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "Tight Focusing & Focal Fields",
+        "Characterization & Metrology",
+        "Optical Computing"
+      ],
+      "glyph": "skyrmion",
+      "summary": "The exploration of topological states has emerged as a vibrant frontier across diverse physical systems. Among these, the Möbius strip stands out as a canonical structure that has recently inspired intriguing optical physics. In this work, we extend this concept into the high‐dimensional realm by using an optical analogue—the optical Möbius snail. Specifically, employing a skyrmionic beam as the input field, tight focusing yields a continuous family of Möbius strips that exist in three‐dimensional space, giving rise to a snail‐like polarization topological texture. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-nap2-70344-cec60e",
+      "date": "2026-11-13",
+      "title": "Phase‐Controlled Momentum Bandgaps in Dual‐Channel Dispersive Photonic Time Crystals",
+      "authors": "Hongzhi Chen, Keyu Jin, Yingjie Wu, Bingtao Gao, Hongsheng Chen, Lian Shen",
+      "institutions": [
+        "Zhejiang University Hangzhou China"
+      ],
+      "journal": "Nanophotonics",
+      "doi": "10.1002/nap2.70344",
+      "url": "https://doi.org/10.1002/nap2.70344",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Time-Varying Media & Temporal Interfaces",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "timevary",
+      "summary": "Dispersive photonic time crystals (PTCs) offer a versatile platform for manipulating light–matter interactions through temporal modulation of material responses, enabling dynamic control of optical gain and loss. Previous multi‐parameter temporal modulation studies provide additional degrees of freedom for engineering the band structure. Quantitatively characterizing momentum‐bandgap splitting and understanding the interplay between distinct modulation channels are essential for achieving precise control over Floquet coupling and amplification–attenuation dynamics. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -478,6 +665,31 @@
       "feature": false,
       "fig": null,
       "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-15715-db10fe",
+      "date": "2026-11-11",
+      "title": "Towards dense optical communications with partially coherent light: II. Multimode Stokes communications",
+      "authors": "Ayman F. Abouraddy, Bahaa E. A. Saleh",
+      "institutions": [],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2611.15715",
+      "url": "https://doi.org/10.48550/arxiv.2611.15715",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Coherence & Partially Coherent Fields",
+        "Integrated & On-Chip",
+        "Optical Communication"
+      ],
+      "glyph": "vector",
+      "summary": "Partially coherent light has a higher informational-carrying capacity than coherent light when both fields are spanned by the same modes, which implies that partially coherent light may increase the channel density in optical communications. A partially coherent field spanned by Nf modes can multiplex ND=Nf2-1 data streams in the generalized Stokes parameters that uniquely identify its coherence matrix -- a scheme we call `Stokes communications' (S-Comm). We have proposed in an accompanying paper a realization of S-Comm for bimodal fields Nf=2 that multiplex ND=3 data streams. Here we extend this proposed strategy for S-Comm to multimode fields Nf>2. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-1063-5-0362488-dd66db",
@@ -1757,6 +1969,34 @@
       "source": "crossref"
     },
     {
+      "id": "10-1364-ol-612217-dc233e",
+      "date": "2026-10-21",
+      "title": "Scattered OAM mode recognition by an improved transfer learning method",
+      "authors": "Hu J, Hu C, Feng Y, Lei Y, Mo X, Feng F",
+      "institutions": [
+        "School of Microelectronics & Data Science",
+        "Research Center for Humanoid Sensing"
+      ],
+      "journal": "Optics letters",
+      "doi": "10.1364/ol.612217",
+      "url": "https://doi.org/10.1364/ol.612217",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Wavefront Shaping & Scattering",
+        "Inverse Design & AI"
+      ],
+      "glyph": "vortex",
+      "summary": "Scattering environments severely distort orbital angular momentum (OAM) beams, compromising conventional mode recognition. Deep learning classifiers trained from scratch demand extensive labeled data, while standard transfer learning suffers from slow convergence and loss oscillations due to the substantial domain gap between natural images and random speckle patterns. We propose a two-phase transfer learning framework with lightweight adapter modules for parameter-efficient fine-tuning. Using an ImageNet-pretrained ResNet-50 backbone, we embed adapters in bottleneck layers and implement a progressive freeze-then-unfreeze strategy. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
       "id": "10-1364-josab-612750-fe5cb3",
       "date": "2026-10-19",
       "title": "Finite-multipole accessibility of optical pulling",
@@ -1780,6 +2020,34 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-1364-ol-614294-157a19",
+      "date": "2026-10-19",
+      "title": "Synergistic metasurface-metamaterial platform for orbital-angular-momentum mode filtering",
+      "authors": "Xiang Y, Lv H, Xu C, Ma X, Chu H",
+      "institutions": [
+        "School of Physics and Technology",
+        "National Laboratory of Solid State Microstructures"
+      ],
+      "journal": "Optics letters",
+      "doi": "10.1364/ol.614294",
+      "url": "https://doi.org/10.1364/ol.614294",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Filtering of orbital-angular-momentum (OAM) modes is of significant importance for optical communications. Here, we present an OAM-mode filter consisting of two phase-gradient metasurfaces separated by a near-zero-index metamaterial (NZIM). The two metasurfaces respectively convert a target OAM mode into a zero-order mode and restore its original topological charge by imparting opposite helical phase profiles. Owing to the angular selection of the NZIM, the proposed structure selectively transmits the target OAM mode while strongly suppressing neighboring modes. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
     },
     {
       "id": "10-1364-ol-615998-59e1b9",
@@ -1833,8 +2101,35 @@
       "feature": false,
       "fig": null,
       "source": "europepmc"
+    },
+    {
+      "id": "10-1364-ol-608478-d4830f",
+      "date": "2026-09-08",
+      "title": "Ultrafast chiral sensing with an ultraviolet vector beam",
+      "authors": "Rodriguez A, Rego L",
+      "institutions": [
+        "Instituto de Ciencia de Materiales de Madrid (ICMM-CSIC)"
+      ],
+      "journal": "Optics letters",
+      "doi": "10.1364/ol.608478",
+      "url": "https://doi.org/10.1364/ol.608478",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Topological Light (Skyrmions & Knots)",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "skyrmion",
+      "summary": "We present a robust method for imaging molecular chirality by combining ultrafast techniques with vector beams, a type of topological light with inhomogeneous polarization. An infrared vector beam generates high-order harmonics in a sample of randomly oriented chiral molecules, resulting in the emission of an ultraviolet vector beam whose ring-shaped intensity profile reveals the handedness of the chiral molecules. Our calculations predict a highly sensitive discrimination of molecular enantiomers (dissymmetry factor of 186%), opening a new route for studying ultrafast chirality.",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
     }
   ],
   "removed": [],
-  "updated": "2026-11-14"
+  "updated": "2026-11-15"
 }
