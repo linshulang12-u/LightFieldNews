@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-16",
+  "number": 3,
+  "date": "2026-11-16",
+  "window": [
+    "2026-11-16",
+    "2026-11-16"
+  ],
+  "articles": [
+    {
+      "id": "10-1002-nap2-70361-c69611",
+      "date": "2026-11-13",
+      "title": "Full‐Wave Harmonic Balance Framework for Dispersive Time‐Varying Photonic Structures",
+      "authors": "Mohammad Reza Tavakol, Wenshan Cai",
+      "institutions": [
+        "Georgia Institute of Technology"
+      ],
+      "journal": "Nanophotonics",
+      "doi": "10.1002/nap2.70361",
+      "url": "https://doi.org/10.1002/nap2.70361",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "meta",
+      "summary": "Time‐varying photonic structures redistribute electromagnetic energy among Floquet harmonics, enabling frequency conversion, nonreciprocity, parametric gain, and dynamic wavefront control. Accurate modeling of realistic platforms remains challenging when temporal modulation occurs in strongly dispersive materials, because each harmonic experiences a distinct material response while remaining coupled to all others through the modulation. This work introduces a full‐wave harmonic‐balance framework for dispersive time‐varying photonic structures. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1002-lpor-72235-eb32c6",
+      "date": "2026-11-13",
+      "title": "Electrochemically‐Reconfigurable Diffractive Neural Network With Metasurfaces",
+      "authors": "Rui Yang, Lei Chen, Shengting Zhu, B Li, Fei Song, Qiming Zhang, Jian Lin, Miṅ Gu, Yinan Zhang",
+      "institutions": [
+        "University of Shanghai for Science and Technology"
+      ],
+      "journal": "Laser & Photonics Review",
+      "doi": "10.1002/lpor.72235",
+      "url": "https://doi.org/10.1002/lpor.72235",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "SLM, DMD & Holography",
+        "Inverse Design & AI",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "meta",
+      "summary": "Optical neural networks (ONNs), particularly diffractive neural networks (DNNs), offer a promising computational paradigm owing to their high speed, intrinsic parallelism, and low energy consumption. However, most demonstrated DNNs are static, with their functionalities fixed after fabrication. Although several reconfigurable architectures such as spatial light modulators (SLMs) and electrically controlled digital‐coding metasurfaces have been demonstrated, they often suffer from high power consumption and limited scalability. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    }
+  ],
+  "removed": [],
+  "updated": "2026-11-16"
+}
