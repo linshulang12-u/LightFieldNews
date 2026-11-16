@@ -4,9 +4,294 @@
   "date": "2026-11-16",
   "window": [
     "2026-11-16",
-    "2026-11-16"
+    "2026-11-17"
   ],
   "articles": [
+    {
+      "id": "10-3390-photonics13111081-6ad48d",
+      "date": "2026-11-16",
+      "title": "Recent Progress in Partially Coherent Structured Light",
+      "authors": "Rui Liu, Bingxuan Li",
+      "institutions": [
+        "Fujian Institute of Research on the Structure of Matter",
+        "University of Chinese Academy of Sciences"
+      ],
+      "journal": "Photonics",
+      "doi": "10.3390/photonics13111081",
+      "url": "https://doi.org/10.3390/photonics13111081",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Optical Trapping & Manipulation",
+        "Theory & Simulation",
+        "Optical Communication",
+        "Reviews"
+      ],
+      "glyph": "bessel",
+      "summary": "Spatial coherence is evolving from a basic parameter describing the statistical properties of random optical fields into an important degree of freedom for structured-light manipulation. By engineering the degree of spatial coherence, correlation-amplitude distributions, and correlation-phase structures, a wide variety of partially coherent structured beams can be constructed, including vortex, Airy, Bessel, vector, and more complex statistical optical fields. In recent years, their generation has progressed from conventional random scattering to incoherent modal superposition, digitally programmable synthesis, and the active construction of complex spatial correlation structures. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1103-5qn8-yxrn-ec5153",
+      "date": "2026-11-16",
+      "title": "Structured-light-mediated hybrid entanglement between photon polarization and electronic orbital angular momentum",
+      "authors": "Hiroaki Saito, Nobuhiko Yokoshi",
+      "institutions": [],
+      "journal": "Physical Review A",
+      "doi": "10.1103/5qn8-yxrn",
+      "url": "https://doi.org/10.1103/5qn8-yxrn",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Nonlinear & Quantum Structured Light",
+        "Quantum Information"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1117-1-ap-9-1-010501-ec7a71",
+      "date": "2026-11-16",
+      "title": "Fourier pixels: unifying bidirectional vectorial light-field generation and sensing at the microscale",
+      "authors": "Haofan Huang, Zechen Wei, Puxiang Lai",
+      "institutions": [
+        "The Hong Kong Polytechnic University"
+      ],
+      "journal": "Advanced Photonics",
+      "doi": "10.1117/1.ap.9.1.010501",
+      "url": "https://doi.org/10.1117/1.ap.9.1.010501",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Integrated & On-Chip",
+        "Sensing & Metrology"
+      ],
+      "glyph": "meta",
+      "summary": "This commentary highlights Fourier pixels, a recent advance in planar optics that enables continuous momentum space engineering and full vectorial light-field manipulation. By replacing discrete resonators with continuous surface topographies, Fourier pixels overcome the near-field coupling and phase discretization limits of classical metasurfaces, providing an alternative route to monolithic on-chip optical processing. They unify light generation and sensing in a single micrometer-scale pixel, enabling simultaneous, bidirectional control of amplitude, phase, and polarization. We discuss the principles, demonstrations, and challenges toward practical on-chip photonic technologies.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-adom-72068-593e64",
+      "date": "2026-11-16",
+      "title": "High‐Performance Light‐Triggered Hydrogel Microvalve with Rigid Framework Structure for Microfluidics",
+      "authors": "Zeye Li, Hao Wu, Wei Tang, Wen Huang, Feng Tang, Chenchu Zhang, Yanlei Hu, Jiawen Li, Jiaru Chu, Dong Wu",
+      "institutions": [
+        "School of Microelectronics Hefei University of Technology Hefei China"
+      ],
+      "journal": "Advanced Optical Materials",
+      "doi": "10.1002/adom.72068",
+      "url": "https://doi.org/10.1002/adom.72068",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Optical Communication"
+      ],
+      "glyph": "beam",
+      "summary": "Light‐triggered hydrogel microvalves have attracted considerable interest in microfluidics owing to their remote actuation and biocompatibility. However, conventional microvalves based on homogeneous hydrogels are typically placed within microfluidic channels without a deep integrated bond and undergo uniform bulk contraction without structural constraints, leading to limited actuation amplitude and slow response, which restrict their practical applications in precise fluid manipulation. Here, we develop a framework‐structured light‐triggered hydrogel microvalve featuring a non‐deformable framework layer and a deformable valve layer with four petals. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-photonics13111079-515bc8",
+      "date": "2026-11-16",
+      "title": "Metasurfaces for Miniaturized Magneto-Optical Traps: Cooling-Field Engineering, Polarization Control, and Optical-Power Utilization",
+      "authors": "Caihua Sun, Mingjie Wan, Chunlian Zhan, Junyi Duan, Xiaochi Liu, Yadong Zhou",
+      "institutions": [
+        "College of Optical and Electronic Technology",
+        "Center for Advanced Measurement Science",
+        "Innovation Academy for Precision Measurement Science and Technology"
+      ],
+      "journal": "Photonics",
+      "doi": "10.3390/photonics13111079",
+      "url": "https://doi.org/10.3390/photonics13111079",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Metasurfaces & Flat Optics",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "vector",
+      "summary": "Magneto-optical traps (MOTs) provide a foundation for cold-atom technologies, but their optical delivery systems remain a major obstacle to miniaturization. This review evaluates metasurface-based MOT architectures through the requirements imposed by cooling-field geometry, polarization, and optical-power delivery. Pancharatnam-Berry-phase, propagation-phase, and hybrid-phase implementations are compared with grating and photonic-integrated-circuit-assisted systems using reported optical and atomic performance, with explicit distinctions between measured quantities, derived estimates, and unavailable data. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1063-5-0351640-57a6d4",
+      "date": "2026-11-16",
+      "title": "Dynamic transformation between terahertz optical skyrmions and bimerons via polarization-controlled all-dielectric metasurfaces",
+      "authors": "Ruidan Zhou, Zhipeng Yang, Wenyu Li, Dehua Li, Yuping Zhang, Huiyun Zhang",
+      "institutions": [
+        "Qingdao Key Laboratory of Terahertz Science"
+      ],
+      "journal": "Journal of Applied Physics",
+      "doi": "10.1063/5.0351640",
+      "url": "https://doi.org/10.1063/5.0351640",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Topological Light (Skyrmions & Knots)",
+        "Integrated & On-Chip",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Optical skyrmions and bimerons are topologically protected vector textures that can be constructed from diverse optical vector fields. As robust information carriers in free space, these topological textures have seen their generation methods evolve from complex optical systems toward integrated meta-devices. Despite significant advancements in generating skyrmions and bimerons across various optical frequency bands, a single monolithic integrated device for the generation and dynamic switching of diverse topological quasiparticles in the terahertz (THz) regime remains elusive. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1186-s43074-026-00296-6-b8843f",
+      "date": "2026-11-16",
+      "title": "Controlling four degrees of freedom of perfect vector vortex beams via wavelength-multiplexed metasurfaces",
+      "authors": "Mengran Jiang, Limin Lin, Zuhai Ma, Shijie Tu, Changda Zhou, Zixian Li, Shuang Qiu, Xuanyi Liu, Zhang-Kai Zhou",
+      "institutions": [],
+      "journal": "PhotoniX",
+      "doi": "10.1186/s43074-026-00296-6",
+      "url": "https://doi.org/10.1186/s43074-026-00296-6",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Perfect vector vortex beams (PVVBs) have emerged as a powerful platform for high-dimensional information processing, high-capacity optical communications and encryption. To further expand the information capacity of PVVBs, collaborative manipulation of their multiple degrees of freedom under multi-wavelength multiplexing is an effective strategy. However, previous studies on the generation of PVVBs are typically limited to a single wavelength, rendering it difficult to simultaneously control more than two degrees of freedom across different wavelength channels. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-adom-72050-438667",
+      "date": "2026-11-16",
+      "title": "Ultrafast SLM‐Enabled Femtosecond Line‐Focus Writing of Angle‐Programmable Tilted Fiber Bragg Gratings",
+      "authors": "Deng Pan, Yihang Yin, Hai Hu, Zhijuan Fuyang, Chenchu Zhang, Hui Wang, Shenglai Zhen, Yanlei Hu, Jiawen Li, Zhaoxin Lao, Zhiqiang Wang, Benli Yu, Dong Wu",
+      "institutions": [
+        "School of Mechanical Engineering"
+      ],
+      "journal": "Advanced Optical Materials",
+      "doi": "10.1002/adom.72050",
+      "url": "https://doi.org/10.1002/adom.72050",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "SLM, DMD & Holography",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "vector",
+      "summary": "Tilted fiber Bragg gratings (TFBGs) are important in‐fiber components for sensing, polarization control, and ultrafast photonics, yet their scalable fabrication remains limited by the trade‐off between writing speed, angular flexibility, and spectral quality. Here we report an SLM‐enabled femtosecond line‐focus inscription strategy for ultrafast, angle‐programmable fabrication of TFBGs. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1063-5-0354038-ef1770",
+      "date": "2026-11-16",
+      "title": "Opto-thermal-electrical synergistic metasurface for infrared detection: A simulation study toward mitigating the sensitivity–noise trade-off",
+      "authors": "Fenglun Zhang, Wang Zhang, Junlong Tian",
+      "institutions": [
+        "College of Big Data and Information Engineering",
+        "Shanghai Jiao Tong University 2"
+      ],
+      "journal": "Applied Physics Letters",
+      "doi": "10.1063/5.0354038",
+      "url": "https://doi.org/10.1063/5.0354038",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Inverse Design & AI",
+        "Turbulence & Free-Space Links"
+      ],
+      "glyph": "meta",
+      "summary": "Enhanced optical absorption in infrared detectors does not guarantee detectivity gain, as thermally generated dark-current noise and the carrier collection limitation in thick absorbing layers jointly counteract the absorptive advantage. Inspired by butterfly-wing microstructures that enable photon trapping and thermal-radiation control, we propose a bio-inspired metasurface photodetector architecture by a simulation study that synergistically integrates photonic, electronic, and thermal functionalities within a single device. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3724-j-0253-3219-2026-hjs-49-260043-b7ed8b",
+      "date": "2026-11-16",
+      "title": "Lasso regression-based impulse shaping method for double-exponential nuclear pulse signals",
+      "authors": "Zhuoqi LI, Long ZHANG, Tonghui JIA, Huajun BAI, Yi LIU",
+      "institutions": [],
+      "journal": "Nuclear Techniques",
+      "doi": "10.3724/j.0253-3219.2026.hjs.49.260043",
+      "url": "https://doi.org/10.3724/j.0253-3219.2026.hjs.49.260043",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-620434-52ca4b",
+      "date": "2026-11-15",
+      "title": "Tunable dual-channel optical manipulation via a single spatially structured field in a coherent atomic medium",
+      "authors": "Wenjuan Li, Yanpu Chen, Zelin Wang, Vladimir Sovkov, Jie Ma, Jizhou Wu",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.620434",
+      "url": "https://doi.org/10.1364/oe.620434",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Optical Trapping & Manipulation",
+        "Optical Communication"
+      ],
+      "glyph": "trap",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
     {
       "id": "10-1002-nap2-70361-c69611",
       "date": "2026-11-13",
@@ -60,8 +345,58 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-1039-d6sm00846a-d02332",
+      "date": "2026-10-28",
+      "title": "Self-organised formation of an edge-dislocation array and optical vortex generation by reentrant-type nematic liquid crystal",
+      "authors": "Jun Yoshioka, Tasuku Sakikawa, Eiichi Oishi, Shinji Bono, Akitoshi Koreeda, Satoshi Konishi, Koji Fukao",
+      "institutions": [
+        "Ritsumeikan University"
+      ],
+      "journal": "Soft Matter",
+      "doi": "10.1039/d6sm00846a",
+      "url": "https://doi.org/10.1039/d6sm00846a",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "SLM, DMD & Holography",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "vortex",
+      "summary": ", light fields with helical wavefronts. To fabricate such a grating, we focus here on the periodic deformation induced near the phase transition between the nematic and smectic A liquid-crystalline phases. Although the periodic structure typically appears over a temperature range of only ∼0.1 K, which is too narrow for practical use as a grating, we show that this range can be extended to several kelvins by using a reentrant-type nematic liquid crystal. Moreover, by introducing a sandwich cell with a step in the substrate, we successfully create edge dislocations in the periodic pattern owing to the mismatch in its period across the step. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1039-d6cc03660k-9b2081",
+      "date": "2026-10-27",
+      "title": "Structured light induced colloidal lithography using photosensitive surfactants",
+      "authors": "Isabel Meier, Anjali Sharma, Maren Umlandt, Fabian Rohne, Nino Lomadze, Svetlana A. Santer, Marek Bekir",
+      "institutions": [
+        "University of Potsdam"
+      ],
+      "journal": "Chemical Communications",
+      "doi": "10.1039/d6cc03660k",
+      "url": "https://doi.org/10.1039/d6cc03660k",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "beam",
+      "summary": "microparticles to a glass surface using a photoswitchable azobenzene-containing surfactant in combination with UV light.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     }
   ],
   "removed": [],
-  "updated": "2026-11-16"
+  "updated": "2026-11-17"
 }
