@@ -4,9 +4,170 @@
   "date": "2026-11-16",
   "window": [
     "2026-11-16",
-    "2026-11-17"
+    "2026-11-18"
   ],
   "articles": [
+    {
+      "id": "10-1016-j-sna-2026-118811-71a5ee",
+      "date": "2027-01-01",
+      "title": "Angular manipulation of dual-channel perfect vortex beams based on a 3D-printed terahertz metasurface",
+      "authors": "Haozhe Huang, Yi Wei, Ying Tang, Ying Tian",
+      "institutions": [],
+      "journal": "Sensors and Actuators A: Physical",
+      "doi": "10.1016/j.sna.2026.118811",
+      "url": "https://doi.org/10.1016/j.sna.2026.118811",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Metasurfaces & Flat Optics",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acs-nanolett-6c04815-82a932",
+      "date": "2026-11-17",
+      "title": "Encoding Topological Magnetic Spin Textures with Topological Light",
+      "authors": "Qifan Zhang, Wangke Yu, Jingyu Liu, Zhongquan Nie, Yijie Shen, Shirong Lin",
+      "institutions": [
+        "Great Bay University",
+        "Great Bay Institute for Advanced Study",
+        "Guangzhou University"
+      ],
+      "journal": "Nano Letters",
+      "doi": "10.1021/acs.nanolett.6c04815",
+      "url": "https://doi.org/10.1021/acs.nanolett.6c04815",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "Structured light fields, featuring unique topological properties and high tunability, have opened new frontiers in light–matter interactions with magnetic systems, yet ultrafast, reconfigurable optical writing of diverse topological magnetic textures remains a significant challenge. Here, we systematically investigate the encoding mechanism of topological light in magnets via the higher-order Poincaré sphere. By relating the light’s winding number to the topological charge of magnetic textures, we establish a light–magnetism topological connection. This framework enables ultrafast, all-optical encoding of diverse topological spin textures─skyrmions, antiskyrmions, and skyrmion bags. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-623315-313853",
+      "date": "2026-11-17",
+      "title": "Dynamic response speed of liquid crystal spatial light modulators for beam-steering applications",
+      "authors": "bosen Xue, zhengtao Zha, yi zhang, Zhou Guo, Quanquan Mu, Yonggang Liu, Chengliang Yang, Xinghai Lu, Qidong Wang, Zenghui Peng",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.623315",
+      "url": "https://doi.org/10.1364/oe.623315",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography"
+      ],
+      "glyph": "slm",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-nap2-70373-97fcb7",
+      "date": "2026-11-17",
+      "title": "Spin‐Momentum‐Locked Hall Effect and Helicity Inversion in Anti‐Hermitian Nanophotonics",
+      "authors": "Zeeshan Ahmad, Aizaz Khan, Qian Jin, Lei Gao, Andrey Novitsky, Dongliang Gao",
+      "institutions": [
+        "School of Physical Science and Technology &amp",
+        "School of Optical and Electronic Information Suzhou City University &amp",
+        "Belarusian State University Minsk Belarus"
+      ],
+      "journal": "Nanophotonics",
+      "doi": "10.1002/nap2.70373",
+      "url": "https://doi.org/10.1002/nap2.70373",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Theory & Simulation"
+      ],
+      "glyph": "vortex",
+      "summary": "Spin‐orbit interaction in light, that is, the coupling of spin and orbital angular momentum, underlies numerous nanoscale optical phenomena. Non‐Hermitian photonics has revolutionized scattering through gain and loss distributed in space, as in parity‐time symmetric systems. An alternative approach is offered by isotropic magnetodielectric media, in which gain and loss can be assigned to different constitutive parameters, and with purely imaginary permittivity and permeability the medium is anti‐Hermitian. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1088-1361-6463-aec303-973c41",
+      "date": "2026-11-17",
+      "title": "Metasurface-Enabled Multispectral Perfect Vector Beams with Arbitrary Phase-Polarization Ring Control",
+      "authors": "Yafeng Huang, Ximin Tian, Junwei Xu, Zhiyuan Li",
+      "institutions": [
+        "South China University of Technology",
+        "Zhengzhou University of Aeronautics"
+      ],
+      "journal": "Journal of Physics D: Applied Physics",
+      "doi": "10.1088/1361-6463/aec303",
+      "url": "https://doi.org/10.1088/1361-6463/aec303",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Despite great advances in structured light engineering, the facile generation of multispectral perfect vector vortices with independent, ring-wise phase and polarization control still poses a major challenge.To address this,we report a single-layer all-dielectric geometric metasurface that enables the generation of multicolored azimuthally variant perfect vector vortex beams (AV-PVVBs) with independent, ring-wise control over both phase and polarization. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-physics-d-applied-physics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Physics D: Applied Physics"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1088-1674-1056-aec2c0-780eda",
+      "date": "2026-11-17",
+      "title": "Modulation Mechanisms of Intensity Gradient and Topological Charge on the Autofocusing Properties of Vector Circular Airy Vortex Beams",
+      "authors": "Qichao Lu, Jia Li, YongShun Xia, Ziwei Song, Ying Luo, XiuHui Nie, XueFeng Zhang, Xu Yan",
+      "institutions": [
+        "Air Force Engineering University"
+      ],
+      "journal": "Chinese Physics B",
+      "doi": "10.1088/1674-1056/aec2c0",
+      "url": "https://doi.org/10.1088/1674-1056/aec2c0",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Non-Diffracting & Accelerating Beams",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Vector circular Airy vortex beams (VCAVBs) exhibit abrupt autofocusing, self-healing, and orbital angular momentum (OAM), making them promising for free-space optical communication. However, the stage-dependent roles of the intensity gradient parameter v and the topological charge l remain unclear. Using a full-vector angular-spectrum model, we decompose the time-averaged transverse Poynting vector into radial and azimuthal components, S r and S ϕ , and examine their effects. We show that v and l modify the relative weights and spatial distributions of S r and S ϕ , giving rise to phased weight modulation (PWM). …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
     {
       "id": "10-3390-photonics13111081-6ad48d",
       "date": "2026-11-16",
@@ -270,6 +431,165 @@
       "source": "crossref"
     },
     {
+      "id": "10-1088-1361-6455-aec298-04d50b",
+      "date": "2026-11-16",
+      "title": "Terahertz radiation from gas plasma driven by Bessel-Gaussian vortex beams",
+      "authors": "Lei Zhang, Ping Xu, Yuanyuan Yan, Yifei Li, Miao Tian, Guo-Li Wang",
+      "institutions": [
+        "Lanzhou Jiaotong University",
+        "Northwest Normal University"
+      ],
+      "journal": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "doi": "10.1088/1361-6455/aec298",
+      "url": "https://doi.org/10.1088/1361-6455/aec298",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Non-Diffracting & Accelerating Beams",
+        "Theory & Simulation",
+        "Strong-Field & Ultrafast"
+      ],
+      "glyph": "vortex",
+      "summary": "Based on Perelomov-Popov-Terent'ev (PPT) ionization theory and the photocurrent model, we investigate structured terahertz (THz) radiation generated from gas plasma driven by Bessel-Gaussian (BG) vortex beams. The effects of laser intensity, wavelength, and pulse duration on ionization probability, residual photocurrent, and THz spatial structure are systematically examined. For single-color driving, the vortex phase introduces an azimuthally dependent global phase, resulting in periodic modulation of the photocurrent and emitted THz field. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-physics-b-atomic-molecular-and-optical-physics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Physics B Atomic Molecular and Optical Physics"
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-1103-g2ss-sm41-751a37",
+      "date": "2026-11-16",
+      "title": "Nuclear forward scattering of Bessel beams in 229 Th-doped CaF 2",
+      "authors": "Alexander Franz, Tobias Kirschbaum, Adriana Pálffy",
+      "institutions": [],
+      "journal": "Physical Review A",
+      "doi": "10.1103/g2ss-sm41",
+      "url": "https://doi.org/10.1103/g2ss-sm41",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Non-Diffracting & Accelerating Beams",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "The coherent pulse propagation of a Bessel beam resonant to the 8.4 eV nuclear clock transition in 229Th-doped crystals is investigated theoretically. Due to the magnetic dipole character of the clock transition, Bessel beams which present non-uniform transverse profiles and carry orbital angular momentum might enhance excitation channels or offer new control degrees of freedom compared to standard plane waves. We model the nuclear forward scattering of a resonant Bessel beam pulse propagating through the crystal, extending an formalism based on the iterative wave equation for plane waves. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1038-s41467-026-79408-6-e72f6e",
+      "date": "2026-11-16",
+      "title": "Structurally guided wavefront neural encoder for broad-range generalizable 3D holography",
+      "authors": "Yanan Zhang, Xingpeng Yan, Jiaqi Li, Zijian Shi, Yang Yu, Yang Zhang, Tao Jing",
+      "institutions": [
+        "PLA Army Engineering University",
+        "Chinese Academy of Sciences",
+        "Xi'an Institute of Optics and Precision Mechanics"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-79408-6",
+      "url": "https://doi.org/10.1038/s41467-026-79408-6",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Inverse Design & AI",
+        "Displays, Security & AR"
+      ],
+      "glyph": "slm",
+      "summary": "Deep learning has advanced computer-generated holography, but learned models remain coupled to fixed wavelengths and distances, limiting generalization. Here we present the structurally guided wavefront neural encoder (SGWN-Encoder), which integrates diffraction physics with neural networks and employs a structural propagation strategy that analytically strips the parameter-sensitive global phase. This reveals a scale-normalized description of diffraction, letting the network learn transferable light-field evolution rules and generalize across propagation distances and visible wavelengths by direct inference. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-48550-arxiv-2611-21023-e5be9e",
+      "date": "2026-11-16",
+      "title": "Intrinsic Berry Curvature on the Higher-order Poincare Sphere",
+      "authors": "Kaijun Zhang, Boen Yang, Hailu Luo",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.21023",
+      "url": "https://arxiv.org/abs/2611.21023",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "Higer-order geometric phase enable versatile spin-orbit manipulation of structured light . Con ventional theories describe this phase via a total-angular-momentum dependent Berry curvature . We develop an intrinsic theory restricted to the effective two-dimensional subspace, where the Berry curvature is independent of the topological charge of the light field . In our framework, the total-angular-momentum difference does not alter the effective monopole strength, whereas it controls the solid angle enclosed by the trajectory of the state evolution, insteadly. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-20684-e91aae",
+      "date": "2026-11-16",
+      "title": "Spatiotemporal beam stirring of femtosecond pulses in a multicore fiber driven by spectral decorrelation",
+      "authors": "Nikita V. Bochkarev, Alena Y. Kolesnikova, Mikhail D. Gervaziev, Denis S. Kharenko, Evgeniy V. Podivilov, Sergey A. Babin",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.20684",
+      "url": "https://arxiv.org/abs/2611.20684",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Wavefront Shaping & Scattering",
+        "Mode Multiplexing & Fibers",
+        "Theory & Simulation"
+      ],
+      "glyph": "speckle",
+      "summary": "Multicore fibers (MCFs) are promising for ultrafast laser systems, but random coupling between their cores makes the output power distribution unstable. Previously, we observed spatiotemporal beam stirring of narrowband sub-nanosecond pulses in a 7-core fiber, where Kerr nonlinearity equalizes the core powers. Here, we study the propagation of 150-fs pulses at 1052 nm in the same fiber. As the fiber length increases up to 20 m, the output core powers become equalized with a spread <7\\%, and the far-field speckle pattern transforms into a bell-shaped total beam. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-20462-3e6624",
+      "date": "2026-11-16",
+      "title": "Optimization Framework for Full-Skyrmionic Polarimetry",
+      "authors": "Luo Wang, Haiyang Zhang, Zilong Zhang, Hanqiu Zhang, Changming Zhao",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.20462",
+      "url": "https://arxiv.org/abs/2611.20462",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Topological Light (Skyrmions & Knots)",
+        "Theory & Simulation",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Optical skyrmionic beams hold considerable potential for applications in quantum information and weak-intensity detection. These applications require accurate measurements of full topological observables using imaging Stokes polarimetry, with measurement states optimized in advance to limit the effect of stochastic error sources. However, the optimization framework for general Stokes polarimetries is based on a linear reconstruction chain for Stokes vectors and cannot quantitatively evaluate the nonlinear reconstruction of topological observables. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
       "id": "10-1364-oe-620434-52ca4b",
       "date": "2026-11-15",
       "title": "Tunable dual-channel optical manipulation via a single spatially structured field in a coherent atomic medium",
@@ -347,6 +667,106 @@
       "source": "openalex"
     },
     {
+      "id": "10-48550-arxiv-2611-17471-6fe76a",
+      "date": "2026-11-12",
+      "title": "Resilient Transmission of Highly Structured Light via Active Convolved Illumination",
+      "authors": "Anindya Ghoshroy, James Davis, Martin Wilkens, Sahin K. Ozdemir, Durdu O. Guney",
+      "institutions": [],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2611.17471",
+      "url": "https://doi.org/10.48550/arxiv.2611.17471",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Wavefront Shaping & Scattering",
+        "Adaptive Optics & Aberrations",
+        "Inverse Design & AI",
+        "Optical Communication",
+        "Reviews"
+      ],
+      "glyph": "speckle",
+      "summary": "Wave propagation through lossy and noisy systems as well as spatiotemporally dynamic random media often limits the complex information that can be reliably transmitted or retrieved. Progress in adaptive optics, wavefront shaping, machine learning, and wave propagation theories has significantly advanced physical and computational correction techniques. However, many approaches remain constrained by restrictive operating conditions, limiting their ability to meet growing application-specific demands, such as higher spatial resolution in imaging and greater data capacity in communications, particularly in highly dynamic environments. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-oe-615187-96de71",
+      "date": "2026-11-11",
+      "title": "Optical angular momentum oscillation in effective magnetic field modulated by polarization helicity",
+      "authors": "Nie T, Hu H, Zhou Y, Li X, Li H",
+      "institutions": [
+        "School of Physics and Engineering"
+      ],
+      "journal": "Optics express",
+      "doi": "10.1364/oe.615187",
+      "url": "https://doi.org/10.1364/oe.615187",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields"
+      ],
+      "glyph": "vortex",
+      "summary": "Generally, an effective ambient magnetic field for the photons' spin can be realized by engineering the intrinsic structure of the medium; the corresponding spin-related effects, such as the optical Stern-Gerlach effect, can be well studied in various optical systems. Here, we revisit the propagation of radially polarized light in a uniaxial crystal, and demonstrate that a periodic effective magnetic field can be established by controlling the global twisted polarization state distribution of incident light. This global twist property denotes a kind of optical chirality and is represented by the polarization helicity, and it will affect the light-crystal interaction directly. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1364-oe-614338-35e909",
+      "date": "2026-11-06",
+      "title": "SLM-DMD hybrid architecture for wide-field-of-view beam steering with suppression of unwanted diffraction orders",
+      "authors": "Deng X, Takashima Y",
+      "institutions": [
+        "James C. Wyant College of Optical Sciences"
+      ],
+      "journal": "Optics express",
+      "doi": "10.1364/oe.614338",
+      "url": "https://doi.org/10.1364/oe.614338",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Displays, Security & AR"
+      ],
+      "glyph": "slm",
+      "summary": "Wide field of view (FOV) laser beam steering is a critical function for various applications, including LiDAR and holographic displays. Beam steering with a pixelated micro electro mechanical system (MEMS) Spatial Light Modulator (SLM), specifically a phase light modulator (PLM), enables quasi-solid-state laser beam steering. However, it suffers from unwanted diffraction orders along with a limited FOV. In this paper, we present a hybrid beam and image steering optical architecture to overcome these limitations. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1016-j-optcom-2026-133998-f2688a",
+      "date": "2026-11-01",
+      "title": "Deep Learning-driven Automated Optical Vortices-based Pseudo-DNA Addition and Subtraction",
+      "authors": "Sonu Kumar Rao, Neha Choudhary, Rahul Kumar, Naveen K. Nishchal",
+      "institutions": [],
+      "journal": "Optics Communications",
+      "doi": "10.1016/j.optcom.2026.133998",
+      "url": "https://doi.org/10.1016/j.optcom.2026.133998",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Inverse Design & AI"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1039-d6sm00846a-d02332",
       "date": "2026-10-28",
       "title": "Self-organised formation of an edge-dislocation array and optical vortex generation by reentrant-type nematic liquid crystal",
@@ -398,5 +818,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-17"
+  "updated": "2026-11-18"
 }
