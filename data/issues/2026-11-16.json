@@ -4,9 +4,33 @@
   "date": "2026-11-16",
   "window": [
     "2026-11-16",
-    "2026-11-18"
+    "2026-11-19"
   ],
   "articles": [
+    {
+      "id": "10-1016-j-physb-2026-419696-30c627",
+      "date": "2027-02-01",
+      "title": "Thermally tunable terahertz reconfigurable metasurface for multipolarization holographic imaging",
+      "authors": "Shuai Cui, Yuxin Fan, Yang Gao",
+      "institutions": [],
+      "journal": "Physica B: Condensed Matter",
+      "doi": "10.1016/j.physb.2026.419696",
+      "url": "https://doi.org/10.1016/j.physb.2026.419696",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "SLM, DMD & Holography",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "meta",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
     {
       "id": "10-1016-j-sna-2026-118811-71a5ee",
       "date": "2027-01-01",
@@ -25,6 +49,365 @@
       ],
       "glyph": "vortex",
       "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117059-f6ae2e",
+      "date": "2027-01-01",
+      "title": "Feasibility of quantum computer-generated holography and validation using Monte Carlo sampling with replacement",
+      "authors": "Shunsuke Watanabe, Megumi Kobayashi, Fan Wang, Tomoyoshi Ito, Tomoyoshi Shimobaba",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117059",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117059",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Quantum Information"
+      ],
+      "glyph": "slm",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1088-2515-7647-aec3fa-4758d2",
+      "date": "2026-11-18",
+      "title": "Photothermal nonlinear super-resolution imaging of silicon nanoparticles enabled by structured vector beams",
+      "authors": "hanwen xia, Xiaojing Zhang, Ying Che, 宇韬 刘, Tianyue Zhang, Xiangping Li",
+      "institutions": [
+        "Beijing University of Posts and Telecommunications",
+        "National University of Defense Technology",
+        "Jinan University"
+      ],
+      "journal": "Journal of Physics: Photonics",
+      "doi": "10.1088/2515-7647/aec3fa",
+      "url": "https://doi.org/10.1088/2515-7647/aec3fa",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Tight Focusing & Focal Fields",
+        "Theory & Simulation",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "vector",
+      "summary": "While exploiting the intrinsic photothermal scattering nonlinearity of high-index dielectric nanoparticles enables label-free, far-field super-resolution imaging and inspection, the attainable resolution under conventional Gaussian illumination remains limited due to the mismatch between the excitation field and the supported Mie resonances. Here, we propose a synergistic strategy to overcome this limitation by employing structured vector fields as the incident illumination. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1051-photon-202614071-69b09a",
+      "date": "2026-11-18",
+      "title": "Buyer’s guide: spatial light modulators",
+      "authors": "Aurélie Jullien",
+      "institutions": [
+        "Institut de Physique de Nice (INPHYNI)"
+      ],
+      "journal": "Photoniques",
+      "doi": "10.1051/photon/202614071",
+      "url": "https://doi.org/10.1051/photon/202614071",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "SLM, DMD & Holography"
+      ],
+      "glyph": "slm",
+      "summary": "Spatial light modulators are mature yet evolving optoelectronic devices enabling dynamic control of light’s amplitude, phase, or polarization. This buyer’s guide reviews the principles, performance trade-offs, and major families of liquid-crystal-based spatial light modulators, with emphasis on recent breakthroughs.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72059-b33aed",
+      "date": "2026-11-18",
+      "title": "Spatiotemporal Light Modes: From Elegant Vortices to Vortex‐Antivortex Patterns (Laser Photonics Rev. 20(22)/2026)",
+      "authors": "Haihao Fan, Davud Hebri, Qian Cao, Qiwen Zhan, Yangjian Cai, Sergey A. Ponomarenko, Xin Liu",
+      "institutions": [],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72059",
+      "url": "https://doi.org/10.1002/lpor.72059",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s00339-026-10441-4-54e92e",
+      "date": "2026-11-18",
+      "title": "A broadband grating- resonator transmissive metasurface for efficient terahertz linear cross-polarization conversion based on characteristic mode analysis",
+      "authors": "Harish Raizada, Nitesh Kashyap",
+      "institutions": [],
+      "journal": "Applied Physics A",
+      "doi": "10.1007/s00339-026-10441-4",
+      "url": "https://doi.org/10.1007/s00339-026-10441-4",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Metasurfaces & Flat Optics",
+        "Characterization & Metrology"
+      ],
+      "glyph": "vector",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/applied-physics-a.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Applied Physics A"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1080-02726343-2026-2755598-c14c8e",
+      "date": "2026-11-18",
+      "title": "Research and design of multimodal oam beam multiplexing metasurface",
+      "authors": "Honggang Hao, Wei Zhang, Pan Tang, Xin Yu, Hongguo Sun",
+      "institutions": [
+        "Chongqing University of Posts and Telecommunications"
+      ],
+      "journal": "Electromagnetics",
+      "doi": "10.1080/02726343.2026.2755598",
+      "url": "https://doi.org/10.1080/02726343.2026.2755598",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Metasurfaces & Flat Optics",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1134-s1063771026601032-4c191e",
+      "date": "2026-11-18",
+      "title": "Theoretical and Numerical Analysis of Hermite-Gaussian Laser Beam Diffraction using an Acousto-Optic Cell",
+      "authors": "H. Benyahia, A. Guessoum, M. Sayad",
+      "institutions": [],
+      "journal": "Acoustical Physics",
+      "doi": "10.1134/s1063771026601032",
+      "url": "https://doi.org/10.1134/s1063771026601032",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Theory & Simulation"
+      ],
+      "glyph": "theory",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/acoustical-physics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Acoustical Physics"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s40964-026-02082-z-4974ea",
+      "date": "2026-11-18",
+      "title": "Productivity scaling in PBF-LB/M enabled by multiple maxima beam shaping for electric mobility applications",
+      "authors": "Ali Gökhan Demir, Johannes Michel, Tianqiu Xu, Patrick O’Toole, Michael Sawannia, Christian Hagenlocher, Thomas Graf",
+      "institutions": [],
+      "journal": "Progress in Additive Manufacturing",
+      "doi": "10.1007/s40964-026-02082-z",
+      "url": "https://doi.org/10.1007/s40964-026-02082-z",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/progress-in-additive-manufacturing.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Progress in Additive Manufacturing"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-ol-620845-48d2c9",
+      "date": "2026-11-18",
+      "title": "Mode-separation coupler and its application in spatiotemporal mode-locked fiber laser",
+      "authors": "Jia-Hao Chen, Yu-Xin Gao, Jia-Wen Wu, Wei Li, Hu Cui, Zhi-Chao Luo, Aiping Luo",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.620845",
+      "url": "https://doi.org/10.1364/ol.620845",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Multimode & ST Mode-Locking"
+      ],
+      "glyph": "multimode",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1088-2040-8986-aec3ba-477174",
+      "date": "2026-11-18",
+      "title": "Flat-band toroidal dipole enabled efficient third-harmonic generation in a silicon tetramer all-dielectric metasurface",
+      "authors": "Yue Meng, Cong Wang, Mengru Jiang, Yu Chen, Linkang Han, Yadong Xu",
+      "institutions": [
+        "Soochow University"
+      ],
+      "journal": "Journal of Optics",
+      "doi": "10.1088/2040-8986/aec3ba",
+      "url": "https://doi.org/10.1088/2040-8986/aec3ba",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Nonlinear & Quantum Structured Light",
+        "Integrated & On-Chip"
+      ],
+      "glyph": "meta",
+      "summary": "We demonstrate efficient third-harmonic generation (THG) in a silicon tetramer all-dielectric metasurface operating at 1550 nm. The superlattice supports toroidal dipole (TD) and magnetic dipole (MD) resonances via intra-cluster coupling (localized) and lattice resonance (nonlocal), respectively. By tuning the pillar geometry, we achieve TD-MD coupling that enhances a TD-dominated THG response. The TD branch exhibits nearly flat dispersion over the investigated in-plane wavevector range, suggesting potential benefits for pump-resonance matching under focused-beam excitation. In particular, the TD resonance yields a nonlinear enhancement two orders of magnitude higher than the MD resonance. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-optics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Optics"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-621056-1ff706",
+      "date": "2026-11-18",
+      "title": "Experimental demonstration of low-speckle computer-generated holography using fast optimal-transport initialization",
+      "authors": "Lorenzo Perot, Marco Astarita, Alessandro Cerioni, Samuele Trezzi, Matteo Ziliani, Paolo Pozzi, Anna Cesaratto, Gianluca Valentini, Giulio Cerullo, Andrea Bassi",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.621056",
+      "url": "https://doi.org/10.1364/oe.621056",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Wavefront Shaping & Scattering"
+      ],
+      "glyph": "slm",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1051-photon-202614034-6dba7d",
+      "date": "2026-11-18",
+      "title": "Wavefront shaping with structural nonlinearity for optical recurrent neural networks",
+      "authors": "Leandro Risso Venancio, Jonathan Dong, Jacopo Bertolotti, Mickael Mounaix",
+      "institutions": [
+        "School of EECS",
+        "University of Exeter - Physics Building",
+        "École Polytechnique Fédérale de Lausanne"
+      ],
+      "journal": "Photoniques",
+      "doi": "10.1051/photon/202614034",
+      "url": "https://doi.org/10.1051/photon/202614034",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Wavefront Shaping & Scattering",
+        "Inverse Design & AI",
+        "Optical Computing"
+      ],
+      "glyph": "slm",
+      "summary": "With the exponential growth in demand for computing power, photonics offers a sustainable and competitive alternative to conventional electronic computing. In this article, we present how wavefront shaping, by means of a spatial light modulator, provides a versatile platform for optical computing. Using only linear optical components, we introduce an approach that exploits structural nonlinearity to enhance the forecasting of a chaotic time series.",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1051-photon-202614051-67b619",
+      "date": "2026-11-18",
+      "title": "Seeing deeper with dynamic wavefront shaping in optical microscopy",
+      "authors": "Julian Malobert, Juan Muñoz-Bolaños, Eva Ernst, Simon Moser, Alexander Jesacher",
+      "institutions": [
+        "Institute of Biomedical Physics"
+      ],
+      "journal": "Photoniques",
+      "doi": "10.1051/photon/202614051",
+      "url": "https://doi.org/10.1051/photon/202614051",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Wavefront Shaping & Scattering",
+        "Adaptive Optics & Aberrations",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "speckle",
+      "summary": "Optical microscopy is indispensable in biology andmedicine. However, tissue scatters the imaging light, which limits how deeply and clearly it can see. Adaptive optics uses dynamic wavefront shaping to compensate for aberrations induced by the sample and can increase imaging depth. We demonstrate this principle using three complementary techniques: multi-photon microscopy for deep imaging, confocal Raman microscopy for label-free chemical contrast and single-molecule localisation microscopy for nanometre-scale imaging.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1051-photon-202614044-388f1d",
+      "date": "2026-11-18",
+      "title": "Spatial shaping of ultrafast laser beams for advanced material processing",
+      "authors": "Cyril Mauclair",
+      "institutions": [],
+      "journal": "Photoniques",
+      "doi": "10.1051/photon/202614044",
+      "url": "https://doi.org/10.1051/photon/202614044",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Wavefront Shaping & Scattering"
+      ],
+      "glyph": "speckle",
+      "summary": "Ultrafast lasers enable material processing with remarkable precision, but exploiting the increasing power of modern laser sources remains challenging. Dynamic wavefront shaping offers a powerful solution by tailoring the focal intensity distribution in space. This article introduces the main concepts and technologies behind spatial beam shaping and illustrates how shaped beams, parallel processing and structured light can improve the flexibility and efficiency of laser processing.",
       "why": "",
       "pick": false,
       "feature": false,
@@ -162,6 +545,160 @@
       ],
       "glyph": "vortex",
       "summary": "Vector circular Airy vortex beams (VCAVBs) exhibit abrupt autofocusing, self-healing, and orbital angular momentum (OAM), making them promising for free-space optical communication. However, the stage-dependent roles of the intensity gradient parameter v and the topological charge l remain unclear. Using a full-vector angular-spectrum model, we decompose the time-averaged transverse Poynting vector into radial and azimuthal components, S r and S ϕ , and examine their effects. We show that v and l modify the relative weights and spatial distributions of S r and S ϕ , giving rise to phased weight modulation (PWM). …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117017-aab22d",
+      "date": "2026-11-17",
+      "title": "Multimodal particle manipulation with segmented-phase Airy vortex beams",
+      "authors": "Anqi Liang, Yongzheng Yang, Zhenhang Xu, Zongyuan Wu, 周航校, Aoshuai Huang, Hanchen Jiang, Shengde Liu, Dongmei Deng, Xiaoqiao Wang",
+      "institutions": [],
+      "journal": "Optics & Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117017",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117017",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Non-Diffracting & Accelerating Beams"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1117-1-ap-9-1-016007-edbd65",
+      "date": "2026-11-17",
+      "title": "Vectorial field reconstruction without detecting the field",
+      "authors": "Jonas Vasikonis, Sebastian Töpfer, Satyajeet Patil, Jorge Fuenzalida, Markus Gräfe",
+      "institutions": [
+        "Technische Universität Darmstadt",
+        "Institute of Photonic Sciences",
+        "Barcelona Institute of Science and Technology"
+      ],
+      "journal": "Advanced Photonics",
+      "doi": "10.1117/1.ap.9.1.016007",
+      "url": "https://doi.org/10.1117/1.ap.9.1.016007",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Spatiotemporal Measurement",
+        "Vector & Polarization Fields",
+        "SLM, DMD & Holography",
+        "Characterization & Metrology",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "stmeas",
+      "summary": "Vector beams, with polarization that varies across the transverse profile, are a central resource in structured-light optics and quantum photonics. Their characterization, however, becomes challenging when the field lies in a spectral region for which efficient spatially resolving detectors are unavailable. Here, we demonstrate the spatially resolved reconstruction of an undetected vector beam by exploiting induced coherence in a nonlinear interferometer. In this effect, indistinguishability between two down-conversion pathways allows information encoded in an undetected field to be read out through interference of its detected partner. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1103-yhkl-4vsh-fe26e8",
+      "date": "2026-11-17",
+      "title": "Syncopated Bessel beams",
+      "authors": "I. Ramos-Prieto, Ulises Ruíz, Israel Julián-Macías, Francisco Soto‐Eguibar, David Sánchez-de-la-Llave, H. M. Moya-Cessa",
+      "institutions": [],
+      "journal": "Physical Review A",
+      "doi": "10.1103/yhkl-4vsh",
+      "url": "https://doi.org/10.1103/yhkl-4vsh",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "bessel",
+      "summary": "We introduce the syncopated Bessel beam, a new class of exact solutions to the paraxial equation obtained by means of a sinusoidal modulation of the azimuthal phase at the source. This modulation imposes a phase rhythm that deliberately breaks the azimuthal symmetry, analogous to musical syncopation, and triggers a topological transformation that deflects the propagation trajectory and shifts the beam's center of symmetry off the optical axis, while preserving its self-scaling invariance that can be explained by the Madelung-Bohm formalism. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1038-s41598-026-77777-y-8649dd",
+      "date": "2026-11-17",
+      "title": "Deep learning for multiuser detection in UAV communications using RIS and orthogonal time sequency multiplexing with circular pulse shaping",
+      "authors": "Md. Najmul Hossain, Tetsuya Shimamura, Atia Kaniz, Shaikh Enayet Ullah",
+      "institutions": [],
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-026-77777-y",
+      "url": "https://doi.org/10.1038/s41598-026-77777-y",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "ai",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72161-a2fc6b",
+      "date": "2026-11-17",
+      "title": "Optical Skyrmions and Topological Encoding Based on Customized Spatial Modes",
+      "authors": "Zhang Ruan, Zan Zhang, Shibin Wen, Meixia Ma, Yanghong Li, Dongmei Deng",
+      "institutions": [
+        "Guangdong Provincial Key Laboratory of Nanophotonic Functional Materials and Devices"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72161",
+      "url": "https://doi.org/10.1002/lpor.72161",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Topological Light (Skyrmions & Knots)",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Optical skyrmions are topologically protected quasiparticles with a complex vector texture. However, the generation of optical skyrmions is currently confined to specific spatial modes, and achieving the arbitrary and controllable customization of optical skyrmionic spatial modes remains a critical unresolved challenge. Here, combining theoretical and experimental approaches, a universal framework is proposed for the on‐demand generation of arbitrarily customized free‐space optical Stokes skyrmionic spatial modes. Specifically, a novel mechanism utilizing the angular‐spectrum vortex method is elucidated, which overcomes previous limitations in freely tailoring vortex optical fields. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-bios16110661-fdb332",
+      "date": "2026-11-17",
+      "title": "A Vanadium Dioxide-Based Terahertz Metasurface Absorber with Switchable Multi-Band Absorption and High Biosensing Sensitivity",
+      "authors": "Shuai Wang, Yuxuan Wang, Yan Xu",
+      "institutions": [
+        "School of Opto-Electronic Engineering",
+        "School of Chemistry"
+      ],
+      "journal": "Biosensors",
+      "doi": "10.3390/bios16110661",
+      "url": "https://doi.org/10.3390/bios16110661",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "meta",
+      "summary": "Terahertz (THz) technology exhibits unique application values in fields such as non-destructive testing and biosensing. Furthermore, high-performance tunable THz functional devices are critical to advancing its practical implementation. Conventional metal-dielectric THz absorbers suffer from static absorption responses and limited dynamic tunability. Meanwhile, some reported vanadium dioxide (VO2)-based absorbers rely on expensive noble metal reflectors and lack sufficient studies on multi-narrow-band absorption and biosensing performance. To address these issues, this paper proposes a three-layer tunable THz metasurface absorber. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -590,6 +1127,83 @@
       "source": "arxiv"
     },
     {
+      "id": "10-1007-s00340-026-08737-7-f8aa24",
+      "date": "2026-11-16",
+      "title": "Incident-wavefront optimization for energy-efficient digital micromirror device projection",
+      "authors": "Yixin Yang, Yunhui Gao, Liangcai Cao, Guofan Jin",
+      "institutions": [],
+      "journal": "Applied Physics B",
+      "doi": "10.1007/s00340-026-08737-7",
+      "url": "https://doi.org/10.1007/s00340-026-08737-7",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Theory & Simulation",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "slm",
+      "summary": "Digital micromirror devices (DMDs) are widely employed in maskless lithography, structured illumination, and programmable optical projection. However, the periodic micromirror array distributes the reflected optical power among multiple diffraction orders, only a fraction of which can be collected by projection optics with a finite numerical aperture (NA). Here, we propose a content-independent incident-wavefront optimization method for enhancing finite-NA energy collection in DMD projection. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/applied-physics-b.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Applied Physics B"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1049-ipr2-70502-34f01f",
+      "date": "2026-11-16",
+      "title": "Research on Image Quality Optimisation and Localisation in Digital Holography via Wavefront Modulation Combined With Temporal Phase Shifting",
+      "authors": "Yu Cheng Li, Xin Xiang, Rui Wang, Yang Zhang",
+      "institutions": [
+        "Air Force Engineering University Xi'an China"
+      ],
+      "journal": "IET Image Processing",
+      "doi": "10.1049/ipr2.70502",
+      "url": "https://doi.org/10.1049/ipr2.70502",
+      "oa": true,
+      "license": "CC BY-NC 4.0",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Theory & Simulation",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "slm",
+      "summary": "The interference caused by zero‐order and twin images due to insufficient space‐bandwidth product remains a major constraint in the development of digital holography. To address this issue, this paper proposes a synergistic approach integrating wavefront modulation and temporal phase shifting. By establishing an accurate spatial localisation theoretical model, the regulatory effect of the reconstructed illumination wavefront on image positioning is systematically elucidated and experimentally verified. The study demonstrates that by employing specific illumination wavefronts based on wavefront modulation, precise control over the position of the reconstructed image can be achieved. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1103-hmzs-tcqj-5e0354",
+      "date": "2026-11-16",
+      "title": "How governing equations shape the wave scattering at temporal interfaces",
+      "authors": "Zhaohui Dong, Xianfeng Chen, Luqi Yuan",
+      "institutions": [],
+      "journal": "Physical Review Letters",
+      "doi": "10.1103/hmzs-tcqj",
+      "url": "https://doi.org/10.1103/hmzs-tcqj",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Time-Varying Media & Temporal Interfaces"
+      ],
+      "glyph": "timevary",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1364-oe-620434-52ca4b",
       "date": "2026-11-15",
       "title": "Tunable dual-channel optical manipulation via a single spatially structured field in a coherent atomic medium",
@@ -767,6 +1381,28 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-optcom-2026-133981-d699d9",
+      "date": "2026-11-01",
+      "title": "Coherently switchable, dual-frequency photonic spin Hall effect via multimode cavity-induced transparency",
+      "authors": "Muqaddar Abbas, Syed M. Hasnain, Hamid R. Hamedi, Emmanuel Paspalakis",
+      "institutions": [],
+      "journal": "Optics Communications",
+      "doi": "10.1016/j.optcom.2026.133981",
+      "url": "https://doi.org/10.1016/j.optcom.2026.133981",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields"
+      ],
+      "glyph": "vector",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1039-d6sm00846a-d02332",
       "date": "2026-10-28",
       "title": "Self-organised formation of an edge-dislocation array and optical vortex generation by reentrant-type nematic liquid crystal",
@@ -818,5 +1454,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
 }

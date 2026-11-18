@@ -43,5 +43,25 @@
     "src": "covers/measurement-science-and-technology.jpg",
     "kind": "cover",
     "credit": "Journal cover · Measurement Science and Technology"
+  },
+  "applied physics a": {
+    "src": "covers/applied-physics-a.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Applied Physics A"
+  },
+  "acoustical physics": {
+    "src": "covers/acoustical-physics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Acoustical Physics"
+  },
+  "progress in additive manufacturing": {
+    "src": "covers/progress-in-additive-manufacturing.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Progress in Additive Manufacturing"
+  },
+  "applied physics b": {
+    "src": "covers/applied-physics-b.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Applied Physics B"
   }
 }
