@@ -4,7 +4,7 @@
   "date": "2026-11-16",
   "window": [
     "2026-11-16",
-    "2026-11-19"
+    "2026-11-20"
   ],
   "articles": [
     {
@@ -71,6 +71,52 @@
         "Quantum Information"
       ],
       "glyph": "slm",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s11082-026-09277-2-2d8916",
+      "date": "2026-11-19",
+      "title": "Symmetry breaking links chirality and quasi-bound states in the continuum in graphene dimer metasurfaces – Sensors and polarization filters",
+      "authors": "Shuvajit Roy",
+      "institutions": [],
+      "journal": "Optical and Quantum Electronics",
+      "doi": "10.1007/s11082-026-09277-2",
+      "url": "https://doi.org/10.1007/s11082-026-09277-2",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Sensing & Metrology"
+      ],
+      "glyph": "meta",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-616017-9acd6a",
+      "date": "2026-11-19",
+      "title": "Propagation dynamics of partially coherent electromagnetic Pearcey-Gaussian beams in free space",
+      "authors": "yang xiangyang, Peng He, Fu Wenyu",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.616017",
+      "url": "https://doi.org/10.1364/oe.616017",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Coherence & Partially Coherent Fields"
+      ],
+      "glyph": "bessel",
       "summary": "",
       "why": "",
       "pick": false,
@@ -415,6 +461,207 @@
       "source": "crossref"
     },
     {
+      "id": "10-1364-ol-611348-49eb99",
+      "date": "2026-11-18",
+      "title": "Depth-addressable transverse-mode classes in a single beam",
+      "authors": "Henry Evans, Layton Hall",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.611348",
+      "url": "https://doi.org/10.1364/ol.611348",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "SLM, DMD & Holography",
+        "Theory & Simulation"
+      ],
+      "glyph": "bessel",
+      "summary": "The transverse modal classes of a freely propagating beam are ordinarily fixed at the time of generation. Here we show that the conical angular spectrum of a Bessel beam maps the radial beam position one-to-one onto the axial reconstruction distance, thereby converting the radial aperture of a single static, phase-only spatial light modulator (SLM) into a programmable longitudinal-mode register. Partitioning the SLM into independent annular regions encodes discrete transverse modes at preselected axial positions. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-boe-614791-9661a6",
+      "date": "2026-11-18",
+      "title": "Tunable needle-like beam and its application in OCT imaging",
+      "authors": "huang feng, Duohao Zhao, HAOZHE ZHONG, Jiacheng Zhang, Qin Li, Xiao Zhang",
+      "institutions": [],
+      "journal": "Biomedical Optics Express",
+      "doi": "10.1364/boe.614791",
+      "url": "https://doi.org/10.1364/boe.614791",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Adaptive Optics & Aberrations",
+        "Theory & Simulation",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "bessel",
+      "summary": "Traditional needle beam generation methods, such as Bessel beams and diffractive optical element (DOE)-based approaches, suffer from inherent limitations, including imaging contrast degradation due to sidelobes, high fabrication costs, and fixed parameters. These drawbacks restrict their flexibility and broader adoption in optical coherence tomography (OCT). To address these challenges, this study proposes a tunable needle-like beam (NLB) generation method based on a tunable aberration unit (TAU). By inserting the TAU into the sample arm of an existing OCT system, tunable spherical aberration is introduced. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-optica-615660-40d839",
+      "date": "2026-11-18",
+      "title": "Foveated wavefront shaping for enhanced focusing through thick biological tissue",
+      "authors": "Hyungwon Jin, Seunghun Lee, Kibum Nam, Hyun-Jin kim, Su Yeon Kim, Seok-Kyu Kwon, Jae-Ick Kim, Jung‐Hoon Park",
+      "institutions": [
+        "Ulsan National Institute of Science and Technology",
+        "Korea University",
+        "Korea Institute of Science and Technology"
+      ],
+      "journal": "Optica",
+      "doi": "10.1364/optica.615660",
+      "url": "https://doi.org/10.1364/optica.615660",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Wavefront Shaping & Scattering",
+        "Optical Computing"
+      ],
+      "glyph": "speckle",
+      "summary": "Wavefront shaping can focus light through strongly scattering tissue, but the number of input modes that must be measured limits its use in living animals. Most implementations treat all input modes as equivalent, as in isotropic diffusive media. In forward-scattering tissue, however, multiply scattered light retains part of its incident direction, so the transmission to a target depth decreases with the angle of incidence. We exploit this anisotropy by foveating the input basis: small angles are sampled finely and large angles are grouped into coarser modes, so that each mode carries a similar share of the transmitted light at a fixed total number of modes. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-oe-603636-c36a3c",
+      "date": "2026-11-18",
+      "title": "Mitigation of signal impairments in metasurface-based OAM-multiplexed UWB systems via precoding and weighted moving average",
+      "authors": "Changqing Xiang, Yaru Yuan, Siyuan Liu, Qingji Zeng, Jing Yang, Yuanqing Li, Yuekun Su, Shuanglong Den, Jingyang Zhou, Deng Fengli, Jiangnan Xiao, Jun Liu, Dianyuan Fan, Shuqin Chen",
+      "institutions": [
+        "Jishou University",
+        "University of Shanghai for Science and Technology"
+      ],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.603636",
+      "url": "https://doi.org/10.1364/oe.603636",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Metasurfaces & Flat Optics",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Ultra-wideband (UWB) technology provides a robust solution for short-range high-speed communication. However, its extreme bandwidth poses significant integration challenges with conventional multiplexing techniques. While orbital angular momentum (OAM) multiplexing offers an additional degree of freedom to expand capacity, its transmission over few-mode fibers (FMF) is hindered by mode crosstalk, frequency-selective fading, and system-intrinsic noise. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1002-advs-78696-a066ab",
+      "date": "2026-11-18",
+      "title": "Optoelectronic Decoupling Enables Synergistic Enhancement of Polarization Ratio and Sensitivity in on‐chip Photodetectors",
+      "authors": "Yinzhu Chen, Peidong Yan, Peng Zhang, Fang Yang, Yueying Cui, Yaobo Huang, Zhenhua Ni, Junpeng Lu, Fan Zhong",
+      "institutions": [
+        "School of Electronic Science and Engineering Southeast University Nanjing China"
+      ],
+      "journal": "Advanced Science",
+      "doi": "10.1002/advs.78696",
+      "url": "https://doi.org/10.1002/advs.78696",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "meta",
+      "summary": "On‐chip polarization photodetectors are fundamental to integrated photonics, with the polarization ratio and polarization sensitivity as two critical metrics. However, conventional direct‐excitation photodetectors inherently couple polarization selection with photoelectric conversion, preventing isolation of background photocurrent. Consequently, any attempt to enhance polarization sensitivity through electrical tuning indiscriminately amplifies this background together with the signal, degrading the polarization ratio and creating an inherent trade‐off between the two metrics. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-24921-4affc9",
+      "date": "2026-11-18",
+      "title": "Strong Epsilon-Near-Zero Confinement and Interface-Controlled Dynamics in Inverse-Designed Transparent Conducting Oxide Cavities",
+      "authors": "Jae Ik Choi, Ludmila J. Prokopeva, Vahagn Mkhitaryan, Yuheng Chen, Alexander V. Kildishev, Vladimir M. Shalaev, Alexandra Boltasseva",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.24921",
+      "url": "https://arxiv.org/abs/2611.24921",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Time-Varying Media & Temporal Interfaces",
+        "Theory & Simulation"
+      ],
+      "glyph": "timevary",
+      "summary": "Achieving optical modulation that is both strong and ultrafast remains a central challenge in time-varying photonics. Here, we theoretically demonstrate that combining inverse-designed cavities that utilize transparent conducting oxides (TCOs) operating at the epsilon-near-zero (ENZ) point with boundaries that support carrier transport can meet this requirement. This is achieved by leveraging ENZ-enhanced optical absorption and electron heating with interface-engineered carrier relaxation. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-24861-5134be",
+      "date": "2026-11-18",
+      "title": "Time-Varying Medium from an Ensemble of Laser-Dressed Quantum Emitters",
+      "authors": "Adrián Juan-Delgado, Diego Martín-Cano, Paloma A. Huidobro",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.24861",
+      "url": "https://arxiv.org/abs/2611.24861",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Time-Varying Media & Temporal Interfaces",
+        "Theory & Simulation"
+      ],
+      "glyph": "timevary",
+      "summary": "We propose a minimal quantum-mechanical model of a frequency dispersive, time-modulated medium that explicitly incorporates the pumping mechanism. It consists of a homogeneous ensemble of quantum emitters dressed by a pump laser. We analyze their dispersive, time-varying response to a perturbative probe field by deriving the macroscopic polarizability of the ensemble, and then solving Maxwell's equations via the Floquet formalism. This yields a rich band structure that departs from conventional analyses in which the modulation source is neglected, arising from the interplay between the dispersive polaritonic and time-varying responses. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-24291-9e7668",
+      "date": "2026-11-18",
+      "title": "Semiclassical Quantum Mechanics and the Optics of Time-Varying Media",
+      "authors": "S. A. R. Horsley, R. Sokol, E. -M. Graefe",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.24291",
+      "url": "https://arxiv.org/abs/2611.24291",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Time-Varying Media & Temporal Interfaces",
+        "Theory & Simulation",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "timevary",
+      "summary": "Rapid, high contrast modulation of optical parameters such as the refractive index can radically reshape a wave's frequency spectrum as it propagates. Non-commuting frequency and time operators can be used to describe this reshaping, analogous to the position and momentum operators of quantum mechanics. Here we develop the connection between this theory and semi-classical quantum mechanics, showing that: (i) different microscopic models of time-varying materials are equivalent to choices of operator ordering; (ii) wave propagation is governed by an unusual non-Hermitian Schrödinger equation; (iii) we can take a semi-classical limit, finding a generalization of Hamilton's equations governing …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
       "id": "10-1021-acs-nanolett-6c04815-82a932",
       "date": "2026-11-17",
       "title": "Encoding Topological Magnetic Spin Textures with Topological Light",
@@ -704,6 +951,29 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-22789-e7ad88",
+      "date": "2026-11-17",
+      "title": "Revisiting structured-light propagation in screw-dislocation geometries: Landau dynamics and gradient-induced polarization textures",
+      "authors": "Edilberto  Oliveira Silva",
+      "institutions": [],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2611.22789",
+      "url": "https://doi.org/10.48550/arxiv.2611.22789",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Theory & Simulation"
+      ],
+      "glyph": "vector",
+      "summary": "We derive the propagation of finite electromagnetic beams in the effective metric of a continuous distribution of screw dislocations from gauge-invariant, minimally coupled Maxwell theory with F=dA. The Burgers flux fixes the metric profile through σ(ρ)=f'(ρ)/(bρ), which separates true density gradients from coordinate factors. In geometric optics, both polarizations share one light cone, and a uniform density rotates the polarization uniformly relative to the geometry-adapted frame; laboratory polarimetry also requires matching at the interfaces. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-3390-photonics13111081-6ad48d",
@@ -1358,6 +1628,55 @@
       "source": "europepmc"
     },
     {
+      "id": "10-1103-v4rh-z6z6-352677",
+      "date": "2026-11-06",
+      "title": "Generalized spiral-family optical beams with programmable transverse optical momentum",
+      "authors": "Xinshuai Ren, Zengguang Cui, Kun Liu, Juntao Hu, Hao Zhang, Yixian Qian, Yuping Tai, Xinzhong Li",
+      "institutions": [],
+      "journal": "Physical Review A",
+      "doi": "10.1103/v4rh-z6z6",
+      "url": "https://doi.org/10.1103/v4rh-z6z6",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "SLM, DMD & Holography",
+        "Theory & Simulation"
+      ],
+      "glyph": "vortex",
+      "summary": "Optical vortices carrying orbital angular momentum are widely used for optical manipulation, but their doughnut-shaped intensity profiles limit the programmability of particle trajectories. Spiral structured light fields provide directional force landscapes for particle transport, yet their generation typically depends on beam-specific design formulas. Here, we develop a generalized spiral equation based on analytical geometric reconstruction, which unifies a broad class of spiral beams in a compact parametric framework. Tuning a small number of structural parameters allows spiral light fields with programmable morphologies to be generated directly. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1103-qmyq-1bms-366cc5",
+      "date": "2026-11-03",
+      "title": "Optical torques due to higher order Poincare modes inside a magneto-optic medium",
+      "authors": "M. Babiker, K. Köksal",
+      "institutions": [],
+      "journal": "Physical Review A",
+      "doi": "10.1103/qmyq-1bms",
+      "url": "https://doi.org/10.1103/qmyq-1bms",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Sensing & Metrology"
+      ],
+      "glyph": "vortex",
+      "summary": "The ability to control light through magneto-optic effects is critical for advanced applications in sensing, optical isolation, and magneto-optical switching. However, while the mechanical effects of standard Gaussian light beams within media are well-documented, the behavior of structured “twisted” light—which carries both spin and orbital angular momentum—has remained largely unexplored. This work bridges that gap by evaluating the fundamental properties of general higher-order Poincarè vortex modes as they propagate through a magneto-optic material. We focus on `index-near-one’ media for which the background refractive index n_0~1.0, a situation that is of much current interest. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1016-j-optcom-2026-133998-f2688a",
       "date": "2026-11-01",
       "title": "Deep Learning-driven Automated Optical Vortices-based Pseudo-DNA Addition and Subtraction",
@@ -1403,6 +1722,34 @@
       "source": "crossref"
     },
     {
+      "id": "10-1063-5-0351701-f8d8c7",
+      "date": "2026-11-01",
+      "title": "Tunable spatio-spectral target skyrmions and topological multiplexing",
+      "authors": "Pedro Ornelas, Niladri Modak, Oussama Korichi, Isaac M. Nape, Andrew Forbes, Robert Fickler",
+      "institutions": [
+        "University of the Witwatersrand",
+        "Tampere University"
+      ],
+      "journal": "APL Photonics",
+      "doi": "10.1063/5.0351701",
+      "url": "https://doi.org/10.1063/5.0351701",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Topological Light (Skyrmions & Knots)",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Optical skyrmions have recently garnered much interest providing a potential avenue for high capacity, robust topological information transfer. Typically, skyrmions are derived from the coupling of just two degrees of freedom (DoFs) limiting their versatility. In this work, we realize spatio-spectral skyrmions derived from the non-separability between three DoFs: wavelength, space, and polarization. A compact and simple technique is used to generate the spatio-spectral vector beams carrying the desired skyrmionic structure, offering simple pathways for complex skyrmionic beam design. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1039-d6sm00846a-d02332",
       "date": "2026-10-28",
       "title": "Self-organised formation of an edge-dislocation array and optical vortex generation by reentrant-type nematic liquid crystal",
@@ -1422,6 +1769,33 @@
       ],
       "glyph": "vortex",
       "summary": ", light fields with helical wavefronts. To fabricate such a grating, we focus here on the periodic deformation induced near the phase transition between the nematic and smectic A liquid-crystalline phases. Although the periodic structure typically appears over a temperature range of only ∼0.1 K, which is too narrow for practical use as a grating, we show that this range can be extended to several kelvins by using a reentrant-type nematic liquid crystal. Moreover, by introducing a sandwich cell with a step in the substrate, we successfully create edge dislocations in the periodic pattern owing to the mismatch in its period across the step. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1103-4x7z-hbdz-431478",
+      "date": "2026-10-28",
+      "title": "VO 2 -state-switched multimodal metasurface for terahertz wavefront shaping",
+      "authors": "Hang Li, Jiaqing Chen, He Xu, Wen Yan",
+      "institutions": [
+        "Yangzhou University"
+      ],
+      "journal": "Physical Review Applied",
+      "doi": "10.1103/4x7z-hbdz",
+      "url": "https://doi.org/10.1103/4x7z-hbdz",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "bessel",
+      "summary": "This paper proposes a reflective anisotropic coding metasurface for multifunctional terahertz wavefront control. By integrating vanadium dioxide (VO2), the design realizes multistate precise beam manipulation within a shared aperture. The 27\\ifmmode×\\elsetimes\\fi27 unit cell array provides distinct reflection phase responses for two orthogonal linear polarizations. In the metallic state, it generates two and four reflected beams under x- and y-polarized incidence at 1.2 THz, respectively. Conversely, as VO2 switches to the insulating state, the metasurface generates zero-order Bessel beams at 1.6 THz. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -1454,5 +1828,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
 }
