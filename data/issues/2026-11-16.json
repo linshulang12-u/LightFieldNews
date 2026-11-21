@@ -4,7 +4,7 @@
   "date": "2026-11-16",
   "window": [
     "2026-11-16",
-    "2026-11-21"
+    "2026-11-22"
   ],
   "articles": [
     {
@@ -24,6 +24,29 @@
         "Microscopy & Imaging"
       ],
       "glyph": "meta",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-engstruct-2026-124163-5fca24",
+      "date": "2027-02-01",
+      "title": "Study on mechanisms of vortex-induced vibrations with multiple lock-in regions in a streamlined box girder with cantilevered sidewalks using dynamic mode decomposition method",
+      "authors": "Fan Li, Zhiwen Liu, Gongyuan Xie, Xiukun Li, Shoufeng Tang, Xiaobin Peng, Can Yang, Zhengqing Chen",
+      "institutions": [],
+      "journal": "Engineering Structures",
+      "doi": "10.1016/j.engstruct.2026.124163",
+      "url": "https://doi.org/10.1016/j.engstruct.2026.124163",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Mode Multiplexing & Fibers",
+        "Characterization & Metrology"
+      ],
+      "glyph": "modes",
       "summary": "",
       "why": "",
       "pick": false,
@@ -72,6 +95,33 @@
       ],
       "glyph": "slm",
       "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acs-nanolett-6c04693-d17413",
+      "date": "2026-11-21",
+      "title": "Arbitrary Wavefront Engineering of Diamond Raman Lasers Using Metasurfaces",
+      "authors": "Cheng-Long Zheng, Yong-Sheng Hu, Ke-Xue Li, Xiao-Bo Mi, Yong-Yang Zhu, Shang-Heng Li, Chen-Lu Zhang, Zhi-Peng Wei, Chong-Xin Shan, Pei-Nan Ni",
+      "institutions": [
+        "Zhengzhou University",
+        "Changchun University of Science and Technology"
+      ],
+      "journal": "Nano Letters",
+      "doi": "10.1021/acs.nanolett.6c04693",
+      "url": "https://doi.org/10.1021/acs.nanolett.6c04693",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Metasurfaces & Flat Optics",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Diamond Raman lasers provide a powerful and versatile route to achieving high-power coherent emission across a broad spectral range. However, their dependence on complex and bulky free-space optics has posed a significant barrier to miniaturization and system level integration. In this work, we overcome this limitation by integrating a metasurface to enable an arbitrary wavefront control of a diamond Raman laser. This hybrid platform demonstrates remarkable versatility, supporting a diverse range of advanced functionalities, from grayscale display and multichannel vortex beam generation to dual-focus output with tunable intensity ratios and multiplane holography. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -225,6 +275,58 @@
       "pick": false,
       "feature": false,
       "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-josab-610802-7ee0e6",
+      "date": "2026-11-20",
+      "title": "Conditional generative and surrogate-assisted inverse design of pixelated metasurfaces for wavefront manipulation",
+      "authors": "ruonan li, Zhenxue Sun, En Tao, Yuhang He, Qi Han, Lin Yang, Ming Zhang, Weimin Hou",
+      "institutions": [],
+      "journal": "Journal of the Optical Society of America B",
+      "doi": "10.1364/josab.610802",
+      "url": "https://doi.org/10.1364/josab.610802",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "SLM, DMD & Holography",
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "meta",
+      "summary": "To address the high structural dimensionality, complex electromagnetic response mapping, and difficult inverse search associated with high-degree-of-freedom pixelated metasurfaces, this work develops a pixelated metasurface inverse-design method based on a conditional variational autoencoder (CVAE) and a convolutional neural network (CNN) surrogate model. The framework uses the target electromagnetic response and the topology label as conditional inputs. The CVAE generates candidate pixelated unit cells, while the CNN surrogate model rapidly predicts their complex reflection responses for candidate screening. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1038-s41565-026-02330-x-45a7e1",
+      "date": "2026-11-20",
+      "title": "Antireflective bilayer metasurfaces with complete wavefront control",
+      "authors": "Jaewon Oh, Davide Cassara, Alfonso Palmieri, Lorenzo Piatti, Janderson Rocha Rodrigues, Ahmed H. Dorrah, Paulo Dainese, Federico Capasso",
+      "institutions": [],
+      "journal": "Nature Nanotechnology",
+      "doi": "10.1038/s41565-026-02330-x",
+      "url": "https://doi.org/10.1038/s41565-026-02330-x",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Metasurfaces & Flat Optics"
+      ],
+      "glyph": "meta",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "figs/10-1038-s41565-026-02330-x-45a7e1.jpg",
+        "kind": "figure",
+        "credit": "CC BY-NC-ND 4.0 · via nature.com"
+      },
       "source": "crossref"
     },
     {
@@ -382,6 +484,29 @@
       "feature": false,
       "fig": null,
       "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-25427-60ecaa",
+      "date": "2026-11-19",
+      "title": "High-Dimensional Structured Light Tomography with a Tilted Lens",
+      "authors": "Altilano Cristino Barbosa, Isaac Tribaldo, Amanda Kronhardt Fritsch, M. Gil de Oliveira, Gabriel Molina‐Terriza, Antonio Zelaquett Khoury",
+      "institutions": [],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2611.25427",
+      "url": "https://doi.org/10.48550/arxiv.2611.25427",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Mode Multiplexing & Fibers",
+        "Characterization & Metrology"
+      ],
+      "glyph": "modes",
+      "summary": "In this work, we investigate high-dimensional spatial mode tomography using intensity measurements and the astigmatic transformation implemented with a tilted lens. We improve the method previously published in Ref. [1] to perform the spatial tomography not restricted to a fixed order, which allowed us to achieve good fidelity for a mode space dimension as high as D=66\\,. Since the literature is not unanimous, we also present a comprehensive revision of light propagation through a tilted lens for an accurate description of the transformation used for tomography. We derive its effective focal lengths, and analyze its role as an astigmatic mode converter. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-1088-2515-7647-aec3fa-4758d2",
@@ -2529,5 +2654,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-21"
+  "updated": "2026-11-22"
 }
