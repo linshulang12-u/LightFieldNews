@@ -1,0 +1,38 @@
+{
+  "id": "2026-11-23",
+  "number": 4,
+  "date": "2026-11-23",
+  "window": [
+    "2026-11-23",
+    "2026-11-23"
+  ],
+  "articles": [
+    {
+      "id": "10-1063-5-0359655-67d255",
+      "date": "2026-11-01",
+      "title": "Design of a compact, fast-switching high-voltage pulser for high-repetition-rate miniature time-of-flight mass spectrometers",
+      "authors": "Cao G, Huang Y, Zhu L, Zhou Z, Qi F",
+      "institutions": [
+        "School of Mechanical Engineering"
+      ],
+      "journal": "The Review of scientific instruments",
+      "doi": "10.1063/5.0359655",
+      "url": "https://doi.org/10.1063/5.0359655",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Spatiotemporal Focusing (SSTF)",
+        "Characterization & Metrology"
+      ],
+      "glyph": "sstf",
+      "summary": "To meet the demand for miniaturized, low-power high-voltage pulse power supplies for time-of-flight mass spectrometers (TOF-MS), we designed a compact half-bridge push-pull pulse power supply. The power supply achieves a frequency range of 1-100 kHz, a maximum output voltage of 800 V, pulse-width adjustment in 0.1 μs steps, and a power consumption of ∼10 W. Electrical characterization shows that the rise time is less than 10 ns, overshoot is below 5%, amplitude and period stability are excellent, and the synchronization between positive and negative pulses is reliable. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    }
+  ],
+  "removed": [],
+  "updated": "2026-11-23"
+}
