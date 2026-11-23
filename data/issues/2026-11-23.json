@@ -4,9 +4,340 @@
   "date": "2026-11-23",
   "window": [
     "2026-11-23",
-    "2026-11-23"
+    "2026-11-24"
   ],
   "articles": [
+    {
+      "id": "10-1016-j-optlastec-2026-117024-307a1c",
+      "date": "2027-02-01",
+      "title": "Single-shot 3D spatiotemporal characterization of picosecond laser complex amplitudes combining compressive imaging and pulse-front tilting",
+      "authors": "Fan Xia, Hengyu Guo, Na Xie, Ting Men, Yi Guo, Kainan Zhou, Jingqin Su, Ping Li, Zhengyan Li",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117024",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117024",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Spatiotemporal Focusing (SSTF)",
+        "Spatiotemporal Measurement",
+        "Characterization & Metrology",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "sstf",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-ao-617944-0a2f8e",
+      "date": "2026-11-23",
+      "title": "Tiered structured-light implementations for colloidal experiments on inverted microscopes",
+      "authors": "Fei Yang, Huiyue Liang, Beirong Liang, Xuemao Zhou",
+      "institutions": [],
+      "journal": "Applied Optics",
+      "doi": "10.1364/ao.617944",
+      "url": "https://doi.org/10.1364/ao.617944",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Microscopy & Imaging"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1117-1-jnp-20-042405-5282ca",
+      "date": "2026-11-23",
+      "title": "Structured light in hyperbolic metamaterials",
+      "authors": "Yuruo Zheng, Jiaren Tan, Hooman Barati Sedeh, Natalia M. Litchinitser",
+      "institutions": [
+        "Duke University"
+      ],
+      "journal": "Journal of Nanophotonics",
+      "doi": "10.1117/1.jnp.20.042405",
+      "url": "https://doi.org/10.1117/1.jnp.20.042405",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Spatiotemporal Optical Vortices",
+        "Spatiotemporal Measurement",
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Characterization & Metrology"
+      ],
+      "glyph": "stov",
+      "summary": "The synergy between structured light and hyperbolic metamaterials creates new opportunities for fundamental optical science and advanced photonic applications. We examine the emerging intersection of these two fields. We introduce the principal degrees of freedom of structured optical fields and summarize the distinctive hyperbolic dispersion, high wavevector modes, strong anisotropy, and enhanced light–matter interactions supported by multilayer, nanowire, and natural hyperbolic platforms. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-ol-620194-74f345",
+      "date": "2026-11-23",
+      "title": "Metasurface-based 3D-engineered achromatic non-diffracting perfect vortex beam for multidimensional optical encryption",
+      "authors": "Lujun Hu, Langyi Liang, Zhengda Hu, Jingjing Wu, Yun Zhu, Jicheng Wang",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.620194",
+      "url": "https://doi.org/10.1364/ol.620194",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Non-Diffracting & Accelerating Beams",
+        "Displays, Security & AR"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-josaa-619286-93c2d1",
+      "date": "2026-11-23",
+      "title": "Off-Axis Vortex Beam Recognition Based on an Improved Optoelectronic Hybrid Diffractive Neural Network under Slant-Path Stratified Oceanic Turbulence",
+      "authors": "DAN CHEN, DingYin ZHANG, Jiongxuan Li",
+      "institutions": [],
+      "journal": "Journal of the Optical Society of America A",
+      "doi": "10.1364/josaa.619286",
+      "url": "https://doi.org/10.1364/josaa.619286",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Inverse Design & AI",
+        "Turbulence & Free-Space Links"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-josab-612835-d0de07",
+      "date": "2026-11-23",
+      "title": "Cascaded-metasurfaces-driven angle measurement with vector-vortex intermediates via polarization-state mapping",
+      "authors": "Zhang Xiaoyi, Yingbo Li, Jiayi Hu, Jiaqi Zhao, Jingping Zhu, siqi li, Guoxi Wang",
+      "institutions": [],
+      "journal": "Journal of the Optical Society of America B",
+      "doi": "10.1364/josab.612835",
+      "url": "https://doi.org/10.1364/josab.612835",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics"
+      ],
+      "glyph": "meta",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s00340-026-08739-5-ab9dcd",
+      "date": "2026-11-23",
+      "title": "Interaction of fractional-order vortex beams with cylindrical polarization of arbitrary order under tight focusing",
+      "authors": "S. N. Khonina, A. V. Ustinov",
+      "institutions": [],
+      "journal": "Applied Physics B",
+      "doi": "10.1007/s00340-026-08739-5",
+      "url": "https://doi.org/10.1007/s00340-026-08739-5",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Tight Focusing & Focal Fields"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "figs/10-1007-s00340-026-08739-5-ab9dcd.jpg",
+        "kind": "figure",
+        "credit": "CC BY-NC-ND 4.0 · via link.springer.com"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-ol-620710-2e6e31",
+      "date": "2026-11-23",
+      "title": "Polarization singularity engineering for tunable optical Hilbert transformation",
+      "authors": "Riwa Hao, Liang-chen Si, Shuo Yang, Junlong Kou",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.620710",
+      "url": "https://doi.org/10.1364/ol.620710",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields"
+      ],
+      "glyph": "vector",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-adom-72085-68ea5b",
+      "date": "2026-11-23",
+      "title": "Ultralow‐Loss, High‐Efficiency and Fast Thermo‐Optic Modulator Based on β'‐In 2 Se 3",
+      "authors": "Jialing Jian, Qingyan Deng, Jianghong Wu, Jiaxi Yang, Yuting Ye, Bo Tang, Xiang Xu, Keyu Qian, Jiaxin Zhang, Junying Li, Hui Ma, Chuyu Zhong, Zhengjin Weng, Yuanfang Yu, Shaoqing Xiao, Hongtao Lin, Haiyan Nan, Lan Li",
+      "institutions": [
+        "School of Integrated Circuits Jiangnan University Wuxi China",
+        "Institute of Microelectronics Chinese Academy of Sciences Beijing China"
+      ],
+      "journal": "Advanced Optical Materials",
+      "doi": "10.1002/adom.72085",
+      "url": "https://doi.org/10.1002/adom.72085",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Characterization & Metrology",
+        "Optical Communication"
+      ],
+      "glyph": "beam",
+      "summary": "Thermo‐optic (TO) modulators based on conventional materials face an unavoidable trade‐off among optical loss, power consumption, and response time. Here, we overcome this trilemma using a β′‐In 2 Se 3 microheater whose high electrical conductivity, optical transparency and low refractive index simultaneously enable ultralow propagation loss and high TO efficiency in the telecommunication band. This van der Waals material offers a potential pathway toward CMOS back‐end‐of‐line‐compatible integration with microring resonators (MRRs) using an ultrathin optical isolation layer, thereby facilitating fast thermal conduction and efficient thermal modulation. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1063-5-0356527-cd085a",
+      "date": "2026-11-23",
+      "title": "A graphene-based tunable metasurface for on-demand terahertz beam-number switching with joint amplitude-phase optimization",
+      "authors": "Xingyu Guo, Yan Teng, Chun Li, Zhengwei Huang, Haobo Chen, Jiangtao Luo, Ziteng Wang, Ling Jiang",
+      "institutions": [
+        "College of Information Science and Technology",
+        "Ltd 2"
+      ],
+      "journal": "Journal of Applied Physics",
+      "doi": "10.1063/5.0356527",
+      "url": "https://doi.org/10.1063/5.0356527",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "meta",
+      "summary": "On-demand beam-number switching is important for reconfigurable terahertz (THz) wavefront manipulation because it directly controls scattering-channel allocation, spatial coverage, and power distribution. However, it requires selective suppression of designated beams, stable preservation of remaining main beams, and adaptation to discrete device states. Here, we propose an on-demand THz beam-number switching method based on a graphene-tunable metasurface. A joint amplitude-phase particle swarm optimization model is developed by combining prior-phase inheritance, constrained joint amplitude-phase optimization, and device-aware quantized amplitude optimization. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s00340-026-08744-8-8ca948",
+      "date": "2026-11-23",
+      "title": "Label-free counting of nanoparticles in a perfused microphysiological system by digital holography",
+      "authors": "Tomoyoshi Inoue, Iroha Okuda, Yasuhiro Ishihara",
+      "institutions": [],
+      "journal": "Applied Physics B",
+      "doi": "10.1007/s00340-026-08744-8",
+      "url": "https://doi.org/10.1007/s00340-026-08744-8",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Tight Focusing & Focal Fields",
+        "Theory & Simulation",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "slm",
+      "summary": "A wide variety of nanoparticles exist in the atmosphere, and there are concerns regarding the impact of their inhalation on the respiratory system. Recently, the respiratory effects of fine particles have been investigated using microfluidic systems (e.g., microphysiological systems), such as “lung-on-a-chip” devices; however, these studies often lack direct observation of the nanoparticles themselves. This is due to the absence of technology capable of detecting unlabeled particles under flow conditions. We have developed a holographic system that detects and counts nanoparticles flowing through a microphysiological system without labeling. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/applied-physics-b.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Applied Physics B"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-jimaging12120592-57be26",
+      "date": "2026-11-22",
+      "title": "Residual Errors Alter AI Chest-Radiograph Findings: Outage-Based Design of Free-Space Optical Links for Medical Image Delivery",
+      "authors": "Entidhar Mhawes Zghair, Seham Ahmed Hashem, Ali Mahdi Hammadi",
+      "institutions": [
+        "Technical Instructors Training Institute",
+        "Electrical Engineering Technical College"
+      ],
+      "journal": "Journal of Imaging",
+      "doi": "10.3390/jimaging12120592",
+      "url": "https://doi.org/10.3390/jimaging12120592",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Pathological chest radiographs are often assumed to be more vulnerable to channel impairments than normal ones. We simulated sending 250 NIH ChestX-ray14 radiographs from five diagnostic classes, in three payload formats sharing identical channel realizations, over a 1 km, 1550 nm free-space optical link with Gamma–Gamma fading, pointing errors and RS(255,204) coding. After an error event, diagnostic class explained 0.4–5% of the between-image variance in quality beyond grey-level statistics and JPEG size. A second, partially overlapping sample confirmed this, and a bit-level analysis explains why. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-s26237387-cb329e",
+      "date": "2026-11-22",
+      "title": "Binary Representation of Grayscale Images for DMD-Based Coherent Spatial Filtering Systems",
+      "authors": "Pavel A. Cheremkhin, Iuliia S. Lenkova, Daria V. Pavlenko, Vladislav G. Rodin, Anna V. Shifrina, Rostislav S. Starikov, Fedor A. Ushakov, Evgenii Yu. Zlokazov",
+      "institutions": [
+        "Institute for Laser and Plasma Technologies"
+      ],
+      "journal": "Sensors",
+      "doi": "10.3390/s26237387",
+      "url": "https://doi.org/10.3390/s26237387",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Inverse Design & AI",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "slm",
+      "summary": "Fast optical data processing provides incredible opportunities for present-day and near-future tasks: pattern recognition, object tracking, beam shaping, development of diffractive neural networks, 3D-display and lithographic systems, etc. Digital micromirror devices (DMD) can display binary megapixel images with frame rates of tens of thousands Hz. However, grayscale images are more convenient for practical implementations. In this paper we analyzed several digital halftoning and binarization methods in search of the best one for a coherent DMD-based spatial filtering system. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
     {
       "id": "10-1063-5-0359655-67d255",
       "date": "2026-11-01",
@@ -31,8 +362,30 @@
       "feature": false,
       "fig": null,
       "source": "europepmc"
+    },
+    {
+      "id": "10-1016-j-dyepig-2026-114387-a8851c",
+      "date": "2026-11-01",
+      "title": "Photonic Crystal-Enhanced Fluorescence Sensing: From Light-Field Modulation to Multi-mechanism Synergy and Smart Detection",
+      "authors": "Lu Li, Yuting Zhang, Sixu Fan, Menghan Kang, Yuna He, Dujuan Xi, Xinyan Chen, Zhenhua Tang, Houyong Luo, Juan Wei, Guiqiang Fei",
+      "institutions": [],
+      "journal": "Dyes and Pigments",
+      "doi": "10.1016/j.dyepig.2026.114387",
+      "url": "https://doi.org/10.1016/j.dyepig.2026.114387",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Sensing & Metrology"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
     }
   ],
   "removed": [],
-  "updated": "2026-11-23"
+  "updated": "2026-11-24"
 }
