@@ -63,5 +63,10 @@
     "src": "covers/applied-physics-b.jpg",
     "kind": "cover",
     "credit": "Journal cover · Applied Physics B"
+  },
+  "communications physics": {
+    "src": "covers/communications-physics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Communications Physics"
   }
 }

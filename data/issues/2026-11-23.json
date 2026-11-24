@@ -4,7 +4,7 @@
   "date": "2026-11-23",
   "window": [
     "2026-11-23",
-    "2026-11-24"
+    "2026-11-25"
   ],
   "articles": [
     {
@@ -30,6 +30,249 @@
       "pick": false,
       "feature": false,
       "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117023-5870d4",
+      "date": "2027-02-01",
+      "title": "Risley-prism-inspired transmission-reflection integrated metasurface for spin-selective independent bidirectional beam scanning",
+      "authors": "Yunfeng Hu, Xinmin Lian, Jianfeng Zhu, Quan Xue",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117023",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117023",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics"
+      ],
+      "glyph": "meta",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117105-d8d089",
+      "date": "2027-02-01",
+      "title": "Fabrication of high-aspect-ratio through glass vias (TGVs) in thick borosilicate glass using femtosecond laser-induced deep etching with bessel beams",
+      "authors": "Che-Li Chang, Chia-Hung Hung",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117105",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117105",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "bessel",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-photonics13121108-964964",
+      "date": "2026-11-24",
+      "title": "Structured-Light Volume Measurement of Yarn Cheeses via Rotation-Axis-Constrained Shared-Cross-Section Registration",
+      "authors": "Chong Li, Yun Xu, Jianbo Luo",
+      "institutions": [
+        "School of Information Science and Engineering"
+      ],
+      "journal": "Photonics",
+      "doi": "10.3390/photonics13121108",
+      "url": "https://doi.org/10.3390/photonics13121108",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "Multi-view point cloud registration is challenging for yarn cheeses because their nearly axisymmetric geometry often leads to ambiguous point correspondences, particularly in regions with limited overlap and irregular surface contours. To address this problem, we propose rotation-axis-constrained shared-cross-section registration (RA-SCR) for structured-light volume measurement. The main contribution is a coupled pose–profile optimization method that jointly refines the three-degree-of-freedom residual pose of each view and a shared, axially layered cross-sectional model. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1080-09500340-2026-2739989-a9f001",
+      "date": "2026-11-24",
+      "title": "Structured light control of superluminal propagation",
+      "authors": "Zia Ul Haq, Ijaz Ul Haq, Laiba, Sapna Ghafar, Kamal Shah, Thabet Abdeljawad",
+      "institutions": [
+        "University of Malakand",
+        "Govt. Degree College Mingora Swat",
+        "Prince Sultan University"
+      ],
+      "journal": "Journal of Modern Optics",
+      "doi": "10.1080/09500340.2026.2739989",
+      "url": "https://doi.org/10.1080/09500340.2026.2739989",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Space-Time Wave Packets"
+      ],
+      "glyph": "stwp",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s42005-026-02920-0-889653",
+      "date": "2026-11-24",
+      "title": "Accurate recognition of fractional orbital angular momentum of light in complex scenarios using physics-informed deep learning",
+      "authors": "Wenxi Wang, Jiaqi Wang, Yang Peng, Yin Xiao, Wen Chen",
+      "institutions": [],
+      "journal": "Communications Physics",
+      "doi": "10.1038/s42005-026-02920-0",
+      "url": "https://doi.org/10.1038/s42005-026-02920-0",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Wavefront Shaping & Scattering",
+        "Inverse Design & AI"
+      ],
+      "glyph": "vortex",
+      "summary": "Light carrying fractional orbital angular momentum (FOAM) has received increasing attention in many fields due to its rich orbital angular momentum information. However, the recognition of FOAM beams in complex scenarios is challenging. Here we report physics-informed untrained neural networks (UNN) and polar mapping for accurate recognition of FOAM beams in complex scenarios. The physics-informed UNN is designed to retrieve high-quality FOAM patterns from a series of single-pixel light intensities collected through time-varying scattering media, and the retrieved FOAM patterns are further mapped in a polar coordinate. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/communications-physics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Communications Physics"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1117-1-apn-6-1-016014-a0006c",
+      "date": "2026-11-24",
+      "title": "Sculpting ultrafast mid-infrared light for solid-state high-harmonic generation",
+      "authors": "Bálint Kiss, Carmelo Rosales-Guzman, Stephan Fritzsche, Qiwen Zhan",
+      "institutions": [
+        "ELI-Hu Non-Profit Ltd",
+        "Friedrich-Schiller-Universität Jena",
+        "University of Shanghai for Science and Technology"
+      ],
+      "journal": "Advanced Photonics Nexus",
+      "doi": "10.1117/1.apn.6.1.016014",
+      "url": "https://doi.org/10.1117/1.apn.6.1.016014",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Non-Diffracting & Accelerating Beams",
+        "Characterization & Metrology",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "The ability to sculpt light in space, time, and polarization has revolutionized studies of light–matter interaction and enabled breakthroughs in optical communication, imaging, and ultrafast science. Among the many degrees of freedom of light, orbital angular momentum (OAM) further expands these capabilities by unlocking new regimes of control in information encoding, particle trapping and manipulation, and symmetry-driven selection rules. However, exploiting OAM to drive nonlinear, nonperturbative effects in solids remains challenging, especially in the mid-infrared (MIR) spectral region, key for accessing these effects in ambient air, where spatial light modulators are unavailable. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1088-1361-6463-aec60a-2416d5",
+      "date": "2026-11-24",
+      "title": "Twisted light-induced spatial and angular photonic spin splitting via quantum weak measurement",
+      "authors": "Dinesh Chandra Dey, Soumen Mandal, Anuradha Sett, Manik Pradhan",
+      "institutions": [
+        "S N Bose National Centre for Basic Sciences"
+      ],
+      "journal": "Journal of Physics D: Applied Physics",
+      "doi": "10.1088/1361-6463/aec60a",
+      "url": "https://doi.org/10.1088/1361-6463/aec60a",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "The photonic spin Hall effect (PSHE) at absorbing interfaces is governed by the interplay of spatial (S) and angular (A) spin-dependent contributions. Earlier studies based on non-vortex pointer states in lossless media predict vanishing photonic spin splitting (PSS) at the Brewster angle; however, these approaches face limitations under strong coupling regimes and near-orthogonal weak measurement conditions. Here, we demonstrate the coexistence of spatial and angular PSS at a monolayer WS2-SiO2/Si interface by employing vortex beams combined with weak value amplification (WVA). …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-physics-d-applied-physics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Physics D: Applied Physics"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1063-5-0360311-da301f",
+      "date": "2026-11-24",
+      "title": "Excitation of microbottle whispering-gallery modes using optical orbital angular momentum",
+      "authors": "Suresh Chejarla, Debojyoti Ray Chawdhury, Aneesh Vincent Veluthandath, Ganapathy Senthil Murugan, Prem B. Bisht, Balaji Srinivasan",
+      "institutions": [
+        "Indian Institute of Technology Madras 1",
+        "Indian Institute of Technology Madras 2",
+        "Optoelectronics Research Centre"
+      ],
+      "journal": "APL Engineering Physics",
+      "doi": "10.1063/5.0360311",
+      "url": "https://doi.org/10.1063/5.0360311",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Vortex & OAM Beams",
+        "SLM, DMD & Holography",
+        "Theory & Simulation"
+      ],
+      "glyph": "vortex",
+      "summary": "We report a novel method for exciting whispering gallery modes (WGMs) in a microbottle resonator (MBR) using optical beams carrying orbital angular momentum (OAM). The study presents both numerical and experimental analyses to demonstrate the coupling between the OAM beams and WGMs through the stem region of the MBR. Finite-difference time-domain (FDTD) simulations are performed to investigate the propagation and overlap of OAM and WGM fields within the MBR geometry, revealing strong phase and spatial mode correlations near the caustic region. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1088-1361-6463-aec60f-026a62",
+      "date": "2026-11-24",
+      "title": "MOPSO-enabled ultra-narrowband mechanically reconfigurable metasurface filter for terahertz applications",
+      "authors": "Jin-Yang Li, Yan-Qing Chen, Xue-Wei Ju, Yong-Zhen Liu, Hao-Bin Su, Bei-Yuan Liang, Han Ye, Jun-Long Liu, Shuo Liu, Xiang-Feng Wang",
+      "institutions": [
+        "Fuzhou University"
+      ],
+      "journal": "Journal of Physics D: Applied Physics",
+      "doi": "10.1088/1361-6463/aec60f",
+      "url": "https://doi.org/10.1088/1361-6463/aec60f",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "meta",
+      "summary": "Terahertz (THz) communication and sensing systems require high-performance narrowband filters. However, designing these filters often involves strict efficiency bottlenecks and parameter trade-offs. To address this challenge, we propose an inverse design framework based on multi-objective particle swarm op-timization and use it to develop a bilayer ultra-narrowband me-chanically reconfigurable metasurface filter. Numerical parame-ter scanning reveals the potential for spacing-controlled fre-quency tuning, while measurements at three representative in-terlayer spacings experimentally verify the mechanical recon-figuration of the spectral response. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-physics-d-applied-physics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Physics D: Applied Physics"
+      },
       "source": "crossref"
     },
     {
@@ -286,6 +529,101 @@
       "source": "crossref"
     },
     {
+      "id": "10-1002-smtd-71230-f1c11e",
+      "date": "2026-11-23",
+      "title": "Arbitrary Reconfigurable Light‐Responsive Surface Topographies in Liquid Crystal Elastomer Films Using a Digital Micromirror Device",
+      "authors": "Ruth M. C. Verbroekken, Kelly Bour, Burcu Gumuscu, Albert P. H. J. Schenning",
+      "institutions": [],
+      "journal": "Small Methods",
+      "doi": "10.1002/smtd.71230",
+      "url": "https://doi.org/10.1002/smtd.71230",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "slm",
+      "summary": "Arbitrary reconfigurable light‐responsive topographies enable repeated programming of surfaces with light, enabling applications in optics, biotechnology, microfluidics, and soft robotics. However, achieving such adaptive surfaces remains challenging. Here, we introduce digital micromirror device (DMD)‐based photo imprinting as a rapid, maskless technique for generating dynamic surface topographies in light‐responsive liquid crystal elastomer (LCE) films. The resulting surfaces exhibit reversible height modulations up to sub micrometers with lateral feature sizes down to 12.5 µm, and can be written, erased, and re‐written in arbitrary geometries. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-618969-865d92",
+      "date": "2026-11-23",
+      "title": "Orthogonal frequency-polarization multiplexing in a four-channel cascaded-metasurface diffractive neural network",
+      "authors": "Tao Zeng, Liang Ding, Zhaofeng Wu, Ke Xiao, Xinping Hu, Shunlian Chai",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.618969",
+      "url": "https://doi.org/10.1364/oe.618969",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "meta",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-30260-016e08",
+      "date": "2026-11-23",
+      "title": "Privacy-Enhanced Distributed Sensing Network via Causal-Order Switching and Probe Squeezing",
+      "authors": "Zhaotong Cui, Binke Xia, Yuxiang Yang, Hongjing Li, Jingzheng Huang, Guihua Zeng",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.30260",
+      "url": "https://arxiv.org/abs/2611.30260",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Optical Communication"
+      ],
+      "glyph": "beam",
+      "summary": "As sensor networks become more interconnected, sensitive information sharing among multiple users poses potential risks of information leakage, making privacy protection a critical challenge. To address this challenge, we quantify network privacy using the maximum information leakage ratio (MILR) and propose a protocol that enhances privacy through causal-order switching and probe squeezing. Causal-order switching harnesses intrinsic network propagation dynamics for privacy encoding, while probe squeezing suppresses information leakage through quantum channels and increases the information available for estimating the global parameter. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-30213-07ff0d",
+      "date": "2026-11-23",
+      "title": "Polarization switching of double azimuthal backflow in two transverse orbital angular momentum superpositions",
+      "authors": "Zhen-Lai Wang",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.30213",
+      "url": "https://arxiv.org/abs/2611.30213",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Spatiotemporal Optical Vortices",
+        "Vortex & OAM Beams",
+        "Optical Trapping & Manipulation",
+        "Optical Computing"
+      ],
+      "glyph": "stov",
+      "summary": "Optical backflow in the azimuthal direction can be generated by the interference of two rotating-wave structured light beams with distinct transverse topological charges and equal intensity. Here we show that the interference reverses both azimuthal components of the Poynting and the canonical momenta. Although these two momenta are not generally tied, they reverse jointly here: both acquire azimuthal backflow in a common angular sector, while their radial intervals can differ. The double backflow is switched solely by the polarizations of the two beams, without amplitude tuning. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
       "id": "10-3390-jimaging12120592-57be26",
       "date": "2026-11-22",
       "title": "Residual Errors Alter AI Chest-Radiograph Findings: Outage-Based Design of Free-Space Optical Links for Medical Image Delivery",
@@ -339,6 +677,56 @@
       "source": "crossref"
     },
     {
+      "id": "10-48550-arxiv-2611-29498-5db939",
+      "date": "2026-11-22",
+      "title": "Polarization-cloaked spatiotemporal topological knots",
+      "authors": "Yaning Zhou, Nianjia Zhang, Zhao Zhang, Chunhao Liang, Qian Cao, Houan Teng, Qiwen Zhan, Sergey A. Ponomarenko, Xu Guo, Yangjian Cai, Xin Liu",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.29498",
+      "url": "https://arxiv.org/abs/2611.29498",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Toroidal & Topological Pulses",
+        "Light Bullets & X-Waves",
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Theory & Simulation"
+      ],
+      "glyph": "toroid",
+      "summary": "Spatiotemporally localized topological knots encode global connectivity within a moving space-time optical wavepacket, circumventing the requirement for spatial-only eigenmodes that extend throughout three-dimensional space-filling. In conventional modalities, this connectivity is identified directly from a scalar complex field. However, knotting optical knots with the polarization state of light proves difficult to realize for ultrafast localized wavepackets. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-29382-9162d3",
+      "date": "2026-11-22",
+      "title": "Turbulence Strength Estimation from Multiplexed Orbital Angular Momentum Beams Using Multimode Fibre Speckle",
+      "authors": "Warwick G. C. Brown, Mitchell A. Cox",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.29382",
+      "url": "https://arxiv.org/abs/2611.29382",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Topological Light (Skyrmions & Knots)",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "The strength of atmospheric turbulence governs how much the modes of a free-space optical link mix together. It is usually measured with a separate instrument or with a Gaussian probe beam, neither of which uses the beams that a structured-light link already carries. Here we show that the turbulence strength, expressed as the Fried parameter, can be estimated directly from multiplexed orbital angular momentum (OAM) beams without knowing which modes are present. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
       "id": "10-1063-5-0359655-67d255",
       "date": "2026-11-01",
       "title": "Design of a compact, fast-switching high-voltage pulser for high-repetition-rate miniature time-of-flight mass spectrometers",
@@ -387,5 +775,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-24"
+  "updated": "2026-11-25"
 }
