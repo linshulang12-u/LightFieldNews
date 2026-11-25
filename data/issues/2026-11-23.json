@@ -4,7 +4,7 @@
   "date": "2026-11-23",
   "window": [
     "2026-11-23",
-    "2026-11-25"
+    "2026-11-26"
   ],
   "articles": [
     {
@@ -72,6 +72,254 @@
       "glyph": "bessel",
       "summary": "",
       "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117187-7c5f47",
+      "date": "2027-02-01",
+      "title": "Improvement of edge quality in hexagonal flat-top beam shaping using edge-refined phase gratings and systematically designed spatial-frequency filters",
+      "authors": "Yoshiki Nakata, Noriaki Miyanaga, Yuto Hirakawa",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117187",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117187",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1117-1-apn-6-1-016015-f34f0e",
+      "date": "2026-11-25",
+      "title": "Diffractive deep neural networks based on multilayer metasurfaces for structural light recognition",
+      "authors": "Jing Han, Yao Zhang, Shumin Xiao",
+      "institutions": [
+        "Harbin Institute of Technology"
+      ],
+      "journal": "Advanced Photonics Nexus",
+      "doi": "10.1117/1.apn.6.1.016015",
+      "url": "https://doi.org/10.1117/1.apn.6.1.016015",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Non-Diffracting & Accelerating Beams",
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Structural light significantly enhances the channel capacity of optical communications by introducing spatial dimensions such as orbital angular momentum and polarization for multiplexing. This technology is expected to evolve toward long-distance stable transmission, adaptive atmospheric turbulence compensation, and integration with quantum communication. The detection and recognition of complex high-dimensional structured-light beams are crucial for these applications. In this work, we propose and experimentally demonstrate an all-optical diffractive deep neural network (D2NN) architecture operating in the visible range for the recognition of multiple structured-light modes. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-622532-8bdd56",
+      "date": "2026-11-25",
+      "title": "Photonic spin Hall effect of Airy vortex beam",
+      "authors": "Fan Guoqi, Dongmei Deng",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.622532",
+      "url": "https://doi.org/10.1364/oe.622532",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-612551-30cf12",
+      "date": "2026-11-25",
+      "title": "Goos–Hänchen and Imbert–Fedorov shifts for random electromagnetic vortex beams",
+      "authors": "Miaomiao Tang, He Zhang, Yu Du, Yujie Zhou, Xinzhong Li",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.612551",
+      "url": "https://doi.org/10.1364/oe.612551",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Tight Focusing & Focal Fields"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-ol-619476-c8bd1f",
+      "date": "2026-11-25",
+      "title": "High-Efficiency Synthesis of Vector Vortex Beams via a Single Tensor Impedance Holographic Aperture",
+      "authors": "Chi Zhao, Lewei Xu, Hongji Han, Rui Yang",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.619476",
+      "url": "https://doi.org/10.1364/ol.619476",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1088-1367-2630-aec6cb-496f4e",
+      "date": "2026-11-25",
+      "title": "Dynamics of vortex electrons in a uniform magnetic field across nonrelativistic and relativistic regimes",
+      "authors": "Yujian Lin, Zhigang Bu, Shiyu Liu, Taoming Guo, Liangliang Ji",
+      "institutions": [
+        "University of Science and Technology of China",
+        "Shanghai Institute of Optics and Fine Mechanics",
+        "Chinese Academy of Sciences"
+      ],
+      "journal": "New Journal of Physics",
+      "doi": "10.1088/1367-2630/aec6cb",
+      "url": "https://doi.org/10.1088/1367-2630/aec6cb",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Non-Diffracting & Accelerating Beams",
+        "Theory & Simulation",
+        "Strong-Field & Ultrafast"
+      ],
+      "glyph": "vortex",
+      "summary": "The dynamics of a vortex electron in a transverse uniform magnetic field involves not only the cyclotron motion of the wave packet center but also the evolution of its internal wavefunction structure. To study this process, we develop a quantum framework and investigate the dynamics of vortex electrons in both the nonrelativistic and relativistic regimes. A discrete Bessel-Gaussian initial wave packet is expanded in the basis of Dirac eigenstates to obtain the time-dependent wavefunction and to analyze its spatiotemporal evolution. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-josaa-618743-617ad7",
+      "date": "2026-11-25",
+      "title": "Wave Structure Function and Composite-Field Coherence for Multiwavelength Free-Space Optical Links",
+      "authors": "Shideh Tayebnaimi, Kamran Kiasaleh",
+      "institutions": [],
+      "journal": "Journal of the Optical Society of America A",
+      "doi": "10.1364/josaa.618743",
+      "url": "https://doi.org/10.1364/josaa.618743",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-619038-d20ebd",
+      "date": "2026-11-25",
+      "title": "Freeform beam shaping using compactly supported radial basis functions and virtual-domain boundary constraints",
+      "authors": "Wang Peng, Tong Yang, Lei Yang, Hongbo Xie",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.619038",
+      "url": "https://doi.org/10.1364/oe.619038",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Light-Field Topics"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72265-2f3b2f",
+      "date": "2026-11-25",
+      "title": "Reconfigurable Multi‐Channel Holography Based on Multi‐Level Phase‐Change Metasurfaces",
+      "authors": "Wenya Chen, Huan Yuan, Zheqiang Zhong, Bin Zhang",
+      "institutions": [],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72265",
+      "url": "https://doi.org/10.1002/lpor.72265",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "SLM, DMD & Holography",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "meta",
+      "summary": "Reconfigurable metasurfaces provide a versatile platform for dynamically manipulating optical wavefronts, enabling emerging applications in holography, information processing, and optical encryption. However, existing phase‐change metasurface holograms predominantly exploit binary transitions between amorphous and crystalline phases, which severely restrict the attainable information capacity. Here we present a multilevel phase‐change metasurface architecture that leverages multiple intermediate crystallization states to encode substantially more holographic channels. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acssensors-6c04275-4a6f70",
+      "date": "2026-11-25",
+      "title": "Volumetric Digital Microsphere Assay Coupling Cb Ago–CRISPR/Cas12a and Lens-Free Holography for Salmonella typhimurium Detection",
+      "authors": "Chen Zhan, Peng Lu, Xuefei Mao, Long Wu, Yiping Chen",
+      "institutions": [
+        "College of Informatics",
+        "China Tobacco Gene Research Center",
+        "Institute of Quality Standard and Testing Technology for Agro-products"
+      ],
+      "journal": "ACS Sensors",
+      "doi": "10.1021/acssensors.6c04275",
+      "url": "https://doi.org/10.1021/acssensors.6c04275",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "slm",
+      "summary": "Sensitive and precise quantification of foodborne pathogens in complex matrices remains challenging due to inefficient signal conversion, limited volumetric information, and inaccurate counting under dense signal conditions. Here, we develop an integrated digital biosensing platform that combines programmable biochemical amplification, lens-free holographic imaging, and intelligent computational decoding. A CbAgo–CRISPR/Cas12a cascade is employed to convert pathogen DNA signals into discrete microsphere-based digital outputs, while automated lens-free holography preserves three-dimensional spatial information for high-throughput acquisition. …",
+      "why": "",
+      "tier": "notable",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -274,6 +522,224 @@
         "credit": "Journal cover · Journal of Physics D: Applied Physics"
       },
       "source": "crossref"
+    },
+    {
+      "id": "10-1364-ol-612132-937050",
+      "date": "2026-11-24",
+      "title": "Long-wave infrared optical encryption with cascaded vortex metalens arrays",
+      "authors": "Xiaoyun He, Yuqing Zhang, Changmao Deng, Peiyao Wu, Huize Chen, Ze Mao, Zheng-Mao Wu, Gangyi Zhu, Junbo Yang, Jia-Gui Wu",
+      "institutions": [
+        "Southwest University",
+        "National University of Defense Technology",
+        "Nanjing University of Posts and Telecommunications"
+      ],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.612132",
+      "url": "https://doi.org/10.1364/ol.612132",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Optical encryption has attracted attention in information security due to its inherent advantages of high parallelism and strong resistance to electromagnetic interference. Long-wave infrared (LWIR) is promising for its strong penetration capability and low environmental interference. Here, we propose and experimentally demonstrate an LWIR optical encryption scheme with cascaded vortex metalens arrays, in which encoding and decoding are realized via the superposition of topological charges. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-prj-609991-b46103",
+      "date": "2026-11-24",
+      "title": "Broadband polarization-insensitive vortex beam generator based on π -birefringent bi-isotropic metasurface",
+      "authors": "Jinxing Li, Yueyi Yuan, YUXIANG WANG, Shah Nawaz Burokur, Kuang Zhang",
+      "institutions": [
+        "Université Paris Nanterre"
+      ],
+      "journal": "Photonics Research",
+      "doi": "10.1364/prj.609991",
+      "url": "https://doi.org/10.1364/prj.609991",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Metasurfaces & Flat Optics",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Recently, polarization-insensitive vortex beam (VB) metasurfaces have witnessed a great surge of interest due to their versatility, robustness, and ease of use. However, broadening the operational bandwidth of the generators still remains challenging, especially for metal–dielectric composite-based metasurfaces. Moreover, existing methods constrained by limited degrees of freedom (DoFs) at the response level generally sacrifice bandwidth to achieve polarization-insensitive phase modulation. Here, we propose a broadband bi-isotropic metasurface that generates VBs in polarization-insensitive manner with high-purity orbital angular momentum (OAM) mode. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1038-s42005-026-02971-3-605a7e",
+      "date": "2026-11-24",
+      "title": "High-dimensional polarization encoding with random higher-order Poincaré-sphere beams for robust optical communication",
+      "authors": "Zhao Zhang, Zhen Dong, Jidong Wu, Ao Zhou, Bernhard J. Hoenders, Chunhao Liang, Xianfeng Chen, Xin Liu, Yangjian Cai, Jun Zeng",
+      "institutions": [
+        "Shandong Normal University",
+        "University of Eastern Finland",
+        "University of Groningen"
+      ],
+      "journal": "Communications Physics",
+      "doi": "10.1038/s42005-026-02971-3",
+      "url": "https://doi.org/10.1038/s42005-026-02971-3",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Coherence & Partially Coherent Fields",
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "vector",
+      "summary": "Structured optical fields provide a powerful platform for high-dimensional information encoding by exploiting multiple optical degrees of freedom, yet robust image transmission under complex environmental perturbations remains a fundamental challenge. Here, we report a robust image-encoding framework based on random higher-order Poincaré-sphere (HOPS) beams, where information is encoded into the high-dimensional states of polarization (SOP) supported by partially coherent vectorial fields. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/communications-physics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Communications Physics"
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-1002-adpr-70310-ce9db0",
+      "date": "2026-11-24",
+      "title": "Circular V‐Groove Metasurfaces on Single‐Crystal Gold: Optical Properties and Sensing Feasibility",
+      "authors": "A. S. Kiyumbi",
+      "institutions": [
+        "Mathematics and Informatics Dar es Salaam University College of Education",
+        "Institute of Experimental Physics Ulm University Ulm Germany"
+      ],
+      "journal": "Advanced Photonics Research",
+      "doi": "10.1002/adpr.70310",
+      "url": "https://doi.org/10.1002/adpr.70310",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Integrated & On-Chip",
+        "Optical Communication"
+      ],
+      "glyph": "meta",
+      "summary": "Circular V‐groove metasurfaces are fabricated by focused‐ion‐beam milling of single‐crystal Au(111) microplates and investigated by white‐light reflection spectroscopy and finite‐element modeling. Increasing the groove depth systematically redshifts the optical resonances, with an overall depth‐tuning gradient of approximately 0.425 nm nm −1 over z = 250–350 nm, whereas in‐plane rotation produces smaller changes in wavelength and contrast. The finite‐element method calculations reproduce the depth‐dependent response and reveal strongly confined gap‐surface‐plasmon fields at the groove sidewalls and bottom. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-32704-dccb85",
+      "date": "2026-11-24",
+      "title": "AI-Assisted Topological High-Harmonic Spectroscopy for Characterizing Crystal Symmetries and Nonlinear Responses",
+      "authors": "David Hervalejo-Sancho, Sergio Martín-Domene, Rodrigo Martín-Hernández, Antonio Picón, Luis Plaja, José M. Caridad, Javier Serrano, Carlos Hernández-García",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.32704",
+      "url": "https://arxiv.org/abs/2611.32704",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Nonlinear & Quantum Structured Light",
+        "Inverse Design & AI",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "nonlinear",
+      "summary": "Structured light has emerged as a unique tool for probing nonlinear light-matter interactions. Particularly interesting is its interaction with anisotropic media, such as crystalline materials, whose anisotropic responses encode information about their electronic properties. Recently, topological high-harmonic spectroscopy was introduced as an all-optical approach to extract the anisotropic nonlinear response of graphene from harmonic spatial intensity profiles. Here, topological high-harmonic spectroscopy is combined with artificial intelligence (AI) to retrieve the anisotropic non-linear response and crystal symmetry of atomically thin materials. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-32689-80cc7a",
+      "date": "2026-11-24",
+      "title": "Observation of programmable spatiotemporal quantum-inspired bits",
+      "authors": "Long Chen, Zi Xuan Cai, Qing Chun Yin, Zhou He, Zhi Cai Yu, Xiaohan Cui, Tie Jun Cui, Jian Wei You",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.32689",
+      "url": "https://arxiv.org/abs/2611.32689",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Flying Focus & Programmable Pulses",
+        "Time-Varying Media & Temporal Interfaces",
+        "Vector & Polarization Fields",
+        "Topological Light (Skyrmions & Knots)",
+        "Optical Communication"
+      ],
+      "glyph": "flying",
+      "summary": "Coherent superposition allows information to be encoded in the geometry of physical states1-7. Preparing individual states, however, does not determine how they can be organized throughout a wave, because the wave propagation and modulation constrain the underlying interference. Here we observe programmable spatiotemporal quantum-inspired bits in a space-time metasurface. Coherent synthesis from four discrete responses per polarization channel produces two-component states with the projective geometry of a pure quantum bit. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-32586-5e87a3",
+      "date": "2026-11-24",
+      "title": "Topological terahertz fields from tunable vectorial currents",
+      "authors": "Jacob Pettine, Tae Gwan Park, Yanhe Lyu, Wangke Yu, John B. Maier, Matthew Yeung, Rujuta Sane, Chun-Chieh Chang, Nuh Gedik, Yijie Shen, Hou-Tong Chen",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.32586",
+      "url": "https://arxiv.org/abs/2611.32586",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Toroidal & Topological Pulses",
+        "Topological Light (Skyrmions & Knots)",
+        "Metasurfaces & Flat Optics",
+        "Integrated & On-Chip",
+        "Optical Computing"
+      ],
+      "glyph": "toroid",
+      "summary": "Future information processing calls for photonic architectures with greater capacity, intrinsic resilience to noise, and direct integration with quantum materials and devices. Topological light pulses have recently emerged as promising candidates to meet these demands, yet the complexity underlying their unique properties also makes them challenging to generate, tune, and fully resolve in space and time. Here, we generate and actively tune topological light fields through transient vectorial currents in an optoelectronic metasurface. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-32137-81224b",
+      "date": "2026-11-24",
+      "title": "Tweezing microparticles by tightly focused optical skyrmionic fields",
+      "authors": "Liuhao Zhu, Hao Zhang, Xi Xie, Yanhe Lyu, Bing Gu, Etienne Brasselet, Yijie Shen",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.32137",
+      "url": "https://arxiv.org/abs/2611.32137",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Topological Light (Skyrmions & Knots)",
+        "Optical Computing"
+      ],
+      "glyph": "skyrmion",
+      "summary": "The concept of skyrmions, once translated to the optical domain, provides a topological framework to investigate structured light-matter interactions. However, their practical use for the manipulation of material systems remains barely explored. Here, we experimentally demonstrate trapping and tunable orbital motion of dielectric microparticles in tightly focused skyrmionic polarization textures prepared using a compact spin-orbit optical element. We explore the tweezing capabilities at fixed topology either by varying the relative weights of the orthogonally polarized components or by switching between skyrmion and bimeron polarization textures. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-1364-ao-617944-0a2f8e",
@@ -624,6 +1090,162 @@
       "source": "arxiv"
     },
     {
+      "id": "10-1038-s41565-026-02335-6-877b0d",
+      "date": "2026-11-23",
+      "title": "Depth-robust super-resolution nanofabrication for 3D mesoscopic photonic structures",
+      "authors": "Li Z, Wang Y, Shao C, Xu J, Dong D, Zhou S, Huang X, Yang H, Sun Y, Shi K",
+      "institutions": [
+        "Peking University",
+        "State Key Laboratory of Molecular Oncology",
+        "Shanxi University"
+      ],
+      "journal": "Nature nanotechnology",
+      "doi": "10.1038/s41565-026-02335-6",
+      "url": "https://doi.org/10.1038/s41565-026-02335-6",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Adaptive Optics & Aberrations",
+        "Theory & Simulation",
+        "Optical Communication"
+      ],
+      "glyph": "bessel",
+      "summary": "Mesoscopic optical systems underpin photonic interconnects, on-chip metrology, quantum computing and miniature microscopy, but monolithic integration of these components is currently limited by fabrication methodologies that only offer limited depth control. At depth, the super-resolution performance of stimulated-emission-depletion direct laser writing is hindered by absorption, scattering and aberrations arising from refractive index mismatch that distort the depletion focus. Here we show that maintaining axial alignment between the excitation and depletion fields overcomes this limitation. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/nature-nanotechnology.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Nature nanotechnology"
+      },
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1364-oe-618560-3458ad",
+      "date": "2026-11-23",
+      "title": "OAM mode recognition conditioned on propagation distance and atmospheric turbulence using a Gaussian probe",
+      "authors": "周允城 ZHOU Yuncheng, Yuncheng Zhou, Rongxiang Zhang, Changkun Li, Wang Xinyu, Hou Fang",
+      "institutions": [
+        "Hebei University",
+        "Fuzhou University"
+      ],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.618560",
+      "url": "https://doi.org/10.1364/oe.618560",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "Orbital angular momentum (OAM) carried by vortex beams represents a promising means of enhancing the capacity and spectral efficiency of free-space optical communication systems. However, during propagation through atmospheric channels, vortex beams suffer from intensity distortion induced by atmospheric turbulence. Accurate recognition of distorted OAM modes is therefore critical for ensuring reliable system performance. In this paper, we propose a comprehensive scheme that integrates atmospheric turbulence intensity and propagation distance estimation with OAM mode recognition. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-josab-613038-7ed12e",
+      "date": "2026-11-23",
+      "title": "Super-resolution imaging enabled by higher-order Bessel Gaussian beams in nanoscale optical structures",
+      "authors": "Apoorva D, M. Ummal Momeen",
+      "institutions": [],
+      "journal": "Journal of the Optical Society of America B",
+      "doi": "10.1364/josab.613038",
+      "url": "https://doi.org/10.1364/josab.613038",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Tight Focusing & Focal Fields",
+        "Characterization & Metrology",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "bessel",
+      "summary": "In conventional optical microscopy, accessing subwavelength information is classically constrained by the Abbe diffraction limit which remains a significant challenge in nanophotonics. To overcome this limitation, we introduce a scheme that generates a tightly confined near-field focal spot under non-diffracting Bessel beam illumination, employing a series of high refractive-index nanoscale structures. Furthermore, the utilization of higher-order Bessel beams enables additional resolution enhancement beyond the diffraction limit. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-ol-618608-02a75c",
+      "date": "2026-11-23",
+      "title": "Propagation-Invariant Transmission Eigenmodes in Weakly Scattering Media",
+      "authors": "J. C Osorio-Tascon, Pedro Antonio Quinto-Su",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.618608",
+      "url": "https://doi.org/10.1364/ol.618608",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Wavefront Shaping & Scattering"
+      ],
+      "glyph": "bessel",
+      "summary": "Propagation-invariant beams (PIBs) with annular angular spectra preserve their transverse intensity structure over extended propagation distances. Here, we investigate whether scattering invariant modes (SIMs) can simultaneously exhibit scattering and propagation invariance. We measure free-space and sample transmission matrices (TMs) in an orthonormal annular basis for weak, moderate, and strong scattering media and identify localized SIMs (LSIMs) whose angular spectra remain predominantly confined to one or a few neighboring rings. Under weak scattering, 75 of the 128 SIMs considered for annular localization satisfy this criterion, with LSIMs exhibiting Bessel-like propagation. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1103-6dld-jjwx-db474f",
+      "date": "2026-11-23",
+      "title": "Robust skyrmion transport in waveguides via topologically stabilizing modes",
+      "authors": "An Aloysius Wang, Zhenglin Li, Yuxi Cai, Yifei Ma, Bowei Dong, Chao He",
+      "institutions": [],
+      "journal": "Physical Review A",
+      "doi": "10.1103/6dld-jjwx",
+      "url": "https://doi.org/10.1103/6dld-jjwx",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "Integrated & On-Chip",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "A key hurdle in using optical skyrmions as information carriers in integrated photonic systems is establishing when their topological structure is preserved in propagation. Here, we demonstrate that robustness is governed by the presence of topologically stabilizing modes and rigorously establish skyrmion-number preservation in waveguides. When such modes are present, protection is ensured despite modal dispersion and coefficient variations, enabling robust high-dimensional skyrmion-based information transfer and processing.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-oe-620604-28ba4f",
+      "date": "2026-11-23",
+      "title": "On a Generalized Transverse-Scale Mapping from Linearly Polarized Fiber Modes to Free-Space Laguerre-Gaussian Modes",
+      "authors": "Ruipeng Li, Shijie Gao, Yatian Li, Zhi-Qiang Xu, HongZhuang Li, Jiabin Wu, HAIYANG CHAI, Guoqiang Zhang",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.620604",
+      "url": "https://doi.org/10.1364/oe.620604",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-3390-jimaging12120592-57be26",
       "date": "2026-11-22",
       "title": "Residual Errors Alter AI Chest-Radiograph Findings: Outage-Based Design of Free-Space Optical Links for Medical Image Delivery",
@@ -727,6 +1349,53 @@
       "source": "arxiv"
     },
     {
+      "id": "10-48550-arxiv-2611-27412-cffae8",
+      "date": "2026-11-20",
+      "title": "Projector Time Map Calibration for Event-based Structured Light",
+      "authors": "Buu-Hoang-Lam Le, Kota Mizutani, Shohei Nobuhara",
+      "institutions": [],
+      "journal": "arXiv",
+      "doi": "10.48550/arxiv.2611.27412",
+      "url": "https://doi.org/10.48550/arxiv.2611.27412",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Sensing & Metrology"
+      ],
+      "glyph": "beam",
+      "summary": "Existing event-based structured light obtains a dense projector-camera correspondence from the timestamp of an event. It assumes that the projector scans a parallel raster and that the sensor timestamps each pixel independently, and we show that neither assumption holds. We obtain the correspondence from a temporal code that identifies the projector pixel directly and therefore needs no prior calibration, we calibrate the projector time map from the same recording, and we recover the geometry of the system and the offsets between its clocks by a spatio-temporal self-calibration in a preamble of a few seconds that needs no reference object and no second camera.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-48550-arxiv-2611-26714-fc008b",
+      "date": "2026-11-19",
+      "title": "Free-Space Excitation of Frozen Waves and Topological Edge States in Graphene at a Time Interface",
+      "authors": "Shivaksh Rawat, Samyobrata Mukherjee, Jeffery Allen, Monica S. Allen, Gennady Shvets",
+      "institutions": [],
+      "journal": "arXiv",
+      "doi": "10.48550/arxiv.2611.26714",
+      "url": "https://doi.org/10.48550/arxiv.2611.26714",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Time-Varying Media & Temporal Interfaces",
+        "Non-Diffracting & Accelerating Beams",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "timevary",
+      "summary": "Time-varying two-dimensional materials, such as graphene under ultrafast photoexcitation, offer a promising platform for engineering temporal interfaces for electromagnetic waves. Rapidly promoting valence electrons to the conduction band generates a high-energy, non-thermal hot-electron population that subsequently thermalizes with the pre-existing thermal electron population. We study the excitation of plasmonic modes in graphene by the time interface created by ultra-fast photoexcitation using a graphene electron-transport model that is self-consistently coupled to electromagnetic simulations. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1063-5-0359655-67d255",
       "date": "2026-11-01",
       "title": "Design of a compact, fast-switching high-voltage pulser for high-repetition-rate miniature time-of-flight mass spectrometers",
@@ -772,8 +1441,56 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1364-josaa-610509-5ad25e",
+      "date": "2026-10-29",
+      "title": "Scattering of Ince–Gaussian beams by a homogeneous isotropic dielectric sphere",
+      "authors": "Maryam Alshehhi, Ghalyah Alsereidi, Hamad Alkhoori",
+      "institutions": [
+        "United Arab Emirates University"
+      ],
+      "journal": "Journal of the Optical Society of America A",
+      "doi": "10.1364/josaa.610509",
+      "url": "https://doi.org/10.1364/josaa.610509",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Theory & Simulation"
+      ],
+      "glyph": "vortex",
+      "summary": "Scattering of Ince-Gaussian (IG) beams by a homogeneous dielectric sphere is investigated using a volume integral equation formulation solved numerically using the method of moments. The incident IG beams are characterized by their mode indices, parity, beam waist, semi-focal distance, and polarization state. The scattering characteristics are analyzed in terms of directivity, normalized total scattered power, and normalized absorbed power. Validation of the formulation is established through comparisons with limiting cases, including plane-wave and Laguerre-Gaussian-beam incidences. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "https-europepmc-org-article-pmc-pmc13795934-b0d7f5",
+      "date": "2026-10-12",
+      "title": "DART-SIM: a self-supervised super-resolution reconstruction method robust to structured light parameters",
+      "authors": "",
+      "institutions": [],
+      "journal": "Biomedical optics express",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13795934",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Microscopy & Imaging"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
     }
   ],
   "removed": [],
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
 }

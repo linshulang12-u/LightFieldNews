@@ -68,5 +68,10 @@
     "src": "covers/communications-physics.jpg",
     "kind": "cover",
     "credit": "Journal cover · Communications Physics"
+  },
+  "nature nanotechnology": {
+    "src": "covers/nature-nanotechnology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Nature nanotechnology"
   }
 }
