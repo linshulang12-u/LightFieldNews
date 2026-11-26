@@ -4,7 +4,7 @@
   "date": "2026-11-23",
   "window": [
     "2026-11-23",
-    "2026-11-26"
+    "2026-11-27"
   ],
   "articles": [
     {
@@ -93,6 +93,158 @@
       ],
       "glyph": "beam",
       "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117058-7cb655",
+      "date": "2027-02-01",
+      "title": "Multi-wavelength achromatic Pancharatnam-Berry phase liquid crystal lenses",
+      "authors": "Xiaojin Huang, Junhao Lin, Yan Li, Zongyan Li, Weixian Chen, Yikai Su, Jiangang Lu",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117058",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117058",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "SLM, DMD & Holography"
+      ],
+      "glyph": "meta",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1126-sciadv-aef0400-9f2616",
+      "date": "2026-11-27",
+      "title": "Ultra-generalized hologram synthesis via domain-adaptive wavefront learning",
+      "authors": "Runze Zhu, Jiasheng Xiao, Hao Zhang, Hong-Bo Sun",
+      "institutions": [
+        "Tsinghua University"
+      ],
+      "journal": "Science Advances",
+      "doi": "10.1126/sciadv.aef0400",
+      "url": "https://doi.org/10.1126/sciadv.aef0400",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Inverse Design & AI"
+      ],
+      "glyph": "slm",
+      "summary": "Deep learning–based computer-generated holography is essential for creating lifelike three-dimensional (3D) visuals in extended reality and immersive human-digital interaction. However, current data-driven approaches predominantly rely on a 3D-solution search strategy that couples scene representation with physical parameters. This paradigm leads to physical overfitting, restricting models to fixed wavelengths and depths and preventing generalization across diverse 3D data formats. Here, we report a 2D-solution search technique, wavefront-aware neural encoding (WNE). This method is a universal framework that overcomes these limitations via domain-adaptive wavefront learning. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1103-7kz5-bqgk-df327e",
+      "date": "2026-11-26",
+      "title": "Quantum printing: Laguerre-Gaussian beam induced topological magnetic textures",
+      "authors": "Yuefei Liu, Tien-Tien Yeh, Alexander V. Balatsky",
+      "institutions": [],
+      "journal": "Physical Review Research",
+      "doi": "10.1103/7kz5-bqgk",
+      "url": "https://doi.org/10.1103/7kz5-bqgk",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Laser Processing & Fabrication"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72256-ab5cf6",
+      "date": "2026-11-26",
+      "title": "Non‐Foster Photonic Time Crystals",
+      "authors": "Zeyuan Li, Mohammad Sajjad Mirmoosa, Silvio Hrabar, Viktar Asadchy, Xuchen Wang",
+      "institutions": [
+        "Department of Physics and Mathematics University of Eastern Finland Joensuu Finland",
+        "University of Zagreb Faculty of Electrical Engineering and Computing Zagreb Croatia",
+        "Department of Electronics and Nanoengineering Aalto University Espoo Finland"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72256",
+      "url": "https://doi.org/10.1002/lpor.72256",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Time-Varying Media & Temporal Interfaces",
+        "Metasurfaces & Flat Optics",
+        "Theory & Simulation"
+      ],
+      "glyph": "timevary",
+      "summary": "Photonic time crystals are spatially uniform media whose material parameters vary periodically in time, opening momentum bandgaps within which the fields of electromagnetic modes can grow exponentially in time. To date, most studies on such crystals have utilized only passive materials with “positive” dispersion (satisfying Foster's reactance theorem). Here we propose a theoretical framework of photonic time crystals based on active materials with “negative” dispersion (non‐Foster materials). …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-nap2-70372-54ab5a",
+      "date": "2026-11-26",
+      "title": "Jones‐Matrix Metasurface for Remote Multidomain Polarization Control",
+      "authors": "Bolun Zhang, Qiwen Bao, Xianjin Liu, Ting Ma, Jun‐Jun Xiao",
+      "institutions": [],
+      "journal": "Nanophotonics",
+      "doi": "10.1002/nap2.70372",
+      "url": "https://doi.org/10.1002/nap2.70372",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vector & Polarization Fields",
+        "Metasurfaces & Flat Optics",
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "vector",
+      "summary": "Polarization, as a fundamental degree of freedom of light, constitutes a key objective in optical field manipulation. Conventional bulk polarization elements typically act at their physical locations and provide spatially uniform modulation, which limits spatial integration and region‐specific polarization control. Here, we propose Jones‐matrix metasurfaces that enable remote and multidomain polarization control on a target plane separated from the physical device for any spatially uniform incident polarization state under plane‐wave illumination. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-mop-70884-c05d82",
+      "date": "2026-11-26",
+      "title": "Design of Miniaturized Triple‐Band Metasurface Filter Based on Half‐Mode Gap Waveguide",
+      "authors": "Ruihan Ge, Xinlu Li, Zechao Yang, Xinyu Yang, Hongtao Gu, Na Li",
+      "institutions": [
+        "School of Electrical and Automation Engineering Nanjing Normal University Nanjing China"
+      ],
+      "journal": "Microwave and Optical Technology Letters",
+      "doi": "10.1002/mop.70884",
+      "url": "https://doi.org/10.1002/mop.70884",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Characterization & Metrology"
+      ],
+      "glyph": "meta",
+      "summary": "This paper presents a miniaturized triple‐passband metasurface bandpass filter (BPF) with enhanced bandwidth based on a half‐mode groove gap waveguide (HM‐GGW) for millimeter‐wave applications. Initially, the electromagnetic characteristics of the metasurface composed of periodic electromagnetic bandgap elements are analyzed to design a stopband covering the three operational passbands. Subsequently, a sextuple‐mode resonator (SMR) is implemented in a single HM‐GGW cavity by employing an electromagnetic hybrid‐coupled feeding iris and integrated perturbation structures. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -324,6 +476,158 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117186-a80db6",
+      "date": "2026-11-25",
+      "title": "Generation of low-sidelobe Bessel-Gauss beams using a Bayesian-optimized multilayer nonuniform axicon phase",
+      "authors": "Wanting Zhang, Xinyu Chen, Xiongxin Tang, Jingliang Liu, Yongji Yu, Guangyong Jin",
+      "institutions": [
+        "Changchun University of Science and Technology",
+        "Chinese Academy of Sciences",
+        "Institute of Software"
+      ],
+      "journal": "Optics & Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117186",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117186",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams"
+      ],
+      "glyph": "bessel",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-34133-ultrafastscience-0221-899fff",
+      "date": "2026-11-25",
+      "title": "Attosecond XUV Bessel-Gaussian Beams via HHG Driven by HGBs",
+      "authors": "Jin-Xu Du, Guo-Li Wang, Zhi-Hong Jiao, Song-Feng Zhao, Xiao-Xin Zhou, Lu Li",
+      "institutions": [],
+      "journal": "Ultrafast Science",
+      "doi": "10.34133/ultrafastscience.0221",
+      "url": "https://doi.org/10.34133/ultrafastscience.0221",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Nonlinear & Quantum Structured Light",
+        "Strong-Field & Ultrafast"
+      ],
+      "glyph": "bessel",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1080-09500340-2026-2768473-8b117a",
+      "date": "2026-11-25",
+      "title": "Generation of multimode vortex beams based on FPGA space-time-coded digital metasurfaces",
+      "authors": "Yangfan Zhou, Yabing Feng, Xiaohang He, Lin Lin, Xing Wang, Pengwei Zhou, Xiaomei Zhang, Ying Tian",
+      "institutions": [
+        "China Jiliang University",
+        "China Special Equipment Inspection Institute",
+        "Hangzhou Yimai Technology Co. Ltd"
+      ],
+      "journal": "Journal of Modern Optics",
+      "doi": "10.1080/09500340.2026.2768473",
+      "url": "https://doi.org/10.1080/09500340.2026.2768473",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Metasurfaces & Flat Optics"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-623232-234a84",
+      "date": "2026-11-25",
+      "title": "Propagation and focusing characteristics of twisted partially coherent vortex array beams",
+      "authors": "Wang Li, shaohua Zhang, Ke Zhang, Jun Qu",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.623232",
+      "url": "https://doi.org/10.1364/oe.623232",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Coherence & Partially Coherent Fields",
+        "Characterization & Metrology"
+      ],
+      "glyph": "vortex",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-33704-713208",
+      "date": "2026-11-25",
+      "title": "On-Demand Tailoring of High-Dimensional Orbital Angular Momentum States via a Phase-Only Hologram",
+      "authors": "Hao Sheng, Zi-Shuo Wang, Sheng-Qiang Jia, Zi-Mo Cheng, Li Fan, Jianping Ding, Jia-Min Xu, Zhi-Cheng Ren, Xi-Lin Wang, Hui-Tian Wang",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.33704",
+      "url": "https://arxiv.org/abs/2611.33704",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "SLM, DMD & Holography",
+        "Quantum Information"
+      ],
+      "glyph": "vortex",
+      "summary": "Photonic orbital angular momentum (OAM) provides a naturally discrete and unbounded Hilbert space for high-dimensional encoding and has emerged as a powerful degree of freedom for advanced information processing. On-demand tailoring of both the amplitude and phase profiles of high-dimensional OAM states is essential for numerous applications, particularly in quantum information science. Here, we propose and experimentally demonstrate an efficient method for achieving such on-demand tailoring using a purely phase-only modulation scheme. The measured fidelity remains above 80% even for a 128-dimensional state, demonstrating the scalability of the approach. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-33642-353858",
+      "date": "2026-11-25",
+      "title": "High-Dimensional Single-Photon Frequency Conversion for Orbital Angular Momentum Comb State",
+      "authors": "Sheng-Qiang Jia, Hao Sheng, Zhiming Qing, Li Fan, Jianping Ding, Jia-Min Xu, Zhi-Cheng Ren, Xi-Lin Wang, Hui-Tian Wang",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.33642",
+      "url": "https://arxiv.org/abs/2611.33642",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Nonlinear & Quantum Structured Light",
+        "Characterization & Metrology",
+        "Optical Communication"
+      ],
+      "glyph": "vortex",
+      "summary": "The orbital angular momentum (OAM) degree of freedom provides an important resource for constructing high-dimensional optical quantum information systems. However, the generation of high-dimensional single-photon OAM comb state and its high-fidelity frequency conversion remain challenging due to limited spatial modulation resolution, imperfect mode matching, and finite nonlinear conversion efficiency. Here, we proposed and experimentally demonstrated a scalable scheme for the generation and frequency conversion of high-dimensional single-photon OAM comb state. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-3390-photonics13121108-964964",
@@ -1443,6 +1747,29 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-infrared-2026-107020-2af0c2",
+      "date": "2026-11-01",
+      "title": "Link-state-aware modal adaptive optics compensation for satellite-to-ground laser communication",
+      "authors": "Tongfei Chen, Zhiyi Hou, Zhi Liu, Chao Wang, Wanzhuo Ma, Qingfang Jiang",
+      "institutions": [],
+      "journal": "Infrared Physics &amp; Technology",
+      "doi": "10.1016/j.infrared.2026.107020",
+      "url": "https://doi.org/10.1016/j.infrared.2026.107020",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Adaptive Optics & Aberrations",
+        "Optical Communication"
+      ],
+      "glyph": "ao",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1364-josaa-610509-5ad25e",
       "date": "2026-10-29",
       "title": "Scattering of Ince–Gaussian beams by a homogeneous isotropic dielectric sphere",
@@ -1489,8 +1816,38 @@
       "feature": false,
       "fig": null,
       "source": "europepmc"
+    },
+    {
+      "id": "10-1038-s44172-026-00734-0-d93517",
+      "date": "2026-08-11",
+      "title": "Low-loss spatial phase modulation of mm-waves via optically-tunable coupling",
+      "authors": "White GN, Hooper IR, Penketh H, Burton F, Phillips DB, Hendry E",
+      "institutions": [
+        "School of Physics and Astronomy"
+      ],
+      "journal": "Communications engineering",
+      "doi": "10.1038/s44172-026-00734-0",
+      "url": "https://doi.org/10.1038/s44172-026-00734-0",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Metasurfaces & Flat Optics"
+      ],
+      "glyph": "vortex",
+      "summary": "Efficient phase modulation at mm-wave and THz frequencies is an ongoing challenge. Here, we introduce a method for high-resolution dynamic spatial phase modulation of mm-waves, via selective photo-activation of a silicon-based resonant metasurface. In contrast to conventional methods of regulating the phase of reflected waves by shifting the resonance frequency of a modulator, we control the resonant coupling strength to realise low-loss binary phase modulation. We demonstrate a system operating at a wavelength of 6 mm, realising dynamically encoded holograms enabling focussing, beam steering, multi-casting and orbital angular momentum mode generation. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "figs/10-1038-s44172-026-00734-0-d93517.jpg",
+        "kind": "figure",
+        "credit": "CC BY · via nature.com"
+      },
+      "source": "europepmc"
     }
   ],
   "removed": [],
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
 }
