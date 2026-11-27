@@ -4,9 +4,31 @@
   "date": "2026-11-23",
   "window": [
     "2026-11-23",
-    "2026-11-27"
+    "2026-11-28"
   ],
   "articles": [
+    {
+      "id": "10-1016-j-yofte-2026-104876-49d7cf",
+      "date": "2027-03-01",
+      "title": "Multimode-interference-gated switchable spatiotemporal pulse states in an all-fiber Mamyshev oscillator",
+      "authors": "Liang Jin, Liran Tao, Chihao Li, Xinlong Zhao, Qijia Zhao, He Zhang, Ning An, Miao Hu, Xiaohui Ma",
+      "institutions": [],
+      "journal": "Optical Fiber Technology",
+      "doi": "10.1016/j.yofte.2026.104876",
+      "url": "https://doi.org/10.1016/j.yofte.2026.104876",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Multimode & ST Mode-Locking"
+      ],
+      "glyph": "multimode",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
     {
       "id": "10-1016-j-optlastec-2026-117024-307a1c",
       "date": "2027-02-01",
@@ -123,6 +145,31 @@
       "source": "crossref"
     },
     {
+      "id": "10-22214-ijraset-2026-85877-c34b49",
+      "date": "2026-11-30",
+      "title": "Holographic Optics Fundamentals Digital Reconstruction and Three Dimensional Imaging Applications",
+      "authors": "Muhammad Arif Bin Jalil, Abubakar Sahabi",
+      "institutions": [],
+      "journal": "International Journal for Research in Applied Science and Engineering Technology",
+      "doi": "10.22214/ijraset.2026.85877",
+      "url": "https://doi.org/10.22214/ijraset.2026.85877",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Wavefront Shaping & Scattering",
+        "Characterization & Metrology",
+        "Microscopy & Imaging"
+      ],
+      "glyph": "slm",
+      "summary": "Holography is an optical imaging technique that records and reconstructs the wavefront of light scattered by an object, enabling the representation of three-dimensional information beyond the capabilities of conventional photography. Its development has progressed from photographic recording methods to digital holography, computer-generated holograms, holographic microscopy and advanced holographic display systems. This review examines the fundamental principles of holography, including coherent illumination, interference, diffraction, wavefront recording and optical reconstruction. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1126-sciadv-aef0400-9f2616",
       "date": "2026-11-27",
       "title": "Ultra-generalized hologram synthesis via domain-adaptive wavefront learning",
@@ -143,6 +190,80 @@
       "summary": "Deep learning–based computer-generated holography is essential for creating lifelike three-dimensional (3D) visuals in extended reality and immersive human-digital interaction. However, current data-driven approaches predominantly rely on a 3D-solution search strategy that couples scene representation with physical parameters. This paradigm leads to physical overfitting, restricting models to fixed wavelengths and depths and preventing generalization across diverse 3D data formats. Here, we report a 2D-solution search technique, wavefront-aware neural encoding (WNE). This method is a universal framework that overcomes these limitations via domain-adaptive wavefront learning. …",
       "why": "",
       "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3389-fphy-2026-2015542-8eb562",
+      "date": "2026-11-27",
+      "title": "Mechanisms and topological properties of the optical backflow in tightly focused cylindrical vector vortex beams",
+      "authors": "Kefeng Guo, Xiangyang Xie, Peng Shi, Xiaocong Yuan",
+      "institutions": [
+        "Nanophotonics Research Centre"
+      ],
+      "journal": "Frontiers in Physics",
+      "doi": "10.3389/fphy.2026.2015542",
+      "url": "https://doi.org/10.3389/fphy.2026.2015542",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Theory & Simulation",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "Optical backflow describes the anomalous reversal of local energy flow against the overall propagation direction. Although optical backflow has been observed in various configurations, the mechanisms governing the selection rules, the topological properties, and the spin-orbit coupling origin of optical backflow in tightly focused structured light remain poorly understood. In this study, based on the Richards-Wolf vectorial theory, we investigate the dependence of central axial backflow on the topological charges and relative polarization state of tightly focused cylindrical vector vortex beams, deriving explicit topological-charge-selection-rules for specific polarization conditions. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41598-026-79039-3-635835",
+      "date": "2026-11-27",
+      "title": "Enhancing the reliability of mobile free-space optical links using Walsh codes",
+      "authors": "Abdulaziz S. Alghamdi, Rabah W. Aldhaheri",
+      "institutions": [],
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-026-79039-3",
+      "url": "https://doi.org/10.1038/s41598-026-79039-3",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41467-026-79654-8-b70fa0",
+      "date": "2026-11-27",
+      "title": "Room-temperature continuous-wave mid-infrared microdisk laser on InP enabled by InAs quantum dots",
+      "authors": "Haotian Zeng, Yangqian Wang, Hui Jia, Jae-Seong Park, Igor P. Marko, Dominic A. Duffy, Mengxun Bai, Yutong Zhang, Hexing Wang, Jun Li, Chong Chen, Huiwen Deng, Richard Beanland, Stephen J. Sweeney, Mingchu Tang, Alwyn Seeds, Moustapha El Kurdi, Huiyun Liu",
+      "institutions": [],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-79654-8",
+      "url": "https://doi.org/10.1038/s41467-026-79654-8",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Topological Light (Skyrmions & Knots)",
+        "Integrated & On-Chip",
+        "Optical Communication"
+      ],
+      "glyph": "skyrmion",
+      "summary": "Mid-infrared photonics is important for gas monitoring, non-invasive medical diagnostics, and free-space optical links. Realizing high-density photonic integrated circuits in the short-wave mid-infrared (SW-MIR, 2–3 μm) requires compact, efficient microscale lasers that can be integrated on standard platforms. Conventional quantum-well microcavity lasers cannot sustain efficient operation as cavities shrink because lateral carrier diffusion and surface recombination impose a fundamental limit on the threshold, while Auger recombination and thermal carrier leakage losses severely compromise thermal stability in the SW-MIR window. …",
+      "why": "",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -246,6 +367,130 @@
       "glyph": "meta",
       "summary": "This paper presents a miniaturized triple‐passband metasurface bandpass filter (BPF) with enhanced bandwidth based on a half‐mode groove gap waveguide (HM‐GGW) for millimeter‐wave applications. Initially, the electromagnetic characteristics of the metasurface composed of periodic electromagnetic bandgap elements are analyzed to design a stopband covering the three operational passbands. Subsequently, a sextuple‐mode resonator (SMR) is implemented in a single HM‐GGW cavity by employing an electromagnetic hybrid‐coupled feeding iris and integrated perturbation structures. …",
       "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72261-2ecdf0",
+      "date": "2026-11-26",
+      "title": "General In Situ Feedback Control of Cascaded Liquid Crystal Spatial Light Modulators for Structured Field Generation",
+      "authors": "An Aloysius Wang, Yuxi Cai, Zhenglin Li, Ruofu Liu, Yifei Ma, Patrick S Salter, Chao He",
+      "institutions": [
+        "Department of Engineering Science University of Oxford Oxford United Kingdom"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72261",
+      "url": "https://doi.org/10.1002/lpor.72261",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Vector & Polarization Fields",
+        "SLM, DMD & Holography"
+      ],
+      "glyph": "vector",
+      "summary": "Cascaded liquid crystal spatial light modulators provide a versatile strategy for the generation of structured light fields and matter fields, which describe spatially varying polarization states and optical retarders respectively. However, experimental imperfections, such as temperature‐dependent liquid crystal response, variations between individual pixels, and alignment errors, present significant engineering challenges in generating high‐quality fields. To address this, we present a general engineering approach based on a bespoke, physically informed, and manifold‐constrained gradient‐descent scheme that enables in situ feedback control. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72269-ab33fb",
+      "date": "2026-11-26",
+      "title": "Momentum Flatband and Superluminal Propagation in a Temporal Photonic Moiré Superlattice",
+      "authors": "Linyang Zou, Hao Hu, Haotian Wu, Yang Long, Yidong Chong, Lei Wei, Baile Zhang, Yu Luo",
+      "institutions": [],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72269",
+      "url": "https://doi.org/10.1002/lpor.72269",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Space-Time Wave Packets",
+        "Time-Varying Media & Temporal Interfaces"
+      ],
+      "glyph": "stwp",
+      "summary": "Flatbands typically describe energy bands whose energy dispersion is entirely or almost entirely degenerate. One effective method to form flatbands is by constructing Moiré superlattices. In parallel, significant recent attention has been paid to the concept of photonic time crystals, sparking discussions on momentum dispersion such as a bandgap in momentum, or the so‐called k gap. Here we propose a temporal photonic Moiré superlattice achieved by overlaying two photonic time crystals with different periods. The resulting k gap of this superlattice supports isolated momentum bands that are nearly independent of energy, which we refer to as momentum flatbands. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-nap2-70384-aa0a8f",
+      "date": "2026-11-26",
+      "title": "Wavefront Sensing With Polarization‐Multiplexed Double‐Helix Encoding and Self‐Calibrating Neural Decoding",
+      "authors": "Yanhao Chu, Xiaopeng Li, Xian Long, Jian Li, Jiacheng Sun, Xu Tu, Shining Zhu, Tao Li",
+      "institutions": [],
+      "journal": "Nanophotonics",
+      "doi": "10.1002/nap2.70384",
+      "url": "https://doi.org/10.1002/nap2.70384",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Metasurfaces & Flat Optics",
+        "Adaptive Optics & Aberrations",
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "meta",
+      "summary": "Wavefront sensing is fundamentally an encoding‐decoding problem: the phase of an optical field must be encoded into a measurable intensity distribution by a physical encoder and subsequently decoded from the recorded intensities. Conventional Shack‐Hartmann sensors, however, exploit only the centroid displacement of each focal spot, discarding the morphological information carried by the spot, and their symmetric focal spots give rise to an inherent phase‐sign ambiguity that limits high‐order aberration retrieval. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-619236-e1a77d",
+      "date": "2026-11-26",
+      "title": "Focal Field Evolution of Circular Airy Gaussian Spatiotemporal Optical Vortex with Spatiotemporal Coupling",
+      "authors": "Jun Sun, ChuanTao Wang, Yangyang Xiong, ZiYing Huang, Weichao Yan",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.619236",
+      "url": "https://doi.org/10.1364/oe.619236",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Non-Diffracting & Accelerating Beams",
+        "Tight Focusing & Focal Fields"
+      ],
+      "glyph": "bessel",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72286-10da1c",
+      "date": "2026-11-26",
+      "title": "Machine Learning Assisted Neuron Scattering Control for Full Space Multi‐Channel Diffractive Neural Networks",
+      "authors": "Min Li, Long Zhao, Lixiang Meng, Xiaobo Zhou, Lu Song, Zanyang Wang, Dashuang Liao, Xue Ren, Liqiao Jing, Wenye Ji",
+      "institutions": [
+        "Department of Computer Science Anhui Medical University Hefei People's Republic of China"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72286",
+      "url": "https://doi.org/10.1002/lpor.72286",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SLM, DMD & Holography",
+        "Inverse Design & AI",
+        "Optical Communication"
+      ],
+      "glyph": "slm",
+      "summary": "Diffractive neural networks (DNNs) have emerged as a transformative platform for all‐optical information processing, leveraging inherent parallelism, low latency, and extreme energy efficiency. However, conventional diffractive units typically provide only restricted phase or amplitude modulation, leaving the full scattering space underutilized and fundamentally bounding their computational capacity. Here, we propose a neuron‐level scattering engineering framework that achieves control over all independent parameters of the neuronal scattering matrix. …",
+      "why": "",
+      "tier": "notable",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -628,6 +873,32 @@
       "feature": false,
       "fig": null,
       "source": "arxiv"
+    },
+    {
+      "id": "10-48550-arxiv-2611-34573-c0e54e",
+      "date": "2026-11-25",
+      "title": "Investigating the efficacy of vortex beam speckle patterns for the recognition of atmospheric turbulence and fractional topological charge with a deep learning model",
+      "authors": "Ratikanta Swain, Allarakha Shikder, Naseem Babu, Niladri Sarkar, Aryan Raj, Raghavan K. Easwaran",
+      "institutions": [],
+      "journal": "arXiv",
+      "doi": "10.48550/arxiv.2611.34573",
+      "url": "https://doi.org/10.48550/arxiv.2611.34573",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Vortex & OAM Beams",
+        "Vector & Polarization Fields",
+        "Inverse Design & AI",
+        "Optical Computing"
+      ],
+      "glyph": "vortex",
+      "summary": "Fractional topological charge (TC) enlarges the usable mode set of orbital angular momentum (OAM) links, but reading it reliably after atmospheric turbulence remains difficult. Interferometric and diffractive methods need an undistorted beam and a careful alignment, while most learned approaches treat integer or coarsely spaced charges and do not include turbulence. Here we ask whether the charge of a scalar vortex beam can be regressed directly from a single speckle image, and at which turbulence strength this stops working. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-3390-photonics13121108-964964",
@@ -1849,5 +2120,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
 }
